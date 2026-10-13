@@ -1,0 +1,98 @@
+﻿[
+    {
+        "id":  "adjudicator",
+        "name":  "Adjudicator",
+        "phpclass":  "Adjudicator",
+        "faction":  "Streib",
+        "imagePath":  "assets/races/streib/ships/collector.png",
+        "turncost":  0.66,
+        "turndelaycost":  0.66,
+        "pivotcost":  3,
+        "rollcost":  2,
+        "pointCost":  1250
+    },
+    {
+        "id":  "streibarmedbreachingpod",
+        "name":  "Armed Breaching Pods",
+        "phpclass":  "StreibArmedBreachingPod",
+        "faction":  "Streib",
+        "imagePath":  "assets/races/streib/ships/streibbreachingpod.png",
+        "turncost":  0.33,
+        "turndelaycost":  0.33,
+        "pivotcost":  2,
+        "rollcost":  2,
+        "pointCost":  65
+    },
+    {
+        "id":  "streibbreachingpod",
+        "name":  "Breaching Pods",
+        "phpclass":  "StreibBreachingPod",
+        "faction":  "Streib",
+        "imagePath":  "assets/races/streib/ships/streibbreachingpod.png",
+        "turncost":  0.33,
+        "turndelaycost":  0.33,
+        "pivotcost":  2,
+        "rollcost":  2,
+        "pointCost":  50
+    },
+    {
+        "id":  "collector",
+        "name":  "Collector",
+        "phpclass":  "Collector",
+        "faction":  "Streib",
+        "imagePath":  "assets/races/streib/ships/collector.png",
+        "turncost":  0.66,
+        "turndelaycost":  0.66,
+        "pivotcost":  3,
+        "rollcost":  2,
+        "pointCost":  1100
+    },
+    {
+        "id":  "streibcombatpod",
+        "name":  "Combat Pods",
+        "phpclass":  "StreibCombatPod",
+        "faction":  "Streib",
+        "imagePath":  "assets/races/streib/ships/streibbreachingpod.png",
+        "turncost":  0.33,
+        "turndelaycost":  0,
+        "pivotcost":  2,
+        "rollcost":  2,
+        "pointCost":  90
+    },
+    {
+        "id":  "streibintruder",
+        "name":  "Intruder",
+        "phpclass":  "StreibIntruder",
+        "faction":  "Streib",
+        "imagePath":  "assets/races/streib/ships/intruder.png",
+        "turncost":  0.5,
+        "turndelaycost":  0.33,
+        "pivotcost":  2,
+        "rollcost":  2,
+        "pointCost":  430
+    },
+    {
+        "id":  "streibmonitor",
+        "name":  "Monitor",
+        "phpclass":  "StreibMonitor",
+        "faction":  "Streib",
+        "imagePath":  "assets/races/streib/ships/streibmonitor.png",
+        "turncost":  0.5,
+        "turndelaycost":  0.5,
+        "pivotcost":  2,
+        "rollcost":  2,
+        "pointCost":  675
+    },
+    {
+        "id":  "mothership",
+        "name":  "Mothership",
+        "phpclass":  "Mothership",
+        "faction":  "Streib",
+        "imagePath":  "assets/races/streib/ships/streibmothership.png",
+        "turncost":  1.33,
+        "turndelaycost":  1,
+        "pivotcost":  4,
+        "rollcost":  3,
+        "pointCost":  1400
+    }
+]

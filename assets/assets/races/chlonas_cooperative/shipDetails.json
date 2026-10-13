@@ -1,0 +1,128 @@
+[
+  {
+    "id": "chlonas_cooperative_ChlonasAnVothi",
+    "name": "Chlona$1 $2$1 $2othi",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasAnVothi.png"
+  },
+  {
+    "id": "chlonas_cooperative_ChlonasEsKashi",
+    "name": "Chlona$1 $2$1 $2ashi",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasEsKashi.png"
+  },
+  {
+    "id": "chlonas_cooperative_ChlonasForVora",
+    "name": "Chlona$1 $2o$1 $2ora",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasForVora.png"
+  },
+  {
+    "id": "chlonas_cooperative_ChlonasHeArpa",
+    "name": "Chlona$1 $2$1 $2rpa",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasHeArpa.png"
+  },
+  {
+    "id": "chlonas_cooperative_ChlonasLerTar",
+    "name": "Chlona$1 $2e$1 $2ar",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasLerTar.png"
+  },
+  {
+    "id": "chlonas_cooperative_ChlonasLerTarLARGE",
+    "name": "Chlona$1 $2e$1 $2a$1 $2ARGE",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasLerTarLARGE.png"
+  },
+  {
+    "id": "chlonas_cooperative_ChlonasLoFahra",
+    "name": "Chlona$1 $2$1 $2ahra",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasLoFahra.png"
+  },
+  {
+    "id": "chlonas_cooperative_ChlonasMerTan",
+    "name": "Chlona$1 $2e$1 $2an",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasMerTan.png"
+  },
+  {
+    "id": "chlonas_cooperative_ChlonasOnthari",
+    "name": "Chlona$1 $2nthari",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasOnthari.png"
+  },
+  {
+    "id": "chlonas_cooperative_ChlonasSaTrevan",
+    "name": "Chlona$1 $2$1 $2revan",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasSaTrevan.png"
+  },
+  {
+    "id": "chlonas_cooperative_ChlonasSaTrevanLARGE",
+    "name": "Chlona$1 $2$1 $2reva$1 $2ARGE",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasSaTrevanLARGE.png"
+  },
+  {
+    "id": "chlonas_cooperative_ChlonasTraVora",
+    "name": "Chlona$1 $2r$1 $2ora",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasTraVora.png"
+  },
+  {
+    "id": "chlonas_cooperative_ChlonasVaKan",
+    "name": "Chlona$1 $2$1 $2an",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasVaKan.png"
+  },
+  {
+    "id": "chlonas_cooperative_ChlonasVaLothar",
+    "name": "Chlona$1 $2$1 $2othar",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasVaLothar.png"
+  },
+  {
+    "id": "chlonas_cooperative_ChlonasVesTek",
+    "name": "Chlona$1 $2e$1 $2ek",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasVesTek.png"
+  },
+  {
+    "id": "chlonas_cooperative_ChlonasVesTekLARGE",
+    "name": "Chlona$1 $2e$1 $2e$1 $2ARGE",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasVesTekLARGE.png"
+  },
+  {
+    "id": "chlonas_cooperative_ChlonasWyLera",
+    "name": "Chlona$1 $2$1 $2era",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasWyLera.png"
+  },
+  {
+    "id": "chlonas_cooperative_ChlonasXerEnthain",
+    "name": "Chlona$1 $2e$1 $2nthain",
+    "shipClass": "Medium Ships",
+    "pointCost": 400,
+    "imagePath": "Assets/races/chlonas_cooperative/ships/ChlonasXerEnthain.png"
+  }
+]

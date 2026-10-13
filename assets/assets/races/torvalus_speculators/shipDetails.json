@@ -1,0 +1,86 @@
+﻿[
+    {
+        "id":  "blackdagger",
+        "name":  "Black Dagger",
+        "phpclass":  "BlackDagger",
+        "faction":  "Torvalus Speculators",
+        "imagePath":  "assets/races/torvalus_speculators/ships/TorvalusBlackRapier.png",
+        "turncost":  0.33,
+        "turndelaycost":  0.5,
+        "pivotcost":  1,
+        "rollcost":  2,
+        "pointCost":  2300
+    },
+    {
+        "id":  "blackrapier",
+        "name":  "Black Rapier",
+        "phpclass":  "BlackRapier",
+        "faction":  "Torvalus Speculators",
+        "imagePath":  "assets/races/torvalus_speculators/ships/TorvalusBlackRapier.png",
+        "turncost":  0.33,
+        "turndelaycost":  0.5,
+        "pivotcost":  1,
+        "rollcost":  2,
+        "pointCost":  3825
+    },
+    {
+        "id":  "darkknife",
+        "name":  "Dark Knife",
+        "phpclass":  "DarkKnife",
+        "faction":  "Torvalus Speculators",
+        "imagePath":  "assets/races/torvalus_speculators/ships/TorvalusDarkKnife.png",
+        "turncost":  0.5,
+        "turndelaycost":  0.5,
+        "pivotcost":  1,
+        "rollcost":  3,
+        "pointCost":  4175
+    },
+    {
+        "id":  "falchion",
+        "name":  "Falchion",
+        "phpclass":  "Falchion",
+        "faction":  "Torvalus Speculators",
+        "imagePath":  "assets/races/torvalus_speculators/ships/TorvalusFalchion.png",
+        "turncost":  0.25,
+        "turndelaycost":  0.33,
+        "pivotcost":  1,
+        "rollcost":  1,
+        "pointCost":  450
+    },
+    {
+        "id":  "shroudedsaber",
+        "name":  "Shrouded Saber",
+        "phpclass":  "ShroudedSaber",
+        "faction":  "Torvalus Speculators",
+        "imagePath":  "assets/races/torvalus_speculators/ships/TorvalusShroudedSaber.png",
+        "turncost":  0.25,
+        "turndelaycost":  0.33,
+        "pivotcost":  1,
+        "rollcost":  2,
+        "pointCost":  2325
+    },
+    {
+        "id":  "stiletto",
+        "name":  "Stiletto Drones",
+        "phpclass":  "Stiletto",
+        "faction":  "Torvalus Speculators",
+        "imagePath":  "assets/races/torvalus_speculators/ships/TorvalusStiletto.png",
+        "turncost":  0.25,
+        "turndelaycost":  1,
+        "pivotcost":  2,
+        "rollcost":  2,
+        "pointCost":  260
+    },
+    {
+        "id":  "veiledsaber",
+        "name":  "Veiled Saber",
+        "phpclass":  "VeiledSaber",
+        "faction":  "Torvalus Speculators",
+        "imagePath":  "assets/races/torvalus_speculators/ships/TorvalusShroudedSaber.png",
+        "turncost":  0.25,
+        "turndelaycost":  0.33,
+        "pivotcost":  1,
+        "rollcost":  2,
+        "pointCost":  2850
+    }
+]

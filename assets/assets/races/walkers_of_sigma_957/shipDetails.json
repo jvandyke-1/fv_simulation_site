@@ -1,0 +1,86 @@
+﻿[
+    {
+        "id":  "guideship",
+        "name":  "Guideship",
+        "phpclass":  "Guideship",
+        "faction":  "Walkers of Sigma-957",
+        "imagePath":  "assets/races/walkers_of_sigma_957/ships/WalkerPathfinder.png",
+        "turncost":  0.33,
+        "turndelaycost":  0.5,
+        "pivotcost":  2,
+        "rollcost":  1,
+        "pointCost":  2350
+    },
+    {
+        "id":  "mapmakerprobes",
+        "name":  "Mapmaker Sensor Probes",
+        "phpclass":  "MapmakerProbes",
+        "faction":  "Walkers of Sigma-957",
+        "imagePath":  "assets/races/walkers_of_sigma_957/ships/WalkerMapmaker.png",
+        "turncost":  0.33,
+        "turndelaycost":  1,
+        "pivotcost":  2,
+        "rollcost":  2,
+        "pointCost":  210
+    },
+    {
+        "id":  "pathfinder",
+        "name":  "Pathfinder",
+        "phpclass":  "Pathfinder",
+        "faction":  "Walkers of Sigma-957",
+        "imagePath":  "assets/races/walkers_of_sigma_957/ships/WalkerPathfinder.png",
+        "turncost":  0.33,
+        "turndelaycost":  0.5,
+        "pivotcost":  2,
+        "rollcost":  1,
+        "pointCost":  3150
+    },
+    {
+        "id":  "scribe",
+        "name":  "Scribe",
+        "phpclass":  "Scribe",
+        "faction":  "Walkers of Sigma-957",
+        "imagePath":  "assets/races/walkers_of_sigma_957/ships/WalkerScribe.png",
+        "turncost":  0.33,
+        "turndelaycost":  0.33,
+        "pivotcost":  2,
+        "rollcost":  1,
+        "pointCost":  750
+    },
+    {
+        "id":  "wanderer",
+        "name":  "The Wanderer",
+        "phpclass":  "Wanderer",
+        "faction":  "Walkers of Sigma-957",
+        "imagePath":  "assets/races/walkers_of_sigma_957/ships/WalkerTraveler.png",
+        "turncost":  1,
+        "turndelaycost":  1.33,
+        "pivotcost":  6,
+        "rollcost":  1,
+        "pointCost":  8750
+    },
+    {
+        "id":  "traveler",
+        "name":  "Traveler",
+        "phpclass":  "Traveler",
+        "faction":  "Walkers of Sigma-957",
+        "imagePath":  "assets/races/walkers_of_sigma_957/ships/WalkerTraveler.png",
+        "turncost":  1,
+        "turndelaycost":  1.33,
+        "pivotcost":  6,
+        "rollcost":  1,
+        "pointCost":  5400
+    },
+    {
+        "id":  "waymarker",
+        "name":  "Waymarker",
+        "phpclass":  "Waymarker",
+        "faction":  "Walkers of Sigma-957",
+        "imagePath":  "assets/races/walkers_of_sigma_957/ships/WalkerWaymarker.png",
+        "turncost":  1.33,
+        "turndelaycost":  1,
+        "pivotcost":  5,
+        "rollcost":  1,
+        "pointCost":  2575
+    }
+]

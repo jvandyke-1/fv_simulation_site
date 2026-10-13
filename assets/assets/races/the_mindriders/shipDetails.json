@@ -1,0 +1,62 @@
+﻿[
+    {
+        "id":  "consortium",
+        "name":  "Consortium",
+        "phpclass":  "Consortium",
+        "faction":  "Mindriders",
+        "imagePath":  "assets/races/the_mindriders/ships/MindriderConsortium1.png",
+        "turncost":  0.5,
+        "turndelaycost":  0.5,
+        "pivotcost":  0,
+        "rollcost":  2,
+        "pointCost":  2125
+    },
+    {
+        "id":  "mindseye",
+        "name":  "Mind",
+        "phpclass":  "MindsEye",
+        "faction":  "Mindriders",
+        "imagePath":  "assets/races/the_mindriders/ships/MindriderMindsEye.png",
+        "turncost":  1.33,
+        "turndelaycost":  1,
+        "pivotcost":  0,
+        "rollcost":  4,
+        "pointCost":  8300
+    },
+    {
+        "id":  "thoughtprojections",
+        "name":  "Thought Projections",
+        "phpclass":  "ThoughtProjections",
+        "faction":  "Mindriders",
+        "imagePath":  "assets/races/the_mindriders/ships/MindriderProjection.png",
+        "turncost":  0.33,
+        "turndelaycost":  1,
+        "pivotcost":  0,
+        "rollcost":  2,
+        "pointCost":  160
+    },
+    {
+        "id":  "thoughtforce",
+        "name":  "Thoughtforce",
+        "phpclass":  "Thoughtforce",
+        "faction":  "Mindriders",
+        "imagePath":  "assets/races/the_mindriders/ships/MindriderThoughtForce1.png",
+        "turncost":  0.66,
+        "turndelaycost":  0.66,
+        "pivotcost":  0,
+        "rollcost":  4,
+        "pointCost":  3750
+    },
+    {
+        "id":  "wheelofthought",
+        "name":  "Wheel of Thought",
+        "phpclass":  "WheelofThought",
+        "faction":  "Mindriders",
+        "imagePath":  "assets/races/the_mindriders/ships/MindriderWoT.png",
+        "turncost":  0.33,
+        "turndelaycost":  0.33,
+        "pivotcost":  0,
+        "rollcost":  1,
+        "pointCost":  850
+    }
+]

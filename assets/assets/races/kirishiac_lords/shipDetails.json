@@ -1,0 +1,110 @@
+﻿[
+    {
+        "id":  "kirishiacconqueror",
+        "name":  "Conqueror",
+        "phpclass":  "kirishiacConqueror",
+        "faction":  "Kirishiac Lords",
+        "imagePath":  "assets/races/kirishiac_lords/ships/kirishiacConqueror.png",
+        "turncost":  0.5,
+        "turndelaycost":  0.33,
+        "pivotcost":  2,
+        "rollcost":  3,
+        "pointCost":  2300
+    },
+    {
+        "id":  "kirishiackingship",
+        "name":  "Kingship Dreadnought",
+        "phpclass":  "kirishiacKingship",
+        "faction":  "Kirishiac Lords",
+        "imagePath":  "assets/races/kirishiac_lords/ships/kirishiacKingship.png",
+        "turncost":  0.66,
+        "turndelaycost":  0.66,
+        "pivotcost":  2,
+        "rollcost":  4,
+        "pointCost":  5700
+    },
+    {
+        "id":  "kirishiacknightship",
+        "name":  "Knightship",
+        "phpclass":  "KirishiacKnightship",
+        "faction":  "Kirishiac Lords",
+        "imagePath":  "assets/races/kirishiac_lords/ships/kirishiacKnightship.png",
+        "turncost":  0.33,
+        "turndelaycost":  0.33,
+        "pivotcost":  2,
+        "rollcost":  3,
+        "pointCost":  2700
+    },
+    {
+        "id":  "kirishiaclordship",
+        "name":  "Lordship",
+        "phpclass":  "kirishiacLordship",
+        "faction":  "Kirishiac Lords",
+        "imagePath":  "assets/races/kirishiac_lords/ships/kirishiacLordship.png",
+        "turncost":  0.5,
+        "turndelaycost":  0.5,
+        "pivotcost":  2,
+        "rollcost":  4,
+        "pointCost":  3400
+    },
+    {
+        "id":  "kirishiaclordship",
+        "name":  "Lordship",
+        "phpclass":  "kirishiacLordship",
+        "faction":  "Kirishiac Lords",
+        "imagePath":  "assets/races/kirishiac_lords/ships/kirishiacLordship.png",
+        "turncost":  0.5,
+        "turndelaycost":  0.5,
+        "pivotcost":  2,
+        "rollcost":  4,
+        "pointCost":  3400
+    },
+    {
+        "id":  "kirishiacmastership",
+        "name":  "Mastership",
+        "phpclass":  "kirishiacMastership",
+        "faction":  "Kirishiac Lords",
+        "imagePath":  "assets/races/kirishiac_lords/ships/kirishiacMastership.png",
+        "turncost":  0.5,
+        "turndelaycost":  0.5,
+        "pivotcost":  2,
+        "rollcost":  4,
+        "pointCost":  2400
+    },
+    {
+        "id":  "kirishiacoverlord",
+        "name":  "Overlord",
+        "phpclass":  "kirishiacOverlord",
+        "faction":  "Kirishiac Lords",
+        "imagePath":  "assets/races/kirishiac_lords/ships/kirishiacOverlord.png",
+        "turncost":  0.5,
+        "turndelaycost":  0.5,
+        "pivotcost":  2,
+        "rollcost":  4,
+        "pointCost":  4300
+    },
+    {
+        "id":  "kirishiacwarrior",
+        "name":  "Warrior Projectile",
+        "phpclass":  "kirishiacWarrior",
+        "faction":  "Kirishiac Lords",
+        "imagePath":  "assets/races/kirishiac_lords/ships/kirishiacWarrior.png",
+        "turncost":  0.33,
+        "turndelaycost":  1,
+        "pivotcost":  2,
+        "rollcost":  2,
+        "pointCost":  160
+    },
+    {
+        "id":  "kirishiacwarrior",
+        "name":  "Warrior Projectile",
+        "phpclass":  "kirishiacWarrior",
+        "faction":  "Kirishiac Lords",
+        "imagePath":  "assets/races/kirishiac_lords/ships/kirishiacWarrior.png",
+        "turncost":  0.33,
+        "turndelaycost":  1,
+        "pivotcost":  2,
+        "rollcost":  2,
+        "pointCost":  160
+    }
+]

@@ -1,0 +1,110 @@
+﻿[
+    {
+        "id":  "alacanatica",
+        "name":  "Atica Command Cruiser",
+        "phpclass":  "AlacanAtica",
+        "faction":  "Alacan Republic",
+        "imagePath":  "assets/races/alacan_republic/ships/AlacanAtrimis.png",
+        "turncost":  0.66,
+        "turndelaycost":  0.66,
+        "pivotcost":  2,
+        "rollcost":  3,
+        "pointCost":  600
+    },
+    {
+        "id":  "alacanatrimis",
+        "name":  "Atrimis Cruiser",
+        "phpclass":  "AlacanAtrimis",
+        "faction":  "Alacan Republic",
+        "imagePath":  "assets/races/alacan_republic/ships/AlacanAtrimis.png",
+        "turncost":  0.66,
+        "turndelaycost":  0.66,
+        "pivotcost":  2,
+        "rollcost":  3,
+        "pointCost":  525
+    },
+    {
+        "id":  "alacanazafac",
+        "name":  "Azafac Armed Freighter",
+        "phpclass":  "AlacanAzafac",
+        "faction":  "Alacan Republic",
+        "imagePath":  "assets/races/alacan_republic/ships/AlacanAzafac.png",
+        "turncost":  1,
+        "turndelaycost":  1,
+        "pivotcost":  999,
+        "rollcost":  999,
+        "pointCost":  340
+    },
+    {
+        "id":  "alacanazan",
+        "name":  "Azan Auxiliary Cruiser",
+        "phpclass":  "AlacanAzan",
+        "faction":  "Alacan Republic",
+        "imagePath":  "assets/races/alacan_republic/ships/AlacanAzafac.png",
+        "turncost":  1,
+        "turndelaycost":  1,
+        "pivotcost":  999,
+        "rollcost":  999,
+        "pointCost":  425
+    },
+    {
+        "id":  "alacancacarasaam",
+        "name":  "Cacaras A Defense Satellite",
+        "phpclass":  "AlacanCacarasAAM",
+        "faction":  "Alacan Republic",
+        "imagePath":  "assets/races/alacan_republic/ships/AlacanCacaras.png",
+        "turncost":  0,
+        "turndelaycost":  0,
+        "pivotcost":  0,
+        "rollcost":  0,
+        "pointCost":  100
+    },
+    {
+        "id":  "alacancacarasb",
+        "name":  "Cacaras B Defense Satellite",
+        "phpclass":  "AlacanCacarasB",
+        "faction":  "Alacan Republic",
+        "imagePath":  "assets/races/alacan_republic/ships/AlacanCacaras.png",
+        "turncost":  0,
+        "turndelaycost":  0,
+        "pivotcost":  0,
+        "rollcost":  0,
+        "pointCost":  100
+    },
+    {
+        "id":  "alacanatrimisearly",
+        "name":  "Early Atrimis Cruiser",
+        "phpclass":  "AlacanAtrimisEarly",
+        "faction":  "Alacan Republic",
+        "imagePath":  "assets/races/alacan_republic/ships/AlacanAtrimis.png",
+        "turncost":  0.66,
+        "turndelaycost":  0.66,
+        "pivotcost":  2,
+        "rollcost":  3,
+        "pointCost":  510
+    },
+    {
+        "id":  "alacanrotiaflight",
+        "name":  "Rotia Flight",
+        "phpclass":  "AlacanRotiaFlight",
+        "faction":  "Alacan Republic",
+        "imagePath":  "assets/races/alacan_republic/ships/AlacanRotia.png",
+        "turncost":  0.33,
+        "turndelaycost":  1,
+        "pivotcost":  2,
+        "rollcost":  2,
+        "pointCost":  78
+    },
+    {
+        "id":  "alacantacomipatrolcutter",
+        "name":  "Tacomi Patrol Cutter",
+        "phpclass":  "AlacanTacomiPatrolCutter",
+        "faction":  "Alacan Republic",
+        "imagePath":  "assets/races/alacan_republic/ships/AlacanTacomi.png",
+        "turncost":  0.33,
+        "turndelaycost":  0.33,
+        "pivotcost":  2,
+        "rollcost":  2,
+        "pointCost":  300
+    }
+]
