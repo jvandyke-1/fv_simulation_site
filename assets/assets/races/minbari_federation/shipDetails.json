@@ -1,0 +1,4779 @@
+[
+    {
+        "id": "wlcashinar",
+        "name": "Ashinar Close Escort",
+        "phpclass": "wlcAshinar",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/tinashi.png",
+        "turncost": 1.0,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 725,
+        "accelcost": 3,
+        "iniativebonus": 35,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "ashinta",
+        "name": "Ashinta Close Escort",
+        "phpclass": "Ashinta",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/tinashi.png",
+        "turncost": 1.0,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 850,
+        "accelcost": 3,
+        "iniativebonus": 35,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "flyerassault",
+        "name": "Assault Flyers",
+        "phpclass": "FlyerAssault",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/MinbariFlyer.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 40,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 7,
+        "gravitic": true
+    },
+    {
+        "id": "flyercombat",
+        "name": "Combat Flyers",
+        "phpclass": "FlyerCombat",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/MinbariFlyer.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 70,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 7,
+        "gravitic": true
+    },
+    {
+        "id": "whitestarcmd",
+        "name": "Command White Star",
+        "phpclass": "WhiteStarCmd",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/whitestar.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 825,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "weapons": [
+            {
+                "name": "MolecularPulsar",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MolecularPulsar",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ImprovedNeutronLaser",
+                "armour": 4,
+                "maxhealth": 11,
+                "powerreq": 7,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "MolecularPulsar",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MolecularPulsar",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "wlctishat1950",
+        "name": "Early Tishat flight",
+        "phpclass": "wlcTishat1950",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/tishat.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 390,
+        "accelcost": 1,
+        "iniativebonus": 95,
+        "forwardDefense": 6,
+        "sideDefense": 7,
+        "gravitic": true
+    },
+    {
+        "id": "esharan",
+        "name": "Esharan Anti-Fighter Frigate",
+        "phpclass": "Esharan",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/tinashi.png",
+        "turncost": 1.0,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 800,
+        "accelcost": 3,
+        "iniativebonus": 35,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "ShockCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ShockCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "dewmineevial",
+        "name": "Evial DEW Mine",
+        "phpclass": "dewMineEvial",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/minbariMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 32,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 5,
+                "endArc": 8,
+                "location": 0
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "greysharlin",
+        "name": "Grey Sharlin",
+        "phpclass": "GreySharlin",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/sharlin.png",
+        "turncost": 1.33,
+        "turndelaycost": 1.0,
+        "pivotcost": 5,
+        "rollcost": 4,
+        "pointCost": 2100,
+        "accelcost": 5,
+        "iniativebonus": 5,
+        "forwardDefense": 15,
+        "sideDefense": 19,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "captorminelastahan",
+        "name": "Lastahan Captor Mine",
+        "phpclass": "captorMineLastahan",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/minbariMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 20,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "captorminelastahanjam",
+        "name": "Lastahan Captor Mine (w/ Jammer)",
+        "phpclass": "captorMineLastahanJam",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/minbariMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 25,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "leshath",
+        "name": "Leshath Heavy Scout",
+        "phpclass": "Leshath",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/leshath.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 1500,
+        "accelcost": 4,
+        "iniativebonus": 5,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "letann",
+        "name": "Letann Scout",
+        "phpclass": "Letann",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/letann.png",
+        "turncost": 1.0,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 900,
+        "accelcost": 3,
+        "iniativebonus": 35,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "minbaricivilianbase",
+        "name": "Minbari Civilian Base",
+        "phpclass": "MinbariCivilianBase",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/MinbariCivBase.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 500,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 18,
+        "sideDefense": 18,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            }
+        ]
+    },
+    {
+        "id": "minbariorbitalhanger",
+        "name": "Minbari Orbital Hangar",
+        "phpclass": "MinbariOrbitalHanger",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/MinbariCivBase.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 18,
+        "sideDefense": 18,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            }
+        ]
+    },
+    {
+        "id": "morshin",
+        "name": "Morshin Carrier",
+        "phpclass": "Morshin",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/morshin.png",
+        "turncost": 0.75,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 650,
+        "accelcost": 3,
+        "iniativebonus": 35,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "nergell",
+        "name": "Nergell Military Guardpost",
+        "phpclass": "Nergell",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/MinbariGuardpost.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 1900,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "NeutronLaser",
+                "armour": 7,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 315,
+                "endArc": 45,
+                "location": 1
+            },
+            {
+                "name": "ShockCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 135,
+                "endArc": 225,
+                "location": 2
+            },
+            {
+                "name": "ShockCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 45,
+                "endArc": 135,
+                "location": 4
+            },
+            {
+                "name": "ShockCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 225,
+                "endArc": 315,
+                "location": 3
+            },
+            {
+                "name": "ShockCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            }
+        ]
+    },
+    {
+        "id": "neshatan",
+        "name": "Neshatan Gunship",
+        "phpclass": "Neshatan",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/neshatan.png",
+        "turncost": 1.33,
+        "turndelaycost": 1.33,
+        "pivotcost": 5,
+        "rollcost": 5,
+        "pointCost": 2300,
+        "accelcost": 5,
+        "iniativebonus": 5,
+        "forwardDefense": 16,
+        "sideDefense": 19,
+        "weapons": [
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "nial",
+        "name": "Nial heavy flight",
+        "phpclass": "Nial",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/nial.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 636,
+        "accelcost": 1,
+        "iniativebonus": 85,
+        "forwardDefense": 6,
+        "sideDefense": 8,
+        "gravitic": true
+    },
+    {
+        "id": "norgath",
+        "name": "Norgath Starbase",
+        "phpclass": "Norgath",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/Norgath.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 9000,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 21,
+        "sideDefense": 21
+    },
+    {
+        "id": "retlata",
+        "name": "Retlata Transport",
+        "phpclass": "Retlata",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/rogata.png",
+        "turncost": 1.33,
+        "turndelaycost": 1.33,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 600,
+        "accelcost": 3,
+        "iniativebonus": 15,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "rogata",
+        "name": "Rogata Tug",
+        "phpclass": "Rogata",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/rogata.png",
+        "turncost": 1.33,
+        "turndelaycost": 1.33,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 585,
+        "accelcost": 3,
+        "iniativebonus": 25,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "GravityNet",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "GravityNet",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "rolentha",
+        "name": "Rolentha Combat Tug",
+        "phpclass": "Rolentha",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/rogata.png",
+        "turncost": 1.33,
+        "turndelaycost": 1.33,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 800,
+        "accelcost": 3,
+        "iniativebonus": 25,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "breachingpodminbari",
+        "name": "Ronati Breaching Pods",
+        "phpclass": "breachingPodMinbari",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/MinbariFlyer.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 60,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 8,
+        "gravitic": true
+    },
+    {
+        "id": "shantavi",
+        "name": "Shantavi Heavy Battle Frigate",
+        "phpclass": "Shantavi",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/tinashi.png",
+        "turncost": 1.0,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 950,
+        "accelcost": 3,
+        "iniativebonus": 35,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "MolecularPulsar",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "ImprovedNeutronLaser",
+                "armour": 4,
+                "maxhealth": 11,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MolecularPulsar",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ImprovedNeutronLaser",
+                "armour": 4,
+                "maxhealth": 11,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ImprovedNeutronLaser",
+                "armour": 4,
+                "maxhealth": 11,
+                "powerreq": 7,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shanteen",
+        "name": "Shanteen Patrol Frigate",
+        "phpclass": "Shanteen",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/tinashi.png",
+        "turncost": 1.0,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 900,
+        "accelcost": 3,
+        "iniativebonus": 35,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "MolecularPulsar",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "ImprovedNeutronLaser",
+                "armour": 4,
+                "maxhealth": 11,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MolecularPulsar",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "MolecularPulsar",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "MolecularPulsar",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MolecularPulsar",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MolecularPulsar",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "sharaal",
+        "name": "Sharaal War Cruiser",
+        "phpclass": "Sharaal",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/sharlin.png",
+        "turncost": 1.33,
+        "turndelaycost": 1.0,
+        "pivotcost": 5,
+        "rollcost": 4,
+        "pointCost": 1600,
+        "accelcost": 5,
+        "iniativebonus": 5,
+        "forwardDefense": 15,
+        "sideDefense": 19,
+        "weapons": [
+            {
+                "name": "AntimatterConverter",
+                "armour": 4,
+                "maxhealth": 11,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AntimatterConverter",
+                "armour": 4,
+                "maxhealth": 11,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AntimatterConverter",
+                "armour": 4,
+                "maxhealth": 11,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "AntimatterConverter",
+                "armour": 4,
+                "maxhealth": 11,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shargoti",
+        "name": "Shargoti Battlecruiser",
+        "phpclass": "Shargoti",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/sharlin.png",
+        "turncost": 1.5,
+        "turndelaycost": 1.33,
+        "pivotcost": 5,
+        "rollcost": 5,
+        "pointCost": 2500,
+        "accelcost": 6,
+        "iniativebonus": 5,
+        "forwardDefense": 16,
+        "sideDefense": 20,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "GravityNet",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "GravityNet",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "sharlin",
+        "name": "Sharlin War Cruiser",
+        "phpclass": "Sharlin",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/sharlin.png",
+        "turncost": 1.33,
+        "turndelaycost": 1.0,
+        "pivotcost": 5,
+        "rollcost": 4,
+        "pointCost": 1825,
+        "accelcost": 5,
+        "iniativebonus": 5,
+        "forwardDefense": 15,
+        "sideDefense": 19,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shaveenpatrolcutter",
+        "name": "Shaveen Patrol Cutter",
+        "phpclass": "ShaveenPatrolCutter",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/shaveen.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 525,
+        "accelcost": 2,
+        "iniativebonus": 75,
+        "forwardDefense": 11,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ShockCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "shaveenpoliceleader",
+        "name": "Shaveen Police Leader",
+        "phpclass": "ShaveenPoliceLeader",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/shaveen.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 2,
+        "iniativebonus": 75,
+        "forwardDefense": 11,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "MolecularPulsar",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ShockCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "sheganna",
+        "name": "Sheganna OSAT",
+        "phpclass": "Sheganna",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/sheganna.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 300,
+        "accelcost": 0,
+        "iniativebonus": 65,
+        "forwardDefense": 9,
+        "sideDefense": 9,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "NeutronLaser",
+                "armour": 2,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "proxminesivhal",
+        "name": "Sivhal Proximity Mine",
+        "phpclass": "proxMineSivhal",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/minbariMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 9,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "proxminesivhaljam",
+        "name": "Sivhal Proximity Mine (w/ Jammer)",
+        "phpclass": "proxMineSivhalJam",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/minbariMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 12,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "tigara",
+        "name": "Tigara Attack Cruiser",
+        "phpclass": "Tigara",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/tigara.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 1100,
+        "accelcost": 4,
+        "iniativebonus": 5,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AntimatterConverter",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AntimatterConverter",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "tigarin",
+        "name": "Tigarin Patrol Cruiser",
+        "phpclass": "Tigarin",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/tigara.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 1500,
+        "accelcost": 4,
+        "iniativebonus": 5,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "wlctigata",
+        "name": "Tigata Jump Cruiser",
+        "phpclass": "wlcTigata",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/tigara.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 1100,
+        "accelcost": 4,
+        "iniativebonus": 5,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AntimatterConverter",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AntimatterConverter",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "tinashi",
+        "name": "Tinashi War Frigate",
+        "phpclass": "Tinashi",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/tinashi.png",
+        "turncost": 1.0,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 850,
+        "accelcost": 3,
+        "iniativebonus": 35,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "wlctinshara",
+        "name": "Tinshara War Frigate",
+        "phpclass": "wlcTinshara",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/tinashi.png",
+        "turncost": 1.0,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 725,
+        "accelcost": 3,
+        "iniativebonus": 35,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AntimatterConverter",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "tishat",
+        "name": "Tishat medium flight",
+        "phpclass": "Tishat",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/tishat.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 510,
+        "accelcost": 1,
+        "iniativebonus": 95,
+        "forwardDefense": 6,
+        "sideDefense": 7,
+        "gravitic": true
+    },
+    {
+        "id": "upgtorotha",
+        "name": "Torotha [Upgraded]",
+        "phpclass": "upgTorotha",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/torotha.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 3,
+        "iniativebonus": 65,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "MolecularPulsar",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "MolecularPulsar",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MolecularPulsar",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "torotha",
+        "name": "Torotha Assault Frigate",
+        "phpclass": "Torotha",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/torotha.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 550,
+        "accelcost": 3,
+        "iniativebonus": 65,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "MolecularDisruptor",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "MolecularDisruptor",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "tradana",
+        "name": "Tradana Combat Frigate",
+        "phpclass": "Tradana",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/tradana.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 575,
+        "accelcost": 3,
+        "iniativebonus": 65,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "NeutronLaser",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ElectroPulseGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "trolata",
+        "name": "Trolata Armored Cruiser",
+        "phpclass": "Trolata",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/troligan.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 1100,
+        "accelcost": 4,
+        "iniativebonus": 5,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "NeutronLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "AntimatterConverter",
+                "armour": 5,
+                "maxhealth": 7,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "AntimatterConverter",
+                "armour": 5,
+                "maxhealth": 7,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "troligan",
+        "name": "Troligan Armored Cruiser",
+        "phpclass": "Troligan",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/troligan.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 950,
+        "accelcost": 4,
+        "iniativebonus": 5,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravityNet",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravityNet",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GravityNet",
+                "armour": 6,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GravityNet",
+                "armour": 6,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GravityNet",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "GravityNet",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "FusionCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "whitestar",
+        "name": "White Star",
+        "phpclass": "WhiteStar",
+        "faction": "Minbari Federation",
+        "imagePath": "assets/races/minbari_federation/ships/whitestar.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 750,
+        "accelcost": 2,
+        "iniativebonus": 65,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "weapons": [
+            {
+                "name": "MolecularPulsar",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MolecularPulsar",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ImprovedNeutronLaser",
+                "armour": 4,
+                "maxhealth": 11,
+                "powerreq": 7,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "MolecularPulsar",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MolecularPulsar",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    }
+]

@@ -1,0 +1,1401 @@
+[
+    {
+        "id": "breachingpodmarkab",
+        "name": "Dojafa Breaching Pods",
+        "phpclass": "breachingpodmarkab",
+        "faction": "Markab Theocracy",
+        "imagePath": "assets/races/markab_theocracy/ships/MarkabDojafa.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 40,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 7,
+        "sideDefense": 9
+    },
+    {
+        "id": "droftan",
+        "name": "Drofta Medium Fighters",
+        "phpclass": "DroftaN",
+        "faction": "Markab Theocracy",
+        "imagePath": "assets/races/markab_theocracy/ships/MarkabDrofta.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 46,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 6,
+        "sideDefense": 8
+    },
+    {
+        "id": "droftae",
+        "name": "Drofta Medium Fighters (Early)",
+        "phpclass": "DroftaE",
+        "faction": "Markab Theocracy",
+        "imagePath": "assets/races/markab_theocracy/ships/MarkabDrofta.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 40,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 6,
+        "sideDefense": 8
+    },
+    {
+        "id": "kowart",
+        "name": "Kowart Rescue Cruiser",
+        "phpclass": "Kowart",
+        "faction": "Markab Theocracy",
+        "imagePath": "assets/races/markab_theocracy/ships/MarkabAssaultShip.png",
+        "turncost": 1,
+        "turndelaycost": 0.66,
+        "pivotcost": 6,
+        "rollcost": 3,
+        "pointCost": 300,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "mafka",
+        "name": "Mafka Transport Cruiser",
+        "phpclass": "Mafka",
+        "faction": "Markab Theocracy",
+        "imagePath": "assets/races/markab_theocracy/ships/MarkabAssaultShip.png",
+        "turncost": 1,
+        "turndelaycost": 0.66,
+        "pivotcost": 6,
+        "rollcost": 3,
+        "pointCost": 475,
+        "accelcost": 4,
+        "iniativebonus": -5,
+        "forwardDefense": 16,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyPlasma",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "maftora",
+        "name": "Maftora Police Ship",
+        "phpclass": "Maftora",
+        "faction": "Markab Theocracy",
+        "imagePath": "assets/races/markab_theocracy/ships/MarkabPatrolShip.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 475,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "StunBeam",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "StunBeam",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PlasmaWaveTorpedo",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "makar",
+        "name": "Makar Defense Satellite",
+        "phpclass": "Makar",
+        "faction": "Markab Theocracy",
+        "imagePath": "assets/races/markab_theocracy/ships/MarkabOSAT.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 225,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 11,
+        "sideDefense": 10,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "PlasmaWaveTorpedo",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "PlasmaWaveTorpedo",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "mantaka",
+        "name": "Mantaka Assault Ship",
+        "phpclass": "Mantaka",
+        "faction": "Markab Theocracy",
+        "imagePath": "assets/races/markab_theocracy/ships/MarkabAssaultShip.png",
+        "turncost": 1,
+        "turndelaycost": 0.66,
+        "pivotcost": 6,
+        "rollcost": 3,
+        "pointCost": 475,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "PlasmaWaveTorpedo",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PlasmaWaveTorpedo",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "martoba",
+        "name": "Martoba Patrol Cutter",
+        "phpclass": "Martoba",
+        "faction": "Markab Theocracy",
+        "imagePath": "assets/races/markab_theocracy/ships/MarkabPatrolShip.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 480,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumPlasma",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "PlasmaWaveTorpedo",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "PlasmaWaveTorpedo",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "romak",
+        "name": "Romak Escort Frigate",
+        "phpclass": "Romak",
+        "faction": "Markab Theocracy",
+        "imagePath": "assets/races/markab_theocracy/ships/MarkabPoliceShip.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 2,
+        "pointCost": 400,
+        "accelcost": 1,
+        "iniativebonus": 60,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 1,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 1,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "shadrak",
+        "name": "Shadrak Shrine",
+        "phpclass": "Shadrak",
+        "faction": "Markab Theocracy",
+        "imagePath": "assets/races/markab_theocracy/ships/MarkabShadrakShrine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "StunBeam",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StunBeam",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StunBeam",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "StunBeam",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 150,
+                "endArc": 270,
+                "location": 3
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 150,
+                "endArc": 270,
+                "location": 3
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 150,
+                "endArc": 270,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 150,
+                "endArc": 270,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 150,
+                "endArc": 270,
+                "location": 3
+            }
+        ]
+    },
+    {
+        "id": "shafab",
+        "name": "Shafab Heavy Cruiser",
+        "phpclass": "Shafab",
+        "faction": "Markab Theocracy",
+        "imagePath": "assets/races/markab_theocracy/ships/MarkabCruiser.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 625,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PlasmaWaveTorpedo",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StunBeam",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "StunBeam",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "shofab",
+        "name": "Shofab Command Cruiser",
+        "phpclass": "Shofab",
+        "faction": "Markab Theocracy",
+        "imagePath": "assets/races/markab_theocracy/ships/MarkabCruiser.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 700,
+        "accelcost": 3,
+        "iniativebonus": 5,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PlasmaWaveTorpedo",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "talafat",
+        "name": "Talafat Scout",
+        "phpclass": "Talafat",
+        "faction": "Markab Theocracy",
+        "imagePath": "assets/races/markab_theocracy/ships/MarkabScout.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 650,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StunBeam",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StunBeam",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "StunBeam",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "trofaas",
+        "name": "Trofa Assault Shuttles",
+        "phpclass": "trofaAS",
+        "faction": "Markab Theocracy",
+        "imagePath": "assets/races/markab_theocracy/ships/MarkabDrofta.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 30,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 10
+    }
+]

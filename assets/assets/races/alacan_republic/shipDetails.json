@@ -1,0 +1,938 @@
+[
+    {
+        "id": "alacanatica",
+        "name": "Atica Command Cruiser",
+        "phpclass": "AlacanAtica",
+        "faction": "Alacan Republic",
+        "imagePath": "assets/races/alacan_republic/ships/AlacanAtrimis.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 600,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "CombatLaser",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "CombatLaser",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "CombatLaser",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 7,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "CustomLightSMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "CustomLightSMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "CustomLightSMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "CustomLightSMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "alacanatrimis",
+        "name": "Atrimis Cruiser",
+        "phpclass": "AlacanAtrimis",
+        "faction": "Alacan Republic",
+        "imagePath": "assets/races/alacan_republic/ships/AlacanAtrimis.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 525,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LaserCutter",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "CombatLaser",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LaserCutter",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "CustomLightSoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "CustomLightSoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "CustomLightSoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "CustomLightSoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "alacanazafac",
+        "name": "Azafac Armed Freighter",
+        "phpclass": "AlacanAzafac",
+        "faction": "Alacan Republic",
+        "imagePath": "assets/races/alacan_republic/ships/AlacanAzafac.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 999,
+        "rollcost": 999,
+        "pointCost": 340,
+        "accelcost": 4,
+        "iniativebonus": -20,
+        "forwardDefense": 18,
+        "sideDefense": 18,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "CustomLightSoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "CustomLightSoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "alacanazan",
+        "name": "Azan Auxiliary Cruiser",
+        "phpclass": "AlacanAzan",
+        "faction": "Alacan Republic",
+        "imagePath": "assets/races/alacan_republic/ships/AlacanAzafac.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 999,
+        "rollcost": 999,
+        "pointCost": 425,
+        "accelcost": 4,
+        "iniativebonus": 5,
+        "forwardDefense": 18,
+        "sideDefense": 18,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "CustomLightSoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LaserCutter",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LaserCutter",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "CustomLightSoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "alacancacarasaam",
+        "name": "Cacaras A Defense Satellite",
+        "phpclass": "AlacanCacarasAAM",
+        "faction": "Alacan Republic",
+        "imagePath": "assets/races/alacan_republic/ships/AlacanCacaras.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 100,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 7,
+        "sideDefense": 7,
+        "weapons": [
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 1,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 1,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 1,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "alacancacarasb",
+        "name": "Cacaras B Defense Satellite",
+        "phpclass": "AlacanCacarasB",
+        "faction": "Alacan Republic",
+        "imagePath": "assets/races/alacan_republic/ships/AlacanCacaras.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 100,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 7,
+        "sideDefense": 7,
+        "weapons": [
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 1,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LaserCutter",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 1,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LaserCutter",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 1,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "alacanatrimisearly",
+        "name": "Early Atrimis Cruiser",
+        "phpclass": "AlacanAtrimisEarly",
+        "faction": "Alacan Republic",
+        "imagePath": "assets/races/alacan_republic/ships/AlacanAtrimis.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 510,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LaserCutter",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LaserCutter",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "CustomLightSoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "CustomLightSoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "CustomLightSoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "CustomLightSoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "alacanrotiaflight",
+        "name": "Rotia Flight",
+        "phpclass": "AlacanRotiaFlight",
+        "faction": "Alacan Republic",
+        "imagePath": "assets/races/alacan_republic/ships/AlacanRotia.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 78,
+        "accelcost": 1,
+        "iniativebonus": 100,
+        "forwardDefense": 6,
+        "sideDefense": 6
+    },
+    {
+        "id": "alacantacomipatrolcutter",
+        "name": "Tacomi Patrol Cutter",
+        "phpclass": "AlacanTacomiPatrolCutter",
+        "faction": "Alacan Republic",
+        "imagePath": "assets/races/alacan_republic/ships/AlacanTacomi.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 300,
+        "accelcost": 1,
+        "iniativebonus": 30,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LaserCutter",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    }
+]

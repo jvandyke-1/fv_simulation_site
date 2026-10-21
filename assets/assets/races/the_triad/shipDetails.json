@@ -1,0 +1,805 @@
+[
+    {
+        "id": "triaddemon",
+        "name": "Chaos: Demon",
+        "phpclass": "triadDemon",
+        "faction": "The Triad",
+        "imagePath": "assets/races/the_triad/ships/triadDemon.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 4,
+        "rollcost": 2,
+        "pointCost": 4550,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "PlasmaDriver",
+                "armour": 7,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AntimatterSlicer",
+                "armour": 6,
+                "maxhealth": 12,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "SingularityMine",
+                "armour": 4,
+                "maxhealth": 28,
+                "powerreq": 16,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AntimatterWave",
+                "armour": 4,
+                "maxhealth": 20,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AntimatterSlicer",
+                "armour": 6,
+                "maxhealth": 12,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "PlasmaDriver",
+                "armour": 7,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PlasmaDriver",
+                "armour": 7,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PlasmaDriver",
+                "armour": 7,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PlasmaDriver",
+                "armour": 7,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "PlasmaDriver",
+                "armour": 7,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "triaddevil",
+        "name": "Chaos: Devil",
+        "phpclass": "triadDevil",
+        "faction": "The Triad",
+        "imagePath": "assets/races/the_triad/ships/triadDevil.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 3,
+        "rollcost": 1,
+        "pointCost": 1625,
+        "accelcost": 2,
+        "iniativebonus": 70,
+        "forwardDefense": 10,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "PlasmaDriver",
+                "armour": 7,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PlasmaDriver",
+                "armour": 7,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AntimatterWave",
+                "armour": 5,
+                "maxhealth": 20,
+                "powerreq": 8,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "SpatialCutter",
+                "armour": 7,
+                "maxhealth": 22,
+                "powerreq": 8,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "SpatialCutter",
+                "armour": 7,
+                "maxhealth": 22,
+                "powerreq": 8,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "triadfiend",
+        "name": "Chaos: Fiend",
+        "phpclass": "triadFiend",
+        "faction": "The Triad",
+        "imagePath": "assets/races/the_triad/ships/triadFiend.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 4,
+        "rollcost": 2,
+        "pointCost": 3200,
+        "accelcost": 2,
+        "iniativebonus": 40,
+        "forwardDefense": 12,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "PlasmaDriver",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HyperplasmaCutter",
+                "armour": 7,
+                "maxhealth": 16,
+                "powerreq": 9,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "SolarBlaster",
+                "armour": 6,
+                "maxhealth": 18,
+                "powerreq": 10,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "HyperplasmaCutter",
+                "armour": 7,
+                "maxhealth": 16,
+                "powerreq": 9,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PlasmaDriver",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PlasmaDriver",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "triadimp",
+        "name": "Chaos: Imp Medium Fighters",
+        "phpclass": "triadImp",
+        "faction": "The Triad",
+        "imagePath": "assets/races/the_triad/ships/triadImp.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 175,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 7,
+        "sideDefense": 7,
+        "gravitic": true
+    },
+    {
+        "id": "triadbanshee",
+        "name": "Neutrality: Banshee",
+        "phpclass": "triadBanshee",
+        "faction": "The Triad",
+        "imagePath": "assets/races/the_triad/ships/triadBanshee.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 3000,
+        "accelcost": 3,
+        "iniativebonus": 40,
+        "forwardDefense": 15,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "AdvParticleBlastGun",
+                "armour": 7,
+                "maxhealth": 16,
+                "powerreq": 7,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "AdvParticleBlastGun",
+                "armour": 6,
+                "maxhealth": 16,
+                "powerreq": 8,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "AsteroidSalvo",
+                "armour": 8,
+                "maxhealth": 30,
+                "powerreq": 10,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "AdvParticleBlastGun",
+                "armour": 6,
+                "maxhealth": 16,
+                "powerreq": 8,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "AdvParticleBlastGun",
+                "armour": 6,
+                "maxhealth": 16,
+                "powerreq": 8,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "triadphantom",
+        "name": "Neutrality: Phantom Medium Fighter",
+        "phpclass": "triadPhantom",
+        "faction": "The Triad",
+        "imagePath": "assets/races/the_triad/ships/triadPhantom.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 390,
+        "accelcost": 1,
+        "iniativebonus": 100,
+        "forwardDefense": 6,
+        "sideDefense": 7
+    },
+    {
+        "id": "triadspecter",
+        "name": "Neutrality: Specter",
+        "phpclass": "triadSpecter",
+        "faction": "The Triad",
+        "imagePath": "assets/races/the_triad/ships/triadSpecter.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 1700,
+        "accelcost": 2,
+        "iniativebonus": 70,
+        "forwardDefense": 12,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "AdvParticleBlastGun",
+                "armour": 7,
+                "maxhealth": 16,
+                "powerreq": 7,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "AdvParticleBlastGun",
+                "armour": 6,
+                "maxhealth": 16,
+                "powerreq": 8,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "AdvParticleBlastGun",
+                "armour": 6,
+                "maxhealth": 16,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HyperplasmaStream",
+                "armour": 7,
+                "maxhealth": 10,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AdvParticleBlastGun",
+                "armour": 6,
+                "maxhealth": 16,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AdvParticleBlastGun",
+                "armour": 6,
+                "maxhealth": 16,
+                "powerreq": 8,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "AdvParticleBlastGun",
+                "armour": 6,
+                "maxhealth": 16,
+                "powerreq": 8,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "triadwraith",
+        "name": "Neutrality: Wraith",
+        "phpclass": "triadWraith",
+        "faction": "The Triad",
+        "imagePath": "assets/races/the_triad/ships/triadWraith.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 4300,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "NeutronBurst",
+                "armour": 6,
+                "maxhealth": 12,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "FuserArray",
+                "armour": 3,
+                "maxhealth": 24,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "NeutronBurst",
+                "armour": 6,
+                "maxhealth": 12,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AsteroidSalvo",
+                "armour": 8,
+                "maxhealth": 30,
+                "powerreq": 10,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 3
+            },
+            {
+                "name": "NeutronBurst",
+                "armour": 6,
+                "maxhealth": 12,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "AsteroidSalvo",
+                "armour": 8,
+                "maxhealth": 30,
+                "powerreq": 10,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 4
+            },
+            {
+                "name": "NeutronBurst",
+                "armour": 6,
+                "maxhealth": 12,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "triadangel",
+        "name": "Order: Angel",
+        "phpclass": "triadAngel",
+        "faction": "The Triad",
+        "imagePath": "assets/races/the_triad/ships/triadAngel.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.75,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 2850,
+        "accelcost": 2,
+        "iniativebonus": 50,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "FlareGenerator",
+                "armour": 8,
+                "maxhealth": 16,
+                "powerreq": 8,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "PhotonicPrismBeam",
+                "armour": 8,
+                "maxhealth": 24,
+                "powerreq": 8,
+                "startArc": 210,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "PhotonicPrismBeam",
+                "armour": 8,
+                "maxhealth": 24,
+                "powerreq": 8,
+                "startArc": 330,
+                "endArc": 150,
+                "location": 1
+            },
+            {
+                "name": "PhotonicPrismBeam",
+                "armour": 8,
+                "maxhealth": 24,
+                "powerreq": 8,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "triadarchangel",
+        "name": "Order: Archangel",
+        "phpclass": "triadArchangel",
+        "faction": "The Triad",
+        "imagePath": "assets/races/the_triad/ships/triadArchangel.png",
+        "turncost": 1.33,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 6400,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 18,
+        "weapons": [
+            {
+                "name": "FlareGenerator",
+                "armour": 8,
+                "maxhealth": 16,
+                "powerreq": 8,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "PhotonicPrismBeam",
+                "armour": 8,
+                "maxhealth": 24,
+                "powerreq": 8,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "PhotonicPrismBeam",
+                "armour": 8,
+                "maxhealth": 24,
+                "powerreq": 8,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "NeutronBurst",
+                "armour": 6,
+                "maxhealth": 12,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "NeutronBurst",
+                "armour": 6,
+                "maxhealth": 12,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PhotonicPrismBeam",
+                "armour": 8,
+                "maxhealth": 24,
+                "powerreq": 8,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "PhotonicPrismBeam",
+                "armour": 8,
+                "maxhealth": 24,
+                "powerreq": 8,
+                "startArc": 210,
+                "endArc": 30,
+                "location": 3
+            },
+            {
+                "name": "PhotonicPrismBeam",
+                "armour": 8,
+                "maxhealth": 24,
+                "powerreq": 8,
+                "startArc": 330,
+                "endArc": 150,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "triadcherub",
+        "name": "Order: Cherub Super-heavy Fighters",
+        "phpclass": "triadCherub",
+        "faction": "The Triad",
+        "imagePath": "assets/races/the_triad/ships/triadCherub.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 1860,
+        "accelcost": 1,
+        "iniativebonus": 85,
+        "forwardDefense": 10,
+        "sideDefense": 12,
+        "gravitic": true
+    },
+    {
+        "id": "triadseraph",
+        "name": "Order: Seraph",
+        "phpclass": "triadSeraph",
+        "faction": "The Triad",
+        "imagePath": "assets/races/the_triad/ships/triadSeraph.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 900,
+        "accelcost": 2,
+        "iniativebonus": 70,
+        "forwardDefense": 13,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "PhotonicPrismBeam",
+                "armour": 8,
+                "maxhealth": 24,
+                "powerreq": 8,
+                "startArc": 150,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "PhotonicPrismBeam",
+                "armour": 8,
+                "maxhealth": 24,
+                "powerreq": 8,
+                "startArc": 330,
+                "endArc": 210,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "triadtriumviron",
+        "name": "The Triumviron",
+        "phpclass": "triadTriumviron",
+        "faction": "The Triad",
+        "imagePath": "assets/races/the_triad/ships/triadTriumviron.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 5175,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "HyperplasmaCutter",
+                "armour": 7,
+                "maxhealth": 16,
+                "powerreq": 9,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 0
+            },
+            {
+                "name": "HyperplasmaCutter",
+                "armour": 7,
+                "maxhealth": 16,
+                "powerreq": 9,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 2
+            },
+            {
+                "name": "HyperplasmaCutter",
+                "armour": 7,
+                "maxhealth": 16,
+                "powerreq": 9,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 3
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "triadlessertriumviron",
+        "name": "Unified: Lesser Triumviron",
+        "phpclass": "triadLesserTriumviron",
+        "faction": "The Triad",
+        "imagePath": "assets/races/the_triad/ships/triadLesserTriumviron.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 4800,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "HyperplasmaCutter",
+                "armour": 7,
+                "maxhealth": 16,
+                "powerreq": 9,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 0
+            },
+            {
+                "name": "HyperplasmaCutter",
+                "armour": 7,
+                "maxhealth": 16,
+                "powerreq": 9,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 2
+            },
+            {
+                "name": "HyperplasmaCutter",
+                "armour": 7,
+                "maxhealth": 16,
+                "powerreq": 9,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 3
+            }
+        ],
+        "gravitic": true
+    }
+]

@@ -1,0 +1,2120 @@
+[
+    {
+        "id": "breachingpodhyach",
+        "name": "Achilat Breaching Pods",
+        "phpclass": "breachingpodhyach",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachLaricha.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 40,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 9,
+        "gravitic": true
+    },
+    {
+        "id": "hyachalichikav",
+        "name": "Alichi Kav Stealth Cruiser",
+        "phpclass": "HyachAlichiKav",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachAlichiKav.png",
+        "turncost": 1,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 700,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 10,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "SpinalLaser",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 12,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "hyachalichital",
+        "name": "Alichi Tal Infiltrator",
+        "phpclass": "HyachAlichiTal",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachAlichiKav.png",
+        "turncost": 1,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 650,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 10,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "Maser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "dewmineavalsar",
+        "name": "Aval Sar DEW Mine",
+        "phpclass": "dewMineAvalSar",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/hyachMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 30,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 6,
+                "endArc": 6,
+                "location": 0
+            },
+            {
+                "name": "Maser",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "hyachdartha",
+        "name": "Dartha Medium Fighters",
+        "phpclass": "HyachDartha",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachDartha.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 70,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 7,
+        "sideDefense": 7,
+        "gravitic": true
+    },
+    {
+        "id": "hyachdovoch",
+        "name": "Dartha Medium Fighters (w/Dovoch)",
+        "phpclass": "HyachDovoch",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachDartha.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 70,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 7,
+        "sideDefense": 7,
+        "gravitic": true
+    },
+    {
+        "id": "hyachdoskva",
+        "name": "Doskva Stealth Fighters",
+        "phpclass": "HyachDoskva",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachDartha.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 75,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 6,
+        "sideDefense": 6,
+        "gravitic": true
+    },
+    {
+        "id": "proxmineechalival",
+        "name": "Echali Val Proximity Mine",
+        "phpclass": "proxMineEchaliVal",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/hyachMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 20,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "captormineelaskvor",
+        "name": "Elask Vor Captor Mine",
+        "phpclass": "captorMineElaskVor",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/hyachMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 28,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "hyachevirolkon",
+        "name": "Evirol Kon Auxiliary Carrier",
+        "phpclass": "HyachEvirolKon",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachEvirolTek.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 4,
+        "pointCost": 500,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "MediumLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "hyacheviroltek",
+        "name": "Evirol Tek Logistics Cruiser",
+        "phpclass": "HyachEvirolTek",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachEvirolTek.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 4,
+        "pointCost": 380,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "MediumLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "dewmineilanisar",
+        "name": "Ilani Sar DEW Mine",
+        "phpclass": "dewMineIlaniSar",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/hyachMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 45,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 12,
+                "endArc": 4,
+                "location": 0
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "hyachirokaikal",
+        "name": "Irokai Kal Command Gunship",
+        "phpclass": "HyachIrokaiKal",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachIrokaiKam.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 1325,
+        "accelcost": 4,
+        "iniativebonus": 5,
+        "forwardDefense": 15,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "SpinalLaser",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 12,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "HeavyLaser",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyLaser",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyLaser",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HeavyLaser",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "HeavyLaser",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "HeavyLaser",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "HeavyLaser",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "HeavyLaser",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "hyachirokaikam",
+        "name": "Irokai Kam Battlecruiser",
+        "phpclass": "HyachIrokaiKam",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachIrokaiKam.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 1025,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "SpinalLaser",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 12,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 3
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 4
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "hyachirokaikar",
+        "name": "Irokai Kar Strike Cruiser",
+        "phpclass": "HyachIrokaiKar",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachIrokaiKam.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 950,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "SpinalLaser",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 12,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 3
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 4
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "hyachlaricha",
+        "name": "Laricha Assault Shuttles",
+        "phpclass": "HyachLaricha",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachLaricha.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 40,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 7,
+        "gravitic": true
+    },
+    {
+        "id": "dewmineloirnisar",
+        "name": "Loirni Sar DEW Mine",
+        "phpclass": "dewMineLoirniSar",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/hyachMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 120,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 12,
+                "endArc": 5,
+                "location": 0
+            },
+            {
+                "name": "BlastLaser",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "Maser",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "Maser",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "dewminemaschatsar",
+        "name": "Maschat Sar DEW Mine",
+        "phpclass": "dewMineMaschatSar",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/hyachMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 50,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "Interdictor",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "dewminenalinasar",
+        "name": "Nalina Sar DEW Mine",
+        "phpclass": "dewMineNalinaSar",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/hyachMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 60,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 15,
+                "endArc": 4,
+                "location": 0
+            },
+            {
+                "name": "BlastLaser",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "hyachokathkat",
+        "name": "Okath Kat Fast Frigate",
+        "phpclass": "HyachOkathKat",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachOkathKat.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 2,
+        "iniativebonus": 60,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "weapons": [
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "hyachokathkur",
+        "name": "Okath Kur Escort Frigate",
+        "phpclass": "HyachOkathKur",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachOkathKat.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 625,
+        "accelcost": 2,
+        "iniativebonus": 60,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "weapons": [
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "hyachsenchlatkam",
+        "name": "Senchlat Kam Light Cruiser",
+        "phpclass": "HyachSenchlatKam",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachSenchlatKam.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 800,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "BlastLaser",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "BlastLaser",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "BlastLaser",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "BlastLaser",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "BlastLaser",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "BlastLaser",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "hyachsenchlatkes",
+        "name": "Senchlat Kes Combat Scout",
+        "phpclass": "HyachSenchlatKes",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachSenchlatKam.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 775,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "BlastLaser",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "BlastLaser",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "hyachsenchlatkirnew",
+        "name": "Senchlat Kir Ballistic Cruiser",
+        "phpclass": "HyachSenchlatKirNew",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachSenchlatKam.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 800,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "hyachtachilakor",
+        "name": "Tachila Kor Scout Carrier",
+        "phpclass": "HyachTachilaKor",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachTachilaKor.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 1025,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "BlastLaser",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "hyachtakaltikal",
+        "name": "Takalti Kal Heavy OSAT",
+        "phpclass": "HyachTakaltiKal",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachTakaltiKalOSAT.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 750,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "Maser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "Maser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "BlastLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SpinalLaser",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 12,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "BlastLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "Maser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "hyachtakaltikam",
+        "name": "Takalti Kam OSAT",
+        "phpclass": "HyachTakaltiKam",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachTakaltiKamOSAT.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 250,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 10,
+        "sideDefense": 10,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "Maser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "BlastLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "BlastLaser",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "hyachuruthakal",
+        "name": "Urutha Kal Dreadnought",
+        "phpclass": "HyachUruthaKal",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachUruthaKal.png",
+        "turncost": 1.5,
+        "turndelaycost": 1.5,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 1300,
+        "accelcost": 5,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "BlastLaser",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SpinalLaser",
+                "armour": 6,
+                "maxhealth": 12,
+                "powerreq": 12,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "BlastLaser",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "Maser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "Interdictor",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "Maser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "Maser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "hyachutarator",
+        "name": "Utara Tor Stellar Fortress",
+        "phpclass": "HyachUtaraTor",
+        "faction": "Hyach Gerontocracy",
+        "imagePath": "assets/races/hyach_gerontocracy/ships/HyachUtaraTor.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 8000,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 22,
+        "sideDefense": 22,
+        "weapons": [
+            {
+                "name": "Interdictor",
+                "armour": 6,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "Interdictor",
+                "armour": 6,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    }
+]

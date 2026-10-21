@@ -1,0 +1,546 @@
+[
+    {
+        "id": "consortium",
+        "name": "Consortium",
+        "phpclass": "Consortium",
+        "faction": "Mindriders",
+        "imagePath": "assets/races/the_mindriders/ships/MindriderConsortium1.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 0,
+        "rollcost": 2,
+        "pointCost": 2125,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "TelekineticCutter",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TelekineticCutter",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TelekineticCutter",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "MindriderThruster",
+                "armour": 6,
+                "maxhealth": 30,
+                "powerreq": 0,
+                "startArc": 10,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "MindriderThruster",
+                "armour": 6,
+                "maxhealth": 30,
+                "powerreq": 0,
+                "startArc": 10,
+                "endArc": 3,
+                "location": 3
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "MindriderThruster",
+                "armour": 6,
+                "maxhealth": 30,
+                "powerreq": 0,
+                "startArc": 10,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "MindriderThruster",
+                "armour": 6,
+                "maxhealth": 30,
+                "powerreq": 0,
+                "startArc": 10,
+                "endArc": 4,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "mindseye",
+        "name": "Mind",
+        "phpclass": "MindsEye",
+        "faction": "Mindriders",
+        "imagePath": "assets/races/the_mindriders/ships/MindriderMindsEye.png",
+        "turncost": 1.33,
+        "turndelaycost": 1,
+        "pivotcost": 0,
+        "rollcost": 4,
+        "pointCost": 8300,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 20,
+        "sideDefense": 20,
+        "weapons": [
+            {
+                "name": "MindriderEngine",
+                "armour": 7,
+                "maxhealth": 28,
+                "powerreq": 0,
+                "startArc": 16,
+                "endArc": 4,
+                "location": 0
+            },
+            {
+                "name": "UltraPulseCannon",
+                "armour": 7,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "UltraPulseCannon",
+                "armour": 7,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "SecondSight",
+                "armour": 7,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "TelekineticCutter",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "MindriderThruster",
+                "armour": 6,
+                "maxhealth": 35,
+                "powerreq": 0,
+                "startArc": 12,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "TelekineticCutter",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "MindriderThruster",
+                "armour": 6,
+                "maxhealth": 35,
+                "powerreq": 0,
+                "startArc": 12,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "TelekineticCutter",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "MindriderThruster",
+                "armour": 6,
+                "maxhealth": 35,
+                "powerreq": 0,
+                "startArc": 12,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "MindriderThruster",
+                "armour": 6,
+                "maxhealth": 35,
+                "powerreq": 0,
+                "startArc": 12,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 3
+            },
+            {
+                "name": "TelekineticCutter",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 3
+            },
+            {
+                "name": "MindriderThruster",
+                "armour": 6,
+                "maxhealth": 35,
+                "powerreq": 0,
+                "startArc": 12,
+                "endArc": 4,
+                "location": 3
+            },
+            {
+                "name": "MindriderThruster",
+                "armour": 6,
+                "maxhealth": 35,
+                "powerreq": 0,
+                "startArc": 12,
+                "endArc": 4,
+                "location": 3
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 4
+            },
+            {
+                "name": "TelekineticCutter",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 4
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            },
+            {
+                "name": "TelekineticCutter",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "thoughtprojections",
+        "name": "Thought Projections",
+        "phpclass": "ThoughtProjections",
+        "faction": "Mindriders",
+        "imagePath": "assets/races/the_mindriders/ships/MindriderProjection.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 0,
+        "rollcost": 1,
+        "pointCost": 160,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 4,
+        "sideDefense": 4,
+        "gravitic": true
+    },
+    {
+        "id": "thoughtforce",
+        "name": "Thoughtforce",
+        "phpclass": "Thoughtforce",
+        "faction": "Mindriders",
+        "imagePath": "assets/races/the_mindriders/ships/MindriderThoughtForce1.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 0,
+        "rollcost": 4,
+        "pointCost": 3750,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 14,
+        "weapons": [
+            {
+                "name": "UltraPulseCannon",
+                "armour": 7,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "SecondSight",
+                "armour": 7,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 0
+            },
+            {
+                "name": "MindriderThruster",
+                "armour": 6,
+                "maxhealth": 35,
+                "powerreq": 0,
+                "startArc": 12,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 1
+            },
+            {
+                "name": "MindriderThruster",
+                "armour": 6,
+                "maxhealth": 35,
+                "powerreq": 0,
+                "startArc": 12,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "MindriderThruster",
+                "armour": 6,
+                "maxhealth": 35,
+                "powerreq": 0,
+                "startArc": 12,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "MindriderThruster",
+                "armour": 6,
+                "maxhealth": 35,
+                "powerreq": 0,
+                "startArc": 12,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "MindriderThruster",
+                "armour": 6,
+                "maxhealth": 35,
+                "powerreq": 0,
+                "startArc": 12,
+                "endArc": 4,
+                "location": 3
+            },
+            {
+                "name": "MindriderThruster",
+                "armour": 6,
+                "maxhealth": 35,
+                "powerreq": 0,
+                "startArc": 12,
+                "endArc": 4,
+                "location": 3
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "wheelofthought",
+        "name": "Wheel of Thought",
+        "phpclass": "WheelofThought",
+        "faction": "Mindriders",
+        "imagePath": "assets/races/the_mindriders/ships/MindriderWoT.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 0,
+        "rollcost": 1,
+        "pointCost": 850,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 10,
+        "weapons": [
+            {
+                "name": "TelekineticCutter",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "TriopticPulsar",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    }
+]

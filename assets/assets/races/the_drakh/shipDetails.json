@@ -1,0 +1,1373 @@
+[
+    {
+        "id": "drakhshuttle",
+        "name": "Armed Shuttles",
+        "phpclass": "DrakhShuttle",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhShuttle.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 80,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 8,
+        "gravitic": true
+    },
+    {
+        "id": "drakhattackship",
+        "name": "Attack Ship",
+        "phpclass": "DrakhAttackShip",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhCruiser.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 900,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customMedPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customMphasedBeamAcc",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customMedPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "customMedPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "customMedPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "drakhcommandship",
+        "name": "Command Ship",
+        "phpclass": "DrakhCommandShip",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhCruiser.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 1000,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customHeavyPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "customMphasedBeamAcc",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customHeavyPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 330,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "drakhdreadnought",
+        "name": "Dreadnought",
+        "phpclass": "DrakhDreadnought",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhHeavyTender.png",
+        "turncost": 1.5,
+        "turndelaycost": 1.33,
+        "pivotcost": 6,
+        "rollcost": 4,
+        "pointCost": 2200,
+        "accelcost": 6,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 19,
+        "weapons": [
+            {
+                "name": "customHeavyPolarityPulsar",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customHeavyPolarityPulsar",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customMphasedBeamAcc",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customMphasedBeamAcc",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customHeavyPolarityPulsar",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "customHeavyPolarityPulsar",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "customPhaseDisruptor",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            },
+            {
+                "name": "customPhaseDisruptor",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "drakhheavyexplorer",
+        "name": "Heavy Explorer",
+        "phpclass": "DrakhHeavyExplorer",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhHeavyTender.png",
+        "turncost": 2,
+        "turndelaycost": 1.5,
+        "pivotcost": 8,
+        "rollcost": 4,
+        "pointCost": 1500,
+        "accelcost": 6,
+        "iniativebonus": 0,
+        "forwardDefense": 18,
+        "sideDefense": 20,
+        "weapons": [
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "drakhheavyraider",
+        "name": "Heavy Raider",
+        "phpclass": "DrakhHeavyRaider",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhHeavyRaider.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.25,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 340,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "customPhaseDisruptor",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "drakhheavyraiderescort",
+        "name": "Heavy Raider Escort",
+        "phpclass": "DrakhHeavyRaiderEscort",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhHeavyRaider.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.25,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 370,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "customLtPhaseDisruptorShip",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customLtPhaseDisruptorShip",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "drakhheavytender",
+        "name": "Heavy Tender",
+        "phpclass": "DrakhHeavyTender",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhHeavyTender.png",
+        "turncost": 2,
+        "turndelaycost": 1.5,
+        "pivotcost": 8,
+        "rollcost": 4,
+        "pointCost": 1000,
+        "accelcost": 6,
+        "iniativebonus": 0,
+        "forwardDefense": 18,
+        "sideDefense": 20,
+        "weapons": [
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customMedPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customMedPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "drakhmobilebeamplatform",
+        "name": "Mobile Beam Platform",
+        "phpclass": "DrakhMobileBeamPlatform",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhDefensePlatform.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 350,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "customMphasedBeamAcc",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customLtPhaseDisruptorShip",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "drakhmobiledefenseplatform",
+        "name": "Mobile Defense Platform",
+        "phpclass": "DrakhMobileDefensePlatform",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhDefensePlatform.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 300,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "customPhaseDisruptor",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "customPhaseDisruptor",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 330,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "drakhmothership",
+        "name": "Mothership",
+        "phpclass": "DrakhMothership",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhMothership.png",
+        "turncost": 3,
+        "turndelaycost": 3,
+        "pivotcost": 12,
+        "rollcost": 12,
+        "pointCost": 5000,
+        "accelcost": 12,
+        "iniativebonus": -30,
+        "forwardDefense": 24,
+        "sideDefense": 25,
+        "weapons": [
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customMphasedBeamAcc",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customMphasedBeamAcc",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customHeavyPolarityPulsar",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "customMedPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "customMedPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "customMedPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "customMedPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "drakhpatrolship",
+        "name": "Patrol Ship",
+        "phpclass": "DrakhPatrolShip",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhPatrolShip.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 600,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 12,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "customPhaseDisruptor",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "customPhaseDisruptor",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customHeavyPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "drakhraiderflt",
+        "name": "Raider Assault Fighters",
+        "phpclass": "DrakhRaiderFlt",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhRaider.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 150,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 10,
+        "gravitic": true
+    },
+    {
+        "id": "drakhraidersweeperflt",
+        "name": "Raider Sweeper Interceptors",
+        "phpclass": "DrakhRaiderSweeperFlt",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhRaider.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 150,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 10,
+        "gravitic": true
+    },
+    {
+        "id": "drakhscoutship",
+        "name": "Scout Ship",
+        "phpclass": "DrakhScoutShip",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhPatrolShip.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 750,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 12,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "customLtPhaseDisruptorShip",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "customLtPhaseDisruptorShip",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customMedPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "drakhsupportship",
+        "name": "Support Ship",
+        "phpclass": "DrakhSupportShip",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhCruiser.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 900,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customMphasedBeamAcc",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "customMphasedBeamAcc",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 330,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "customMedPolarityPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "drakhtanker",
+        "name": "Tanker",
+        "phpclass": "DrakhTanker",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhTanker.png",
+        "turncost": 1,
+        "turndelaycost": 0.75,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 400,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "drakhtender",
+        "name": "Tender",
+        "phpclass": "DrakhTender",
+        "faction": "Drakh",
+        "imagePath": "assets/races/the_drakh/ships/DrakhTanker.png",
+        "turncost": 1,
+        "turndelaycost": 0.75,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 500,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "customLtPolarityPulsar",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    }
+]

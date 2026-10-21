@@ -1,0 +1,2213 @@
+[
+    {
+        "id": "shadowbattlecruiserbomb",
+        "name": "Battle Cruiser",
+        "phpclass": "ShadowBattleCruiserBomb",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowBattlecruiser.png",
+        "turncost": 1.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 4,
+        "rollcost": 4,
+        "pointCost": 4925,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 19,
+        "sideDefense": 18,
+        "weapons": [
+            {
+                "name": "ShadowFighterBomb",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 7,
+                "powerreq": 5,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 13,
+                "powerreq": 10,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 21,
+                "powerreq": 20,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 7,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 3
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 13,
+                "powerreq": 10,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 21,
+                "powerreq": 20,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "VortexDisruptor",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "VortexDisruptor",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowbattlecruiser",
+        "name": "Battle Cruiser",
+        "phpclass": "ShadowBattleCruiser",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowBattlecruiser.png",
+        "turncost": 1.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 4,
+        "rollcost": 4,
+        "pointCost": 4925,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 19,
+        "sideDefense": 18,
+        "weapons": [
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 7,
+                "powerreq": 5,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 13,
+                "powerreq": 10,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 21,
+                "powerreq": 20,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 7,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 3
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 13,
+                "powerreq": 10,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 21,
+                "powerreq": 20,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "VortexDisruptor",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "VortexDisruptor",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowcarrierbomb",
+        "name": "Carrier",
+        "phpclass": "ShadowCarrierBomb",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowCruiser.png",
+        "turncost": 1,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 3000,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "ShadowFighterBomb",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 21,
+                "powerreq": 15,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 21,
+                "powerreq": 15,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "MolecularSlicerBeamM",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowcarrier",
+        "name": "Carrier",
+        "phpclass": "ShadowCarrier",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowCruiser.png",
+        "turncost": 1,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 3000,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 21,
+                "powerreq": 15,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 21,
+                "powerreq": 15,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "MolecularSlicerBeamM",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowcarrierprimordialbomb",
+        "name": "Carrier (Primordial)",
+        "phpclass": "shadowCarrierPrimordialBomb",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowCruiser.png",
+        "turncost": 1,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 3000,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "ShadowFighterBomb",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 21,
+                "powerreq": 15,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 21,
+                "powerreq": 15,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "MolecularSlicerBeamH",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowcarrierprimordial",
+        "name": "Carrier (Primordial)",
+        "phpclass": "ShadowCarrierPrimordial",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowCruiser.png",
+        "turncost": 1,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 3000,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 21,
+                "powerreq": 15,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 21,
+                "powerreq": 15,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "MolecularSlicerBeamH",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowcruiserbomb",
+        "name": "Cruiser",
+        "phpclass": "shadowCruiserBomb",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowCruiser.png",
+        "turncost": 1,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 2750,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "ShadowFighterBomb",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 21,
+                "powerreq": 15,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 21,
+                "powerreq": 15,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "MolecularSlicerBeamM",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "VortexDisruptor",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowcruiser",
+        "name": "Cruiser",
+        "phpclass": "ShadowCruiser",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowCruiser.png",
+        "turncost": 1,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 2750,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 21,
+                "powerreq": 15,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 21,
+                "powerreq": 15,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "MolecularSlicerBeamM",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "VortexDisruptor",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowcruiserprimordialbomb",
+        "name": "Cruiser (Primordial)",
+        "phpclass": "ShadowCruiserPrimordialBomb",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowCruiser.png",
+        "turncost": 1,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 0,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "ShadowFighterBomb",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 21,
+                "powerreq": 15,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 21,
+                "powerreq": 15,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "MolecularSlicerBeamH",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "VortexDisruptor",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowcruiserprimordial",
+        "name": "Cruiser (Primordial)",
+        "phpclass": "ShadowCruiserPrimordial",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowCruiser.png",
+        "turncost": 1,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 0,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 21,
+                "powerreq": 15,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 21,
+                "powerreq": 15,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "MolecularSlicerBeamH",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "VortexDisruptor",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowdestroyer",
+        "name": "Destroyer",
+        "phpclass": "ShadowDestroyer",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowDestroyer.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 1250,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "EnergyDiffuser",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 10,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 10,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "PhasingPulseCannonH",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "PhasingPulseCannonH",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MultiphasedCutter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MultiphasedCutter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "shadowdreadnought",
+        "name": "Dreadnought",
+        "phpclass": "ShadowDreadnought",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowDreadnought.png",
+        "turncost": 1.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 4,
+        "rollcost": 4,
+        "pointCost": 4250,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 18,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 28,
+                "powerreq": 25,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 28,
+                "powerreq": 25,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "MolecularSlicerBeamM",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MolecularSlicerBeamM",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "VortexDisruptor",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "VortexDisruptor",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowdreadnoughtbomb",
+        "name": "Dreadnought",
+        "phpclass": "ShadowDreadnoughtBomb",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowDreadnought.png",
+        "turncost": 1.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 4,
+        "rollcost": 4,
+        "pointCost": 4250,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 18,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "ShadowFighterBomb",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 28,
+                "powerreq": 25,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 28,
+                "powerreq": 25,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "MolecularSlicerBeamM",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MolecularSlicerBeamM",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "VortexDisruptor",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "VortexDisruptor",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowdreadnoughtprimordial",
+        "name": "Dreadnought (Primordial)",
+        "phpclass": "ShadowDreadnoughtPrimordial",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowDreadnought.png",
+        "turncost": 1.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 4,
+        "rollcost": 4,
+        "pointCost": 4250,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 18,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 28,
+                "powerreq": 25,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 28,
+                "powerreq": 25,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "MolecularSlicerBeamH",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MolecularSlicerBeamH",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "VortexDisruptor",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "VortexDisruptor",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowdreadnoughtprimordialbomb",
+        "name": "Dreadnought (Primordial)",
+        "phpclass": "ShadowDreadnoughtPrimordialBomb",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowDreadnought.png",
+        "turncost": 1.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 4,
+        "rollcost": 4,
+        "pointCost": 4250,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 18,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "ShadowFighterBomb",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 28,
+                "powerreq": 25,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 28,
+                "powerreq": 25,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "MolecularSlicerBeamH",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MolecularSlicerBeamH",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "VortexDisruptor",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "VortexDisruptor",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowmediumfighterflight",
+        "name": "Medium Fighters",
+        "phpclass": "ShadowMediumFighterFlight",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowFighter.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 150,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 7,
+        "sideDefense": 7,
+        "weapons": [
+            {
+                "name": "EnergyDiffuser",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowfighterautonomous",
+        "name": "Medium Fighters (Autonomous)",
+        "phpclass": "ShadowFighterAutonomous",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowFighter.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 150,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 7,
+        "sideDefense": 7,
+        "weapons": [
+            {
+                "name": "EnergyDiffuser",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowpatrolcruiser",
+        "name": "Patrol Cruiser",
+        "phpclass": "ShadowPatrolCruiser",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowPatrolCruiser.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 950,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 17,
+                "powerreq": 10,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 17,
+                "powerreq": 10,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "MolecularSlicerBeamL",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowpatrolcruiserprimordial",
+        "name": "Patrol Cruiser (Primordial)",
+        "phpclass": "ShadowPatrolCruiserPrimordial",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowPatrolCruiser.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 0,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 17,
+                "powerreq": 10,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 5,
+                "maxhealth": 17,
+                "powerreq": 10,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "MolecularSlicerBeamM",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shadowregenbase",
+        "name": "Regeneration Outpost",
+        "phpclass": "shadowRegenBase",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowRegenBase.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 5,
+        "rollcost": 0,
+        "pointCost": 10000,
+        "accelcost": 0,
+        "iniativebonus": 0,
+        "forwardDefense": 21,
+        "sideDefense": 21,
+        "weapons": [
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 21,
+                "powerreq": 20,
+                "startArc": 270,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 21,
+                "powerreq": 20,
+                "startArc": 180,
+                "endArc": 270,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 21,
+                "powerreq": 20,
+                "startArc": 0,
+                "endArc": 90,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 21,
+                "powerreq": 20,
+                "startArc": 90,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "MolecularSlicerBeamM",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "MolecularSlicerBeamM",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 1
+            },
+            {
+                "name": "MolecularSlicerBeamM",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "MolecularSlicerBeamM",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "shadowregenbasebomb",
+        "name": "Regeneration Outpost",
+        "phpclass": "shadowRegenBaseBomb",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowRegenBase.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 5,
+        "rollcost": 0,
+        "pointCost": 10000,
+        "accelcost": 0,
+        "iniativebonus": 0,
+        "forwardDefense": 21,
+        "sideDefense": 21,
+        "weapons": [
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 21,
+                "powerreq": 20,
+                "startArc": 270,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 21,
+                "powerreq": 20,
+                "startArc": 180,
+                "endArc": 270,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 21,
+                "powerreq": 20,
+                "startArc": 0,
+                "endArc": 90,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 6,
+                "maxhealth": 21,
+                "powerreq": 20,
+                "startArc": 90,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "MolecularSlicerBeamM",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "MolecularSlicerBeamM",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 1
+            },
+            {
+                "name": "MolecularSlicerBeamM",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "MolecularSlicerBeamM",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "shadowdestroyerscout",
+        "name": "Scout",
+        "phpclass": "ShadowDestroyerScout",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowDestroyer.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 1300,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "EnergyDiffuser",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 10,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 10,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "PhasingPulseCannon",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "PhasingPulseCannon",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "shadowdestroyerstrike",
+        "name": "Strike Destroyer",
+        "phpclass": "ShadowDestroyerStrike",
+        "faction": "Shadow Association",
+        "imagePath": "assets/races/shadow_association/ships/ShadowDestroyer.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 1200,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "EnergyDiffuser",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 10,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "EnergyDiffuser",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 10,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "MolecularSlicerBeamL",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MolecularSlicerBeamL",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    }
+]

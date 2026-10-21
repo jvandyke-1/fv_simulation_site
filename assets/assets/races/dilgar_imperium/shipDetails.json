@@ -1,0 +1,5669 @@
+[
+    {
+        "id": "abrithi",
+        "name": "Abrithi Assault Cruiser",
+        "phpclass": "Abrithi",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/abrithi.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 400,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 1,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 1,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumLaser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightLaser",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightLaser",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "abrithicruiser",
+        "name": "Abrithi Early Cruiser",
+        "phpclass": "AbrithiCruiser",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/abrithi.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 390,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 1,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 1,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumPlasma",
+                "armour": 2,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 2,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "abrithib",
+        "name": "Abrithi-B Light Carrier",
+        "phpclass": "AbrithiB",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/abrithi.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 450,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 1,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 1,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "athraskalaam",
+        "name": "Athraskala Heavy Bomber",
+        "phpclass": "AthraskalaAM",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/athraskala.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MassDriver",
+                "armour": 4,
+                "maxhealth": 18,
+                "powerreq": 9,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "athraskalacam",
+        "name": "Athraskala-C War Bomber",
+        "phpclass": "AthraskalaCAM",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/athraskala.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 700,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "QuadPulsar",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "delegor",
+        "name": "Delegor Suicide Frigate",
+        "phpclass": "Delegor",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/Delegor.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 250,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "senschukaearly",
+        "name": "Early Senschuka Patrol Ship",
+        "phpclass": "SenschukaEarly",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/senschuka.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 325,
+        "accelcost": 1,
+        "iniativebonus": 65,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 2,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 2,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "eskravatam",
+        "name": "Eskravat Refueling Barge",
+        "phpclass": "EskravatAM",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/athraskala.png",
+        "turncost": 1.33,
+        "turndelaycost": 1.33,
+        "pivotcost": 4,
+        "rollcost": 4,
+        "pointCost": 460,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "garasoch",
+        "name": "Garasoch Heavy Carrier",
+        "phpclass": "Garasoch",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/garasoch.png",
+        "turncost": 1,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 550,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "EnergyPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "EnergyPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "garasochd",
+        "name": "Garasoch-D Command Carrier",
+        "phpclass": "GarasochD",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/garasoch.png",
+        "turncost": 1,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 725,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyBolter",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "proxmineintavia",
+        "name": "Intavi-A Proximity Mine",
+        "phpclass": "proxMineIntaviA",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/dilgarMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 12,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "proxmineintavib",
+        "name": "Intavi-B Proximity Mine",
+        "phpclass": "proxMineIntaviB",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/dilgarMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 20,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "jashakar",
+        "name": "Jashakar Frigate",
+        "phpclass": "Jashakar",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/jashakar.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 400,
+        "accelcost": 1,
+        "iniativebonus": 65,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightLaser",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "LightLaser",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "jashakare",
+        "name": "Jashakar-E Escort Frigate",
+        "phpclass": "JashakarE",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/jashakar.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 400,
+        "accelcost": 1,
+        "iniativebonus": 65,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "jashakarn",
+        "name": "Jashakar-N Minesweeper",
+        "phpclass": "JashakarN",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/jashakar.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 425,
+        "accelcost": 1,
+        "iniativebonus": 65,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "LightBOlter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "jashakarp",
+        "name": "Jashakar-P Pulse Frigate",
+        "phpclass": "JashakarP",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/jashakar.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 425,
+        "accelcost": 1,
+        "iniativebonus": 65,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "EnergyPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "EnergyPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "EnergyPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "EnergyPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "breachingpoddilgar",
+        "name": "Jortavo Breaching Pods",
+        "phpclass": "breachingpoddilgar",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/Jortavo.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 40,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 10
+    },
+    {
+        "id": "jorthuna",
+        "name": "Jorthun-A Patrol Cutter (Plasma)",
+        "phpclass": "JorthunA",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/jorthun.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 200,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 10,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 5,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "jorthunk",
+        "name": "Jorthun-K Patrol Cutter (Escort)",
+        "phpclass": "JorthunK",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/jorthun.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 225,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 10,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "jorthunl",
+        "name": "Jorthun-L Patrol Cutter (Laser)",
+        "phpclass": "JorthunL",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/jorthun.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 250,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 10,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "LightLaser",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightLaser",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightLaser",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "jorthunq",
+        "name": "Jorthun-Q Patrol Cutter (Bolter)",
+        "phpclass": "JorthunQ",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/jorthun.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 250,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 10,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "koratylam",
+        "name": "Koratyl Defense Base",
+        "phpclass": "KoratylAM",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/koratyl.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 2700,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 22,
+        "sideDefense": 22,
+        "weapons": [
+            {
+                "name": "HeavyBolter",
+                "armour": 5,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 5,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "leskrati",
+        "name": "Leskrati Jumpcruiser",
+        "phpclass": "Leskrati",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/leskrati.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 515,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumLaser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "EnergyPulsar",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "EnergyPulsar",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "EnergyPulsar",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "leskratid",
+        "name": "Leskrati-D Command Cruiser",
+        "phpclass": "LeskratiD",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/leskrati.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 585,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumLaser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 2,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 1,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 1,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "dewminelvasta",
+        "name": "Lvast-A DEW Mine",
+        "phpclass": "dewMineLvastA",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/dilgarMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 16,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 6,
+                "endArc": 6,
+                "location": 0
+            },
+            {
+                "name": "LightLaser",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "dewminelvastb",
+        "name": "Lvast-B DEW Mine",
+        "phpclass": "dewMineLvastB",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/dilgarMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 20,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 6,
+                "endArc": 6,
+                "location": 0
+            },
+            {
+                "name": "LightBolter",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "dewminelvastc",
+        "name": "Lvast-C DEW Mine",
+        "phpclass": "dewMineLvastC",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/dilgarMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 24,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 6,
+                "endArc": 6,
+                "location": 0
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "mishakuram",
+        "name": "Mishakur Dreadnought",
+        "phpclass": "MishakurAM",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/mishakur.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 2,
+        "pointCost": 975,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumLaser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 180,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "mishakurb",
+        "name": "Mishakur-B Supercarrier",
+        "phpclass": "MishakurB",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/mishakur.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 2,
+        "pointCost": 1000,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumLaser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "mishakurdam",
+        "name": "Mishakur-D Command Dreadnought",
+        "phpclass": "MishakurDAM",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/mishakur.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 2,
+        "pointCost": 1250,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 7,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 7,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MassDriver",
+                "armour": 4,
+                "maxhealth": 18,
+                "powerreq": 9,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "MassDriver",
+                "armour": 4,
+                "maxhealth": 18,
+                "powerreq": 9,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 180,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "nitratha",
+        "name": "Ni",
+        "phpclass": "Nitratha",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/nitratha.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 475,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyPlasma",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 2,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 2,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "ochlavitaam",
+        "name": "Ochlavita Destroyer",
+        "phpclass": "OchlavitaAM",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/ochlavita.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 525,
+        "accelcost": 2,
+        "iniativebonus": 35,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PointPulsar",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "PointPulsar",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "ochlavitab",
+        "name": "Ochlavita-B Carrier Destroyer",
+        "phpclass": "OchlavitaB",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/ochlavita.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 525,
+        "accelcost": 2,
+        "iniativebonus": 35,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "PointPulsar",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PointPulsar",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "ochlavitadam",
+        "name": "Ochlavita-D Destroyer Leader",
+        "phpclass": "OchlavitaDAM",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/ochlavita.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 550,
+        "accelcost": 2,
+        "iniativebonus": 35,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "ochlavitad",
+        "name": "Ochlavita-D Destroyer Leader",
+        "phpclass": "OchlavitaD",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/ochlavita.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 550,
+        "accelcost": 2,
+        "iniativebonus": 35,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "BombRack",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "ochlavitae",
+        "name": "Ochlavita-E Escort Destroyer",
+        "phpclass": "OchlavitaE",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/ochlavita.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 525,
+        "accelcost": 2,
+        "iniativebonus": 35,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "EnergyPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "EnergyPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "EnergyPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "EnergyPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "ochlavitamam",
+        "name": "Ochlavita-M Missile Destroyer",
+        "phpclass": "OchlavitaMAM",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/ochlavita_m.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 525,
+        "accelcost": 2,
+        "iniativebonus": 35,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "olgata",
+        "name": "Olgata Assault Shuttles",
+        "phpclass": "Olgata",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/Torushka.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 30,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 10
+    },
+    {
+        "id": "orgolest",
+        "name": "Orgolest Satellite",
+        "phpclass": "Orgolest",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/orgolest.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 100,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 8,
+        "sideDefense": 8,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "QuadPulsar",
+                "armour": 2,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 2,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightLaser",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightLaser",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "protra",
+        "name": "Protra Scoutship",
+        "phpclass": "Protra",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/protra.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 500,
+        "accelcost": 3,
+        "iniativebonus": 5,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightLaser",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightLaser",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "protrai",
+        "name": "Protra-I Improved Scoutship",
+        "phpclass": "ProtraI",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/protrai.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 575,
+        "accelcost": 3,
+        "iniativebonus": 5,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumBolter",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "EnergyPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightBolter",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "rishekar",
+        "name": "Rishekar Early Frigate",
+        "phpclass": "Rishekar",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/rishekar.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.66,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 275,
+        "accelcost": 1,
+        "iniativebonus": 60,
+        "forwardDefense": 12,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightLaser",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "LightLaser",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "senschuka",
+        "name": "Senschuka Patrol Ship",
+        "phpclass": "Senschuka",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/senschuka.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 325,
+        "accelcost": 1,
+        "iniativebonus": 65,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightBolter",
+                "armour": 1,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "captorminesilklata",
+        "name": "Silklat-A Captor Mine",
+        "phpclass": "captorMineSilklatA",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/dilgarMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 16,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "captorminesilklatb",
+        "name": "Silklat-B Captor Mine",
+        "phpclass": "captorMineSilklatB",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/dilgarMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 24,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "targath",
+        "name": "Targath Strike Cruiser",
+        "phpclass": "Targath",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/targath.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 4,
+        "rollcost": 2,
+        "pointCost": 580,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 1,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 1,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "EnergyPulsar",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "EnergyPulsar",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "targathcam",
+        "name": "Targath-C Attack Cruiser",
+        "phpclass": "TargathCAM",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/targath.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 4,
+        "rollcost": 2,
+        "pointCost": 700,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 1,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 1,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "EnergyPulsar",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "EnergyPulsar",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "thorun",
+        "name": "Thorun Dartfighters",
+        "phpclass": "Thorun",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/thorun.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 300,
+        "accelcost": 1,
+        "iniativebonus": 80,
+        "forwardDefense": 8,
+        "sideDefense": 7
+    },
+    {
+        "id": "thorunearly",
+        "name": "Thorun Dartfighters (Early)",
+        "phpclass": "ThorunEarly",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/thorun.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 264,
+        "accelcost": 1,
+        "iniativebonus": 80,
+        "forwardDefense": 8,
+        "sideDefense": 7
+    },
+    {
+        "id": "thorunheavyam",
+        "name": "Thorun Heavy Dartfighters",
+        "phpclass": "ThorunHeavyAM",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/thorun.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 312,
+        "accelcost": 1,
+        "iniativebonus": 80,
+        "forwardDefense": 8,
+        "sideDefense": 7
+    },
+    {
+        "id": "thorunheavy",
+        "name": "Thorun Heavy Dartfighters",
+        "phpclass": "ThorunHeavy",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/thorun.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 312,
+        "accelcost": 1,
+        "iniativebonus": 80,
+        "forwardDefense": 8,
+        "sideDefense": 7
+    },
+    {
+        "id": "torushka",
+        "name": "Torushka Stingfighters",
+        "phpclass": "Torushka",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/Torushka.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 37,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 7,
+        "sideDefense": 6
+    },
+    {
+        "id": "tratharti",
+        "name": "Tratharti Gunship",
+        "phpclass": "Tratharti",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/tratharti.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 750,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MassDriver",
+                "armour": 5,
+                "maxhealth": 18,
+                "powerreq": 9,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 2,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 2,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "trathartig",
+        "name": "Tratharti-G Heavy Gunship",
+        "phpclass": "TrathartiG",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/tratharti.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 900,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 2,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 2,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "dewminetravika",
+        "name": "Travik-A DEW Mine",
+        "phpclass": "dewMineTravikA",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/dilgarMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 40,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 10,
+                "endArc": 5,
+                "location": 0
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "dewminetravikb",
+        "name": "Travik-B DEW Mine",
+        "phpclass": "dewMineTravikB",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/dilgarMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 42,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 10,
+                "endArc": 6,
+                "location": 0
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "dewminetravikc",
+        "name": "Travik-C DEW Mine",
+        "phpclass": "dewMineTravikC",
+        "faction": "Dilgar Imperium",
+        "imagePath": "assets/races/dilgar_imperium/ships/dilgarMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 56,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 12,
+                "endArc": 7,
+                "location": 0
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    }
+]

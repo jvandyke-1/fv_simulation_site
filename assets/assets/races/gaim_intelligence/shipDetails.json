@@ -1,0 +1,4951 @@
+[
+    {
+        "id": "armedshuttlegaim",
+        "name": "Armed Shuttles",
+        "phpclass": "ArmedShuttleGaim",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/shuttleGaim.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 22,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 10
+    },
+    {
+        "id": "gaimbassari",
+        "name": "Bassari Heavy Cruiser",
+        "phpclass": "gaimBassari",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimBassari.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 650,
+        "accelcost": 2,
+        "iniativebonus": 5,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "captorminegaima",
+        "name": "Corant-A Captor Mine",
+        "phpclass": "captorMineGaimA",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/gaimMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 10,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "captorminegaimb",
+        "name": "Corant-B Captor Mine",
+        "phpclass": "captorMineGaimB",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/gaimMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 16,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "gaimdraskar",
+        "name": "Draskar Cruiser",
+        "phpclass": "gaimDraskar",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimDraskar.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 450,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 6,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 10,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 6,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "breachingpodgaim",
+        "name": "Ech",
+        "phpclass": "breachingpodgaim",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimIttaka.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 40,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 8
+    },
+    {
+        "id": "dewminegaima",
+        "name": "Ekos-A DEW Mine",
+        "phpclass": "dewMineGaimA",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/gaimMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 24,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 5,
+                "endArc": 6,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "gaimgeun",
+        "name": "Geun Defender",
+        "phpclass": "gaimGeun",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimGeun.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 700,
+        "accelcost": 5,
+        "iniativebonus": -10,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ParticleConcentrator",
+                "armour": 4,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleConcentrator",
+                "armour": 4,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimgrast",
+        "name": "Grast Support Frigate",
+        "phpclass": "gaimGrast",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimGrast.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 999,
+        "rollcost": 999,
+        "pointCost": 275,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 300,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "gaimgrastrefit",
+        "name": "Grast Support Frigate (Refit)",
+        "phpclass": "gaimGrastRefit",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimGrast.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 999,
+        "rollcost": 999,
+        "pointCost": 400,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ParticleConcentrator",
+                "armour": 3,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleConcentrator",
+                "armour": 3,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 300,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "gaimhadros",
+        "name": "Hadros Patrol Frigate",
+        "phpclass": "gaimHadros",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimHadros.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 340,
+        "accelcost": 2,
+        "iniativebonus": 70,
+        "forwardDefense": 11,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "gaimittakashuttle",
+        "name": "It",
+        "phpclass": "gaimIttakaShuttle",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimIttaka.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 30,
+        "accelcost": 1,
+        "iniativebonus": 45,
+        "forwardDefense": 8,
+        "sideDefense": 7
+    },
+    {
+        "id": "gaimkastafighteram",
+        "name": "Kasta Missile flight",
+        "phpclass": "gaimKastaFighterAM",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimKoist.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 44,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 7,
+        "sideDefense": 8
+    },
+    {
+        "id": "gaimkastafighter",
+        "name": "Kasta Missile flight",
+        "phpclass": "gaimKastaFighter",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimKoist.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 44,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 7,
+        "sideDefense": 8
+    },
+    {
+        "id": "gaimkoistfighter",
+        "name": "Koist Medium flight",
+        "phpclass": "gaimKoistFighter",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimKoist.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 40,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 7,
+        "sideDefense": 8
+    },
+    {
+        "id": "gaimkorvex",
+        "name": "Korvex Battlecruiser",
+        "phpclass": "gaimKorvex",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimKorvex.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 4,
+        "pointCost": 800,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 18,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 0
+            },
+            {
+                "output": 6,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 0
+            },
+            {
+                "output": 6,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ParticleConcentrator",
+                "armour": 5,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimkrastfighteram",
+        "name": "Krast Recon flight",
+        "phpclass": "gaimKrastFighterAM",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimKoist.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 37,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 7,
+        "sideDefense": 8
+    },
+    {
+        "id": "gaimkrastfighter",
+        "name": "Krast Recon flight",
+        "phpclass": "gaimKrastFighter",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimKoist.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 37,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 7,
+        "sideDefense": 8
+    },
+    {
+        "id": "gaimkruppas",
+        "name": "Kruppas Gunship",
+        "phpclass": "gaimKruppas",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimKruppas.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 500,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "gaimkuach",
+        "name": "Kuach Minesweeping Corvette",
+        "phpclass": "gaimKuach",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimKuach.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 425,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 13,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 8,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimkuan",
+        "name": "Kuan Corvette",
+        "phpclass": "gaimKuan",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimKuach.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 500,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 13,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 8,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "MediumPulse",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "MediumPulse",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimlaska",
+        "name": "Laska Battle Cruiser",
+        "phpclass": "gaimLaska",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimLaska.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 775,
+        "accelcost": 3,
+        "iniativebonus": 10,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyPulse",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "HeavyPulse",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "HeavyPulse",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimmadra",
+        "name": "Madra Frigate",
+        "phpclass": "gaimMadra",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimMadra.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 425,
+        "accelcost": 2,
+        "iniativebonus": 60,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "gaimmagrassa",
+        "name": "Magrassa Strike Carrier",
+        "phpclass": "gaimMagrassa",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimMagrassa.png",
+        "turncost": 1,
+        "turndelaycost": 0.66,
+        "pivotcost": 6,
+        "rollcost": 3,
+        "pointCost": 525,
+        "accelcost": 4,
+        "iniativebonus": -5,
+        "forwardDefense": 16,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimmearc",
+        "name": "Mearc Command Gunship",
+        "phpclass": "gaimMearc",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimMoas.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 700,
+        "accelcost": 3,
+        "iniativebonus": 5,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleConcentrator",
+                "armour": 4,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleConcentrator",
+                "armour": 4,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleConcentrator",
+                "armour": 4,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimmoas",
+        "name": "Moas Gunship",
+        "phpclass": "GaimMoas",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimMoas.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 625,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleConcentrator",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyPulse",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyPulse",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimmoor",
+        "name": "Moor Torpedo Destroyer",
+        "phpclass": "gaimMoor",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimSuom.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 570,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "gaimossarirails",
+        "name": "Ossari Cruiser",
+        "phpclass": "gaimOssariRails",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimOssari.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 590,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimoutpost",
+        "name": "Outpost",
+        "phpclass": "gaimOutpost",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimOutpost.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleConcentrator",
+                "armour": 4,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleConcentrator",
+                "armour": 4,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ParticleConcentrator",
+                "armour": 4,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ParticleConcentrator",
+                "armour": 4,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "ParticleConcentrator",
+                "armour": 4,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "ParticleConcentrator",
+                "armour": 4,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "ParticleConcentrator",
+                "armour": 4,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "ParticleConcentrator",
+                "armour": 4,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimrafapulse",
+        "name": "Rafa Gunboat (Pulse)",
+        "phpclass": "gaimRafaPulse",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimRafa.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 225,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "MediumPulse",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "gaimrafascattergun",
+        "name": "Rafa Gunboat (Scattergun)",
+        "phpclass": "gaimRafaScattergun",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimRafa.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 225,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "gaimrafatorpedo",
+        "name": "Rafa Gunboat (Torpedo)",
+        "phpclass": "gaimRafaTorpedo",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimRafa.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 225,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "proxminegaim20",
+        "name": "Raji-20 Proximity Mine",
+        "phpclass": "proxMineGaim20",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/gaimMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 10,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "gaimrakalla",
+        "name": "Rakalla Auxiliary Destroyer",
+        "phpclass": "gaimRakalla",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimRakalla.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 999,
+        "rollcost": 999,
+        "pointCost": 350,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 12,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "gaimrakar",
+        "name": "Rakar Strike Cruiser",
+        "phpclass": "gaimRakar",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimRakar.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 750,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyPulse",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "HeavyPulse",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimralla",
+        "name": "Ralla Escort Carrier",
+        "phpclass": "gaimRalla",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimRoka.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 999,
+        "rollcost": 999,
+        "pointCost": 425,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 6,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightPulse",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "LightPulse",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightPulse",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "MediumPulse",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumPulse",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightPulse",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "LightPulse",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "gaimrassa",
+        "name": "Rassa Patrol Frigate",
+        "phpclass": "gaimRassa",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimRassa.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 350,
+        "accelcost": 3,
+        "iniativebonus": 60,
+        "forwardDefense": 11,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "gaimreskafighter",
+        "name": "Reska Light flight",
+        "phpclass": "gaimReskaFighter",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimReska.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 38,
+        "accelcost": 1,
+        "iniativebonus": 100,
+        "forwardDefense": 5,
+        "sideDefense": 5
+    },
+    {
+        "id": "gaimroka",
+        "name": "Roka Auxiliary Cruiser",
+        "phpclass": "gaimRoka",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimRoka.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 999,
+        "rollcost": 999,
+        "pointCost": 400,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 6,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "gaimshamor",
+        "name": "Shamor Battle Scout",
+        "phpclass": "gaimShamor",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimShamor.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 750,
+        "accelcost": 3,
+        "iniativebonus": -5,
+        "forwardDefense": 16,
+        "sideDefense": 18,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimshlexa",
+        "name": "Shlexa Ballistic Destroyer",
+        "phpclass": "gaimShlexa",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimShlexa.png",
+        "turncost": 0.5,
+        "turndelaycost": 1.0,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 500,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 12,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "PacketTorpedo",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "Scattergun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "Scattergun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "gaimskassa",
+        "name": "Skassa Cruiser",
+        "phpclass": "gaimSkassa",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimSkassa.png",
+        "turncost": 1,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 700,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimslyach",
+        "name": "Slyach Frigate",
+        "phpclass": "gaimSlyach",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimSlyach.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 450,
+        "accelcost": 2,
+        "iniativebonus": 60,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "gaimsulo",
+        "name": "Sulo Fleet Carrier",
+        "phpclass": "gaimSulo",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimSulo.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 600,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 4
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimsuma",
+        "name": "Suma Laser Cutter",
+        "phpclass": "gaimSuma",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimSuma.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 380,
+        "accelcost": 2,
+        "iniativebonus": 60,
+        "forwardDefense": 10,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "AssaultLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 2
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "gaimsuom",
+        "name": "Suom Light Carrier",
+        "phpclass": "gaimSuom",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimSuom.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 520,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "gaimtackra",
+        "name": "Tackra Escort Cutter",
+        "phpclass": "gaimTackra",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimTackra.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 350,
+        "accelcost": 2,
+        "iniativebonus": 60,
+        "forwardDefense": 13,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "gaimtiac",
+        "name": "Tiac Long Range Explorer",
+        "phpclass": "gaimTiac",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimTiac.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 4,
+        "pointCost": 720,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimtiros",
+        "name": "Tiros Cruiser",
+        "phpclass": "gaimTiros",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimTiac.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 4,
+        "pointCost": 650,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyPulse",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "HeavyPulse",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MediumPulse",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimtixtyk",
+        "name": "Tixtyk Line Destroyer",
+        "phpclass": "gaimTixTyk",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/Tixtyk2.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 600,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "Scattergun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 30,
+                "location": 3
+            },
+            {
+                "name": "GaimPhotonBomb",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 330,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "GaimPhotonBomb",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimtocrat",
+        "name": "Tocrat Supply Barge",
+        "phpclass": "gaimTocrat",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimTocrat.png",
+        "turncost": 1.33,
+        "turndelaycost": 1.33,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 425,
+        "accelcost": 4,
+        "iniativebonus": -30,
+        "forwardDefense": 15,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "gaimtoraosat",
+        "name": "Tora Defense Satellite",
+        "phpclass": "gaimToraOSAT",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimTora.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 250,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 10,
+        "sideDefense": 10,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ParticleConcentrator",
+                "armour": 3,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "gaimtracha",
+        "name": "Tracha Troop Transport",
+        "phpclass": "gaimTracha",
+        "faction": "Gaim Intelligence",
+        "imagePath": "assets/races/gaim_intelligence/ships/GaimTracha.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 425,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PacketTorpedo",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    }
+]

@@ -1,0 +1,2086 @@
+[
+    {
+        "id": "botral",
+        "name": "Botral Light Cruiser",
+        "phpclass": "Botral",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniBotral.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 425,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 12,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PlasmaProjector",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "PlasmaProjector",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "dewminecoltucorillani",
+        "name": "Colt",
+        "phpclass": "dewMineColtuCorillani",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/corillaniMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 32,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "PakmaraPlasmaWeb",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "PakmaraPlasmaWeb",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "conosti",
+        "name": "Conosti Patrol Frigate",
+        "phpclass": "Conosti",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniConosti.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 1,
+        "rollcost": 2,
+        "pointCost": 300,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 11,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightParticleCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "dewminecorticorillani",
+        "name": "Cort",
+        "phpclass": "dewMineCortiCorillani",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/corillaniMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 32,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 8,
+                "endArc": 5,
+                "location": 0
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "dovota",
+        "name": "Dovota Minesweeper",
+        "phpclass": "Dovota",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniNollita.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 385,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 12,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "drolla",
+        "name": "Drolla Assault Shuttles",
+        "phpclass": "Drolla",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniDrolla.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 35,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 8
+    },
+    {
+        "id": "garundaam",
+        "name": "Garunda Destroyer",
+        "phpclass": "GarundaAM",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniGarunda.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 525,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 13,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "intonaam",
+        "name": "Intona Strike Cruiser",
+        "phpclass": "IntonaAM",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniIntona.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "PlasmaProjector",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PlasmaProjector",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "PlasmaProjector",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PlasmaProjector",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "judanna",
+        "name": "Judanna Escort Frigate",
+        "phpclass": "Judanna",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniJudanna.png",
+        "turncost": 0.75,
+        "turndelaycost": 0.75,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 490,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "PlasmaAccelerator",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "llartolam",
+        "name": "Llartol Assault Cruiser",
+        "phpclass": "LlartolAM",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniMollanta.png",
+        "turncost": 1.66,
+        "turndelaycost": 1.66,
+        "pivotcost": 4,
+        "rollcost": 2,
+        "pointCost": 750,
+        "accelcost": 6,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 18,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "mollantaam",
+        "name": "Mollanta Heavy Cruiser",
+        "phpclass": "MollantaAM",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniMollanta.png",
+        "turncost": 1.66,
+        "turndelaycost": 1.66,
+        "pivotcost": 4,
+        "rollcost": 2,
+        "pointCost": 775,
+        "accelcost": 6,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 18,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "nollita",
+        "name": "Nollita Tactical Frigate",
+        "phpclass": "Nollita",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniNollita.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 400,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 12,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "orrono",
+        "name": "Orrono Watchcruiser",
+        "phpclass": "Orrono",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniOrrono.png",
+        "turncost": 1.33,
+        "turndelaycost": 1.33,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 700,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightParticleCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "ortana",
+        "name": "Ortana Battle Scout",
+        "phpclass": "Ortana",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniIntona.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumPlasma",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "proxminepalfacorillani",
+        "name": "Pal",
+        "phpclass": "proxMinePalfaCorillani",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/corillaniMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 12,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "corillanithorkaosat",
+        "name": "Thor",
+        "phpclass": "CorillaniThorkaOSAT",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniThorka.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 225,
+        "accelcost": 0,
+        "iniativebonus": 0,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "RangedFuser",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 12,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "PakmaraPlasmaWeb",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "PakmaraPlasmaWeb",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "captorminetilorcorillani",
+        "name": "Ti",
+        "phpclass": "captorMineTilorCorillani",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/corillaniMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 18,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "zftrtillinicpn",
+        "name": "Tillini Medium Fighters [CPN]",
+        "phpclass": "ZFtrTilliniCPN",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniTilliniCPN.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 52,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 7,
+        "sideDefense": 8
+    },
+    {
+        "id": "zftrtillinidoc",
+        "name": "Tillini Medium Fighters [DoC]",
+        "phpclass": "ZFtrTilliniDoC",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniTilliniDoC.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 52,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 7,
+        "sideDefense": 8
+    },
+    {
+        "id": "zftrtilliniosf",
+        "name": "Tillini Medium Fighters [OSF]",
+        "phpclass": "ZFtrTilliniOSF",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniTilliniOSF.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 52,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 7,
+        "sideDefense": 8
+    },
+    {
+        "id": "torellanam",
+        "name": "Torellan Technology Cruiser",
+        "phpclass": "TorellanAM",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniMollanta.png",
+        "turncost": 1.66,
+        "turndelaycost": 1.66,
+        "pivotcost": 4,
+        "rollcost": 2,
+        "pointCost": 775,
+        "accelcost": 6,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 18,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PlasmaProjector",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "PlasmaProjector",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PlasmaProjector",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "breachingpodcorillani",
+        "name": "Tural Breaching Pods",
+        "phpclass": "breachingpodcorillani",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniDrolla.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 40,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 8
+    },
+    {
+        "id": "corillaniurshtalubase",
+        "name": "Urshtalu Starbase",
+        "phpclass": "CorillaniUrshtaluBase",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/PakmaraUrshtalu_alt2.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 3500,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 21,
+        "sideDefense": 21,
+        "weapons": [
+            {
+                "name": "MediumPlasma",
+                "armour": 6,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 6,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 6,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 6,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 6,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 6,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "vaconi",
+        "name": "Vaconi Strike Carrier",
+        "phpclass": "Vaconi",
+        "faction": "Corillani Theocracy",
+        "imagePath": "assets/races/corillani_theocracy/ships/CorillaniVaconi.png",
+        "turncost": 1.33,
+        "turndelaycost": 1.33,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 600,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "PlasmaAccelerator",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PlasmaAccelerator",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PlasmaAccelerator",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            }
+        ]
+    }
+]

@@ -1,0 +1,1823 @@
+[
+    {
+        "id": "mentabanaraskastrikecarrier",
+        "name": "Mentaban Araska Strike Carrier",
+        "phpclass": "mentabanAraskaStrikeCarrier",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/mentabanAraska.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "Railgun",
+                "armour": 5,
+                "maxhealth": 9,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "Railgun",
+                "armour": 5,
+                "maxhealth": 9,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "mentabanaskarancorvette",
+        "name": "Mentaban Askaran Customs Corvette",
+        "phpclass": "mentabanaskarancorvette",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/mentabanAskaran.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 380,
+        "accelcost": 1,
+        "iniativebonus": 60,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "mentabankarakasfrigate",
+        "name": "Mentaban Karakas Frigate",
+        "phpclass": "mentabankarakasfrigate",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/mentabanKarakas.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 440,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumPlasma",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "mentabanvalkara",
+        "name": "Mentaban Valkara Light flight",
+        "phpclass": "mentabanvalkara",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/mentabanDeltaV.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 192,
+        "accelcost": 1,
+        "iniativebonus": 100,
+        "forwardDefense": 6,
+        "sideDefense": 8
+    },
+    {
+        "id": "mitocjomic",
+        "name": "Mitoc Jomic Frigate",
+        "phpclass": "MitocJomic",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/MitocJomic.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 300,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 11,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightParticleCannon",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleCannon",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 1,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 1,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 1,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "shlassanvelmakescortcarrier",
+        "name": "Sh",
+        "phpclass": "ShlassanVelmakEscortCarrier",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/shlassanVeltar.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 325,
+        "accelcost": 1,
+        "iniativebonus": 60,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "shlassanveltarfrigate",
+        "name": "Sh",
+        "phpclass": "ShlassanVeltarFrigate",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/shlassanVeltar.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 325,
+        "accelcost": 1,
+        "iniativebonus": 60,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "GaussCannon",
+                "armour": 2,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GaussCannon",
+                "armour": 2,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "shlassantriumviratecruiser",
+        "name": "Sh",
+        "phpclass": "shlassanTriumvirateCruiser",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/shlassanTriumvirate.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GaussCannon",
+                "armour": 2,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GaussCannon",
+                "armour": 2,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "GaussCannon",
+                "armour": 2,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "shlassanarmakdestroyer",
+        "name": "Sh",
+        "phpclass": "ShlassanArmakDestroyer",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/shlassanArmak.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 475,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 1,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 1,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightParticleCannon",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "GaussCannon",
+                "armour": 2,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "LightParticleCannon",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GaussCannon",
+                "armour": 2,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "shlassandeltav",
+        "name": "Sh",
+        "phpclass": "ShlassanDeltaV",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/shlassanDeltaV.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 192,
+        "accelcost": 1,
+        "iniativebonus": 100,
+        "forwardDefense": 5,
+        "sideDefense": 5
+    },
+    {
+        "id": "sorithianfylonfrigate",
+        "name": "Sorithian Fylon Frigate",
+        "phpclass": "SorithianFylonFrigate",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/SorinthianFylonFrigate.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 300,
+        "accelcost": 1,
+        "iniativebonus": 60,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightLaser",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightLaser",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "CustomLightSoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "CustomLightSoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "sorithianfylonfrigaterefit",
+        "name": "Sorithian Fylon Frigate (Refit)",
+        "phpclass": "SorithianFylonFrigateRefit",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/SorinthianFylonFrigate.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 325,
+        "accelcost": 1,
+        "iniativebonus": 60,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightLaser",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightLaser",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "SoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "SoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "sorithiansyluscutter",
+        "name": "Sorithian Sylus Cutter",
+        "phpclass": "SorithianSylusCutter",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/SorinthianSylusCutter.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 100,
+        "accelcost": 1,
+        "iniativebonus": 70,
+        "forwardDefense": 9,
+        "sideDefense": 9,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "sorithiantyancarrier",
+        "name": "Sorithian Tyan Carrier",
+        "phpclass": "SorithianTyanCarrier",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/SorinthianTyanCarrier.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 450,
+        "accelcost": 3,
+        "iniativebonus": -20,
+        "forwardDefense": 15,
+        "sideDefense": 18,
+        "thrusters": [
+            {
+                "output": 6,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightLaser",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightLaser",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "CustomLightSoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "CustomLightSoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "sorithiantyancarrierrefit",
+        "name": "Sorithian Tyan Carrier (Refit)",
+        "phpclass": "SorithianTyanCarrierRefit",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/SorinthianTyanCarrier.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 475,
+        "accelcost": 3,
+        "iniativebonus": -20,
+        "forwardDefense": 15,
+        "sideDefense": 18,
+        "thrusters": [
+            {
+                "output": 6,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightLaser",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightLaser",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "SoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "SoMissileRack",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "sorithianzolori",
+        "name": "Sorithian Zolor I Fighters",
+        "phpclass": "SorithianZolorI",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/SorinthianZolorFighter.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 180,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 7,
+        "sideDefense": 7
+    },
+    {
+        "id": "sorithianzoloriiam",
+        "name": "Sorithian Zolor II Fighters",
+        "phpclass": "SorithianZolorIIAM",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/SorinthianZolorFighter.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 222,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 7,
+        "sideDefense": 7
+    },
+    {
+        "id": "sorithianzolorii",
+        "name": "Sorithian Zolor II Fighters",
+        "phpclass": "SorithianZolorII",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/SorinthianZolorFighter.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 222,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 7,
+        "sideDefense": 7
+    },
+    {
+        "id": "sorithianzoloriii",
+        "name": "Sorithian Zolor III Fighters",
+        "phpclass": "SorithianZolorIII",
+        "faction": "Small Races",
+        "imagePath": "assets/races/small_races/ships/SorinthianZolorFighter.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 270,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 7,
+        "sideDefense": 7
+    }
+]

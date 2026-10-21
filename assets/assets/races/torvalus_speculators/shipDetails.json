@@ -1,0 +1,346 @@
+[
+    {
+        "id": "blackdagger",
+        "name": "Black Dagger",
+        "phpclass": "BlackDagger",
+        "faction": "Torvalus Speculators",
+        "imagePath": "assets/races/torvalus_speculators/ships/TorvalusBlackRapier.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 2,
+        "pointCost": 2300,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "VolleyLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MedPowerLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "MedPowerLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 3
+            },
+            {
+                "name": "MedPowerLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 4
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "blackrapier",
+        "name": "Black Rapier",
+        "phpclass": "BlackRapier",
+        "faction": "Torvalus Speculators",
+        "imagePath": "assets/races/torvalus_speculators/ships/TorvalusBlackRapier.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 2,
+        "pointCost": 3825,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "TransverseDrive",
+                "armour": 5,
+                "maxhealth": 16,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "VolleyLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MedPowerLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "PowerLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 3
+            },
+            {
+                "name": "PowerLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 4
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "darkknife",
+        "name": "Dark Knife",
+        "phpclass": "DarkKnife",
+        "faction": "Torvalus Speculators",
+        "imagePath": "assets/races/torvalus_speculators/ships/TorvalusDarkKnife.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 3,
+        "pointCost": 4175,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 11,
+        "sideDefense": 14,
+        "weapons": [
+            {
+                "name": "TransverseDrive",
+                "armour": 5,
+                "maxhealth": 16,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "VolleyLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PowerLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "PowerLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 3
+            },
+            {
+                "name": "PowerLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 4
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "falchion",
+        "name": "Falchion",
+        "phpclass": "Falchion",
+        "faction": "Torvalus Speculators",
+        "imagePath": "assets/races/torvalus_speculators/ships/TorvalusFalchion.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 450,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 5,
+        "sideDefense": 8,
+        "weapons": [
+            {
+                "name": "VolleyLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "shroudedsaber",
+        "name": "Shrouded Saber",
+        "phpclass": "ShroudedSaber",
+        "faction": "Torvalus Speculators",
+        "imagePath": "assets/races/torvalus_speculators/ships/TorvalusShroudedSaber.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 2,
+        "pointCost": 2325,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 9,
+        "weapons": [
+            {
+                "name": "TransverseDrive",
+                "armour": 5,
+                "maxhealth": 16,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "VolleyLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "VolleyLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PowerLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "stiletto",
+        "name": "Stiletto Drones",
+        "phpclass": "Stiletto",
+        "faction": "Torvalus Speculators",
+        "imagePath": "assets/races/torvalus_speculators/ships/TorvalusStiletto.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 260,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 5,
+        "sideDefense": 6,
+        "gravitic": true
+    },
+    {
+        "id": "veiledsaber",
+        "name": "Veiled Saber",
+        "phpclass": "VeiledSaber",
+        "faction": "Torvalus Speculators",
+        "imagePath": "assets/races/torvalus_speculators/ships/TorvalusShroudedSaber.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 2,
+        "pointCost": 2850,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 9,
+        "weapons": [
+            {
+                "name": "TransverseDrive",
+                "armour": 5,
+                "maxhealth": 16,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "VolleyLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "VolleyLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MedPowerLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    }
+]

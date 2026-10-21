@@ -1,0 +1,6443 @@
+[
+    {
+        "id": "altarian",
+        "name": "Altarian Destroyer",
+        "phpclass": "Altarian",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/altarian.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 510,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "altarianmagnus",
+        "name": "Altarian Magnus Destroyer Leader",
+        "phpclass": "AltarianMagnus",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/altarian.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "altaron",
+        "name": "Altaron Destroyer",
+        "phpclass": "Altaron",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/altarian.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 510,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "amar",
+        "name": "Amar Fast Carrier",
+        "phpclass": "Amar",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/darkner.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 450,
+        "accelcost": 2,
+        "iniativebonus": 40,
+        "forwardDefense": 13,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "armedshuttlecent",
+        "name": "Armed Shuttles",
+        "phpclass": "ArmedShuttleCent",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/shuttleCent.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 28,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 10
+    },
+    {
+        "id": "balvarin",
+        "name": "Balvarin Carrier",
+        "phpclass": "Balvarin",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/balvarin.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 560,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GuardianArray",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "GuardianArray",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "balvarix",
+        "name": "Balvarix Strike Carrier",
+        "phpclass": "Balvarix",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/balvarix.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 650,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "Mattercannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "Mattercannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "centaurumupgraded",
+        "name": "Centaurum Battleship (Upgraded)",
+        "phpclass": "centaurumUpgraded",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/CentauriCentaurum.png",
+        "turncost": 1,
+        "turndelaycost": 1.33,
+        "pivotcost": 4,
+        "rollcost": 4,
+        "pointCost": 1000,
+        "accelcost": 5,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 19,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 6,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "centurion",
+        "name": "Centurion Attack Cruiser",
+        "phpclass": "Centurion",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/centurion.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 725,
+        "accelcost": 3,
+        "iniativebonus": 10,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "centurionmd",
+        "name": "Centurion Attack Cruiser (Mass Driver)",
+        "phpclass": "CenturionMD",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/centurion.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 800,
+        "accelcost": 3,
+        "iniativebonus": 10,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "MassDriver",
+                "armour": 4,
+                "maxhealth": 18,
+                "powerreq": 9,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "captorminecoranta",
+        "name": "Corant-A Captor Mine",
+        "phpclass": "captorMineCorantA",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/centauriMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 10,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "captorminecorantb",
+        "name": "Corant-B Captor Mine",
+        "phpclass": "captorMineCorantB",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/centauriMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 16,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "captorminecorantc",
+        "name": "Corant-C Captor Mine",
+        "phpclass": "captorMineCorantC",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/centauriMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 24,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "captorminecorantd",
+        "name": "Corant-D Captor Mine",
+        "phpclass": "captorMineCorantD",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/centauriMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 38,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "covran",
+        "name": "Covran Scout",
+        "phpclass": "Covran",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/covran.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 730,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 6,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "GuardianArray",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GuardianArray",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "GuardianArray",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "GuardianArray",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "dargan",
+        "name": "Dargan Strike Cruiser",
+        "phpclass": "Dargan",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/dargan.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 750,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "Mattercannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "Mattercannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "Mattercannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "darganchameleon",
+        "name": "Dargan Strike Cruiser",
+        "phpclass": "DarganChameleon",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/dargan.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 750,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "Mattercannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "Mattercannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "Mattercannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "darkner",
+        "name": "Darkner Fast Attack Frigate",
+        "phpclass": "Darkner",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/darkner.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 525,
+        "accelcost": 2,
+        "iniativebonus": 40,
+        "forwardDefense": 13,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "darmoti",
+        "name": "Darmoti Escort Warship",
+        "phpclass": "Darmoti",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/demos.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 575,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 12,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyArray",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "HeavyArray",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PlasmaAccelerator",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "decurion",
+        "name": "Decurion Assault Cruiser",
+        "phpclass": "Decurion",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/centurion.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 700,
+        "accelcost": 3,
+        "iniativebonus": 10,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GuardianArray",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GuardianArray",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "demos",
+        "name": "Demos Heavy Warship",
+        "phpclass": "Demos",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/demos.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 575,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 12,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyArray",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "HeavyArray",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PlasmaAccelerator",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "BallisticTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "dewmineekosa",
+        "name": "Ekos-A DEW Mine",
+        "phpclass": "dewMineEkosA",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/centauriMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 24,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 5,
+                "endArc": 6,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "dewmineekosb",
+        "name": "Ekos-B DEW Mine",
+        "phpclass": "dewMineEkosB",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/centauriMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 45,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 8,
+                "endArc": 6,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "elutarian",
+        "name": "Elutarian Bombardment Destroyer",
+        "phpclass": "Elutarian",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/altarian.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 650,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "BallisticTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "BallisticTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "emperorstransport",
+        "name": "Emperor",
+        "phpclass": "EmperorsTransport",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/primus.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 550,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "haven",
+        "name": "Haven Patrol Boat",
+        "phpclass": "Haven",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/haven.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 325,
+        "accelcost": 2,
+        "iniativebonus": 70,
+        "forwardDefense": 11,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "kendariupgraded",
+        "name": "Kendari Fleet Scout (Upgraded)",
+        "phpclass": "kendariUpgraded",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/kendari.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 625,
+        "accelcost": 3,
+        "iniativebonus": -7,
+        "forwardDefense": 15,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GuardianArray",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GuardianArray",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "kraken",
+        "name": "Kraken Star Fortress",
+        "phpclass": "Kraken",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/kraken.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 5000,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 24,
+        "sideDefense": 24,
+        "weapons": [
+            {
+                "name": "BattleLaser",
+                "armour": 7,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 7,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 7,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 7,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 7,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 7,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "kutai",
+        "name": "Kutai Gunship",
+        "phpclass": "Kutai",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/kutai.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 535,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "kutaiplasma",
+        "name": "Kutai Plasma Gunship",
+        "phpclass": "KutaiPlasma",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/kutai.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 500,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "larisias",
+        "name": "Larisi Assault Shuttles",
+        "phpclass": "larisiAS",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/phalan.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 30,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 8
+    },
+    {
+        "id": "lias",
+        "name": "Lias Supply Ship",
+        "phpclass": "Lias",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/Lias.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 4,
+        "pointCost": 375,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "lupaescort",
+        "name": "Lupa Attack Boat (Escort)",
+        "phpclass": "lupaEscort",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/lupa.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 175,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "lupamatter",
+        "name": "Lupa Attack Boat (Matter)",
+        "phpclass": "lupaMatter",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/lupa.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 180,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "lupaparticle",
+        "name": "Lupa Attack Boat (Particle)",
+        "phpclass": "lupaParticle",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/lupa.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 200,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "HeavyParticleBeam",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "lupaplasma",
+        "name": "Lupa Attack Boat (Plasma)",
+        "phpclass": "lupaPlasma",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/lupa.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 170,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "marcanos",
+        "name": "Marcanos Civilian Base",
+        "phpclass": "marcanos",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/marcanos.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 1200,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 18,
+        "sideDefense": 18,
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "PlasmaAccelerator",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "PlasmaAccelerator",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "PlasmaAccelerator",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "PlasmaAccelerator",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            }
+        ]
+    },
+    {
+        "id": "maximus",
+        "name": "Maximus Defense Frigate",
+        "phpclass": "Maximus",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/maximus.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 475,
+        "accelcost": 2,
+        "iniativebonus": 60,
+        "forwardDefense": 12,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "GuardianArray",
+                "armour": 0,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "GuardianArray",
+                "armour": 0,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "GuardianArray",
+                "armour": 0,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 300,
+                "location": 2
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "mograth",
+        "name": "Mograth Frigate",
+        "phpclass": "Mograth",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/mograth.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 450,
+        "accelcost": 2,
+        "iniativebonus": 60,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "GuardianArray",
+                "armour": 0,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "PlasmaStream",
+                "armour": 3,
+                "maxhealth": 9,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "mogratti",
+        "name": "Mogratti Battle Frigate",
+        "phpclass": "Mogratti",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/mograth.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 575,
+        "accelcost": 2,
+        "iniativebonus": 60,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "PlasmaAccelerator",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "dewmineocaraa",
+        "name": "Ocara-A DEW Mine",
+        "phpclass": "dewMineOcaraA",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/centauriMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 40,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 6,
+                "endArc": 6,
+                "location": 0
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "dewmineocarab",
+        "name": "Ocara-B DEW Mine",
+        "phpclass": "dewMineOcaraB",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/centauriMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 60,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 12,
+                "endArc": 4,
+                "location": 0
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "dewmineocarac",
+        "name": "Ocara-C DEW Mine",
+        "phpclass": "dewMineOcaraC",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/centauriMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 60,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 8,
+                "endArc": 6,
+                "location": 0
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "dewmineocarad",
+        "name": "Ocara-D DEW Mine",
+        "phpclass": "dewMineOcaraD",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/centauriMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 70,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 8,
+                "endArc": 6,
+                "location": 0
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "dewmineocarae",
+        "name": "Ocara-E DEW Mine",
+        "phpclass": "dewMineOcaraE",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/centauriMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 110,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 15,
+                "endArc": 5,
+                "location": 0
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "octurion",
+        "name": "Octurion Battleship",
+        "phpclass": "Octurion",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/octurion.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 1350,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "octurionmd",
+        "name": "Octurion Battleship (Mass Driver)",
+        "phpclass": "OcturionMD",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/octurion.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 1500,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "MassDriver",
+                "armour": 5,
+                "maxhealth": 18,
+                "powerreq": 9,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "MassDriver",
+                "armour": 5,
+                "maxhealth": 18,
+                "powerreq": 9,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "optineupgrade",
+        "name": "Optine Battlecruiser (Upgraded)",
+        "phpclass": "OptineUpgrade",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/optine.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 775,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 18,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 6,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "UnreliableMatterCannon",
+                "armour": 2,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "UnreliableBattleLaser",
+                "armour": 3,
+                "maxhealth": 3,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "UnreliableTwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "UnreliableBattleLaser",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "UnreliableMatterCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "UnreliableTwinArray",
+                "armour": 3,
+                "maxhealth": 3,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "UnreliableTwinArray",
+                "armour": 3,
+                "maxhealth": 3,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "UnreliableTwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "UnreliableBattleLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "UnreliableTwinArray",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "UnreliableBattleLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "phalanx",
+        "name": "Phalanx OSAT",
+        "phpclass": "Phalanx",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/phalanx.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 250,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 9,
+        "sideDefense": 9,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "acceleratorprimus",
+        "name": "Primus Accelerator Battlecruiser",
+        "phpclass": "AcceleratorPrimus",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/primus.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 725,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PlasmaAccelerator",
+                "armour": 5,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "PlasmaAccelerator",
+                "armour": 5,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "PlasmaAccelerator",
+                "armour": 5,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "PlasmaAccelerator",
+                "armour": 5,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "primus",
+        "name": "Primus Battlecruiser",
+        "phpclass": "Primus",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/primus.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 830,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "primusmd",
+        "name": "Primus Battlecruiser (Mass Driver)",
+        "phpclass": "PrimusMD",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/primus.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 905,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MassDriver",
+                "armour": 5,
+                "maxhealth": 18,
+                "powerreq": 9,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "primusmaximus",
+        "name": "Primus Maximus Command Cruiser",
+        "phpclass": "PrimusMaximus",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/primusMaximus.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 1000,
+        "accelcost": 3,
+        "iniativebonus": 5,
+        "forwardDefense": 16,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "BattleLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "proxmineraji",
+        "name": "Raji Proximity Mine",
+        "phpclass": "proxMineRaji",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/centauriMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 8,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "razarik",
+        "name": "Razarik Torpedo Fighters",
+        "phpclass": "Razarik",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/razik.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 210,
+        "accelcost": 1,
+        "iniativebonus": 100,
+        "forwardDefense": 6,
+        "sideDefense": 5
+    },
+    {
+        "id": "razik",
+        "name": "Razik Light Fighters",
+        "phpclass": "Razik",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/razik.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 180,
+        "accelcost": 1,
+        "iniativebonus": 100,
+        "forwardDefense": 6,
+        "sideDefense": 5
+    },
+    {
+        "id": "rutarian",
+        "name": "Rutarian Strike Fighters",
+        "phpclass": "Rutarian",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/rutarian.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 450,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 6,
+        "sideDefense": 4
+    },
+    {
+        "id": "scionbp",
+        "name": "Scion Breaching Pod",
+        "phpclass": "scionbp",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/phalan.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 40,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 8
+    },
+    {
+        "id": "secundus",
+        "name": "Secundus Assault Cruiser",
+        "phpclass": "Secundus",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/primus.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 975,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyArray",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "HeavyArray",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyArray",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyArray",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "seltat",
+        "name": "Seltat Minesweeper",
+        "phpclass": "Seltat",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/kutai.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 550,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "sentri",
+        "name": "Sentri Interceptors",
+        "phpclass": "Sentri",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/sentri.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 252,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 7,
+        "sideDefense": 5
+    },
+    {
+        "id": "sitara",
+        "name": "Sitara Strike Fighters",
+        "phpclass": "Sitara",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/sentri.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 270,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 7,
+        "sideDefense": 5
+    },
+    {
+        "id": "sulust",
+        "name": "Sulust Escort Destroyer",
+        "phpclass": "Sulust",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/sulust.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 535,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "GuardianArray",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GuardianArray",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GuardianArray",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GuardianArray",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "talvanupgrade",
+        "name": "Talvan Attack Cruiser (2202)",
+        "phpclass": "TalvanUpgrade",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/talvan.png",
+        "turncost": 1,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 640,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "BattleLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "MatterCannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "vasachi",
+        "name": "Vasachi Escort Destroyer",
+        "phpclass": "Vasachi",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/sulust.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 650,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyArray",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "GuardianArray",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "GuardianArray",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "vorchan",
+        "name": "Vorchan Warship",
+        "phpclass": "Vorchan",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/vorchan.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 360,
+        "accelcost": 2,
+        "iniativebonus": 40,
+        "forwardDefense": 12,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PlasmaAccelerator",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "vorchar",
+        "name": "Vorchar Warscout",
+        "phpclass": "Vorchar",
+        "faction": "Centauri Republic",
+        "imagePath": "assets/races/centauri_republic/ships/vorchar.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 500,
+        "accelcost": 2,
+        "iniativebonus": 40,
+        "forwardDefense": 12,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            }
+        ]
+    }
+]

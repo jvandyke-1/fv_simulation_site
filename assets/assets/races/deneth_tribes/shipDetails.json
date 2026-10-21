@@ -1,0 +1,1198 @@
+[
+    {
+        "id": "defenderftr",
+        "name": "Defender Medium Fighters",
+        "phpclass": "DefenderFtr",
+        "faction": "Deneth Tribes",
+        "imagePath": "assets/races/deneth_tribes/ships/DenethDefender.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 30,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 6,
+        "sideDefense": 7
+    },
+    {
+        "id": "deliverer",
+        "name": "Deliverer Strike Carrier",
+        "phpclass": "Deliverer",
+        "faction": "Deneth Tribes",
+        "imagePath": "assets/races/deneth_tribes/ships/DenethDeliverer.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 480,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 6,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "AssaultLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "dencomcarrier",
+        "name": "Deneth Command Carrier",
+        "phpclass": "DenComCarrier",
+        "faction": "Deneth Tribes",
+        "imagePath": "assets/races/deneth_tribes/ships/DenethDeliverer.png",
+        "turncost": 1.33,
+        "turndelaycost": 1.33,
+        "pivotcost": 3,
+        "rollcost": 4,
+        "pointCost": 550,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "liberatorcannon",
+        "name": "Liberator Cannon Gunboat",
+        "phpclass": "LiberatorCannon",
+        "faction": "Deneth Tribes",
+        "imagePath": "assets/races/deneth_tribes/ships/DenethLiberator.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 220,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "liberatorescort",
+        "name": "Liberator Escort Gunboat",
+        "phpclass": "LiberatorEscort",
+        "faction": "Deneth Tribes",
+        "imagePath": "assets/races/deneth_tribes/ships/DenethLiberator.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 205,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "liberatorplasma",
+        "name": "Liberator Plasma Gunboat",
+        "phpclass": "LiberatorPlasma",
+        "faction": "Deneth Tribes",
+        "imagePath": "assets/races/deneth_tribes/ships/DenethLiberator.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 195,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "liberatorpulse",
+        "name": "Liberator Pulse Gunboat",
+        "phpclass": "LiberatorPulse",
+        "faction": "Deneth Tribes",
+        "imagePath": "assets/races/deneth_tribes/ships/DenethLiberator.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 235,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "MediumPulse",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "protector",
+        "name": "Protector Heavy Destroyer",
+        "phpclass": "Protector",
+        "faction": "Deneth Tribes",
+        "imagePath": "assets/races/deneth_tribes/ships/DenethProtector.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 520,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MediumPulse",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "sentryff",
+        "name": "Sentry Frigate",
+        "phpclass": "sentryFF",
+        "faction": "Deneth Tribes",
+        "imagePath": "assets/races/deneth_tribes/ships/DenethSentry.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 420,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "AssaultLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "vindicatorca",
+        "name": "Vindicator Heavy Cruiser",
+        "phpclass": "VindicatorCA",
+        "faction": "Deneth Tribes",
+        "imagePath": "assets/races/deneth_tribes/ships/DenethVindicator.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 745,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 6,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyLaser",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "HeavyLaser",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MediumPulse",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "MediumPulse",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "wardsat",
+        "name": "Ward Satellite",
+        "phpclass": "wardsat",
+        "faction": "Deneth Tribes",
+        "imagePath": "assets/races/deneth_tribes/ships/DenethWardOSAT.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 210,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 9,
+        "sideDefense": 9,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "AssaultLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "watcher",
+        "name": "Watcher Scout",
+        "phpclass": "Watcher",
+        "faction": "Deneth Tribes",
+        "imagePath": "assets/races/deneth_tribes/ships/DenethProtector.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 500,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AssaultLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "watchtower",
+        "name": "Watchtower Base",
+        "phpclass": "Watchtower",
+        "faction": "Deneth Tribes",
+        "imagePath": "assets/races/deneth_tribes/ships/DenethWatchtower.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 925,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 16,
+        "sideDefense": 16
+    }
+]

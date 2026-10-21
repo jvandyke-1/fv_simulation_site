@@ -1,0 +1,2745 @@
+[
+    {
+        "id": "carranaam",
+        "name": "Carrana Base",
+        "phpclass": "CarranaAM",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariCarrana.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 750,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 16,
+        "sideDefense": 16
+    },
+    {
+        "id": "dewminedd3",
+        "name": "Class-D3 DEW Mine",
+        "phpclass": "dewMineDD3",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/descariMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 25,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 8,
+                "endArc": 5,
+                "location": 0
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "croscotu",
+        "name": "Croscotu Frigate",
+        "phpclass": "Croscotu",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariCroscotu.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 225,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 11,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "croscotuearly",
+        "name": "Croscotu Frigate (Early)",
+        "phpclass": "CroscotuEarly",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariCroscotu.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 180,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 11,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightParticleBolt",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "LightParticleBolt",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "LightParticleBolt",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PlasmaTorch",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "croscoturefit",
+        "name": "Croscotu Frigate (Refit)",
+        "phpclass": "CroscotuRefit",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariCroscotu.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 275,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 11,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "LightPlasmaBolter",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasmaBolter",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightPlasmaBolter",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "cruscava",
+        "name": "Cruscava Escort Frigate",
+        "phpclass": "Cruscava",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariCruscava.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 375,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 12,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 0
+            },
+            {
+                "name": "LightPlasmaBolter",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasmaBolter",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightPlasmaBolter",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "hemrosam",
+        "name": "Hemros Orbital Satellite",
+        "phpclass": "HemrosAM",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariHemsar.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 200,
+        "accelcost": 0,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 10,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumPlasmaBolter",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "hemsar",
+        "name": "Hemsar Orbital Satellite",
+        "phpclass": "Hemsar",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariHemsar.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 125,
+        "accelcost": 0,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 10,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "DualPlasmaCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "norvai",
+        "name": "Norva I Gunboat",
+        "phpclass": "NorvaI",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariNorva.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 150,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "norvaii",
+        "name": "Norva II Gunboat",
+        "phpclass": "NorvaII",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariNorva.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 200,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "MediumPlasmaBolter",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightPlasmaBolter",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightPlasmaBolter",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "zftrnoscha",
+        "name": "Noscha Heavy Fighters",
+        "phpclass": "ZFtrNoscha",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/Descarinoscha.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 55,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 7,
+        "sideDefense": 8
+    },
+    {
+        "id": "zftrnoscho",
+        "name": "Noscho Assault Shuttles",
+        "phpclass": "ZFtrNoscho",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariNoscho.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 26,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 9
+    },
+    {
+        "id": "zftrnoscor",
+        "name": "Noscor Medium Fighters",
+        "phpclass": "ZFtrNoscor",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/Descarinoscor.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 38,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 7,
+        "sideDefense": 9
+    },
+    {
+        "id": "breachingpoddescari",
+        "name": "Noscun Breaching Pods",
+        "phpclass": "breachingpoddescari",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariNoscho.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 38,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 9
+    },
+    {
+        "id": "rulnar",
+        "name": "Rulnar Heavy Destroyer",
+        "phpclass": "Rulnar",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariRulnar.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 625,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyPlasmaBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasmaBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "LightPlasmaBolter",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightPlasmaBolter",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "rulnataam",
+        "name": "Rulnata Scout",
+        "phpclass": "RulnataAM",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariRulnata.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 475,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "rulnatoam",
+        "name": "Rulnato Jump Scout",
+        "phpclass": "RulnatoAM",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariRulnata.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 485,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "rulpa",
+        "name": "Rulpa Destroyer",
+        "phpclass": "Rulpa",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariRulpa.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 375,
+        "accelcost": 3,
+        "iniativebonus": 40,
+        "forwardDefense": 12,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "rulpassa",
+        "name": "Rulpassa Destroyer",
+        "phpclass": "Rulpassa",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariRulpa.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 415,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 12,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumPlasmaBolter",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasmaBolter",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "rultharam",
+        "name": "Rulthar Missile Destroyer",
+        "phpclass": "RultharAM",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariRulpa.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 450,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 12,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "scorava",
+        "name": "Scorava Cruiser",
+        "phpclass": "Scorava",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariScorava.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 450,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 18,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightPlasma",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "LightPlasma",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "scoravarefittedam",
+        "name": "Scorava Cruiser (Refit)",
+        "phpclass": "ScoravarefittedAM",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariScorava.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 550,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 18,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightPlasmaBolter",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightPlasmaBolter",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightPlasmaBolter",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightPlasmaBolter",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "MediumPlasmaBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "MediumPlasmaBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "scoravalaseram",
+        "name": "Scorava Laser Cruiser",
+        "phpclass": "ScoravalaserAM",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariScorava.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 525,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 18,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightLaser",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightLaser",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightLaser",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightLaser",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "scorotaam",
+        "name": "Scorota Battleship",
+        "phpclass": "ScorotaAM",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariScorota.png",
+        "turncost": 1.5,
+        "turndelaycost": 1.5,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 900,
+        "accelcost": 6,
+        "iniativebonus": -7,
+        "forwardDefense": 17,
+        "sideDefense": 18,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 6,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "HeavyPlasmaBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "HeavyPlasmaBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "HeavyPlasmaBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "HeavyPlasmaBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "scorran",
+        "name": "Scorran New Heavy Cruiser",
+        "phpclass": "Scorran",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/DescariScorran.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 725,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 10,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyPlasmaBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasmaBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightPlasmaBolter",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightPlasmaBolter",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "dewminesircha",
+        "name": "Sircha DEW Mine",
+        "phpclass": "dewMineSircha",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/descariMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 25,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 8,
+                "endArc": 5,
+                "location": 0
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "dewminesircho",
+        "name": "Sircho DEW Mine",
+        "phpclass": "dewMineSircho",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/descariMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 10,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 5,
+                "endArc": 6,
+                "location": 0
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "captorminesirna",
+        "name": "Sirna Captor Mine",
+        "phpclass": "captorMineSirna",
+        "faction": "Descari Committees",
+        "imagePath": "assets/races/descari_committees/ships/descariMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 20,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    }
+]

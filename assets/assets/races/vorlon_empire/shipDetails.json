@@ -1,0 +1,463 @@
+[
+    {
+        "id": "vorlonassaultfighterflight",
+        "name": "Assault Fighters",
+        "phpclass": "VorlonAssaultFighterFlight",
+        "faction": "Vorlon Empire",
+        "imagePath": "assets/races/vorlon_empire/ships/VorlonAssaultFighter.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 295,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 12,
+        "gravitic": true
+    },
+    {
+        "id": "vorlonasteroiddefensegrid",
+        "name": "Asteroid Defense Grid",
+        "phpclass": "vorlonAsteroidDefenseGrid",
+        "faction": "Vorlon Empire",
+        "imagePath": "assets/races/vorlon_empire/ships/AsteroidS1.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 1000,
+        "accelcost": 0,
+        "iniativebonus": 70,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "HvyParticleCannon",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 9,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "VorlonDischargeGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "VorlonDischargeGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "vorlonbattledestroyer",
+        "name": "Battle Destroyer",
+        "phpclass": "VorlonBattleDestroyer",
+        "faction": "Vorlon Empire",
+        "imagePath": "assets/races/vorlon_empire/ships/VorlonBattleDestroyer.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 850,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "VorlonDischargeGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "vorlondestroyerescort",
+        "name": "Destroyer Escort",
+        "phpclass": "VorlonDestroyerEscort",
+        "faction": "Vorlon Empire",
+        "imagePath": "assets/races/vorlon_empire/ships/VorlonBattleDestroyer.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 1300,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "VorlonDischargeGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "VorlonDischargeGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 1
+            },
+            {
+                "name": "VorlonDischargeGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "vorlondreadnought",
+        "name": "Dreadnought",
+        "phpclass": "VorlonDreadnought",
+        "faction": "Vorlon Empire",
+        "imagePath": "assets/races/vorlon_empire/ships/VorlonDreadnought.png",
+        "turncost": 1.5,
+        "turndelaycost": 1.5,
+        "pivotcost": 5,
+        "rollcost": 2,
+        "pointCost": 5000,
+        "accelcost": 6,
+        "iniativebonus": 0,
+        "forwardDefense": 18,
+        "sideDefense": 21,
+        "weapons": [
+            {
+                "name": "VorlonDischargeGun",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "VorlonDischargeGun",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "vorlonheavycarrier",
+        "name": "Heavy Carrier",
+        "phpclass": "VorlonHeavyCarrier",
+        "faction": "Vorlon Empire",
+        "imagePath": "assets/races/vorlon_empire/ships/VorlonHeavyCruiser.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 1,
+        "pointCost": 3300,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 19,
+        "weapons": [
+            {
+                "name": "VorlonDischargeGun",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "vorlonheavycruiser",
+        "name": "Heavy Cruiser",
+        "phpclass": "VorlonHeavyCruiser",
+        "faction": "Vorlon Empire",
+        "imagePath": "assets/races/vorlon_empire/ships/VorlonHeavyCruiser.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 1,
+        "pointCost": 3250,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 19,
+        "weapons": [
+            {
+                "name": "VorlonDischargeGun",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "vorlonheavydestroyer",
+        "name": "Heavy Destroyer",
+        "phpclass": "VorlonHeavyDestroyer",
+        "faction": "Vorlon Empire",
+        "imagePath": "assets/races/vorlon_empire/ships/VorlonBattleDestroyer.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 1500,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 18,
+        "weapons": [
+            {
+                "name": "VorlonDischargeCannon",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "vorlonheavyfighterflight",
+        "name": "Heavy Fighters",
+        "phpclass": "VorlonHeavyFighterFlight",
+        "faction": "Vorlon Empire",
+        "imagePath": "assets/races/vorlon_empire/ships/VorlonFighter.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 175,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 7,
+        "sideDefense": 9,
+        "gravitic": true
+    },
+    {
+        "id": "vorlonlightcarrier",
+        "name": "Light Carrier",
+        "phpclass": "VorlonLightCarrier",
+        "faction": "Vorlon Empire",
+        "imagePath": "assets/races/vorlon_empire/ships/VorlonBattleDestroyer.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 900,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "VorlonDischargeGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "vorlonlightcruiser",
+        "name": "Light Cruiser",
+        "phpclass": "VorlonLightCruiser",
+        "faction": "Vorlon Empire",
+        "imagePath": "assets/races/vorlon_empire/ships/VorlonLightCruiser.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 2500,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 18,
+        "gravitic": true
+    },
+    {
+        "id": "vorlonplanetkiller",
+        "name": "Planet Killer",
+        "phpclass": "VorlonPlanetKiller",
+        "faction": "Vorlon Empire",
+        "imagePath": "assets/races/vorlon_empire/ships/VorlonPlanetKiller.png",
+        "turncost": 3,
+        "turndelaycost": 3,
+        "pivotcost": 99,
+        "rollcost": 99,
+        "pointCost": 8000,
+        "accelcost": 18,
+        "iniativebonus": 0,
+        "forwardDefense": 26,
+        "sideDefense": 26,
+        "weapons": [
+            {
+                "name": "PlanetCrackerBeam",
+                "armour": 8,
+                "maxhealth": 110,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 0,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "vorlonscout",
+        "name": "Scout",
+        "phpclass": "VorlonScout",
+        "faction": "Vorlon Empire",
+        "imagePath": "assets/races/vorlon_empire/ships/VorlonBattleDestroyer.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 1250,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "VorlonDischargeGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "vorlonstrikecruisernew",
+        "name": "Strike Cruiser",
+        "phpclass": "VorlonStrikeCruiserNew",
+        "faction": "Vorlon Empire",
+        "imagePath": "assets/races/vorlon_empire/ships/VorlonStrikeCruiser.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 1,
+        "pointCost": 2950,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 19,
+        "weapons": [
+            {
+                "name": "VorlonDischargePulsar",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "vorlonstrikecruiser",
+        "name": "Strike Cruiser",
+        "phpclass": "VorlonStrikeCruiser",
+        "faction": "Vorlon Empire",
+        "imagePath": "assets/races/vorlon_empire/ships/VorlonStrikeCruiser.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 1,
+        "pointCost": 2950,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 19,
+        "weapons": [
+            {
+                "name": "VorlonDischargePulsar",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "vorlontransport",
+        "name": "Transport",
+        "phpclass": "VorlonTransport",
+        "faction": "Vorlon Empire",
+        "imagePath": "assets/races/vorlon_empire/ships/VorlonTransport.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 600,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 12,
+        "sideDefense": 14,
+        "weapons": [
+            {
+                "name": "VorlonDischargeGun",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    }
+]

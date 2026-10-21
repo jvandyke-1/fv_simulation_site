@@ -1,0 +1,943 @@
+[
+    {
+        "id": "thirdspaceattackcraft",
+        "name": "Attack Craft",
+        "phpclass": "ThirdspaceAttackCraft",
+        "faction": "Thirdspace",
+        "imagePath": "assets/races/thirdspace/ships/ThirdspaceAttackCraft.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 500,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 210,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 210,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 150,
+                "location": 1
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 150,
+                "location": 1
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "thirdspacebattleship",
+        "name": "Eldritch Battleship",
+        "phpclass": "ThirdspaceBattleship",
+        "faction": "Thirdspace",
+        "imagePath": "assets/races/thirdspace/ships/ThirdspaceBattleship.png",
+        "turncost": 1.5,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 6,
+        "pointCost": 7000,
+        "accelcost": 6,
+        "iniativebonus": 0,
+        "forwardDefense": 18,
+        "sideDefense": 20,
+        "weapons": [
+            {
+                "name": "PsychicField",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "HeavyPsionicLance",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "thirdspacecarrier",
+        "name": "Harbinger Battle Carrier",
+        "phpclass": "ThirdspaceCarrier",
+        "faction": "Thirdspace",
+        "imagePath": "assets/races/thirdspace/ships/ThirdspaceBattleship.png",
+        "turncost": 1.5,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 6,
+        "pointCost": 4000,
+        "accelcost": 6,
+        "iniativebonus": 0,
+        "forwardDefense": 18,
+        "sideDefense": 20,
+        "weapons": [
+            {
+                "name": "PsychicField",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "thirdspacelanceattackcraft",
+        "name": "Lance Craft",
+        "phpclass": "ThirdspaceLanceAttackCraft",
+        "faction": "Thirdspace",
+        "imagePath": "assets/races/thirdspace/ships/ThirdspaceAttackCraft.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 500,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "PsionicConcentratorLight",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "PsionicConcentratorLight",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "thirdspacebattlescout",
+        "name": "Oculus Battle Scout",
+        "phpclass": "ThirdspaceBattleScout",
+        "faction": "Thirdspace",
+        "imagePath": "assets/races/thirdspace/ships/ThirdspaceBattleship.png",
+        "turncost": 1.5,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 6,
+        "pointCost": 5500,
+        "accelcost": 6,
+        "iniativebonus": 0,
+        "forwardDefense": 18,
+        "sideDefense": 20,
+        "weapons": [
+            {
+                "name": "PsychicField",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "PsionicTorpedo",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "PsionicTorpedo",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "PsionicTorpedo",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PsionicTorpedo",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "PsionicTorpedo",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "PsionicTorpedo",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "PsionicConcentrator",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "thirdspacepsychicattackcraft",
+        "name": "Psychic Craft",
+        "phpclass": "ThirdspacePsychicAttackCraft",
+        "faction": "Thirdspace",
+        "imagePath": "assets/races/thirdspace/ships/ThirdspaceAttackCraft.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 500,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "PsychicField",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "PsionicConcentratorLight",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PsionicLance",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "PsionicConcentratorLight",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "thirdspacescoutattackcraft",
+        "name": "Scout Craft",
+        "phpclass": "ThirdspaceScoutAttackCraft",
+        "faction": "Thirdspace",
+        "imagePath": "assets/races/thirdspace/ships/ThirdspaceAttackCraft.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 500,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "PsionicConcentratorLight",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PsionicConcentratorLight",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "thirdspacetorpedoattackcraft",
+        "name": "Torpedo Craft",
+        "phpclass": "ThirdspaceTorpedoAttackCraft",
+        "faction": "Thirdspace",
+        "imagePath": "assets/races/thirdspace/ships/ThirdspaceAttackCraft.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 500,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "PsionicConcentratorLight",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PsionicTorpedo",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PsionicTorpedo",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "PsionicConcentratorLight",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "vorlonartifact",
+        "name": "Vorlon Artifact",
+        "phpclass": "VorlonArtifact",
+        "faction": "Thirdspace",
+        "imagePath": "assets/races/thirdspace/ships/ThirdspaceArtifact.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 1000,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 20,
+        "sideDefense": 18,
+        "weapons": [
+            {
+                "name": "PsychicField",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ],
+        "gravitic": true
+    }
+]

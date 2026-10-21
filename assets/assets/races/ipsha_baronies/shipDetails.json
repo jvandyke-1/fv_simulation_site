@@ -1,0 +1,2331 @@
+[
+    {
+        "id": "ftranemone",
+        "name": "Anemone Medium flight",
+        "phpclass": "FtrAnemone",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/IpshaUrchin.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 38,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 8,
+        "gravitic": true
+    },
+    {
+        "id": "shipbattleglobe",
+        "name": "Battleglobe",
+        "phpclass": "ShipBattleglobe",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/IpshaBattleglobe.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 0,
+        "pointCost": 700,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 18,
+        "sideDefense": 14,
+        "weapons": [
+            {
+                "name": "SparkField",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 0
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shipbattlehex",
+        "name": "Battlehex",
+        "phpclass": "ShipBattlehex",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/IpshaHex.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 1,
+        "rollcost": 0,
+        "pointCost": 500,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "ResonanceGenerator",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 11,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 11,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 0
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 3,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 3,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "dewmineblast",
+        "name": "Blast DEW Mine",
+        "phpclass": "dewMineBlast",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/ipshaMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 30,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 4,
+                "endArc": 0,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "shipboltglobe",
+        "name": "Boltglobe",
+        "phpclass": "ShipBoltglobe",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/IpshaBattleglobe.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 0,
+        "pointCost": 750,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 18,
+        "sideDefense": 14,
+        "weapons": [
+            {
+                "name": "SparkField",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 0
+            },
+            {
+                "name": "EmBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "EmBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "EmBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 3
+            },
+            {
+                "name": "EmBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "EmBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "EmBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shipcarriercube",
+        "name": "Carrier Cube",
+        "phpclass": "ShipCarrierCube",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/IpshaCube.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 800,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "SparkField",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "SparkField",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ResonanceGenerator",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ResonanceGenerator",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "captorminecyst",
+        "name": "Cyst Captor Mine",
+        "phpclass": "captorMineCyst",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/ipshaMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 16,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "shipcarriercubehvy",
+        "name": "Heavy Carrier Cube",
+        "phpclass": "ShipCarrierCubeHvy",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/IpshaCube.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 800,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "SparkField",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "SparkField",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ResonanceGenerator",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ResonanceGenerator",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 3
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shipjumpsphere",
+        "name": "Jumpsphere",
+        "phpclass": "ShipJumpsphere",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/IpshaWarsphere.png",
+        "turncost": 1.33,
+        "turndelaycost": 1.33,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 1000,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "SparkField",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "SparkField",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "EmBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "EmBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 20,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 20,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shipresohex",
+        "name": "Resohex",
+        "phpclass": "ShipResohex",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/IpshaHex.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 1,
+        "rollcost": 0,
+        "pointCost": 600,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "ResonanceGenerator",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 11,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 11,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 0
+            },
+            {
+                "name": "ResonanceGenerator",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ResonanceGenerator",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 3,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 3
+            },
+            {
+                "name": "ResonanceGenerator",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "ResonanceGenerator",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 3,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shiprhombusescort",
+        "name": "Rhombus Escort Cruiser",
+        "phpclass": "ShipRhombusEscort",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/IpshaRhombus.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 1,
+        "rollcost": 0,
+        "pointCost": 385,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "SparkField",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 3,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 3,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 0
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "BurstBeam",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 3,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "BurstBeam",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 3,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "ringbase",
+        "name": "Ring Base",
+        "phpclass": "RingBase",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/IpshaRingBase.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 3200,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 20,
+        "sideDefense": 20,
+        "weapons": [
+            {
+                "name": "SparkField",
+                "armour": 6,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "SparkField",
+                "armour": 6,
+                "maxhealth": 8,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "shipscoutwheel",
+        "name": "Scout Wheel",
+        "phpclass": "ShipScoutWheel",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/IpshaFancy.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 800,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "SparkField",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "SparkField",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "proxminespore",
+        "name": "Spore Proximity Mine",
+        "phpclass": "proxMineSpore",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/ipshaMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 12,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "osatstarsphere",
+        "name": "Starsphere OSAT",
+        "phpclass": "OsatStarsphere",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/IpshaBorgOSAT.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 200,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 10,
+        "sideDefense": 10,
+        "weapons": [
+            {
+                "name": "MagGraviticThruster",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "SparkField",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "shipsurgesphere",
+        "name": "Surgesphere",
+        "phpclass": "ShipSurgesphere",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/IpshaWarsphere.png",
+        "turncost": 1.33,
+        "turndelaycost": 1.33,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 1050,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "SparkField",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "SparkField",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 20,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 20,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shiptetraescort",
+        "name": "Tetra Escort",
+        "phpclass": "ShipTetraEscort",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/IpshaTetra.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 0,
+        "pointCost": 400,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "SparkField",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 0
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 3,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 3
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 3,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "shiptetraship",
+        "name": "Tetraship",
+        "phpclass": "ShipTetraship",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/IpshaTetra.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 0,
+        "pointCost": 350,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "SurgeBlaster",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 0
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 3,
+                "maxhealth": 10,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 0
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 3,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 3
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "EmPulsar",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 3,
+                "maxhealth": 13,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "ftrurchin",
+        "name": "Urchin Heavy flight",
+        "phpclass": "FtrUrchin",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/IpshaUrchin.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 65,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 8,
+        "gravitic": true
+    },
+    {
+        "id": "shipwarsphere",
+        "name": "Warsphere",
+        "phpclass": "ShipWarsphere",
+        "faction": "Ipsha Baronies",
+        "imagePath": "assets/races/ipsha_baronies/ships/IpshaWarsphere.png",
+        "turncost": 1.33,
+        "turndelaycost": 1.33,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 1000,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "SparkField",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "SparkField",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "EmBolter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 15,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 20,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 3
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "SurgeCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "MagGraviticThruster",
+                "armour": 4,
+                "maxhealth": 20,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    }
+]

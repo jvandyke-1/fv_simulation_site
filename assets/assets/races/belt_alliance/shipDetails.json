@@ -1,0 +1,2195 @@
+[
+    {
+        "id": "bacloseescort",
+        "name": "BA Close Escort",
+        "phpclass": "BACloseEscort",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BACloseEscort2.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 250,
+        "accelcost": 1,
+        "iniativebonus": 65,
+        "forwardDefense": 11,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "bacloseescortearly",
+        "name": "BA Close Escort (early)",
+        "phpclass": "BACloseEscortEarly",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BACloseEscort2.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 240,
+        "accelcost": 1,
+        "iniativebonus": 65,
+        "forwardDefense": 11,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "BAInterceptorPrototype",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorPrototype",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "baescortcarrierrails",
+        "name": "BA Escort Carrier",
+        "phpclass": "BAEscortCarrierRails",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BAEscortCarrier2.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 350,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "baescortcarrierearlyrails",
+        "name": "BA Escort Carrier (early)",
+        "phpclass": "BAEscortCarrierEarlyRails",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BAEscortCarrier2.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 340,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorPrototype",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "BAInterceptorPrototype",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "baescortcarrierrefitrails",
+        "name": "BA Escort Carrier (refit)",
+        "phpclass": "BAEscortCarrierRefitRails",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BAEscortCarrier2.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 320,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightPulse",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightPulse",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "baescortcarrierlcvrails",
+        "name": "BA Escort LCV Carrier",
+        "phpclass": "BAEscortCarrierLCVRails",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BAEscortCarrier2.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 350,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "bagammaftr",
+        "name": "BA Gamma Light Fighters",
+        "phpclass": "baGammaFtr",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BAGamma2.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 60,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 6,
+        "sideDefense": 6
+    },
+    {
+        "id": "baheavygunboatrails",
+        "name": "BA Heavy Gunboat",
+        "phpclass": "BAHeavyGunboatRails",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BAHeavyGunboat2.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 475,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "HvyBlastCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "baheavygunboatearlyrails",
+        "name": "BA Heavy Gunboat (early)",
+        "phpclass": "BAHeavyGunboatEarlyRails",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BAHeavyGunboat2.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 465,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "HvyBlastCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorPrototype",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "BAInterceptorPrototype",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "baheavygunboatpulserails",
+        "name": "BA Heavy Gunboat (Pulse)",
+        "phpclass": "BAHeavyGunboatPulseRails",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BAHeavyGunboat2.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 490,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightPulse",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "LightPulse",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "HvyBlastCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumPulse",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "balcvcarrier",
+        "name": "BA LCV Carrier",
+        "phpclass": "BALCVCarrier",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BALCVCarrier2.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 320,
+        "accelcost": 3,
+        "iniativebonus": -20,
+        "forwardDefense": 15,
+        "sideDefense": 18,
+        "thrusters": [
+            {
+                "output": 6,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "balightgunboat",
+        "name": "BA Light Gunboat",
+        "phpclass": "BALightGunboat",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BALightGunboat2.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 200,
+        "accelcost": 1,
+        "iniativebonus": 70,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "balightgunboatearly",
+        "name": "BA Light Gunboat (early)",
+        "phpclass": "BALightGunboatEarly",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BALightGunboat2.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 195,
+        "accelcost": 1,
+        "iniativebonus": 70,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorPrototype",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "balightgunboatescort",
+        "name": "BA Light Gunboat (Escort)",
+        "phpclass": "BALightGunboatEscort",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BALightGunboat2.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 175,
+        "accelcost": 1,
+        "iniativebonus": 70,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "balightgunboatpulse",
+        "name": "BA Light Gunboat (Pulse)",
+        "phpclass": "BALightGunboatPulse",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BALightGunboat2.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 180,
+        "accelcost": 1,
+        "iniativebonus": 70,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "LightPulse",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightPulse",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightPulse",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "bamediumgunboat",
+        "name": "BA Medium Gunboat",
+        "phpclass": "BAMediumGunboat",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BAMediumGunboat2.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 350,
+        "accelcost": 2,
+        "iniativebonus": 60,
+        "forwardDefense": 13,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "bamediumgunboatearly",
+        "name": "BA Medium Gunboat (early)",
+        "phpclass": "BAMediumGunboatEarly",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BAMediumGunboat2.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 340,
+        "accelcost": 2,
+        "iniativebonus": 60,
+        "forwardDefense": 13,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "LtBlastCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "MedBlastCannon",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorPrototype",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorPrototype",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "bamediumgunboatpulse",
+        "name": "BA Medium Gunboat (Pulse)",
+        "phpclass": "BAMediumGunboatPulse",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BAMediumGunboat2.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 385,
+        "accelcost": 2,
+        "iniativebonus": 60,
+        "forwardDefense": 13,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightPulse",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "LightPulse",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "MediumPulse",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "BAInterceptorMkI",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "bascoutcarrier",
+        "name": "BA Scout Carrier",
+        "phpclass": "BAScoutCarrier",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BASurveyShip2.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 430,
+        "accelcost": 3,
+        "iniativebonus": -20,
+        "forwardDefense": 15,
+        "sideDefense": 18,
+        "thrusters": [
+            {
+                "output": 6,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "basentinelftram",
+        "name": "BA Sentinel Fighters",
+        "phpclass": "baSentinelFtrAM",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BASentinel.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 228,
+        "accelcost": 1,
+        "iniativebonus": 100,
+        "forwardDefense": 5,
+        "sideDefense": 6
+    },
+    {
+        "id": "basentinelftr",
+        "name": "BA Sentinel Fighters",
+        "phpclass": "BASentinelFtr",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BASentinel.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 228,
+        "accelcost": 1,
+        "iniativebonus": 100,
+        "forwardDefense": 5,
+        "sideDefense": 6
+    },
+    {
+        "id": "bastarfoxftr",
+        "name": "BA Starfox Fighters",
+        "phpclass": "BAStarfoxFtr",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BAStarFox.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 240,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 7,
+        "sideDefense": 9
+    },
+    {
+        "id": "bastarfoxftram",
+        "name": "BA Starfox Fighters",
+        "phpclass": "BAStarfoxFtrAM",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BAStarFox.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 240,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 7,
+        "sideDefense": 9
+    },
+    {
+        "id": "basurveyship",
+        "name": "BA Survey Ship",
+        "phpclass": "BASurveyShip",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BASurveyShip2.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 400,
+        "accelcost": 3,
+        "iniativebonus": -20,
+        "forwardDefense": 15,
+        "sideDefense": 18,
+        "thrusters": [
+            {
+                "output": 6,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "badeltavftr",
+        "name": "Delta-V Light Fighters",
+        "phpclass": "baDeltaVFtr",
+        "faction": "Belt Alliance",
+        "imagePath": "assets/races/belt_alliance/ships/BADeltaV.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 192,
+        "accelcost": 1,
+        "iniativebonus": 100,
+        "forwardDefense": 5,
+        "sideDefense": 5
+    }
+]

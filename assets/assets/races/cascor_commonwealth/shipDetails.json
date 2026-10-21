@@ -1,0 +1,2250 @@
+[
+    {
+        "id": "caccar",
+        "name": "Caccar Ultralight Fighters",
+        "phpclass": "Caccar",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorCaccar.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 33,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 7,
+        "sideDefense": 5
+    },
+    {
+        "id": "calaq",
+        "name": "Calaq Assault Fighters",
+        "phpclass": "Calaq",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorCalaq.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 360,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 8
+    },
+    {
+        "id": "caltus",
+        "name": "Caltus Torpedo Fighters",
+        "phpclass": "Caltus",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorCalaq.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 65,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 9
+    },
+    {
+        "id": "coqari",
+        "name": "Coqari Scout",
+        "phpclass": "Coqari",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorCoqari.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 750,
+        "accelcost": 6,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 6,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "IonFieldGenerator",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "IonFieldGenerator",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "IonFieldGenerator",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "IonFieldGenerator",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "crocti",
+        "name": "Crocti Patrol Carrier",
+        "phpclass": "Crocti",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorCrocti.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 420,
+        "accelcost": 4,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "IonCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "IonCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "drocca",
+        "name": "Drocca Torpedo Destroyer",
+        "phpclass": "Drocca",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorQorric.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.33,
+        "pivotcost": 4,
+        "rollcost": 4,
+        "pointCost": 600,
+        "accelcost": 5,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "nesacc",
+        "name": "Nesacc Explorer",
+        "phpclass": "Nesacc",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorNorsca.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 4,
+        "pointCost": 700,
+        "accelcost": 6,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 6,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "IonCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "IonCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "IonCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "norsca",
+        "name": "Norsca Battlecruiser",
+        "phpclass": "Norsca",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorNorsca.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 4,
+        "pointCost": 700,
+        "accelcost": 6,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 6,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "RadCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "IonicLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "IonCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "IonicLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "IonCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "norscator",
+        "name": "Norscator Gunship",
+        "phpclass": "Norscator",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorNorsca.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 4,
+        "pointCost": 825,
+        "accelcost": 6,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 6,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "IonicLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "IonicLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 0
+            },
+            {
+                "name": "IonicLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "IonicLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "IonicLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "IonicLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "IonicLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "IonicLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "IonicLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "IonicLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "qoccata",
+        "name": "Qoccata Supercarrier",
+        "phpclass": "Qoccata",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorQoccata.png",
+        "turncost": 1,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 6,
+        "pointCost": 950,
+        "accelcost": 8,
+        "iniativebonus": 0,
+        "forwardDefense": 18,
+        "sideDefense": 19,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 8,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 8,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "RadCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "RadCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "IonCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "IonCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "IonCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "IonCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "IonCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "IonCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "qoricc",
+        "name": "Qoricc Destroyer",
+        "phpclass": "Qoricc",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorQorric.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.33,
+        "pivotcost": 4,
+        "rollcost": 4,
+        "pointCost": 500,
+        "accelcost": 5,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "IonicLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "IonicLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "IonicLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "IonicLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "IonicLaser",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "proxmineraccan",
+        "name": "Raccan Proximity Mine",
+        "phpclass": "proxMineRaccan",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/cascorMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 16,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "proxmineraqar",
+        "name": "Raqar Proximity Mine",
+        "phpclass": "proxMineRaqar",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/cascorMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 9,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "proxminerashaq",
+        "name": "Rashaq Proximity Mine",
+        "phpclass": "proxMineRashaq",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/cascorMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 16,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "ruqacc",
+        "name": "Ruqacc Ion Satellite",
+        "phpclass": "Ruqacc",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorRuqaccOSAT.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 175,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 7,
+        "sideDefense": 7,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "IonicLaser",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "IonicLaser",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 2,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 2,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 1,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "dewminesonoraq",
+        "name": "Sonoraq DEW Mine",
+        "phpclass": "dewMineSonoraq",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/cascorMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 40,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 25,
+                "endArc": 4,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "tacacci",
+        "name": "Tacacci Strike Frigate",
+        "phpclass": "Tacacci",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorTaccaci.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.25,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 440,
+        "accelcost": 4,
+        "iniativebonus": 65,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "IonCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 60,
+                "endArc": 300,
+                "location": 2
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "talacca",
+        "name": "Talacca Frigate Leader",
+        "phpclass": "Talacca",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorTaccaci.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.25,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 500,
+        "accelcost": 4,
+        "iniativebonus": 70,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "IonCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "IonCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 60,
+                "endArc": 300,
+                "location": 2
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "tiqincc",
+        "name": "Tiqincc Medium Fighters",
+        "phpclass": "Tiqincc",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorTiqincc.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 270,
+        "accelcost": 2,
+        "iniativebonus": 90,
+        "forwardDefense": 8,
+        "sideDefense": 7
+    },
+    {
+        "id": "tiqus",
+        "name": "Tiqus Attack Fighters",
+        "phpclass": "Tiqus",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorTiqincc.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 45,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 7
+    },
+    {
+        "id": "captorminetorqi",
+        "name": "Torqi Captor Mine",
+        "phpclass": "captorMineTorqi",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/cascorMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 16,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "captorminetralati",
+        "name": "Tralati Captor Mine",
+        "phpclass": "captorMineTralati",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/cascorMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 24,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "traqintornew",
+        "name": "Traqintor Waystation",
+        "phpclass": "TraqintorNew",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorTaqintorWaystation.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 2500,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 20,
+        "sideDefense": 20,
+        "weapons": [
+            {
+                "name": "IonTorpedo",
+                "armour": 5,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 5,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "IonCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "IonCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "IonCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "IonCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "IonCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "IonCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 180,
+                "endArc": 270,
+                "location": 3
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 180,
+                "endArc": 270,
+                "location": 3
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 90,
+                "location": 3
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 90,
+                "location": 3
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "IonCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "IonCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 90,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 90,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "traqintor",
+        "name": "Traqintor Waystation",
+        "phpclass": "Traqintor",
+        "faction": "Cascor Commonwealth",
+        "imagePath": "assets/races/cascor_commonwealth/ships/CascorTaqintorWaystation.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 2500,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 20,
+        "sideDefense": 20,
+        "weapons": [
+            {
+                "name": "IonTorpedo",
+                "armour": 5,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 5,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "IonCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "IonCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 90,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 180,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "IonCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "IonCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 90,
+                "location": 4
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 90,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "IonCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "IonCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 270,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 180,
+                "endArc": 270,
+                "location": 3
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "DualIonBolter",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 4,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "IonCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "IonCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            }
+        ]
+    }
+]

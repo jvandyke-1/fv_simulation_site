@@ -1,0 +1,4246 @@
+[
+    {
+        "id": "alykentnew",
+        "name": "Alykent Guardpost",
+        "phpclass": "AlykentNew",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/Alykent.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 575,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "alykent",
+        "name": "Alykent Guardpost",
+        "phpclass": "Alykent",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/Alykent.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 575,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "antoph",
+        "name": "Antoph Light Cruiser",
+        "phpclass": "Antoph",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/antoph.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 470,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "antophearly",
+        "name": "Antoph Light Cruiser (Early)",
+        "phpclass": "AntophEarly",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/antoph.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 400,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "antophupgrade",
+        "name": "Antoph Light Cruiser (Upgraded)",
+        "phpclass": "AntophUpgrade",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/antoph.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 500,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 0
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 0
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "armedshuttlebrakiri",
+        "name": "Armed Shuttles",
+        "phpclass": "ArmedShuttleBrakiri",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/shuttleBrakiri.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 26,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 8,
+        "gravitic": true
+    },
+    {
+        "id": "avioki",
+        "name": "Avioki Heavy Cruiser",
+        "phpclass": "Avioki",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/avioki.png",
+        "turncost": 1,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 725,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 18,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "aviokiearly",
+        "name": "Avioki Heavy Cruiser (Early)",
+        "phpclass": "AviokiEarly",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/avioki.png",
+        "turncost": 1,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 685,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 18,
+        "weapons": [
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "bashnar",
+        "name": "Bashnar Auxiliary Carrier",
+        "phpclass": "Bashnar",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/brathon.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 300,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "batrado",
+        "name": "Batrado Armed Transport",
+        "phpclass": "Batrado",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/avioki.png",
+        "turncost": 1,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 500,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 18,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "batradoearly",
+        "name": "Batrado Armed Transport (Early)",
+        "phpclass": "BatradoEarly",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/avioki.png",
+        "turncost": 1,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 460,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 18,
+        "weapons": [
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "brathon",
+        "name": "Brathon Auxiliary Cruiser",
+        "phpclass": "Brathon",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/brathon.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 325,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticCutter",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticCutter",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "brathoncannon",
+        "name": "Brathon Auxiliary Cruiser (non-Kam-Lassit)",
+        "phpclass": "BrathonCannon",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/brathon.png",
+        "turncost": 0.66,
+        "turndelaycost": 1,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 345,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "brikorta",
+        "name": "Brikorta Light Carrier",
+        "phpclass": "Brikorta",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/ikorta.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 500,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "brikortaearly",
+        "name": "Brikorta Light Carrier (Early)",
+        "phpclass": "BrikortaEarly",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/ikorta.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 470,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "brokados",
+        "name": "Brokados Battle Carrier",
+        "phpclass": "Brokados",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/brokados.png",
+        "turncost": 0.75,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 825,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyLaser",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyLaser",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "HeavyLaser",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "HeavyLaser",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "calorta",
+        "name": "Calorta Elint Cruiser",
+        "phpclass": "Calorta",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/calorta.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 570,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "calortaearly",
+        "name": "Calorta Elint Cruiser (Early)",
+        "phpclass": "CalortaEarly",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/calorta.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 500,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "cidikar",
+        "name": "Cidikar Heavy Carrier",
+        "phpclass": "cidikar",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/Cidikar.png",
+        "turncost": 1,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 800,
+        "accelcost": 5,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 19,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "HeavyLaser",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "HeavyLaser",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "corumai",
+        "name": "Corumai Dreadnought",
+        "phpclass": "Corumai",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/corumai.png",
+        "turncost": 1.25,
+        "turndelaycost": 1.25,
+        "pivotcost": 5,
+        "rollcost": 3,
+        "pointCost": 1050,
+        "accelcost": 5,
+        "iniativebonus": -10,
+        "forwardDefense": 18,
+        "sideDefense": 20,
+        "weapons": [
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 180,
+                "endArc": 240,
+                "location": 3
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 120,
+                "endArc": 180,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "corumaiearly",
+        "name": "Corumai Dreadnought (Early)",
+        "phpclass": "CorumaiEarly",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/corumai.png",
+        "turncost": 1.25,
+        "turndelaycost": 1.25,
+        "pivotcost": 5,
+        "rollcost": 3,
+        "pointCost": 1000,
+        "accelcost": 5,
+        "iniativebonus": -10,
+        "forwardDefense": 18,
+        "sideDefense": 20,
+        "weapons": [
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 180,
+                "endArc": 240,
+                "location": 3
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 120,
+                "endArc": 180,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "devaskar",
+        "name": "Devaskar Carrier",
+        "phpclass": "Devaskar",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/devaskar.png",
+        "turncost": 1,
+        "turndelaycost": 0.75,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 600,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "drikorta",
+        "name": "Drikorta Power Cruiser",
+        "phpclass": "Drikorta",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/ikorta.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 425,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "falkosi",
+        "name": "Falkosi Light Fighters",
+        "phpclass": "Falkosi",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/falkosi.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 228,
+        "accelcost": 1,
+        "iniativebonus": 100,
+        "forwardDefense": 7,
+        "sideDefense": 8,
+        "gravitic": true
+    },
+    {
+        "id": "folshota",
+        "name": "Folshot A Light Fighters",
+        "phpclass": "FolshotA",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/falkosi.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 162,
+        "accelcost": 1,
+        "iniativebonus": 100,
+        "forwardDefense": 6,
+        "sideDefense": 7,
+        "gravitic": true
+    },
+    {
+        "id": "folshotb",
+        "name": "Folshot B Light Fighters",
+        "phpclass": "FolshotB",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/falkosi.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 186,
+        "accelcost": 1,
+        "iniativebonus": 100,
+        "forwardDefense": 6,
+        "sideDefense": 7,
+        "gravitic": true
+    },
+    {
+        "id": "halik",
+        "name": "Halik Fighter-Killer",
+        "phpclass": "Halik",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/halik.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 450,
+        "accelcost": 2,
+        "iniativebonus": 60,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "halos",
+        "name": "Halos Heavy Scout",
+        "phpclass": "Halos",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/halos.png",
+        "turncost": 1,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 800,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 18,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "halosearly",
+        "name": "Halos Heavy Scout (Early)",
+        "phpclass": "HalosEarly",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/halos.png",
+        "turncost": 1,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 740,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 18,
+        "weapons": [
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "haltona",
+        "name": "Haltona Frigate",
+        "phpclass": "Haltona",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/haltona.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 525,
+        "accelcost": 2,
+        "iniativebonus": 60,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "ikorta",
+        "name": "Ikorta Light Assault Cruiser",
+        "phpclass": "Ikorta",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/ikorta.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 450,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "ikortaearly",
+        "name": "Ikorta Light Assault Cruiser (Early)",
+        "phpclass": "IkortaEarly",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/ikorta.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 420,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "ishtaka",
+        "name": "Ishtaka Techbase",
+        "phpclass": "Ishtaka",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/BrakiriIshtaka.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 4500,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 22,
+        "sideDefense": 22
+    },
+    {
+        "id": "ishtakaton",
+        "name": "Ishtakaton Techbase",
+        "phpclass": "Ishtakaton",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/BrakiriIshtaka.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 4500,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 22,
+        "sideDefense": 22
+    },
+    {
+        "id": "kabrik",
+        "name": "Kabrik Police Ship",
+        "phpclass": "Kabrik",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/kabrik.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.66,
+        "pivotcost": 1,
+        "rollcost": 2,
+        "pointCost": 350,
+        "accelcost": 3,
+        "iniativebonus": 60,
+        "forwardDefense": 12,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ],
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "kaliva",
+        "name": "Kaliva Lance Cruiser",
+        "phpclass": "Kaliva",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/avioki.png",
+        "turncost": 1,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 775,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 18,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticLance",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 16,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticLance",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 16,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "lykorai",
+        "name": "Lykorai Supercarrier",
+        "phpclass": "Lykorai",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/corumai.png",
+        "turncost": 1.25,
+        "turndelaycost": 1.25,
+        "pivotcost": 5,
+        "rollcost": 3,
+        "pointCost": 925,
+        "accelcost": 5,
+        "iniativebonus": -10,
+        "forwardDefense": 18,
+        "sideDefense": 20,
+        "weapons": [
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "pikitos",
+        "name": "Pikitos Heavy Fighters",
+        "phpclass": "Pikitos",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/pikitos.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 468,
+        "accelcost": 1,
+        "iniativebonus": 80,
+        "forwardDefense": 9,
+        "sideDefense": 10,
+        "gravitic": true
+    },
+    {
+        "id": "breachingpodbrakiri",
+        "name": "Pri-Thentat Breaching Pods",
+        "phpclass": "breachingpodbrakiri",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/takala.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 42,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 7,
+        "sideDefense": 10,
+        "gravitic": true
+    },
+    {
+        "id": "rakarta",
+        "name": "Rakarta Frigate",
+        "phpclass": "Rakarta",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/rakarta.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 360,
+        "accelcost": 3,
+        "iniativebonus": 60,
+        "forwardDefense": 11,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "GraviticCutter",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "GraviticCutter",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "rakartaearly",
+        "name": "Rakarta Frigate (early)",
+        "phpclass": "RakartaEarly",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/rakarta.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 340,
+        "accelcost": 3,
+        "iniativebonus": 60,
+        "forwardDefense": 11,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "GraviticCutter",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "GraviticCutter",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "rakartalaserearly",
+        "name": "Rakarta Frigate (Ly-Nakir - Early)",
+        "phpclass": "RakartaLaserEarly",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/rakarta.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 360,
+        "accelcost": 3,
+        "iniativebonus": 60,
+        "forwardDefense": 11,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "MediumLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "rakartalaser",
+        "name": "Rakarta Frigate (Ly-Nakir)",
+        "phpclass": "RakartaLaser",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/rakarta.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 380,
+        "accelcost": 3,
+        "iniativebonus": 60,
+        "forwardDefense": 11,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "MediumLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "MediumLaser",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "rakartacannonearly",
+        "name": "Rakarta Frigate (non-Kam-Lassit - Early)",
+        "phpclass": "RakartaCannonEarly",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/rakarta.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 360,
+        "accelcost": 3,
+        "iniativebonus": 60,
+        "forwardDefense": 11,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "rakartacannon",
+        "name": "Rakarta Frigate (non-Kam-Lassit)",
+        "phpclass": "RakartaCannon",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/rakarta.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 380,
+        "accelcost": 3,
+        "iniativebonus": 60,
+        "forwardDefense": 11,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "captorminerehsac",
+        "name": "Rehsa-C Captor Mine",
+        "phpclass": "captorMineRehsaC",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/brakiriMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 18,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "dewminerehsag",
+        "name": "Rehsa-G DEW Mine",
+        "phpclass": "dewMineRehsaG",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/brakiriMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 24,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 6,
+                "endArc": 7,
+                "location": 0
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "proxminerehsap",
+        "name": "Rehsa-P Proximity Mine",
+        "phpclass": "proxMineRehsaP",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/brakiriMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 10,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "shakara",
+        "name": "Shakara Scout Cruiser",
+        "phpclass": "Shakara",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/shakara.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 700,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticShifter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticShifter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "zzunoffshakaraton",
+        "name": "Shakaraton Scout Cruiser",
+        "phpclass": "zzunoffShakaraton",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/shakara.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 700,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "takalaas",
+        "name": "Takala Battle Assault Shuttles",
+        "phpclass": "TakalaAS",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/takala.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 50,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 9,
+        "gravitic": true
+    },
+    {
+        "id": "takata",
+        "name": "Takata Mine Cruiser",
+        "phpclass": "Takata",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/tashkat.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 950,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticMine",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticMine",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticMine",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticMine",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 16,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "GraviticMine",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 16,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "GraviticMine",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 16,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "GraviticMine",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 16,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "tashkat",
+        "name": "Tashkat Advanced Cruiser",
+        "phpclass": "Tashkat",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/tashkat.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 900,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticShifter",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticShifter",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticShifter",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "zzunofftashkaton",
+        "name": "Tashkaton Advanced Cruiser",
+        "phpclass": "zzunoffTashkaton",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/tashkat.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 900,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "tashkava",
+        "name": "Tashkava Advanced Lance Cruiser",
+        "phpclass": "Tashkava",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/tashkat.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 950,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticShifter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticShifter",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "GraviticShifter",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticLance",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 16,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticLance",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 16,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "zzunofftashkavaton",
+        "name": "Tashkavaton Advanced Lance Cruiser",
+        "phpclass": "zzunoffTashkavaton",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/tashkat.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 950,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GravitonBeam",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 8,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GraviticLance",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 16,
+                "startArc": 300,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "GraviticLance",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 16,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "tobrakias",
+        "name": "Tobraki Assault Shuttles",
+        "phpclass": "TobrakiAS",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/falkosi.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 30,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 7,
+        "sideDefense": 10,
+        "gravitic": true
+    },
+    {
+        "id": "tokrana",
+        "name": "Tokrana Satellite",
+        "phpclass": "Tokrana",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/tokrana.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 200,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 10,
+        "sideDefense": 10,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "GraviticCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "torsha",
+        "name": "Torsha Scout Carrier",
+        "phpclass": "Torsha",
+        "faction": "Brakiri Syndicracy",
+        "imagePath": "assets/races/brakiri_syndicracy/ships/torsha.png",
+        "turncost": 1,
+        "turndelaycost": 0.75,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 800,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "GraviticBolt",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "GravitonPulsar",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 2,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    }
+]

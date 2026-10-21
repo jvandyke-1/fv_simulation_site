@@ -1,0 +1,1698 @@
+[
+    {
+        "id": "baradabaroghmediumfighters",
+        "name": "Barogh Medium Fighters",
+        "phpclass": "baradaBaroghMediumFighters",
+        "faction": "Barada Imperium",
+        "imagePath": "assets/races/barada_imperium/ships/baradaBaroghMediumFighter.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 38,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 6,
+        "sideDefense": 6
+    },
+    {
+        "id": "baradafizurfastgunboat",
+        "name": "Fizur Fast Gunboat",
+        "phpclass": "baradaFizurFastGunboat",
+        "faction": "Barada Imperium",
+        "imagePath": "assets/races/barada_imperium/ships/baradaFizurFastGunboat.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 200,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "baradagilazfleetcarrier",
+        "name": "Gilaz Fleet Carrier",
+        "phpclass": "baradaGilazFleetCarrier",
+        "faction": "Barada Imperium",
+        "imagePath": "assets/races/barada_imperium/ships/baradaGilazFleetCarrier.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 850,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "baradagomtucruiser",
+        "name": "Gomtu Cruiser",
+        "phpclass": "baradaGomtuCruiser",
+        "faction": "Barada Imperium",
+        "imagePath": "assets/races/barada_imperium/ships/baradaGomtuCruiser.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 725,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyParticleBeam",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "HeavyParticleBeam",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "baradajorivassaultcruiser",
+        "name": "Joriv Assault Cruiser",
+        "phpclass": "baradaJorivAssaultCruiser",
+        "faction": "Barada Imperium",
+        "imagePath": "assets/races/barada_imperium/ships/baradaGomtuCruiser.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 750,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyParticleBeam",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "HeavyParticleBeam",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "HeavyParticleBeam",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "HeavyParticleBeam",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "baradakarovshuttle",
+        "name": "Karov Assault Shuttle",
+        "phpclass": "baradaKarovShuttle",
+        "faction": "Barada Imperium",
+        "imagePath": "assets/races/barada_imperium/ships/baradaKarovAssaultShuttle.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 30,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "baradatomguscoutcruiser",
+        "name": "Tomgu Scout Cruiser",
+        "phpclass": "baradaTomguScoutCruiser",
+        "faction": "Barada Imperium",
+        "imagePath": "assets/races/barada_imperium/ships/baradaGomtuCruiser.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 780,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "baradatomzurattackgunboat",
+        "name": "Tomzur Attack Gunboat",
+        "phpclass": "baradaTomzurAttackGunboat",
+        "faction": "Barada Imperium",
+        "imagePath": "assets/races/barada_imperium/ships/baradaFizurFastGunboat.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 200,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "HeavyParticleBeam",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "baradatrukdestroyer",
+        "name": "Truk Destroyer",
+        "phpclass": "baradaTrukDestroyer",
+        "faction": "Barada Imperium",
+        "imagePath": "assets/races/barada_imperium/ships/baradaTrukDestroyer.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 300,
+        "accelcost": 2,
+        "iniativebonus": 60,
+        "forwardDefense": 11,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 1,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 1,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyParticleBeam",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "baradavalialightcruiser",
+        "name": "Valia Light Cruiser",
+        "phpclass": "baradaValiaLightCruiser",
+        "faction": "Barada Imperium",
+        "imagePath": "assets/races/barada_imperium/ships/baradaValiaLightCruiser.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 3,
+        "rollcost": 3,
+        "pointCost": 475,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 11,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 2,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyParticleBeam",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "HeavyParticleBeam",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    }
+]

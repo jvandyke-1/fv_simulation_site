@@ -1,0 +1,653 @@
+[
+    {
+        "id": "adjudicator",
+        "name": "Adjudicator",
+        "phpclass": "Adjudicator",
+        "faction": "Streib",
+        "imagePath": "assets/races/streib/ships/collector.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 1250,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 3
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ImprovedBlastLaser",
+                "armour": 7,
+                "maxhealth": 10,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ImprovedBlastLaser",
+                "armour": 7,
+                "maxhealth": 10,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumBurstBeam",
+                "armour": 6,
+                "maxhealth": 7,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumBurstBeam",
+                "armour": 6,
+                "maxhealth": 7,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "EMWaveDisruptor",
+                "armour": 6,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ImprovedBlastLaser",
+                "armour": 7,
+                "maxhealth": 10,
+                "powerreq": 8,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "DualBurstBeam",
+                "armour": 6,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ImprovedBlastLaser",
+                "armour": 7,
+                "maxhealth": 10,
+                "powerreq": 8,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "BurstPulseCannon",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 7,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "SurgeLaser",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ImprovedBlastLaser",
+                "armour": 7,
+                "maxhealth": 10,
+                "powerreq": 8,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 4
+            },
+            {
+                "name": "SurgeLaser",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "SurgeLaser",
+                "armour": 6,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            },
+            {
+                "name": "EMWaveDisruptor",
+                "armour": 6,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "streibarmedbreachingpod",
+        "name": "Armed Breaching Pods",
+        "phpclass": "StreibArmedBreachingPod",
+        "faction": "Streib",
+        "imagePath": "assets/races/streib/ships/streibbreachingpod.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 65,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 8,
+        "gravitic": true
+    },
+    {
+        "id": "streibbreachingpod",
+        "name": "Breaching Pods",
+        "phpclass": "StreibBreachingPod",
+        "faction": "Streib",
+        "imagePath": "assets/races/streib/ships/streibbreachingpod.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 50,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 8,
+        "gravitic": true
+    },
+    {
+        "id": "collector",
+        "name": "Collector",
+        "phpclass": "Collector",
+        "faction": "Streib",
+        "imagePath": "assets/races/streib/ships/collector.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 1100,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "MediumBurstBeam",
+                "armour": 6,
+                "maxhealth": 7,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "BurstPulseCannon",
+                "armour": 7,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumBurstBeam",
+                "armour": 6,
+                "maxhealth": 7,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MediumBurstBeam",
+                "armour": 6,
+                "maxhealth": 7,
+                "powerreq": 6,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ImprovedBlastLaser",
+                "armour": 7,
+                "maxhealth": 10,
+                "powerreq": 8,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MediumBurstBeam",
+                "armour": 6,
+                "maxhealth": 7,
+                "powerreq": 6,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "ImprovedBlastLaser",
+                "armour": 7,
+                "maxhealth": 10,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "HeavyBurstBeam",
+                "armour": 7,
+                "maxhealth": 9,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "DualBurstBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "EMWaveDisruptor",
+                "armour": 6,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "DualBurstBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "EMWaveDisruptor",
+                "armour": 6,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "streibcombatpod",
+        "name": "Combat Pods",
+        "phpclass": "StreibCombatPod",
+        "faction": "Streib",
+        "imagePath": "assets/races/streib/ships/streibbreachingpod.png",
+        "turncost": 0.33,
+        "turndelaycost": 0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 90,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 8,
+        "gravitic": true
+    },
+    {
+        "id": "streibintruder",
+        "name": "Intruder",
+        "phpclass": "StreibIntruder",
+        "faction": "Streib",
+        "imagePath": "assets/races/streib/ships/intruder.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 430,
+        "accelcost": 2,
+        "iniativebonus": 60,
+        "forwardDefense": 11,
+        "sideDefense": 13,
+        "weapons": [
+            {
+                "name": "SurgeLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 0
+            },
+            {
+                "name": "SurgeLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "EMWaveDisruptor",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "SurgeLaser",
+                "armour": 5,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "streibmonitor",
+        "name": "Monitor",
+        "phpclass": "StreibMonitor",
+        "faction": "Streib",
+        "imagePath": "assets/races/streib/ships/streibmonitor.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 675,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 12,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            }
+        ],
+        "weapons": [
+            {
+                "name": "DualBurstBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "SurgeLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 0
+            },
+            {
+                "name": "ImprovedBlastLaser",
+                "armour": 7,
+                "maxhealth": 10,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "EMWaveDisruptor",
+                "armour": 6,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "SurgeLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "BurstPulseCannon",
+                "armour": 7,
+                "maxhealth": 6,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "mothership",
+        "name": "Mothership",
+        "phpclass": "Mothership",
+        "faction": "Streib",
+        "imagePath": "assets/races/streib/ships/streibmothership.png",
+        "turncost": 1.33,
+        "turndelaycost": 1,
+        "pivotcost": 4,
+        "rollcost": 3,
+        "pointCost": 1400,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "weapons": [
+            {
+                "name": "DualBurstBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ImprovedBlastLaser",
+                "armour": 7,
+                "maxhealth": 10,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ImprovedBlastLaser",
+                "armour": 7,
+                "maxhealth": 10,
+                "powerreq": 8,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "EMWaveDisruptor",
+                "armour": 6,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SurgeLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "SurgeLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "DualBurstBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "SurgeLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "SurgeLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "EMWaveDisruptor",
+                "armour": 6,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "EMWaveDisruptor",
+                "armour": 6,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "HeavyBurstBeam",
+                "armour": 7,
+                "maxhealth": 9,
+                "powerreq": 8,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "SurgeLaser",
+                "armour": 5,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "DualBurstBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "DualBurstBeam",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    }
+]

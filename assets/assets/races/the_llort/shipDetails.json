@@ -1,0 +1,2640 @@
+[
+    {
+        "id": "allovan",
+        "name": "Allovan Attack Frigate",
+        "phpclass": "Allovan",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortAllovan.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 500,
+        "accelcost": 2,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumBolter",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 1
+            },
+            {
+                "name": "LightBolter",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "LightBolter",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "LightBolter",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightBolter",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "daggaden",
+        "name": "Daggaden Penetrator",
+        "phpclass": "Daggaden",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortDaggaden.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 275,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "daggadenpod",
+        "name": "Daggaden Penetrator Pod",
+        "phpclass": "DaggadenPod",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortDaggadenPod.png",
+        "turncost": 0.25,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 275,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 270,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "erlorhark",
+        "name": "Erlorhark Battle Cruiser",
+        "phpclass": "Erlorhark",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortErlorhark.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 650,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            },
+            {
+                "output": 1,
+                "direction": 2,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 330,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 330,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "erlorraearlypods",
+        "name": "Erlorra Early Cruiser (w/Cargo Pods)",
+        "phpclass": "ErlorraEarlyPods",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortErlorra.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 1,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "erlorraearly",
+        "name": "Erlorra Early Raiding Cruiser",
+        "phpclass": "ErlorraEarly",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortErlorra.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 550,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 1,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "erlorra",
+        "name": "Erlorra Raiding Cruiser",
+        "phpclass": "Erlorra",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortErlorra.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MagGun",
+                "armour": 4,
+                "maxhealth": 9,
+                "powerreq": 8,
+                "startArc": 240,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 1,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "erlorrapods",
+        "name": "Erlorra Raiding Cruiser (w/Cargo Pods)",
+        "phpclass": "ErlorraPods",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortErlorra.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 650,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MagGun",
+                "armour": 4,
+                "maxhealth": 9,
+                "powerreq": 8,
+                "startArc": 240,
+                "endArc": 30,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 1,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "fwellgonam",
+        "name": "Fwellgon Raiding Scout",
+        "phpclass": "fwellgonAM",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortGovall.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 700,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightLaser",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleCannon",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "govallam",
+        "name": "Govall Bombardment Destroyer",
+        "phpclass": "govallAM",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortGovall.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 700,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "govallearlyam",
+        "name": "Govall Bombardment Destroyer (Early)",
+        "phpclass": "govallEarlyAM",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortGovall.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 700,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "graemlar",
+        "name": "Graemlar Defense Satellite",
+        "phpclass": "Graemlar",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortGraemlar.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 180,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 9,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBeamShip",
+                "armour": 2,
+                "maxhealth": 2,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 2,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "kaedashkadaamnew",
+        "name": "Kaedashkada Starbase",
+        "phpclass": "KaedashkadaAMNew",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortKaedashkada.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 2250,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 23,
+        "sideDefense": 25,
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 3
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "kaedashkadaam",
+        "name": "Kaedashkada Starbase",
+        "phpclass": "KaedashkadaAM",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortKaedashkada.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 2250,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 23,
+        "sideDefense": 25,
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "armedshuttlellort",
+        "name": "Latalla Armed Shuttles",
+        "phpclass": "ArmedShuttleLlort",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/shuttleLlort.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 16,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 10
+    },
+    {
+        "id": "ftrlellata",
+        "name": "Lellat-A Medium Fighters",
+        "phpclass": "ftrLellatA",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortLellat.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 240,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 7,
+        "sideDefense": 7
+    },
+    {
+        "id": "ftrlellatb",
+        "name": "Lellat-B Medium Fighters",
+        "phpclass": "ftrLellatB",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortLellat.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 240,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 7,
+        "sideDefense": 7
+    },
+    {
+        "id": "ftrleteerumas",
+        "name": "Leteerum Assault Shuttles",
+        "phpclass": "ftrLeteerumAS",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortLeteerum.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 30,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 9
+    },
+    {
+        "id": "palaceship",
+        "name": "Mi",
+        "phpclass": "PalaceShip",
+        "faction": "Custom Ships",
+        "imagePath": "assets/races/the_llort/ships/sakar.png",
+        "turncost": 2,
+        "turndelaycost": 2,
+        "pivotcost": 6,
+        "rollcost": 6,
+        "pointCost": 1100,
+        "accelcost": 8,
+        "iniativebonus": 0,
+        "forwardDefense": 19,
+        "sideDefense": 20,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 8,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 8,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumBolter",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "IonTorpedo",
+                "armour": 3,
+                "maxhealth": 5,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "breachingpodllort",
+        "name": "Skulattra Breaching Pods",
+        "phpclass": "breachingpodllort",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortSkulattra.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 40,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 8
+    },
+    {
+        "id": "terillon",
+        "name": "Terillon Patrol Frigate",
+        "phpclass": "Terillon",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortTerillon.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 425,
+        "accelcost": 2,
+        "iniativebonus": 60,
+        "forwardDefense": 13,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 1,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 240,
+                "location": 2
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "trathor",
+        "name": "Trathor Assault Carrier",
+        "phpclass": "Trathor",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortTurlisk.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 575,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumPlasma",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "MediumPlasma",
+                "armour": 4,
+                "maxhealth": 5,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "turgon",
+        "name": "Turgon Bolt Cruiser",
+        "phpclass": "Turgon",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortTurlisk.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "MediumBolter",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "MediumBolter",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "turlisk",
+        "name": "Turlisk Jump Carrier",
+        "phpclass": "Turlisk",
+        "faction": "Llort",
+        "imagePath": "assets/races/the_llort/ships/LlortTurlisk.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 550,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 17,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ScatterGun",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    }
+]

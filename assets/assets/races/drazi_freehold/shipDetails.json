@@ -1,0 +1,3306 @@
+[
+    {
+        "id": "armedshuttledrazi",
+        "name": "Armed Shuttles",
+        "phpclass": "ArmedShuttleDrazi",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/shuttleDrazi.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 24,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 9
+    },
+    {
+        "id": "armoredshuttledrazi",
+        "name": "Armored Shuttles",
+        "phpclass": "ArmoredShuttleDrazi",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/shuttleDrazi.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 32,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 9
+    },
+    {
+        "id": "brostillinew",
+        "name": "Brostilli Warbase",
+        "phpclass": "BrostilliNew",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/Brostilli.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 3000,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 21,
+        "sideDefense": 21,
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ParticleRepeater",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ParticleRepeater",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HvyParticleCannon",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 9,
+                "startArc": 270,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "HvyParticleCannon",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 9,
+                "startArc": 180,
+                "endArc": 270,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 270,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 270,
+                "location": 3
+            },
+            {
+                "name": "HvyParticleCannon",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 9,
+                "startArc": 0,
+                "endArc": 90,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 90,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 90,
+                "location": 3
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "HvyParticleCannon",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 9,
+                "startArc": 90,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "brostilli",
+        "name": "Brostilli Warbase",
+        "phpclass": "Brostilli",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/Brostilli.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 3000,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 21,
+        "sideDefense": 21,
+        "weapons": [
+            {
+                "name": "TwinArray",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ParticleRepeater",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ParticleRepeater",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HvyParticleCannon",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 9,
+                "startArc": 0,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HvyParticleCannon",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 9,
+                "startArc": 180,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 210,
+                "endArc": 330,
+                "location": 3
+            },
+            {
+                "name": "HvyParticleCannon",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 9,
+                "startArc": 270,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 5,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 30,
+                "endArc": 150,
+                "location": 4
+            },
+            {
+                "name": "HvyParticleCannon",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 9,
+                "startArc": 90,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 5,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "claweagle",
+        "name": "Claweagle Frigate",
+        "phpclass": "Claweagle",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziStareagle.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 2,
+        "pointCost": 300,
+        "accelcost": 2,
+        "iniativebonus": 70,
+        "forwardDefense": 12,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 7,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "darkhawkam",
+        "name": "Darkhawk Missile Cruiser",
+        "phpclass": "DarkhawkAM",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziDarkhawk.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 450,
+        "accelcost": 2,
+        "iniativebonus": 40,
+        "forwardDefense": 14,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 10,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCutter",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "deathfalcon",
+        "name": "Deathfalcon Heavy Assault Cruiser",
+        "phpclass": "Deathfalcon",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziStormfalcon.png",
+        "turncost": 0.5,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 5,
+        "pointCost": 725,
+        "accelcost": 3,
+        "iniativebonus": 10,
+        "forwardDefense": 15,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 8,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HvyParticleCannon",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 9,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleRepeater",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "ParticleRepeater",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleRepeater",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "deathfalcon2230",
+        "name": "Deathfalcon Heavy Assault Cruiser (2230)",
+        "phpclass": "Deathfalcon2230",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziStormfalcon.png",
+        "turncost": 0.5,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 5,
+        "pointCost": 725,
+        "accelcost": 3,
+        "iniativebonus": 10,
+        "forwardDefense": 15,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 8,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HvyParticleCannon",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 9,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 0
+            },
+            {
+                "name": "RepeaterGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "RepeaterGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "RepeaterGun",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "dudromaa",
+        "name": "Dudroma A Defense Satellite",
+        "phpclass": "DudromaA",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/dudroma.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 165,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HeavyPlasma",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyPlasma",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "dudromab",
+        "name": "Dudroma B Defense Satellite",
+        "phpclass": "DudromaB",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/dudroma.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 175,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 11,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "eyehawk",
+        "name": "Eyehawk Scout Cruiser",
+        "phpclass": "Eyehawk",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziEyehawk.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 2,
+        "iniativebonus": 40,
+        "forwardDefense": 14,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 10,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "fangedserpentam",
+        "name": "Fanged Serpent Command Fighters",
+        "phpclass": "FangedSerpentAM",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziSkyserpent.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 145,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 9
+    },
+    {
+        "id": "firefalcon",
+        "name": "Firefalcon Command Cruiser",
+        "phpclass": "Firefalcon",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziFirefalcon.png",
+        "turncost": 0.5,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 5,
+        "pointCost": 850,
+        "accelcost": 3,
+        "iniativebonus": 15,
+        "forwardDefense": 15,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 9,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleRepeater",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "SolarCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleRepeater",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "SolarCannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "SolarCannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "SolarCannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "SolarCannon",
+                "armour": 3,
+                "maxhealth": 7,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "guardhawk",
+        "name": "Guardhawk Battle Escort",
+        "phpclass": "Guardhawk",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziSunhawk.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 550,
+        "accelcost": 2,
+        "iniativebonus": 40,
+        "forwardDefense": 14,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 10,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleRepeater",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "ParticleRepeater",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ParticleRepeater",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ParticleRepeater",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "jumphawk",
+        "name": "Jumphawk Command Cruiser",
+        "phpclass": "Jumphawk",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziJumphawk.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 500,
+        "accelcost": 2,
+        "iniativebonus": 45,
+        "forwardDefense": 14,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 10,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "kestrelcommon",
+        "name": "Kestrel Corvette",
+        "phpclass": "KestrelCommon",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziKestrel.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 350,
+        "accelcost": 1,
+        "iniativebonus": 70,
+        "forwardDefense": 12,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "kestrel",
+        "name": "Kestrel Corvette Leader",
+        "phpclass": "Kestrel",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziKestrel.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 390,
+        "accelcost": 1,
+        "iniativebonus": 70,
+        "forwardDefense": 12,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 7,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleBlaster",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "ParticleRepeater",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "nightfalcon",
+        "name": "Nightfalcon Heavy Carrier",
+        "phpclass": "Nightfalcon",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziStormfalcon.png",
+        "turncost": 0.5,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 5,
+        "pointCost": 725,
+        "accelcost": 3,
+        "iniativebonus": 10,
+        "forwardDefense": 15,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 8,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCutter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ParticleCutter",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "preyhawk",
+        "name": "Preyhawk Battlecruiser",
+        "phpclass": "Preyhawk",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziPreyhawk.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 575,
+        "accelcost": 2,
+        "iniativebonus": 40,
+        "forwardDefense": 14,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 10,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ScatterPulsar",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "HeavyBolter",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 6,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "QuadPulsar",
+                "armour": 4,
+                "maxhealth": 10,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ScatterPulsar",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 2,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "breachingpoddrazi",
+        "name": "Shallana Armed Breaching Pods",
+        "phpclass": "breachingpoddrazi",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziTroshanthi.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 80,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 8,
+        "sideDefense": 10
+    },
+    {
+        "id": "shodromaosat",
+        "name": "Shodroma Armed Satellite",
+        "phpclass": "ShodromaOSAT",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziShodroma.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 300,
+        "accelcost": 0,
+        "iniativebonus": 65,
+        "forwardDefense": 10,
+        "sideDefense": 10,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HvyParticleCannon",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 9,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "skyserpentam",
+        "name": "Sky Serpent Heavy Assault Fighters",
+        "phpclass": "SkySerpentAM",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziSkyserpent.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 130,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 9
+    },
+    {
+        "id": "sleekbird",
+        "name": "Sleekbird Assault Cruiser",
+        "phpclass": "Sleekbird",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziWarbird.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 400,
+        "accelcost": 2,
+        "iniativebonus": 40,
+        "forwardDefense": 13,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 8,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "solarhawk",
+        "name": "Solarhawk Battlecruiser",
+        "phpclass": "Solarhawk",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziSolarhawk.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 525,
+        "accelcost": 2,
+        "iniativebonus": 40,
+        "forwardDefense": 14,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 10,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "SolarCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "SolarCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "SolarCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "SolarCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "starsnake",
+        "name": "Star Snake Light Fighters",
+        "phpclass": "Starsnake",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziStarsnake.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 240,
+        "accelcost": 1,
+        "iniativebonus": 110,
+        "forwardDefense": 6,
+        "sideDefense": 8
+    },
+    {
+        "id": "stareagle",
+        "name": "Stareagle Frigate",
+        "phpclass": "Stareagle",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziStareagle.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 2,
+        "pointCost": 350,
+        "accelcost": 2,
+        "iniativebonus": 70,
+        "forwardDefense": 12,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 7,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleBlaster",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "stormfalcon",
+        "name": "Stormfalcon Heavy Cruiser",
+        "phpclass": "Stormfalcon",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziStormfalcon.png",
+        "turncost": 0.5,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 5,
+        "pointCost": 725,
+        "accelcost": 3,
+        "iniativebonus": 10,
+        "forwardDefense": 15,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 8,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleRepeater",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 1
+            },
+            {
+                "name": "SolarCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCutter",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "SolarCannon",
+                "armour": 4,
+                "maxhealth": 7,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleRepeater",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "TwinArray",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 2,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "strikebird",
+        "name": "Strikebird Carrier",
+        "phpclass": "Strikebird",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziWarbird.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 400,
+        "accelcost": 2,
+        "iniativebonus": 40,
+        "forwardDefense": 13,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 8,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleRepeater",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "strikehawk",
+        "name": "Strikehawk Battle Carrier",
+        "phpclass": "Strikehawk",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziWarbird.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 485,
+        "accelcost": 2,
+        "iniativebonus": 40,
+        "forwardDefense": 13,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 8,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "sunhawk",
+        "name": "Sunhawk Battlecruiser",
+        "phpclass": "Sunhawk",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziSunhawk.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 525,
+        "accelcost": 2,
+        "iniativebonus": 40,
+        "forwardDefense": 14,
+        "sideDefense": 13,
+        "thrusters": [
+            {
+                "output": 5,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 10,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCutter",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ParticleBlaster",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 5,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "taileagle",
+        "name": "Taileagle Escort Frigate",
+        "phpclass": "Taileagle",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziStareagle.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 2,
+        "pointCost": 325,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 12,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 7,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "troshanthi",
+        "name": "Troshanthi Assault Shuttles",
+        "phpclass": "Troshanthi",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziTroshanthi.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 30,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 7,
+        "sideDefense": 9
+    },
+    {
+        "id": "dewminebp",
+        "name": "Type-BP DEW Mine",
+        "phpclass": "dewMineBP",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/draziMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 22,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 6,
+                "endArc": 12,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "dewminebr",
+        "name": "Type-BR DEW Mine",
+        "phpclass": "dewMineBR",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/draziMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 25,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 5,
+                "endArc": 9,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "dewminebt",
+        "name": "Type-BT DEW Mine",
+        "phpclass": "dewMineBT",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/draziMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 26,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "MineControllerDEW",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 4,
+                "endArc": 8,
+                "location": 0
+            },
+            {
+                "name": "TwinArray",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "proxminedb",
+        "name": "Type-DB Proximity Mine",
+        "phpclass": "proxMineDB",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/draziMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 14,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "proxminedr",
+        "name": "Type-DR Proximity Mine",
+        "phpclass": "proxMineDR",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/draziMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 9,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "proxminedx",
+        "name": "Type-DX Proximity Mine",
+        "phpclass": "proxMineDX",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/draziMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 25,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "mineff",
+        "name": "Type-FF Special Mine",
+        "phpclass": "mineFF",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/draziMine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 12,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "warbird",
+        "name": "Warbird Cruiser",
+        "phpclass": "Warbird",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziWarbird.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 480,
+        "accelcost": 2,
+        "iniativebonus": 40,
+        "forwardDefense": 13,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 8,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleRepeater",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "wareagle",
+        "name": "Wareagle Frigate Leader",
+        "phpclass": "Wareagle",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziStareagle.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.25,
+        "pivotcost": 1,
+        "rollcost": 2,
+        "pointCost": 400,
+        "accelcost": 2,
+        "iniativebonus": 75,
+        "forwardDefense": 12,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 8,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCutter",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "wartalon",
+        "name": "Wartalon Escort Carrier",
+        "phpclass": "Wartalon",
+        "faction": "Drazi Freehold",
+        "imagePath": "assets/races/drazi_freehold/ships/DraziWarbird.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 500,
+        "accelcost": 2,
+        "iniativebonus": 40,
+        "forwardDefense": 13,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 2
+            },
+            {
+                "output": 8,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ParticleRepeater",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 240,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ParticleRepeater",
+                "armour": 4,
+                "maxhealth": 6,
+                "powerreq": 4,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    }
+]

@@ -1,0 +1,2968 @@
+[
+    {
+        "id": "breachingpodkorlyan",
+        "name": "Ailyan Breaching Pods",
+        "phpclass": "breachingpodkorlyan",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyanMerkul2.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 40,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 10
+    },
+    {
+        "id": "axor",
+        "name": "Axor Assault Frigate",
+        "phpclass": "Axor",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_axor2.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 250,
+        "accelcost": 1,
+        "iniativebonus": 60,
+        "forwardDefense": 10,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "cokra",
+        "name": "Cokra Blockade Runner",
+        "phpclass": "Cokra",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_cokra2.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 280,
+        "accelcost": 1,
+        "iniativebonus": 65,
+        "forwardDefense": 10,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "fenja",
+        "name": "Fenja Assault Leader",
+        "phpclass": "Fenja",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_axor2.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 300,
+        "accelcost": 1,
+        "iniativebonus": 65,
+        "forwardDefense": 10,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LimpetBoreTorpedo",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LimpetBoreTorpedo",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "kalavaroriginalam",
+        "name": "Kalavar Orbital Satellite (2194)",
+        "phpclass": "KalavarOriginalAM",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_kalavar.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 210,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 10,
+        "sideDefense": 10,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "kalavarearlyamnew",
+        "name": "Kalavar Orbital Satellite (2220)",
+        "phpclass": "KalavarEarlyAMNew",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_kalavar.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 240,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 10,
+        "sideDefense": 10,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "kalavaramnew",
+        "name": "Kalavar Orbital Satellite (2240)",
+        "phpclass": "KalavarAMNew",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_kalavar.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 250,
+        "accelcost": 0,
+        "iniativebonus": 60,
+        "forwardDefense": 10,
+        "sideDefense": 10,
+        "thrusters": [
+            {
+                "output": 0,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 2
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "kaltiam",
+        "name": "Kalti Interceptor Flight",
+        "phpclass": "KaltiAM",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyanKalti_v2.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 276,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 7,
+        "sideDefense": 8
+    },
+    {
+        "id": "koloskamnew",
+        "name": "Kolosk Proximity Cruiser",
+        "phpclass": "KoloskAMNew",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_koskova3.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 3,
+        "rollcost": 1,
+        "pointCost": 850,
+        "accelcost": 5,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "koloskearlyamnew",
+        "name": "Kolosk Proximity Cruiser (Early)",
+        "phpclass": "KoloskEarlyAMNew",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_koskova2.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 3,
+        "rollcost": 1,
+        "pointCost": 825,
+        "accelcost": 5,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "koloskovaam",
+        "name": "Koloskova Auxiliary Cruiser",
+        "phpclass": "KoloskovaAM",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_koloskova.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 325,
+        "accelcost": 2,
+        "iniativebonus": 55,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightParticleBolt",
+                "armour": 1,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleCannon",
+                "armour": 3,
+                "maxhealth": 6,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleBolt",
+                "armour": 1,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "koshaam",
+        "name": "Kosha Light Cruiser",
+        "phpclass": "KoshaAM",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_kosha.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 3,
+        "rollcost": 1,
+        "pointCost": 525,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "koshaearlyam",
+        "name": "Kosha Light Cruiser (Early)",
+        "phpclass": "KoshaEarlyAM",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_koshaEarly.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 3,
+        "rollcost": 1,
+        "pointCost": 500,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 0,
+                "endArc": 60,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "koskovaamnew",
+        "name": "Koskova Battlecruiser",
+        "phpclass": "KoskovaAMNew",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_koskova3.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 3,
+        "rollcost": 1,
+        "pointCost": 800,
+        "accelcost": 5,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "koskovaearlyamnew",
+        "name": "Koskova Battlecruiser (Early)",
+        "phpclass": "KoskovaEarlyAMNew",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_koskova2.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 3,
+        "rollcost": 1,
+        "pointCost": 775,
+        "accelcost": 5,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "captormineklb",
+        "name": "Kovost Captor Mine",
+        "phpclass": "captorMineKLB",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_mine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 16,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "spawncaptorklh",
+        "name": "Kovost Captor Mine",
+        "phpclass": "spawnCaptorKLH",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_mine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 0,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "spawncaptorklw",
+        "name": "Kovost Captor Mine",
+        "phpclass": "spawnCaptorKLW",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_mine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 0,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "spawncaptorklb",
+        "name": "Kovost Captor Mine",
+        "phpclass": "spawnCaptorKLB",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_mine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 0,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "captormineklh",
+        "name": "Kovost-H Captor Mine",
+        "phpclass": "captorMineKLH",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_mine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 16,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "captormineklw",
+        "name": "Kovost-W Captor Mine",
+        "phpclass": "captorMineKLW",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_mine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 16,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "leklantam",
+        "name": "Leklant Scout Cruiser",
+        "phpclass": "LeklantAM",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_leklant2.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 700,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LimpetBoreTorpedo",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "leklantearlyam",
+        "name": "Leklant Scout Cruiser (Early)",
+        "phpclass": "LeklantEarlyAM",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_leklant.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 2,
+        "rollcost": 2,
+        "pointCost": 690,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LimpetBoreTorpedo",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "lekra",
+        "name": "Lekra Torpedo Frigate",
+        "phpclass": "Lekra",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_cokra2.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 400,
+        "accelcost": 1,
+        "iniativebonus": 65,
+        "forwardDefense": 10,
+        "sideDefense": 11,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 5,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LimpetBoreTorpedo",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LimpetBoreTorpedo",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 1,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "LimpetBoreTorpedo",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "LimpetBoreTorpedo",
+                "armour": 2,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "merkularmedam",
+        "name": "Merkul Armed Shuttles",
+        "phpclass": "MerkulArmedAM",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyanArmedMerkul2.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 25,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 9
+    },
+    {
+        "id": "merkulmissileam",
+        "name": "Merkul Missile Shuttles",
+        "phpclass": "MerkulMissileAM",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyanArmedMerkul2.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 30,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 9
+    },
+    {
+        "id": "merkulam",
+        "name": "Merkul Shuttles",
+        "phpclass": "MerkulAM",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyanMerkul2.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 2,
+        "rollcost": 1,
+        "pointCost": 0,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 9
+    },
+    {
+        "id": "raklaviam",
+        "name": "Raklavi Carrier",
+        "phpclass": "RaklaviAM",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_raklavi.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 600,
+        "accelcost": 5,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 3
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 3,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "solyrnam",
+        "name": "Solyrn Missile Destroyer",
+        "phpclass": "SolyrnAM",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_solyrn2.png",
+        "turncost": 0.75,
+        "turndelaycost": 0.75,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 650,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 6,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "soskaam",
+        "name": "Soska Missile Cruiser",
+        "phpclass": "SoskaAM",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_soska.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 3,
+        "rollcost": 1,
+        "pointCost": 575,
+        "accelcost": 4,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "dewminetalivos",
+        "name": "Talivos DEW Mine",
+        "phpclass": "dewMineTalivos",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_mine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 80,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            }
+        ]
+    },
+    {
+        "id": "talokioriginalam",
+        "name": "Taloki Starbase (2194)",
+        "phpclass": "TalokiOriginalAM",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_taloki.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 3000,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 21,
+        "sideDefense": 24,
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "talokiearlyamnew",
+        "name": "Taloki Starbase (2220)",
+        "phpclass": "TalokiEarlyAMNew",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_taloki2.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 3400,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 21,
+        "sideDefense": 24,
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LimpetBoreTorpedoBase",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "LimpetBoreTorpedoBase",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "talokiamnew",
+        "name": "Taloki Starbase (2240)",
+        "phpclass": "TalokiAMNew",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_taloki2.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 3500,
+        "accelcost": 3,
+        "iniativebonus": -200,
+        "forwardDefense": 21,
+        "sideDefense": 24,
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LimpetBoreTorpedoBase",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "LimpetBoreTorpedoBase",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 4,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "dewminetonkal",
+        "name": "Tonkal DEW Mine",
+        "phpclass": "dewMineTonkal",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_mine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 40,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "dewminetonkar",
+        "name": "Tonkar DEW Mine",
+        "phpclass": "dewMineTonkar",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_mine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 30,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "dewminetonkat",
+        "name": "Tonkat DEW Mine",
+        "phpclass": "dewMineTonkat",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_mine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 35,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "dewminetraska",
+        "name": "Traska DEW Mine",
+        "phpclass": "dewMineTraska",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_mine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 54,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "trylkanamnew",
+        "name": "Trylkan Ballistic Destroyer",
+        "phpclass": "TrylkanAMNew",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_solyrn2.png",
+        "turncost": 0.75,
+        "turndelaycost": 0.75,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 525,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 13,
+        "sideDefense": 14,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 6,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 3,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ProximityLaserNew",
+                "armour": 3,
+                "maxhealth": 0,
+                "powerreq": 0,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "vaklaram",
+        "name": "Vaklar Logistics Frigate",
+        "phpclass": "VaklarAM",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_vaklar2.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 450,
+        "accelcost": 3,
+        "iniativebonus": 20,
+        "forwardDefense": 12,
+        "sideDefense": 12,
+        "thrusters": [
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 2
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 2,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "verlokaam",
+        "name": "Verloka Mine Cruiser",
+        "phpclass": "VerlokaAM",
+        "faction": "Kor-Lyan Kingdoms",
+        "imagePath": "assets/races/kor_lyan_kingdoms/ships/korlyan_koskova2.png",
+        "turncost": 1.0,
+        "turndelaycost": 1.0,
+        "pivotcost": 3,
+        "rollcost": 1,
+        "pointCost": 675,
+        "accelcost": 5,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 6,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 2,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 5,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 5,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "StdParticleBeam",
+                "armour": 4,
+                "maxhealth": 4,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 360,
+                "location": 0
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            }
+        ]
+    }
+]

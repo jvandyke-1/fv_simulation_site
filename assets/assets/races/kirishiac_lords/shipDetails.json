@@ -1,0 +1,427 @@
+[
+    {
+        "id": "kirishiacconqueror",
+        "name": "Conqueror",
+        "phpclass": "kirishiacConqueror",
+        "faction": "Kirishiac Lords",
+        "imagePath": "assets/races/kirishiac_lords/ships/kirishiacConqueror.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 2300,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 14,
+        "weapons": [
+            {
+                "name": "UltraMatterCannon",
+                "armour": 5,
+                "maxhealth": 13,
+                "powerreq": 7,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "HypergravitonBeam",
+                "armour": 6,
+                "maxhealth": 20,
+                "powerreq": 12,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "UltraMatterCannon",
+                "armour": 5,
+                "maxhealth": 13,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "UltraMatterCannon",
+                "armour": 5,
+                "maxhealth": 13,
+                "powerreq": 7,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "kirishiackingship",
+        "name": "Kingship Dreadnought",
+        "phpclass": "kirishiacKingship",
+        "faction": "Kirishiac Lords",
+        "imagePath": "assets/races/kirishiac_lords/ships/kirishiacKingship.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.66,
+        "pivotcost": 2,
+        "rollcost": 4,
+        "pointCost": 5700,
+        "accelcost": 3,
+        "iniativebonus": 10,
+        "forwardDefense": 16,
+        "sideDefense": 16,
+        "weapons": [
+            {
+                "name": "HypergravitonBlaster",
+                "armour": 7,
+                "maxhealth": 30,
+                "powerreq": 15,
+                "startArc": 240,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "HypergravitonBlaster",
+                "armour": 7,
+                "maxhealth": 30,
+                "powerreq": 15,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HypergravitonBlaster",
+                "armour": 7,
+                "maxhealth": 30,
+                "powerreq": 15,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HypergravitonBlaster",
+                "armour": 7,
+                "maxhealth": 30,
+                "powerreq": 15,
+                "startArc": 60,
+                "endArc": 180,
+                "location": 2
+            },
+            {
+                "name": "HypergravitonBlaster",
+                "armour": 7,
+                "maxhealth": 30,
+                "powerreq": 15,
+                "startArc": 180,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "HypergravitonBlaster",
+                "armour": 7,
+                "maxhealth": 30,
+                "powerreq": 15,
+                "startArc": 0,
+                "endArc": 120,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "kirishiacknightship",
+        "name": "Knightship",
+        "phpclass": "KirishiacKnightship",
+        "faction": "Kirishiac Lords",
+        "imagePath": "assets/races/kirishiac_lords/ships/kirishiacKnightship.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 2,
+        "rollcost": 3,
+        "pointCost": 2700,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 14,
+        "sideDefense": 13,
+        "agile": true,
+        "gravitic": true
+    },
+    {
+        "id": "kirishiaclordship",
+        "name": "Lordship",
+        "phpclass": "kirishiacLordship",
+        "faction": "Kirishiac Lords",
+        "imagePath": "assets/races/kirishiac_lords/ships/kirishiacLordship.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 4,
+        "pointCost": 3400,
+        "accelcost": 3,
+        "iniativebonus": 10,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "AntigravityBeam",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "HypergravitonBlaster",
+                "armour": 7,
+                "maxhealth": 30,
+                "powerreq": 15,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AntigravityBeam",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "AntigravityBeam",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "AntigravityBeam",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "AntigravityBeam",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "AntigravityBeam",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "AntigravityBeam",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "AntigravityBeam",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "kirishiaclordship",
+        "name": "Lordship",
+        "phpclass": "kirishiacLordship",
+        "faction": "Kirishiac Lords",
+        "imagePath": "assets/races/kirishiac_lords/ships/kirishiacLordship.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 4,
+        "pointCost": 3400,
+        "accelcost": 3,
+        "iniativebonus": 10,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "AntigravityBeam",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "HypergravitonBlaster",
+                "armour": 7,
+                "maxhealth": 30,
+                "powerreq": 15,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "AntigravityBeam",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "AntigravityBeam",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "AntigravityBeam",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 90,
+                "endArc": 270,
+                "location": 2
+            },
+            {
+                "name": "AntigravityBeam",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 300,
+                "location": 3
+            },
+            {
+                "name": "AntigravityBeam",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 3
+            },
+            {
+                "name": "AntigravityBeam",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 4
+            },
+            {
+                "name": "AntigravityBeam",
+                "armour": 6,
+                "maxhealth": 6,
+                "powerreq": 3,
+                "startArc": 60,
+                "endArc": 240,
+                "location": 4
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "kirishiacmastership",
+        "name": "Mastership",
+        "phpclass": "kirishiacMastership",
+        "faction": "Kirishiac Lords",
+        "imagePath": "assets/races/kirishiac_lords/ships/kirishiacMastership.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 4,
+        "pointCost": 2400,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 15,
+        "sideDefense": 15,
+        "gravitic": true
+    },
+    {
+        "id": "kirishiacoverlord",
+        "name": "Overlord",
+        "phpclass": "kirishiacOverlord",
+        "faction": "Kirishiac Lords",
+        "imagePath": "assets/races/kirishiac_lords/ships/kirishiacOverlord.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 4,
+        "pointCost": 4300,
+        "accelcost": 3,
+        "iniativebonus": 10,
+        "forwardDefense": 16,
+        "sideDefense": 15,
+        "weapons": [
+            {
+                "name": "HypergravitonBlaster",
+                "armour": 7,
+                "maxhealth": 30,
+                "powerreq": 15,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            }
+        ],
+        "gravitic": true
+    },
+    {
+        "id": "kirishiacwarrior",
+        "name": "Warrior Projectile",
+        "phpclass": "kirishiacWarrior",
+        "faction": "Kirishiac Lords",
+        "imagePath": "assets/races/kirishiac_lords/ships/kirishiacWarrior.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 160,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 8,
+        "sideDefense": 8,
+        "gravitic": true
+    },
+    {
+        "id": "kirishiacwarrior",
+        "name": "Warrior Projectile",
+        "phpclass": "kirishiacWarrior",
+        "faction": "Kirishiac Lords",
+        "imagePath": "assets/races/kirishiac_lords/ships/kirishiacWarrior.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 160,
+        "accelcost": 1,
+        "iniativebonus": 90,
+        "forwardDefense": 8,
+        "sideDefense": 8,
+        "gravitic": true
+    }
+]

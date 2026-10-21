@@ -1,0 +1,1276 @@
+[
+    {
+        "id": "baroon",
+        "name": "Baroon Escort Cutter",
+        "phpclass": "Baroon",
+        "faction": "Usuuth Coalition",
+        "imagePath": "assets/races/usuuth_coalition/ships/UsuuthBaroon.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 190,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "dovarum",
+        "name": "Dovarum MicroSAT Cluster",
+        "phpclass": "Dovarum",
+        "faction": "Usuuth Coalition",
+        "imagePath": "assets/races/usuuth_coalition/ships/UsuuthDovarum.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.5,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 100,
+        "accelcost": 3,
+        "iniativebonus": 0,
+        "forwardDefense": 9,
+        "sideDefense": 8,
+        "weapons": [
+            {
+                "name": "HvyParticleProjector",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 0
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 0,
+                "maxhealth": 1,
+                "powerreq": 0,
+                "startArc": 330,
+                "endArc": 30,
+                "location": 1
+            }
+        ]
+    },
+    {
+        "id": "proxmineorthine",
+        "name": "Orthine Proximity Mine",
+        "phpclass": "proxMineOrthine",
+        "faction": "Usuuth Coalition",
+        "imagePath": "assets/races/usuuth_coalition/ships/korlyan_mine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 6,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "orthuul",
+        "name": "Orthuul Fleet Scout",
+        "phpclass": "Orthuul",
+        "faction": "Usuuth Coalition",
+        "imagePath": "assets/races/usuuth_coalition/ships/UsuuthOrthuus.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 4,
+        "iniativebonus": 5,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HvyParticleProjector",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "HvyParticleProjector",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HvyParticleProjector",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "HvyParticleProjector",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "orthuus",
+        "name": "Orthuus Battle Leader",
+        "phpclass": "Orthuus",
+        "faction": "Usuuth Coalition",
+        "imagePath": "assets/races/usuuth_coalition/ships/UsuuthOrthuus.png",
+        "turncost": 1,
+        "turndelaycost": 1,
+        "pivotcost": 3,
+        "rollcost": 2,
+        "pointCost": 600,
+        "accelcost": 4,
+        "iniativebonus": 5,
+        "forwardDefense": 15,
+        "sideDefense": 17,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 3,
+                "location": 3
+            },
+            {
+                "output": 4,
+                "direction": 4,
+                "location": 4
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleHammer",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleHammer",
+                "armour": 4,
+                "maxhealth": 12,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HvyParticleProjector",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 120,
+                "endArc": 240,
+                "location": 2
+            },
+            {
+                "name": "HvyParticleProjector",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 0,
+                "location": 3
+            },
+            {
+                "name": "HvyParticleProjector",
+                "armour": 4,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 4
+            }
+        ]
+    },
+    {
+        "id": "rowlon",
+        "name": "Rowlon Armored Fighter",
+        "phpclass": "Rowlon",
+        "faction": "Usuuth Coalition",
+        "imagePath": "assets/races/usuuth_coalition/ships/UsuuthRowlon.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.0,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 30,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 5,
+        "sideDefense": 7
+    },
+    {
+        "id": "captormineruga",
+        "name": "Ruga Captor Mine",
+        "phpclass": "captorMineRuga",
+        "faction": "Usuuth Coalition",
+        "imagePath": "assets/races/usuuth_coalition/ships/korlyan_mine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 18,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "sarlon",
+        "name": "Sarlon Sniper",
+        "phpclass": "Sarlon",
+        "faction": "Usuuth Coalition",
+        "imagePath": "assets/races/usuuth_coalition/ships/UsuuthSerron.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1.5,
+        "pointCost": 380,
+        "accelcost": 3,
+        "iniativebonus": 35,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleHammer",
+                "armour": 5,
+                "maxhealth": 12,
+                "powerreq": 5,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "serron",
+        "name": "Serron Attack Ship",
+        "phpclass": "Serron",
+        "faction": "Usuuth Coalition",
+        "imagePath": "assets/races/usuuth_coalition/ships/UsuuthSerron.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1.5,
+        "pointCost": 375,
+        "accelcost": 3,
+        "iniativebonus": 35,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "HvyParticleProjector",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "HvyParticleProjector",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "sethrus",
+        "name": "Sethrus Beam Cruiser",
+        "phpclass": "Sethrus",
+        "faction": "Usuuth Coalition",
+        "imagePath": "assets/races/usuuth_coalition/ships/UsuuthSerron.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1.5,
+        "pointCost": 400,
+        "accelcost": 3,
+        "iniativebonus": 35,
+        "forwardDefense": 13,
+        "sideDefense": 15,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ParticleCannon",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 7,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "sinthonlcv",
+        "name": "Sinthon LCV Carrier",
+        "phpclass": "SinthonLCV",
+        "faction": "Usuuth Coalition",
+        "imagePath": "assets/races/usuuth_coalition/ships/UsuuthSerron.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1.5,
+        "pointCost": 350,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "sinthon",
+        "name": "Sinthon Light Carrier",
+        "phpclass": "Sinthon",
+        "faction": "Usuuth Coalition",
+        "imagePath": "assets/races/usuuth_coalition/ships/UsuuthSerron.png",
+        "turncost": 0.66,
+        "turndelaycost": 0.5,
+        "pivotcost": 2,
+        "rollcost": 1.5,
+        "pointCost": 350,
+        "accelcost": 3,
+        "iniativebonus": 30,
+        "forwardDefense": 14,
+        "sideDefense": 16,
+        "thrusters": [
+            {
+                "output": 3,
+                "direction": 3,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 4,
+                "location": 0
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 3,
+                "direction": 1,
+                "location": 1
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            },
+            {
+                "output": 4,
+                "direction": 2,
+                "location": 2
+            }
+        ],
+        "weapons": [
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 270,
+                "endArc": 90,
+                "location": 1
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 1
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 240,
+                "endArc": 60,
+                "location": 2
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 300,
+                "endArc": 120,
+                "location": 2
+            }
+        ]
+    },
+    {
+        "id": "proxminesootha",
+        "name": "Sootha Proximity Mine",
+        "phpclass": "proxMineSootha",
+        "faction": "Usuuth Coalition",
+        "imagePath": "assets/races/usuuth_coalition/ships/korlyan_mine.png",
+        "turncost": 0,
+        "turndelaycost": 0,
+        "pivotcost": 0,
+        "rollcost": 0,
+        "pointCost": 8,
+        "accelcost": 0,
+        "iniativebonus": -200,
+        "forwardDefense": 12,
+        "sideDefense": 12
+    },
+    {
+        "id": "staroon",
+        "name": "Staroon Strike Boat",
+        "phpclass": "Staroon",
+        "faction": "Usuuth Coalition",
+        "imagePath": "assets/races/usuuth_coalition/ships/UsuuthBaroon.png",
+        "turncost": 0.33,
+        "turndelaycost": 0.33,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 200,
+        "accelcost": 1,
+        "iniativebonus": 0,
+        "forwardDefense": 10,
+        "sideDefense": 11,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "HvyParticleProjector",
+                "armour": 3,
+                "maxhealth": 8,
+                "powerreq": 3,
+                "startArc": 300,
+                "endArc": 60,
+                "location": 1
+            },
+            {
+                "name": "ParticleProjector",
+                "armour": 2,
+                "maxhealth": 6,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ],
+        "agile": true
+    },
+    {
+        "id": "thira",
+        "name": "Usuuth Thira Freighter",
+        "phpclass": "Thira",
+        "faction": "Usuuth Coalition",
+        "imagePath": "assets/races/usuuth_coalition/ships/UsuuthBaroon.png",
+        "turncost": 0.5,
+        "turndelaycost": 0.5,
+        "pivotcost": 1,
+        "rollcost": 1,
+        "pointCost": 90,
+        "accelcost": 2,
+        "iniativebonus": 0,
+        "forwardDefense": 11,
+        "sideDefense": 12,
+        "weapons": [
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 1,
+                "location": 1
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 3,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 2,
+                "location": 2
+            },
+            {
+                "name": "InvulnerableThruster",
+                "armour": 99,
+                "maxhealth": 99,
+                "powerreq": 0,
+                "startArc": 99,
+                "endArc": 4,
+                "location": 2
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 180,
+                "endArc": 360,
+                "location": 1
+            },
+            {
+                "name": "LightParticleProjector",
+                "armour": 2,
+                "maxhealth": 3,
+                "powerreq": 1,
+                "startArc": 0,
+                "endArc": 180,
+                "location": 1
+            }
+        ],
+        "agile": true
+    }
+]
