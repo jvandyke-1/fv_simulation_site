@@ -1,0 +1,1210 @@
+[
+    {
+        "className": "LaserArray",
+        "parentClass": "Laser",
+        "sourceFile": "customDevelopment.php",
+        "name": "LaserArray",
+        "displayName": "Laser Array",
+        "animation": "bolt",
+        "iconPath": "quadArray.png",
+        "intercept": 2,
+        "loadingtime": 1,
+        "guns": 4,
+        "priority": 4,
+        "rangePenalty": 2,
+        "fireControl": [
+            5,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 2)",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "SatyraShield",
+        "parentClass": "Shield",
+        "sourceFile": "customDevelopment.php",
+        "name": "SatyraShield",
+        "displayName": "Satyra Armor",
+        "iconPath": "satyraShieldTechnical.png",
+        "boostable": false,
+        "baseOutput": 0,
+        "isPrimaryTargetable": false,
+        "isTargetable": false,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$shieldFactor",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TestGun",
+        "parentClass": "Weapon",
+        "sourceFile": "customDevelopment.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "TestGun",
+        "displayName": "Test Gun",
+        "iconPath": "tacLaser.png",
+        "animation": "trail",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 1,
+        "priority": 5,
+        "intercept": 2,
+        "rangePenalty": 0.25,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TestGun2",
+        "parentClass": "Weapon",
+        "sourceFile": "customDevelopment.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "TestGun2",
+        "displayName": "Test Gun 2",
+        "iconPath": "EmPulsar.png",
+        "animation": "trail",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 1,
+        "priority": 5,
+        "intercept": 2,
+        "rangePenalty": 0.25,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Electromagnetic",
+        "damageFormula": "10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "PlasmaSiegeCannon",
+        "parentClass": "Weapon",
+        "sourceFile": "customDevelopment.php",
+        "name": "PlasmaSiegeCannon",
+        "displayName": "Plasma Siege Cannon",
+        "iconPath": "HeavyPlasmaProjector.png",
+        "animationArray": [
+            "laser",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                75,
+                250,
+                90
+            ],
+            [
+                75,
+                250,
+                90
+            ]
+        ],
+        "raking": 8,
+        "priorityArray": [
+            7,
+            2
+        ],
+        "loadingtimeArray": [
+            4,
+            4
+        ],
+        "rangePenaltyArray": [
+            0.33,
+            0.25
+        ],
+        "rangeDamagePenaltyArray": [
+            0.25,
+            0.25
+        ],
+        "fireControlArray": [
+            [
+                null,
+                2,
+                4
+            ],
+            [
+                null,
+                3,
+                5
+            ]
+        ],
+        "firingModes": [
+            "Heavy Plasma Projector",
+            "Siege Cannon"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Flash"
+        ],
+        "weaponClassArray": [
+            "Plasma",
+            "Plasma"
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(10, 5)+10 //Heavy Plasma Projector\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t Dice::d(10,6)+12 //Siege Cannon\r\n\t\t\t\tbreak",
+        "minDamage": 15,
+        "maxDamage": 60,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ImpHeavyLaser",
+        "parentClass": "Laser",
+        "sourceFile": "customDevelopment.php",
+        "name": "ImpHeavyLaser",
+        "displayName": "Improved Heavy Laser",
+        "iconPath": "heavyLaser.png",
+        "animation": "laser",
+        "animationColor": [
+            179,
+            45,
+            0
+        ],
+        "animationExplosionScale": 0.5,
+        "animationWidth": 4,
+        "animationWidth2": 0.2,
+        "loadingtime": 4,
+        "firingModes": [
+            "Sustained"
+        ],
+        "alwaysoverloading": true,
+        "overloadturns": 2,
+        "extraoverloadshots": 2,
+        "overloadshots": 2,
+        "priority": 8,
+        "raking": 10,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -4,
+            2,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 4)+20",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "DirectEMine",
+        "parentClass": "Weapon",
+        "sourceFile": "customDevelopment.php",
+        "name": "DirectEMine",
+        "displayName": "Direct Energy Mine",
+        "iconPath": "energyMine.png",
+        "animation": "ball",
+        "animationColor": [
+            141,
+            240,
+            255
+        ],
+        "animationExplosionScale": 1,
+        "range": 50,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "priority": 1,
+        "firingMode": "Called Shot",
+        "weaponClass": "Plasma",
+        "damageType": "Flash",
+        "damageFormula": "Dice::d(10, 3)",
+        "minDamage": 3,
+        "maxDamage": 30,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "DirectEMine",
+        "parentClass": "Torpedo",
+        "sourceFile": "customDevelopment.php",
+        "name": "DirectEMine",
+        "displayName": "Direct Energy Mine",
+        "iconPath": "energyMine.png",
+        "range": 50,
+        "loadingtime": 2,
+        "fireControl": [
+            -4,
+            1,
+            3
+        ],
+        "animation": "ball",
+        "animationColor": [
+            141,
+            240,
+            255
+        ],
+        "priority": 1,
+        "weaponClass": "Plasma",
+        "damageType": "Flash",
+        "damageFormula": "Dice::d(10, 3)",
+        "minDamage": 3,
+        "maxDamage": 30,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AncientMatterGun",
+        "parentClass": "Matter",
+        "sourceFile": "customDevelopment.php",
+        "name": "AncientMatterGun",
+        "displayName": "Ancient Matter Gun",
+        "iconPath": "HeavyRailgun.png",
+        "factionAge": 3,
+        "rangeDamagePenalty": 0,
+        "damageType": "Standard",
+        "loadingtime": 1,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            5,
+            5,
+            5
+        ],
+        "damageFormula": "10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AncientPlasmaGun",
+        "parentClass": "Plasma",
+        "sourceFile": "customDevelopment.php",
+        "name": "AncientPlasmaGun",
+        "displayName": "Ancient Plasma Gun",
+        "iconPath": "MegaPlasma.png",
+        "factionAge": 3,
+        "rangeDamagePenalty": 0,
+        "damageType": "Standard",
+        "loadingtime": 1,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            5,
+            5,
+            5
+        ],
+        "damageFormula": "10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AncientParticleGun",
+        "parentClass": "Particle",
+        "sourceFile": "customDevelopment.php",
+        "name": "AncientParticleGun",
+        "displayName": "Ancient Particle Gun",
+        "iconPath": "particleBlaster.png",
+        "factionAge": 3,
+        "rangeDamagePenalty": 0,
+        "damageType": "Standard",
+        "loadingtime": 1,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            5,
+            5,
+            5
+        ],
+        "damageFormula": "10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AncientParticleCannon",
+        "parentClass": "Particle",
+        "sourceFile": "customDevelopment.php",
+        "name": "AncientParticleCannon",
+        "displayName": "Ancient Particle Cannon",
+        "iconPath": "particleCannon.png",
+        "factionAge": 3,
+        "animation": "laser",
+        "rangeDamagePenalty": 0,
+        "damageType": "Raking",
+        "loadingtime": 1,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            5,
+            5,
+            5
+        ],
+        "damageFormula": "30",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AncientAntimatter",
+        "parentClass": "Weapon",
+        "sourceFile": "customDevelopment.php",
+        "name": "AncientAntimatter",
+        "displayName": "Ancient Antimatter",
+        "iconPath": "antimatterConverter.png",
+        "factionAge": 3,
+        "rangeDamagePenalty": 0,
+        "weaponClass": "Antimatter",
+        "damageType": "Flash",
+        "loadingtime": 1,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            5,
+            5,
+            5
+        ],
+        "damageFormula": "40",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AncientIonTorpedo",
+        "parentClass": "Torpedo",
+        "sourceFile": "customDevelopment.php",
+        "name": "AncientIonTorpedo",
+        "displayName": "Ancient Ion Torpedo",
+        "iconPath": "ionTorpedo.png",
+        "range": 50,
+        "loadingtime": 1,
+        "fireControl": [
+            -4,
+            1,
+            3
+        ],
+        "animation": "torpedo",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "trailColor": [
+            141,
+            240,
+            255
+        ],
+        "animationExplosionScale": 0.25,
+        "projectilespeed": 12,
+        "animationWidth": 10,
+        "trailLength": 10,
+        "factionAge": 3,
+        "priority": 6,
+        "damageFormula": "10",
+        "minDamage": 10,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AncientBurstBeam",
+        "parentClass": "Weapon",
+        "sourceFile": "customDevelopment.php",
+        "name": "AncientBurstBeam",
+        "displayName": "Ancient Burst Beam",
+        "iconPath": "burstBeam.png",
+        "animation": "bolt",
+        "animationColor": [
+            158,
+            240,
+            255
+        ],
+        "animationExplosionScale": 0.1,
+        "trailColor": [
+            158,
+            240,
+            255
+        ],
+        "projectilespeed": 15,
+        "animationWidth": 2,
+        "animationWidth2": 0.2,
+        "trailLength": 30,
+        "noOverkill": true,
+        "factionAge": 3,
+        "loadingtime": 1,
+        "priority": 10,
+        "priorityAFArray": [
+            2
+        ],
+        "rangePenalty": 2,
+        "fireControl": [
+            4,
+            2,
+            2
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Electromagnetic",
+        "damageFormula": "0",
+        "minDamage": 0,
+        "maxDamage": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AncientMolecularDisruptor",
+        "parentClass": "Raking",
+        "sourceFile": "customDevelopment.php",
+        "name": "AncientMolecularDisruptor",
+        "displayName": "Ancient Molecular Disruptor",
+        "iconPath": "molecularDisruptor.png",
+        "animation": "laser",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "animationExplosionScale": 0.35,
+        "projectilespeed": 12,
+        "animationWidth": 10,
+        "trailLength": 25,
+        "priority": 7,
+        "priorityArray": [
+            7,
+            2
+        ],
+        "factionAge": 3,
+        "intercept": 0,
+        "loadingtime": 1,
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "rangePenalty": 1,
+        "fireControlArray": [
+            [
+                -4,
+                2,
+                4
+            ],
+            [
+                null,
+                -2,
+                0
+            ]
+        ],
+        "fireControl": "$this->fireControlArray[1]",
+        "damageType": "Raking",
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "weaponClass": "Molecular",
+        "damageFormula": "20",
+        "minDamage": 20,
+        "maxDamage": 20,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AncientShockCannon",
+        "parentClass": "Weapon",
+        "sourceFile": "customDevelopment.php",
+        "name": "AncientShockCannon",
+        "displayName": "Ancient Shock Cannon",
+        "iconPath": "shockCannon.png",
+        "animation": "bolt",
+        "animationColor": [
+            175,
+            225,
+            175
+        ],
+        "animationExplosionScale": 0.15,
+        "trailColor": [
+            175,
+            225,
+            175
+        ],
+        "projectilespeed": 15,
+        "animationWidth": 2,
+        "animationWidth2": 0.2,
+        "trailLength": 30,
+        "priority": 4,
+        "priorityAFArray": [
+            2
+        ],
+        "factionAge": 3,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Electromagnetic",
+        "damageFormula": "10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AncientPlasmaArc",
+        "parentClass": "PlasmaStream",
+        "sourceFile": "customDevelopment.php",
+        "name": "AncientPlasmaArc",
+        "displayName": "Ancient Plasma Arc",
+        "iconPath": "EWPlasmaArc.png",
+        "animation": "laser",
+        "priority": 1,
+        "loadingtime": 1,
+        "factionAge": 3,
+        "priorityArray": [
+            7,
+            2
+        ],
+        "damageFormula": "15",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AncientParticleCutter",
+        "parentClass": "Raking",
+        "sourceFile": "customDevelopment.php",
+        "name": "AncientParticleCutter",
+        "displayName": "Ancient Particle Cutter",
+        "iconPath": "particleCutter.png",
+        "factionAge": 3,
+        "animation": "laser",
+        "animationColor": [
+            255,
+            153,
+            102
+        ],
+        "trailColor": [
+            255,
+            153,
+            102
+        ],
+        "animationExplosionScale": 0.45,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "firingModes": [
+            "Sustained"
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "alwaysoverloading": true,
+        "overloadturns": 2,
+        "extraoverloadshots": 2,
+        "overloadshots": 2,
+        "loadingtime": 2,
+        "priority": 8,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            2,
+            3,
+            4
+        ],
+        "damageFormula": "30",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NeutronBlaster",
+        "parentClass": "Weapon",
+        "sourceFile": "customDevelopment.php",
+        "name": "NeutronBlaster",
+        "displayName": "Neutron Blaster",
+        "iconPath": "NeutronBlaster.png",
+        "animation": "laser",
+        "animationColor": [
+            98,
+            127,
+            82
+        ],
+        "factionAge": 3,
+        "gunsArray": [
+            1,
+            1,
+            1
+        ],
+        "isCombined": false,
+        "alreadyConsidered": false,
+        "loadingtime": 1,
+        "normalload": 3,
+        "uninterceptable": true,
+        "intercept": 3,
+        "modeLetters": 1,
+        "modeLettersArray": [
+            1,
+            1,
+            1
+        ],
+        "firingMode": 1,
+        "firingModes": [
+            "1-Blaster",
+            "2-Blasters",
+            "3-Blasters"
+        ],
+        "priority": 6,
+        "priorityArray": [
+            4,
+            7,
+            8
+        ],
+        "rangePenalty": 0.5,
+        "rangePenaltyArray": [
+            0.5,
+            0.33,
+            0.25
+        ],
+        "fireControl": [
+            6,
+            1,
+            1
+        ],
+        "fireControlArray": [
+            [
+                6,
+                4,
+                2
+            ],
+            [
+                4,
+                4,
+                4
+            ],
+            [
+                null,
+                6,
+                6
+            ]
+        ],
+        "blastersRequiredArray": [
+            1,
+            2,
+            3
+        ],
+        "damageType": "Standard",
+        "damageTypeArray": [
+            "Standard",
+            "Raking",
+            "Raking"
+        ],
+        "weaponClass": "Electromagnetic",
+        "weaponClassArray": [
+            "Electromagnetic",
+            "Electromagnetic",
+            "Electromagnetic"
+        ],
+        "canSplitShots": false,
+        "canSplitShotsArray": [
+            false,
+            true,
+            true
+        ],
+        "raking": 15,
+        "rakingArray": [
+            10,
+            15,
+            20
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(10, 1)+10 // fired individually, twice per blaster\r\n\t\t\tcase 2:\r\n\t\t\t\t Dice::d(10, 3)+30 // 1 shot from 2 combined blasters\r\n\t\t\tcase 3:\t\r\n\t\t\t\t Dice::d(10, 7)+70 // 1 shot from 3 combined blasters\r\n\t\t\tdefault: //should never go here\r\n\t\t\t\t Dice::d(10, 1)+10",
+        "minDamage": 11,
+        "maxDamage": 20,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NeutronBlasterFtr",
+        "parentClass": "Weapon",
+        "sourceFile": "customDevelopment.php",
+        "name": "NeutronBlasterFtr",
+        "displayName": "Light Neutron Blaster",
+        "iconPath": "NeutronBlaster.png",
+        "animationArray": [
+            "laser",
+            "laser",
+            "laser"
+        ],
+        "animationColorArray": [
+            [
+                98,
+                127,
+                82
+            ],
+            [
+                98,
+                127,
+                82
+            ],
+            [
+                98,
+                127,
+                82
+            ]
+        ],
+        "factionAge": 3,
+        "priorityArray": [
+            7,
+            5,
+            3
+        ],
+        "uninterceptableArray": [
+            true,
+            true,
+            true
+        ],
+        "defaultShotsArray": [
+            1,
+            1,
+            2
+        ],
+        "loadingtimeArray": [
+            3,
+            2,
+            1
+        ],
+        "rangePenaltyArray": [
+            1,
+            1.5,
+            2
+        ],
+        "fireControlArray": [
+            [
+                null,
+                0,
+                0
+            ],
+            [
+                -2,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "firingModes": [
+            "Heavy",
+            "Medium",
+            "Rapid"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Standard",
+            "Standard"
+        ],
+        "weaponClassArray": [
+            "Electromagnetic",
+            "Electromagnetic",
+            "Electromagnetic"
+        ],
+        "intercept": 2,
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(6, 4)+12 //Heavy Charge\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t Dice::d(6, 2)+9 //Medium Charge\r\n\t\t\t\tbreak\r\n\t\t\tcase 3:\r\n\t\t\t\t Dice::d(6, 1)+6 //Rapid Fire\r\n\t\t\t\tbreak",
+        "minDamage": 16,
+        "maxDamage": 36,
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NeutronBeam",
+        "parentClass": "Laser",
+        "sourceFile": "customDevelopment.php",
+        "name": "NeutronBeam",
+        "displayName": "Neutron Beam",
+        "iconPath": "NeutronBlaster.png",
+        "animation": "laser",
+        "animationColor": [
+            98,
+            127,
+            82
+        ],
+        "loadingtime": 2,
+        "normalload": 3,
+        "raking": 15,
+        "priority": 8,
+        "factionAge": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            0,
+            3,
+            6
+        ],
+        "weaponClass": "Electromagnetic",
+        "damageFormula": "switch($this->turnsloaded){\r\n            \tcase 0:\r\n            \tcase 1: \r\n            \tcase 2:\r\n                \t Dice::d(10,3)+20\r\n\t\t\t\t\tbreak\r\n\t\t\t    default:\r\n\t\t\t    \t Dice::d(10,4)+40\r\n\t\t\t\t\tbreak",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NeutronCannon",
+        "parentClass": "Laser",
+        "sourceFile": "customDevelopment.php",
+        "name": "NeutronCannon",
+        "displayName": "Neutron Cannon",
+        "iconPath": "NeutronCannon.png",
+        "animation": "laser",
+        "animationColor": [
+            98,
+            127,
+            82
+        ],
+        "raking": 15,
+        "priority": 8,
+        "factionAge": 3,
+        "loadingtime": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -4,
+            2,
+            4
+        ],
+        "weaponClass": "Electromagnetic",
+        "damageFormula": "Dice::d(10, 7)+20",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HvyNeutronCannon",
+        "parentClass": "Laser",
+        "sourceFile": "customDevelopment.php",
+        "name": "HvyNeutronCannon",
+        "displayName": "Heavy Neutron Cannon",
+        "iconPath": "NeutronCannon.png",
+        "animation": "laser",
+        "animationColor": [
+            98,
+            127,
+            82
+        ],
+        "raking": 20,
+        "priority": 8,
+        "factionAge": 3,
+        "loadingtime": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -5,
+            2,
+            4
+        ],
+        "weaponClass": "Electromagnetic",
+        "damageFormula": "Dice::d(10, 7)+30",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "PlasmaArray",
+        "parentClass": "Plasma",
+        "sourceFile": "customDevelopment.php",
+        "name": "PlasmaArray",
+        "displayName": "Plasma Array",
+        "iconPath": "EWHeavyPointPlasmaGun.png",
+        "animation": "trail",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "trailColor": [
+            75,
+            250,
+            90
+        ],
+        "projectilespeed": 15,
+        "animationWidth": 5,
+        "animationExplosionScale": 0.3,
+        "trailLength": 20,
+        "priority": 5,
+        "rangeDamagePenalty": 0.5,
+        "guns": 2,
+        "factionAge": 3,
+        "intercept": 1,
+        "loadingtime": 1,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            6,
+            4,
+            3
+        ],
+        "damageFormula": "20",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "FusionBomb",
+        "parentClass": "Torpedo",
+        "sourceFile": "customDevelopment.php",
+        "name": "FusionBomb",
+        "displayName": "Fusion Bomb",
+        "iconPath": "EWNuclearTorpedo.png",
+        "range": 10,
+        "distanceRange": 20,
+        "loadingtime": 3,
+        "factionAge": 3,
+        "weaponClass": "Plasma",
+        "damageType": "Flash",
+        "fireControl": [
+            null,
+            2,
+            3
+        ],
+        "trailColor": [
+            206,
+            32,
+            41
+        ],
+        "animation": "trail",
+        "animationColor": [
+            206,
+            32,
+            41
+        ],
+        "animationExplosionScale": 0.7,
+        "projectilespeed": 11,
+        "animationWidth": 10,
+        "trailLength": 10,
+        "priority": 1,
+        "damageFormula": "Dice::d(10, 4) + 20",
+        "minDamage": 24,
+        "maxDamage": 60,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "SeekerTorp",
+        "parentClass": "Torpedo",
+        "sourceFile": "customDevelopment.php",
+        "name": "SeekerTorp",
+        "displayName": "Seeker Torpedo",
+        "iconPath": "TrekPhotonicTorpedo.png",
+        "range": 50,
+        "distanceRange": 65,
+        "loadingtime": 2,
+        "factionAge": 3,
+        "weaponClass": "Ballistic",
+        "damageType": "Standard",
+        "fireControl": [
+            null,
+            2,
+            3
+        ],
+        "trailColor": [
+            98,
+            127,
+            82
+        ],
+        "animation": "ball",
+        "animationColor": [
+            98,
+            127,
+            82
+        ],
+        "animationExplosionScale": 0.7,
+        "projectilespeed": 11,
+        "animationWidth": 10,
+        "trailLength": 10,
+        "priority": 4,
+        "damageFormula": "Dice::d(10, 1) + 10",
+        "minDamage": 11,
+        "maxDamage": 20,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HvySeekerTorp",
+        "parentClass": "Torpedo",
+        "sourceFile": "customDevelopment.php",
+        "name": "HvySeekerTorp",
+        "displayName": "Heavy Seeker Torpedo",
+        "iconPath": "HvySeekerTorp.png",
+        "range": 60,
+        "distanceRange": 75,
+        "loadingtime": 2,
+        "factionAge": 3,
+        "weaponClass": "Ballistic",
+        "damageType": "Standard",
+        "fireControl": [
+            null,
+            2,
+            3
+        ],
+        "trailColor": [
+            98,
+            127,
+            82
+        ],
+        "animation": "ball",
+        "animationColor": [
+            98,
+            127,
+            82
+        ],
+        "animationExplosionScale": 0.7,
+        "projectilespeed": 11,
+        "animationWidth": 10,
+        "trailLength": 10,
+        "priority": 4,
+        "damageFormula": "Dice::d(10, 2) + 10",
+        "minDamage": 13,
+        "maxDamage": 30,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    }
+]

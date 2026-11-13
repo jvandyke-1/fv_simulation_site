@@ -1,0 +1,934 @@
+[
+    {
+        "className": "Pulse",
+        "parentClass": "Weapon",
+        "sourceFile": "pulse.php",
+        "grouping": 20,
+        "maxpulses": 6,
+        "maxpulsesArray": [],
+        "rof": 4,
+        "priority": 5,
+        "damageType": "Pulse",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Pulse"
+        ],
+        "animation": "bolt",
+        "animationColor": [
+            190,
+            75,
+            20
+        ],
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EnergyPulsar",
+        "parentClass": "Pulse",
+        "sourceFile": "pulse.php",
+        "name": "energyPulsar",
+        "displayName": "Energy Pulsar",
+        "animation": "trail",
+        "trailLength": 12,
+        "animationWidth": 5,
+        "projectilespeed": 10,
+        "animationExplosionScale": 0.3,
+        "rof": 2,
+        "grouping": 25,
+        "maxpulses": 3,
+        "priority": 4,
+        "loadingtime": 2,
+        "rangePenalty": 1,
+        "fireControl": [
+            1,
+            3,
+            3
+        ],
+        "intercept": 1,
+        "damageFormula": "10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ScatterPulsar",
+        "parentClass": "Pulse",
+        "sourceFile": "pulse.php",
+        "name": "scatterPulsar",
+        "displayName": "Scatter Pulsar",
+        "animation": "trail",
+        "trailLength": 12,
+        "animationWidth": 4,
+        "projectilespeed": 9,
+        "animationExplosionScale": 0.1,
+        "rof": 3,
+        "grouping": 25,
+        "maxpulses": 6,
+        "loadingtime": 1,
+        "intercept": 2,
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            2,
+            1
+        ],
+        "damageFormula": "6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ScatterPulsarFtr",
+        "parentClass": "Pulse",
+        "sourceFile": "pulse.php",
+        "name": "ScatterPulsarFtr",
+        "displayName": "Scatter Pulsar",
+        "iconPath": "scatterPulsar.png",
+        "rof": 3,
+        "grouping": 25,
+        "maxpulses": 6,
+        "loadingtime": 1,
+        "intercept": 2,
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageFormula": "6",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "QuadPulsar",
+        "parentClass": "Pulse",
+        "sourceFile": "pulse.php",
+        "name": "quadPulsar",
+        "displayName": "Quad Pulsar",
+        "animation": "trail",
+        "trailLength": 20,
+        "animationWidth": 6,
+        "projectilespeed": 10,
+        "animationExplosionScale": 0.25,
+        "rof": 3,
+        "grouping": 25,
+        "maxpulses": 4,
+        "priority": 6,
+        "loadingtime": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -1,
+            3,
+            3
+        ],
+        "damageFormula": "14",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightPulse",
+        "parentClass": "Pulse",
+        "sourceFile": "pulse.php",
+        "name": "lightPulse",
+        "displayName": "Light Pulse Cannon",
+        "animation": "trail",
+        "animationWidth": 3,
+        "projectilespeed": 8,
+        "animationExplosionScale": 0.15,
+        "rof": 2,
+        "trailLength": 10,
+        "loadingtime": 1,
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            4,
+            3,
+            3
+        ],
+        "intercept": 2,
+        "damageFormula": "8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MediumPulse",
+        "parentClass": "Pulse",
+        "sourceFile": "pulse.php",
+        "name": "mediumPulse",
+        "displayName": "Medium Pulse Cannon",
+        "animation": "trail",
+        "trailLength": 15,
+        "animationWidth": 4,
+        "projectilespeed": 10,
+        "animationExplosionScale": 0.17,
+        "rof": 2,
+        "loadingtime": 2,
+        "priority": 4,
+        "rangePenalty": 1,
+        "fireControl": [
+            1,
+            3,
+            4
+        ],
+        "intercept": 2,
+        "damageFormula": "10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HeavyPulse",
+        "parentClass": "Pulse",
+        "sourceFile": "pulse.php",
+        "name": "heavyPulse",
+        "displayName": "Heavy Pulse Cannon",
+        "animation": "trail",
+        "trailLength": 20,
+        "animationWidth": 5,
+        "projectilespeed": 12,
+        "animationExplosionScale": 0.2,
+        "rof": 2,
+        "priority": 6,
+        "intercept": 1,
+        "loadingtime": 3,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -1,
+            3,
+            4
+        ],
+        "damageFormula": "15",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "GatlingPulseCannon",
+        "parentClass": "Weapon",
+        "sourceFile": "pulse.php",
+        "name": "gatlingPulseCannon",
+        "displayName": "Gatling Pulse Cannon",
+        "animation": "beam",
+        "animationWidth": 4,
+        "projectilespeed": 10,
+        "animationExplosionScale": 0.15,
+        "trailLength": 10,
+        "trailColor": [
+            190,
+            75,
+            20
+        ],
+        "animationColor": [
+            190,
+            75,
+            20
+        ],
+        "rof": 1,
+        "intercept": 2,
+        "loadingtime": 1,
+        "priority": 6,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(6,2)+6",
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MolecularPulsar",
+        "parentClass": "Pulse",
+        "sourceFile": "pulse.php",
+        "name": "molecularPulsar",
+        "displayName": "Molecular Pulsar",
+        "iconPath": "mediumPulse.png",
+        "animationColor": [
+            175,
+            225,
+            175
+        ],
+        "animation": "trail",
+        "trailLength": 15,
+        "animationWidth": 4,
+        "projectilespeed": 10,
+        "animationExplosionScale": 0.17,
+        "trailColor": [
+            110,
+            225,
+            110
+        ],
+        "rof": 2,
+        "maxpulses": 7,
+        "grouping": 15,
+        "priority": 4,
+        "intercept": 2,
+        "loadingtime": 1,
+        "normalload": 2,
+        "rangePenalty": 1,
+        "fireControl": [
+            2,
+            3,
+            4
+        ],
+        "damageType": "Pulse",
+        "weaponClass": "Molecular",
+        "damageFormula": "10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "PairedLightBoltCannon",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "pulse.php",
+        "name": "pairedLightBoltCannon",
+        "displayName": "Light Bolt Cannon",
+        "animation": "trail",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 12,
+        "animationWidth": 2,
+        "trailLength": 10,
+        "priority": 3,
+        "intercept": 2,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(6)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "PointPulsar",
+        "parentClass": "Weapon",
+        "sourceFile": "pulse.php",
+        "name": "pointPulsar",
+        "displayName": "Point Pulsar",
+        "iconPath": "pointPulsar.png",
+        "animation": "bolt",
+        "animationColor": [
+            190,
+            75,
+            20
+        ],
+        "guns": 3,
+        "maxpulses": 3,
+        "grouping": 0,
+        "loadingtime": 2,
+        "normalload": 2,
+        "firingModes": [
+            "Normal",
+            "Split"
+        ],
+        "priority": 5,
+        "calledShotMod": -4,
+        "intercept": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -4,
+            3,
+            5
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "canSplitShots": false,
+        "canSplitShotsArray": [
+            false,
+            true
+        ],
+        "specialHitChanceCalculation": true,
+        "damageFormula": "10 /*- $this->dp*/",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ScatterGun",
+        "parentClass": "Weapon",
+        "sourceFile": "pulse.php",
+        "name": "scatterGun",
+        "displayName": "Scattergun",
+        "iconPath": "scatterGun.png",
+        "animation": "trail",
+        "animationColor": [
+            175,
+            225,
+            175
+        ],
+        "trailLength": 13,
+        "animationWidth": 4,
+        "projectilespeed": 10,
+        "animationExplosionScale": 0.15,
+        "trailColor": [
+            110,
+            225,
+            110
+        ],
+        "guns": 1,
+        "loadingtime": 1,
+        "normalload": 1,
+        "priority": 3,
+        "intercept": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            5,
+            2,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(6,2)+1 //2d6+1",
+        "minDamage": 3,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightScattergun",
+        "parentClass": "ScatterGun",
+        "sourceFile": "pulse.php",
+        "name": "LightScattergun",
+        "displayName": "Light Scattergun",
+        "iconPath": "scatterGun.png",
+        "animation": "bolt",
+        "animationColor": [
+            190,
+            75,
+            20
+        ],
+        "intercept": 2,
+        "rangePenalty": 2,
+        "priority": 4,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(6,2)",
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "BlastCannonFamily",
+        "parentClass": "Pulse",
+        "sourceFile": "pulse.php",
+        "animation": "bolt",
+        "animationColor": [
+            140,
+            140,
+            140
+        ],
+        "trailColor": [
+            140,
+            140,
+            140
+        ],
+        "trailLength": 20,
+        "animationWidth": 5,
+        "projectilespeed": 12,
+        "animationExplosionScale": 0.1,
+        "rof": 3,
+        "intercept": 1,
+        "priority": 3,
+        "grouping": 25,
+        "maxpulses": 4,
+        "noOverkill": true,
+        "damageType": "Pulse",
+        "weaponClass": "Matter"
+    },
+    {
+        "className": "LtBlastCannon",
+        "parentClass": "BlastCannonFamily",
+        "sourceFile": "pulse.php",
+        "name": "LtBlastCannon",
+        "displayName": "Light Blast Cannon",
+        "iconPath": "LightBlastCannon.png",
+        "trailLength": 20,
+        "animationWidth": 5,
+        "projectilespeed": 12,
+        "animationExplosionScale": 0.1,
+        "priority": 3,
+        "grouping": 25,
+        "maxpulses": 4,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            0,
+            1,
+            2
+        ],
+        "damageFormula": "3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MedBlastCannon",
+        "parentClass": "BlastCannonFamily",
+        "sourceFile": "pulse.php",
+        "name": "MedBlastCannon",
+        "displayName": "Medium Blast Cannon",
+        "iconPath": "MediumBlastCannon.png",
+        "trailLength": 20,
+        "animationWidth": 5,
+        "projectilespeed": 12,
+        "animationExplosionScale": 0.1,
+        "priority": 4,
+        "grouping": 25,
+        "maxpulses": 5,
+        "loadingtime": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            0,
+            2,
+            3
+        ],
+        "damageFormula": "5",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HvyBlastCannon",
+        "parentClass": "BlastCannonFamily",
+        "sourceFile": "pulse.php",
+        "name": "HvyBlastCannon",
+        "displayName": "Heavy Blast Cannon",
+        "iconPath": "HeavyBlastCannon.png",
+        "trailLength": 20,
+        "animationWidth": 5,
+        "projectilespeed": 12,
+        "animationExplosionScale": 0.15,
+        "priority": 5,
+        "grouping": 25,
+        "maxpulses": 6,
+        "loadingtime": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            0,
+            3,
+            4
+        ],
+        "damageFormula": "8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "PulseAccelerator",
+        "parentClass": "Pulse",
+        "sourceFile": "pulse.php",
+        "name": "PulseAccelerator",
+        "displayName": "Pulse Accelerator",
+        "iconPath": "PulseAccelerator.png",
+        "animation": "bolt",
+        "trailLength": 18,
+        "animationWidth": 5,
+        "projectilespeed": 13,
+        "animationExplosionScale": 0.2,
+        "rof": 2,
+        "maxpulses": 4,
+        "grouping": 25,
+        "priority": 5,
+        "loadingtime": 1,
+        "normalload": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            1,
+            3,
+            4
+        ],
+        "damageType": "Pulse",
+        "weaponClass": "Particle",
+        "damageFormula": "12",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "PhasingPulseCannon",
+        "parentClass": "Pulse",
+        "sourceFile": "pulse.php",
+        "name": "PhasingPulseCannon",
+        "displayName": "Phasing Pulse Cannon",
+        "rof": 3,
+        "factionAge": 3,
+        "animation": "trail",
+        "animationColor": [
+            50,
+            125,
+            210
+        ],
+        "trailLength": 15,
+        "animationWidth": 4,
+        "projectilespeed": 10,
+        "animationExplosionScale": 0.2,
+        "trailColor": [
+            170,
+            170,
+            170
+        ],
+        "grouping": 15,
+        "maxpulses": 6,
+        "damageType": "Pulse",
+        "weaponClass": "Molecular",
+        "loadingtime": 2,
+        "priority": 5,
+        "rangePenalty": 1,
+        "fireControl": [
+            2,
+            4,
+            6
+        ],
+        "intercept": 3,
+        "damageFormula": "13",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "PhasingPulseCannonH",
+        "parentClass": "PhasingPulseCannon",
+        "sourceFile": "pulse.php",
+        "name": "PhasingPulseCannonH",
+        "displayName": "Heavy Phasing Pulse Cannon",
+        "rof": 3,
+        "animation": "trail",
+        "trailLength": 20,
+        "animationWidth": 6,
+        "projectilespeed": 12,
+        "animationExplosionScale": 0.4,
+        "trailColor": [
+            170,
+            170,
+            170
+        ],
+        "animationColor": [
+            216,
+            216,
+            216
+        ],
+        "loadingtime": 3,
+        "priority": 6,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            2,
+            4,
+            6
+        ],
+        "intercept": 2,
+        "damageFormula": "18",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TriopticPulsar",
+        "parentClass": "Pulse",
+        "sourceFile": "pulse.php",
+        "name": "TriopticPulsar",
+        "displayName": "Trioptic Pulsar",
+        "iconPath": "TriopticPulsar.png",
+        "animation": "bolt",
+        "animationColor": [
+            204,
+            102,
+            0
+        ],
+        "maxpulses": 3,
+        "grouping": 0,
+        "loadingtime": 1,
+        "normalload": 1,
+        "priority": 4,
+        "intercept": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            4,
+            3,
+            2
+        ],
+        "damageType": "Pulse",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(10,2)",
+        "minDamage": 2,
+        "maxDamage": 20,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "UltraPulseCannon",
+        "parentClass": "Pulse",
+        "sourceFile": "pulse.php",
+        "name": "UltraPulseCannon",
+        "displayName": "Ultra Pulse Cannon",
+        "iconPath": "UltraPulseCannon.png",
+        "animation": "bolt",
+        "animationColor": [
+            204,
+            102,
+            0
+        ],
+        "grouping": 20,
+        "groupingArray": [
+            20,
+            15,
+            10
+        ],
+        "maxpulses": 6,
+        "maxpulsesArray": [
+            6,
+            9,
+            12
+        ],
+        "rof": 4,
+        "rofArray": [
+            4,
+            5,
+            6
+        ],
+        "priority": 7,
+        "priorityArray": [
+            7,
+            6,
+            4
+        ],
+        "damageType": "Pulse",
+        "weaponClass": "Particle",
+        "intercept": 6,
+        "loadingtime": 1,
+        "normalload": 1,
+        "rangePenalty": 0.25,
+        "rangePenaltyArray": [
+            0.25,
+            0.33,
+            0.5
+        ],
+        "firingModes": [
+            "Heavy",
+            "Medium",
+            "Light"
+        ],
+        "fireControl": [
+            4,
+            6,
+            8
+        ],
+        "fireControlArray": [
+            [
+                4,
+                6,
+                8
+            ],
+            [
+                6,
+                6,
+                6
+            ],
+            [
+                8,
+                6,
+                4
+            ]
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t 24 //Heavy Pulse\r\n\t\t\t\tbreak\t\r\n\t\t\tcase 2:\r\n\t\t\t\t 16 //Medium Pulse\r\n\t\t\t\tbreak\r\n\t\t\tcase 3:\r\n\t\t\t\t 12 //Light Pulse\r\n\t\t\t\tbreak\r\n\t\t\tdefault:\r\n\t\t\t\t 24\r\n\t\t\t\tbreak",
+        "minDamage": 24,
+        "maxDamage": 24,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "VolleyLaser",
+        "parentClass": "Pulse",
+        "sourceFile": "pulse.php",
+        "name": "VolleyLaser",
+        "displayName": "Volley Laser",
+        "animationColor": [
+            255,
+            255,
+            0
+        ],
+        "animation": "bolt",
+        "uninterceptable": true,
+        "priority": 6,
+        "grouping": 15,
+        "maxpulses": 6,
+        "loadingtime": 1,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            4,
+            5,
+            6
+        ],
+        "intercept": 3,
+        "weaponClass": "Laser",
+        "damageFormula": "15",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ChromaticPulseDriver",
+        "parentClass": "Pulse",
+        "sourceFile": "pulse.php",
+        "name": "ChromaticPulseDriver",
+        "displayName": "Chromatic Pulse Driver",
+        "iconPath": "ChromaticPulseDriver.png",
+        "animation": "bolt",
+        "animationColor": [
+            200,
+            120,
+            255
+        ],
+        "animationColorArray": [
+            [
+                200,
+                120,
+                255
+            ],
+            [
+                120,
+                255,
+                220
+            ]
+        ],
+        "weaponClass": "Electromagnetic",
+        "factionAge": 3,
+        "firingModes": [
+            "Pulse",
+            "Scanning"
+        ],
+        "damageTypeArray": [
+            "Pulse",
+            "Standard"
+        ],
+        "loadingtime": 1,
+        "normalload": 2,
+        "priority": 5,
+        "grouping": 15,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            4,
+            4,
+            4
+        ],
+        "intercept": 1,
+        "damageFormula": "if ($this->isScanning($fireOrder))  0  //a scan carries no energy at all\r\n        $row = $this->getChargeRow()\r\n         $row['damage']",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    }
+]

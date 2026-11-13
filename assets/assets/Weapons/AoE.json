@@ -1,0 +1,261 @@
+[
+    {
+        "className": "AoE",
+        "parentClass": "Weapon",
+        "sourceFile": "AoE.php",
+        "damageType": "Flash",
+        "weaponClass": "Ballistic",
+        "hextarget": true,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EnergyMine",
+        "parentClass": "AoE",
+        "sourceFile": "AoE.php",
+        "name": "energyMine",
+        "displayName": "Energy Mine",
+        "range": 50,
+        "loadingtime": 2,
+        "ballistic": true,
+        "hextarget": true,
+        "hidetarget": true,
+        "flashDamage": true,
+        "priority": 1,
+        "animation": "ball",
+        "animationColor": [
+            141,
+            240,
+            255
+        ],
+        "animationExplosionScale": 1,
+        "trailColor": [
+            141,
+            240,
+            255
+        ],
+        "animationExplosionType": "AoE",
+        "explosionColor": [
+            141,
+            240,
+            255
+        ],
+        "projectilespeed": 12,
+        "animationWidth": 10,
+        "trailLength": 10,
+        "firingModes": [
+            "Energy Mine"
+        ],
+        "damageFormula": "10",
+        "minDamage": 10,
+        "maxDamage": 30,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$loadingTime = 2",
+            "$range = 50"
+        ]
+    },
+    {
+        "className": "LightEnergyMine",
+        "parentClass": "AoE",
+        "sourceFile": "AoE.php",
+        "name": "LightEnergyMine",
+        "displayName": "Light Energy Mine",
+        "iconPath": "EWLightEnergyMine.png",
+        "range": 25,
+        "loadingtime": 2,
+        "ballistic": true,
+        "hextarget": true,
+        "hidetarget": true,
+        "flashDamage": true,
+        "priority": 1,
+        "animation": "ball",
+        "animationColor": [
+            141,
+            240,
+            255
+        ],
+        "animationExplosionScale": 1,
+        "firingModes": [
+            "AoE"
+        ],
+        "damageFormula": "5",
+        "minDamage": 5,
+        "maxDamage": 10,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CaptorMine",
+        "parentClass": "Weapon",
+        "sourceFile": "AoE.php",
+        "name": "CaptorMine",
+        "displayName": "Captor Mine",
+        "iconPath": "EWLightEnergyMine.png",
+        "animation": "torpedo",
+        "animationColor": [
+            141,
+            240,
+            255
+        ],
+        "animationExplosionScale": 0.25,
+        "isTargetable": false,
+        "loadingtime": 1,
+        "ballistic": false,
+        "hidetarget": true,
+        "canOffLine": false,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "doNotIntercept": false,
+        "uninterceptable": false,
+        "priority": 6,
+        "priorityAF": 5,
+        "firingModes": [
+            "Captor"
+        ],
+        "weaponClass": "Ballistic",
+        "range": 0,
+        "distanceRange": 60,
+        "autoFireOnly": true,
+        "canTargetAll": true,
+        "currClass": "",
+        "allocatedRanges": [
+            null,
+            null,
+            null
+        ],
+        "setRanges": [],
+        "mineSet": false,
+        "damageFormula": "Dice::d($this->diceType, $this->dice) + $this->damageBonus",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$range",
+            "$accuracy",
+            "$diceType",
+            "$dice",
+            "$damageBonus"
+        ]
+    },
+    {
+        "className": "ProximityMine",
+        "parentClass": "Weapon",
+        "sourceFile": "AoE.php",
+        "name": "ProximityMine",
+        "displayName": "Proximity Mine",
+        "iconPath": "EWLightEnergyMine.png",
+        "animation": "ball",
+        "animationColor": [
+            141,
+            240,
+            255
+        ],
+        "animationExplosionScale": 1,
+        "isTargetable": false,
+        "specialAbilities": [
+            "PreFiring"
+        ],
+        "specialAbilityValue": true,
+        "doNotIntercept": true,
+        "uninterceptable": true,
+        "loadingtime": 1,
+        "preFires": false,
+        "hextarget": false,
+        "hidetarget": true,
+        "canTargetAll": true,
+        "canOffLine": false,
+        "fireControlMod": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "priority": 6,
+        "priorityAF": 5,
+        "firingModes": [
+            "Proximity"
+        ],
+        "range": 0,
+        "distanceRange": 10,
+        "autoFireOnly": true,
+        "currClass": "",
+        "allocatedShipTypes": [
+            true,
+            true,
+            true
+        ],
+        "setShipTypes": [],
+        "mineSet": false,
+        "potentialTargets": [],
+        "damageFormula": "Dice::d($this->diceType, $this->dice) + $this->damageBonus",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$range",
+            "$diceType",
+            "$dice",
+            "$damageBonus"
+        ]
+    },
+    {
+        "className": "EnergyDrainingMine",
+        "parentClass": "AoE",
+        "sourceFile": "AoE.php",
+        "name": "EnergyDrainingMine",
+        "displayName": "Energy Draining Mine",
+        "iconPath": "EnergyDrainingMine.png",
+        "factionAge": 3,
+        "weaponClass": "Electromagnetic",
+        "range": 150,
+        "ballistic": true,
+        "hextarget": true,
+        "hidetarget": true,
+        "priority": 1,
+        "intercept": 0,
+        "loadingtime": 1,
+        "normalload": 3,
+        "shots": 3,
+        "defaultShots": 1,
+        "guns": 1,
+        "canSplitShots": true,
+        "maxVariableShots": 3,
+        "firingModes": [
+            "Energy Draining Mine"
+        ],
+        "damageFormula": "0",
+        "minDamage": 0,
+        "maxDamage": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    }
+]

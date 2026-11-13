@@ -1,0 +1,836 @@
+[
+    {
+        "className": "CWHeavyTurbolaser",
+        "parentClass": "Weapon",
+        "sourceFile": "customCW.php",
+        "name": "CWHeavyTurbolaser",
+        "displayName": "Heavy Turbolaser",
+        "iconPath": "HeavyParticleBeam.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            0,
+            0
+        ],
+        "trailColor": [
+            245,
+            0,
+            0
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 6,
+        "animationWidth2": 0.3,
+        "trailLength": 18,
+        "priority": 7,
+        "loadingtime": 2,
+        "intercept": 1,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -4,
+            2,
+            4
+        ],
+        "firingMode": "Standard",
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "uninterceptable": true,
+        "damageFormula": "Dice::d(10, 2)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CWTwinHeavyTurbolaser",
+        "parentClass": "Weapon",
+        "sourceFile": "customCW.php",
+        "name": "CWTwinHeavyTurbolaser",
+        "displayName": "Twin Heavy Turbolaser",
+        "iconPath": "heavyArray.png",
+        "animation": "bolt",
+        "animationColor": [
+            245,
+            0,
+            0
+        ],
+        "trailColor": [
+            245,
+            0,
+            0
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 6,
+        "animationWidth2": 0.3,
+        "projectilespeed": 20,
+        "trailLength": 18,
+        "priority": 7,
+        "loadingtime": 1,
+        "intercept": 1,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -4,
+            2,
+            4
+        ],
+        "firingMode": "Standard",
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "uninterceptable": true,
+        "damageFormula": "Dice::d(10, 2)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CWQuadHeavyTurbolaser",
+        "parentClass": "Weapon",
+        "sourceFile": "customCW.php",
+        "name": "CWQuadHeavyTurbolaser",
+        "displayName": "Quad Heavy Turbolaser",
+        "iconPath": "quadParticleBeam.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            0,
+            0
+        ],
+        "trailColor": [
+            245,
+            0,
+            0
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 6,
+        "animationWidth2": 0.3,
+        "trailLength": 18,
+        "priority": 7,
+        "loadingtime": 1,
+        "guns": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -4,
+            2,
+            4
+        ],
+        "firingMode": "Standard",
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "uninterceptable": true,
+        "damageFormula": "Dice::d(10, 2)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CWTurbolaser",
+        "parentClass": "Weapon",
+        "sourceFile": "customCW.php",
+        "name": "CWTurbolaser",
+        "displayName": "Turbolaser",
+        "iconPath": "stdParticleBeam.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            0,
+            0
+        ],
+        "trailColor": [
+            245,
+            0,
+            0
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 6,
+        "animationWidth2": 0.3,
+        "trailLength": 18,
+        "priority": 6,
+        "loadingtime": 2,
+        "intercept": 1,
+        "rangePenalty": 0.66,
+        "fireControl": [
+            -2,
+            2,
+            3
+        ],
+        "firingMode": "Standard",
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "uninterceptable": true,
+        "damageFormula": "Dice::d(10, 1)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CWTwinTurbolaser",
+        "parentClass": "Weapon",
+        "sourceFile": "customCW.php",
+        "name": "CWTwinTurbolaser",
+        "displayName": "Twin Turbolaser",
+        "iconPath": "twinArray.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            0,
+            0
+        ],
+        "trailColor": [
+            245,
+            0,
+            0
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 6,
+        "animationWidth2": 0.3,
+        "trailLength": 18,
+        "priority": 6,
+        "loadingtime": 1,
+        "intercept": 1,
+        "rangePenalty": 0.66,
+        "fireControl": [
+            -2,
+            2,
+            3
+        ],
+        "firingMode": "Standard",
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "uninterceptable": true,
+        "damageFormula": "Dice::d(10, 1)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CWQuadTurbolaser",
+        "parentClass": "Weapon",
+        "sourceFile": "customCW.php",
+        "name": "CWQuadTurbolaser",
+        "displayName": "Quad Turbolaser",
+        "iconPath": "starwars/clonewars/quad_turbolaser.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            0,
+            0
+        ],
+        "trailColor": [
+            245,
+            0,
+            0
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 6,
+        "animationWidth2": 0.3,
+        "trailLength": 18,
+        "priority": 6,
+        "loadingtime": 1,
+        "intercept": 1,
+        "guns": 2,
+        "rangePenalty": 0.66,
+        "fireControl": [
+            -2,
+            2,
+            3
+        ],
+        "firingMode": "Standard",
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "uninterceptable": true,
+        "damageFormula": "Dice::d(10, 1)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CWLaserCannon",
+        "parentClass": "Weapon",
+        "sourceFile": "customCW.php",
+        "name": "CWLaserCannon",
+        "displayName": "Laser Cannon",
+        "iconPath": "lightLaser.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            0,
+            0
+        ],
+        "trailColor": [
+            245,
+            0,
+            0
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 6,
+        "animationWidth2": 0.3,
+        "trailLength": 18,
+        "priority": 5,
+        "loadingtime": 2,
+        "intercept": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            0,
+            2,
+            2
+        ],
+        "firingMode": "Standard",
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "uninterceptable": true,
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CWTwinLaserCannon",
+        "parentClass": "Weapon",
+        "sourceFile": "customCW.php",
+        "name": "CWTwinLaserCannon",
+        "displayName": "Twin Laser Cannon",
+        "iconPath": "EWTwinLaserCannon.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            0,
+            0
+        ],
+        "trailColor": [
+            245,
+            0,
+            0
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 5,
+        "animationWidth2": 0.3,
+        "trailLength": 18,
+        "priority": 6,
+        "loadingtime": 1,
+        "intercept": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            0,
+            2,
+            2
+        ],
+        "firingMode": "Standard",
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "uninterceptable": true,
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CWQuadLaserCannon",
+        "parentClass": "Weapon",
+        "sourceFile": "customCW.php",
+        "name": "CWQuadLaserCannon",
+        "displayName": "Quad Laser Cannon",
+        "iconPath": "EWTwinLaserCannon.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            0,
+            0
+        ],
+        "trailColor": [
+            245,
+            0,
+            0
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 6,
+        "animationWidth2": 0.3,
+        "trailLength": 18,
+        "priority": 5,
+        "loadingtime": 1,
+        "intercept": 1,
+        "guns": 2,
+        "rangePenalty": 1,
+        "fireControl": [
+            0,
+            2,
+            2
+        ],
+        "firingMode": "Standard",
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "uninterceptable": true,
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CWPointDefenseLaser",
+        "parentClass": "Weapon",
+        "sourceFile": "customCW.php",
+        "name": "CWPointDefenseLaser",
+        "displayName": "Point Defense Laser",
+        "iconPath": "NexusPointDefenseLaser.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            0,
+            0
+        ],
+        "trailColor": [
+            245,
+            0,
+            0
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 6,
+        "animationWidth2": 0.3,
+        "trailLength": 18,
+        "priority": 4,
+        "loadingtime": 1,
+        "intercept": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            4,
+            null,
+            null
+        ],
+        "firingMode": "Standard",
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "uninterceptable": true,
+        "damageFormula": "Dice::d(10, 1)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CWConcussionMissile",
+        "parentClass": "Torpedo",
+        "sourceFile": "customCW.php",
+        "name": "CWConcussionMissile",
+        "displayName": "Concussion Missile",
+        "iconPath": "starwars/mjsCapConcussion1.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": false,
+        "ballistic": true,
+        "range": 15,
+        "guns": 1,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            null,
+            1,
+            3
+        ],
+        "priority": 7,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "30",
+        "minDamage": 30,
+        "maxDamage": 30,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CWProtonTorpedo",
+        "parentClass": "Torpedo",
+        "sourceFile": "customCW.php",
+        "name": "CWProtonTorpedo",
+        "displayName": "Proton Torpedo",
+        "iconPath": "starwars/mjsCapProton1.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 30,
+        "guns": 1,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            null,
+            1,
+            3
+        ],
+        "priority": 7,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "15",
+        "minDamage": 15,
+        "maxDamage": 15,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CWIonCannon",
+        "parentClass": "Weapon",
+        "sourceFile": "customCW.php",
+        "name": "CWIonCannon",
+        "displayName": "Ion Cannon",
+        "iconPath": "starwars/mjsIonMedium1.png",
+        "animation": "bolt",
+        "animationColor": [
+            158,
+            240,
+            255
+        ],
+        "animationExplosionScale": 0.1,
+        "trailColor": [
+            158,
+            240,
+            255
+        ],
+        "projectilespeed": 15,
+        "animationWidth": 2,
+        "animationWidth2": 0.2,
+        "trailLength": 30,
+        "noOverkill": true,
+        "loadingtime": 2,
+        "priority": 10,
+        "priorityAFArray": [
+            3
+        ],
+        "rangePenalty": 1,
+        "fireControl": [
+            -1,
+            3,
+            3
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Electromagnetic",
+        "damageFormula": "Dice::d(10, 1)+6",
+        "minDamage": 7,
+        "maxDamage": 16,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CWHeavyIonCannon",
+        "parentClass": "Weapon",
+        "sourceFile": "customCW.php",
+        "name": "CWHeavyIonCannon",
+        "displayName": "Heavy Ion Cannon",
+        "iconPath": "starwars/mjsIonHvy1.png",
+        "animation": "bolt",
+        "animationColor": [
+            158,
+            240,
+            255
+        ],
+        "animationExplosionScale": 0.1,
+        "trailColor": [
+            158,
+            240,
+            255
+        ],
+        "projectilespeed": 15,
+        "animationWidth": 2,
+        "animationWidth2": 0.2,
+        "trailLength": 30,
+        "noOverkill": true,
+        "loadingtime": 3,
+        "priority": 10,
+        "priorityAFArray": [
+            3
+        ],
+        "rangePenalty": 0.66,
+        "fireControl": [
+            -2,
+            3,
+            3
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Electromagnetic",
+        "damageFormula": "Dice::d(10, 2)+6",
+        "minDamage": 8,
+        "maxDamage": 26,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CWShield",
+        "parentClass": "Shield",
+        "sourceFile": "customCW.php",
+        "name": "CWShield",
+        "displayName": "Shield",
+        "iconPath": "shield.png",
+        "boostable": true,
+        "baseOutput": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$shieldFactor",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CWLaserCannonsFtr",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "customCW.php",
+        "name": "CWLaserCannonsFtr",
+        "iconPath": "EWLightLaserBeam.png",
+        "displayName": "Laser Cannons",
+        "animation": "trail",
+        "animationColor": [
+            220,
+            60,
+            120
+        ],
+        "trailColor": [
+            220,
+            60,
+            120
+        ],
+        "animationExplosionScale": 0.1,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "trailLength": 10,
+        "uninterceptable": true,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "priority": 3,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(6)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "CWFighterTorpedoLauncher",
+        "parentClass": "FighterMissileRack",
+        "sourceFile": "customCW.php",
+        "name": "NexusFighterTorpedoLauncher",
+        "displayName": "Fighter Torpedo Launcher",
+        "loadingtime": 1,
+        "iconPath": "fighterTorpedo.png",
+        "rangeMod": 0,
+        "firingMode": 1,
+        "maxAmount": 0,
+        "weaponClass": "Standard",
+        "priority": 4,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "firingModes": [
+            "FCM"
+        ],
+        "constructorParams": [
+            "$maxAmount",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CWConcussionFtr",
+        "parentClass": "MissileFB",
+        "sourceFile": "customCW.php",
+        "name": "CWConcussionFtr",
+        "missileClass": "FCM",
+        "displayName": "Fighter Concussion Missile",
+        "cost": 8,
+        "surCharge": 0,
+        "damage": 12,
+        "amount": 0,
+        "range": 6,
+        "distanceRange": 18,
+        "hitChanceMod": 0,
+        "priority": 3,
+        "damageType": "Standard",
+        "weaponClass": "Standard",
+        "damageFormula": "12",
+        "minDamage": 12,
+        "maxDamage": 12,
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$fireControl=null"
+        ]
+    },
+    {
+        "className": "CWFighterProtonLauncher",
+        "parentClass": "FighterMissileRack",
+        "sourceFile": "customCW.php",
+        "name": "NexusFighterTorpedoLauncher",
+        "displayName": "Fighter Torpedo Launcher",
+        "loadingtime": 1,
+        "iconPath": "fighterTorpedo.png",
+        "rangeMod": 0,
+        "firingMode": 1,
+        "maxAmount": 0,
+        "weaponClass": "Standard",
+        "priority": 4,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "firingModes": [
+            "FPT"
+        ],
+        "constructorParams": [
+            "$maxAmount",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CWProtonFtr",
+        "parentClass": "MissileFB",
+        "sourceFile": "customCW.php",
+        "name": "CWProtonFtr",
+        "missileClass": "FPT",
+        "displayName": "Fighter Proton Torpedo",
+        "cost": 8,
+        "surCharge": 0,
+        "damage": 10,
+        "amount": 0,
+        "range": 10,
+        "distanceRange": 30,
+        "hitChanceMod": 0,
+        "priority": 3,
+        "damageType": "Standard",
+        "weaponClass": "Standard",
+        "damageFormula": "10",
+        "minDamage": 10,
+        "maxDamage": 10,
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$fireControl=null"
+        ]
+    },
+    {
+        "className": "CWFtrConcussion",
+        "parentClass": "FighterMissileRack",
+        "sourceFile": "customCW.php",
+        "name": "CWFtrConcussion",
+        "displayName": "Concussion Missile Launcher",
+        "loadingtime": 1,
+        "iconPath": "starwars/mjsLightConcussion1.png",
+        "rangeMod": 0,
+        "firingMode": 1,
+        "maxAmount": 0,
+        "cost": 8,
+        "damage": 12,
+        "amount": 0,
+        "range": 8,
+        "priority": 3,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "firingModes": [
+            "Con"
+        ],
+        "constructorParams": [
+            "$maxAmount",
+            "$startArc",
+            "$endArc"
+        ]
+    }
+]

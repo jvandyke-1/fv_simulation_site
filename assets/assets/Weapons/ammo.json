@@ -1,0 +1,142 @@
+[
+    {
+        "className": "Ammo",
+        "parentClass": "Weapon",
+        "sourceFile": "ammo.php",
+        "ballistic": true,
+        "amount": 0,
+        "cost": 0,
+        "surCharge": 0,
+        "damage": 0,
+        "range": 0,
+        "distanceRange": 0,
+        "hitChanceMod": 0,
+        "priority": 4,
+        "damageFormula": "$this->damage",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$fireControl = null"
+        ]
+    },
+    {
+        "className": "MissileB",
+        "parentClass": "Ammo",
+        "sourceFile": "ammo.php",
+        "name": "missileB",
+        "missileClass": "B",
+        "displayName": "Basic Missile",
+        "cost": 0,
+        "surCharge": 0,
+        "damage": 20,
+        "amount": 0,
+        "range": 20,
+        "distanceRange": 60,
+        "hitChanceMod": 3,
+        "ballistic": true,
+        "priority": 6,
+        "damageFormula": "$this->damage",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$fireControl = null"
+        ]
+    },
+    {
+        "className": "MissileFB",
+        "parentClass": "Ammo",
+        "sourceFile": "ammo.php",
+        "name": "missileFB",
+        "missileClass": "FB",
+        "displayName": "Basic Fighter Missile",
+        "cost": 8,
+        "surCharge": 0,
+        "damage": 10,
+        "amount": 0,
+        "range": 10,
+        "distanceRange": 30,
+        "hitChanceMod": 3,
+        "ballistic": true,
+        "priority": 4,
+        "damageFormula": "10",
+        "minDamage": 10,
+        "maxDamage": 10,
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$fireControl = null"
+        ]
+    },
+    {
+        "className": "MissileFY",
+        "parentClass": "MissileFB",
+        "sourceFile": "ammo.php",
+        "name": "missileFY",
+        "missileClass": "FY",
+        "displayName": "Dogfight Missile",
+        "cost": 2,
+        "damage": 6,
+        "range": 8,
+        "distanceRange": 16,
+        "priority": 3,
+        "damageFormula": "6",
+        "minDamage": 6,
+        "maxDamage": 6,
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$fireControl = null"
+        ]
+    },
+    {
+        "className": "LightBallisticTorpedo",
+        "parentClass": "MissileFB",
+        "sourceFile": "ammo.php",
+        "name": "lightBallisticTorpedo",
+        "missileClass": "LBT",
+        "displayName": "Light Ballistic Torpedo",
+        "cost": 8,
+        "surCharge": 0,
+        "damage": 10,
+        "amount": 0,
+        "range": 25,
+        "distanceRange": 25,
+        "hitChanceMod": 0,
+        "priority": 3,
+        "damageFormula": "Dice::d(6,2)",
+        "minDamage": 2,
+        "maxDamage": 12,
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$fireControl"
+        ]
+    },
+    {
+        "className": "LightIonTorpedo",
+        "parentClass": "MissileFB",
+        "sourceFile": "ammo.php",
+        "name": "lightIonTorpedo",
+        "missileClass": "LIT",
+        "displayName": "Light Ion Torpedo",
+        "cost": 8,
+        "surCharge": 0,
+        "damage": 10,
+        "amount": 0,
+        "range": 20,
+        "distanceRange": 20,
+        "hitChanceMod": 0,
+        "priority": 4,
+        "damageFormula": "10",
+        "minDamage": 10,
+        "maxDamage": 10,
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$fireControl = null"
+        ]
+    }
+]

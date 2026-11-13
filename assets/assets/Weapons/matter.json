@@ -1,0 +1,712 @@
+[
+    {
+        "className": "Matter",
+        "parentClass": "Weapon",
+        "sourceFile": "matter.php",
+        "noOverkill": true,
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "priority": 9,
+        "animation": "bolt",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MatterCannon",
+        "parentClass": "Matter",
+        "sourceFile": "matter.php",
+        "name": "matterCannon",
+        "displayName": "Matter Cannon",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "projectilespeed": 25,
+        "animationWidth": 4,
+        "animationExplosionScale": 0.2,
+        "loadingtime": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -2,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 2)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HeavyRailGun",
+        "parentClass": "Matter",
+        "sourceFile": "matter.php",
+        "name": "heavyRailGun",
+        "displayName": "Heavy Railgun",
+        "iconPath": "HeavyRailgun.png",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "projectilespeed": 20,
+        "animationWidth": 6,
+        "animationExplosionScale": 0.3,
+        "loadingtime": 4,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -3,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 5)+7",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "RailGun",
+        "parentClass": "Matter",
+        "sourceFile": "matter.php",
+        "name": "railGun",
+        "displayName": "Railgun",
+        "iconPath": "Railgun.png",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "projectilespeed": 25,
+        "animationWidth": 5,
+        "animationExplosionScale": 0.25,
+        "loadingtime": 3,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -3,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 3)+3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightRailGun",
+        "parentClass": "Matter",
+        "sourceFile": "matter.php",
+        "name": "lightRailGun",
+        "displayName": "Light Railgun",
+        "iconPath": "LightRailgun.png",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "projectilespeed": 30,
+        "animationWidth": 4,
+        "animationExplosionScale": 0.2,
+        "priority": 5,
+        "loadingtime": 2,
+        "rangePenalty": 1.0,
+        "fireControl": [
+            3,
+            2,
+            0
+        ],
+        "damageFormula": "Dice::d(10, 1)+5",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MassDriver",
+        "parentClass": "Matter",
+        "sourceFile": "matter.php",
+        "name": "massDriver",
+        "displayName": "Mass Driver",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "projectilespeed": 10,
+        "animationWidth": 6,
+        "animationExplosionScale": 0.9,
+        "noInterceptDegradation": true,
+        "targetsImmobile": true,
+        "loadingtime": 4,
+        "rangePenalty": 0.17,
+        "fireControl": [
+            null,
+            null,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 8)+ 60",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "GaussCannon",
+        "parentClass": "MatterCannon",
+        "sourceFile": "matter.php",
+        "name": "gaussCannon",
+        "displayName": "Gauss Cannon",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "projectilespeed": 28,
+        "animationWidth": 4,
+        "animationExplosionScale": 0.2,
+        "trailLength": 8,
+        "loadingtime": 2,
+        "rangePenalty": 1,
+        "fireControl": [
+            -3,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 1)+10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HeavyGaussCannon",
+        "parentClass": "GaussCannon",
+        "sourceFile": "matter.php",
+        "name": "heavyGaussCannon",
+        "displayName": "Heavy Gauss Cannon",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "projectilespeed": 25,
+        "animationWidth": 5,
+        "animationExplosionScale": 0.3,
+        "trailLength": 12,
+        "loadingtime": 3,
+        "rangePenalty": 0.66,
+        "fireControl": [
+            -2,
+            2,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 3)+10",
+        "minDamage": 13,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "RapidGatling",
+        "parentClass": "Matter",
+        "sourceFile": "matter.php",
+        "name": "rapidGatling",
+        "displayName": "Rapid Gatling Railgun",
+        "iconPath": "rapidGatling.png",
+        "animation": "trail",
+        "trailColor": [
+            225,
+            255,
+            150
+        ],
+        "animationColor": [
+            225,
+            225,
+            150
+        ],
+        "projectilespeed": 16,
+        "animationWidth": 2,
+        "trailLength": 40,
+        "animationExplosionScale": 0.15,
+        "guns": 2,
+        "intercept": 1,
+        "loadingtime": 1,
+        "ballisticIntercept": true,
+        "priority": 5,
+        "rangePenalty": 2,
+        "fireControl": [
+            4,
+            2,
+            0
+        ],
+        "damageFormula": "Dice::d(6, 2)",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "OrieniGatlingRG",
+        "parentClass": "RapidGatling",
+        "sourceFile": "matter.php",
+        "displayName": "Gatling Railgun",
+        "guns": 1,
+        "damageFormula": "Dice::d(6, 2)",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "PairedGatlingGun",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "matter.php",
+        "name": "pairedGatlingGun",
+        "displayName": "Paired Gatling Guns",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "projectilespeed": 24,
+        "animationWidth": 2,
+        "trailLength": 12,
+        "animationExplosionScale": 0.15,
+        "shots": 2,
+        "defaultShots": 2,
+        "ammunition": 6,
+        "loadingtime": 1,
+        "firingModes": [
+            "First",
+            "Second"
+        ],
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "noOverkill": true,
+        "priority": 4,
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "damageFormula": "$dmg = Dice::d(6, 1)\r\n             $dmg",
+        "minDamage": 1,
+        "maxDamage": 6,
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LtGatlingGun",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "matter.php",
+        "name": "LtGatlingGun",
+        "displayName": "Light Gatling Gun",
+        "iconPath": "LightGatlingGun.png",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "shots": 1,
+        "defaultShots": 1,
+        "ammunition": 6,
+        "loadingtime": 1,
+        "intercept": 1,
+        "ballisticIntercept": true,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "noOverkill": true,
+        "priority": 4,
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "damageFormula": "$dmg = Dice::d(6, 1)\r\n             $dmg",
+        "minDamage": 1,
+        "maxDamage": 6,
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MatterGun",
+        "parentClass": "PairedGatlingGun",
+        "sourceFile": "matter.php",
+        "name": "MatterGun",
+        "displayName": "Matter Gun",
+        "iconPath": "pairedGatlingGun.png",
+        "priority": 3,
+        "intercept": 0,
+        "damageFormula": "//d6-1, minimum 1\r\n            $dmg = Dice::d(6, 1) -1\r\n\t\t\t$dmg = max(1,$dmg)\r\n             $dmg",
+        "minDamage": 1,
+        "maxDamage": 5
+    },
+    {
+        "className": "GromeFlakCannon",
+        "parentClass": "Weapon",
+        "sourceFile": "matter.php",
+        "name": "GromeFlakCannon",
+        "displayName": "Flak Cannon",
+        "iconPath": "FlakCannon.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.5,
+        "priority": 1,
+        "uninterceptableArray": [
+            false,
+            true
+        ],
+        "doNotInterceptArray": [
+            false,
+            true
+        ],
+        "intercept": 3,
+        "freeintercept": true,
+        "freeinterceptspecial": true,
+        "loadingtime": 1,
+        "canInterceptUninterceptable": true,
+        "rangeArray": [
+            0,
+            100
+        ],
+        "rangePenaltyArray": [
+            2,
+            0
+        ],
+        "rangePenalty": 2,
+        "fireControlArray": [
+            [
+                4,
+                null,
+                null
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "fireControl": [
+            4,
+            null,
+            null
+        ],
+        "firingModes": [
+            "Anti-Fighter"
+        ],
+        "damageTypeArray": [
+            "Flash",
+            "Standard"
+        ],
+        "damageType": "Flash",
+        "weaponClassArray": [
+            "Matter",
+            "Matter"
+        ],
+        "weaponClass": "Matter",
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t Dice::d(10, 1)+2 //Anti-fighter shot\r\n\t\t\t\tbreak\t\r\n\r\n\t\t\tcase 2:\r\n\t\t\t\t 0 //Manual intercept\r\n\t\t\t\tbreak",
+        "minDamage": 3,
+        "maxDamage": 12,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "SlugCannon",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "matter.php",
+        "name": "SlugCannon",
+        "displayName": "Slug Cannon",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "projectilespeed": 24,
+        "animationWidth": 2,
+        "trailLength": 12,
+        "animationExplosionScale": 0.15,
+        "shots": 2,
+        "defaultShots": 2,
+        "ammunition": 6,
+        "iconPath": "pairedGatlingGun.png",
+        "loadingtime": 1,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "noOverkill": true,
+        "priority": 3,
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "damageFormula": "3",
+        "minDamage": 3,
+        "maxDamage": 3,
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "SingleSlugCannon",
+        "parentClass": "SlugCannon",
+        "sourceFile": "matter.php",
+        "iconPath": "GatlingGun.png",
+        "shots": 1,
+        "intercept": 1,
+        "defaultShots": 1
+    },
+    {
+        "className": "UnreliableMatterCannon",
+        "parentClass": "MatterCannon",
+        "sourceFile": "matter.php",
+        "name": "UnreliableMatterCannon",
+        "displayName": "Unreliable Matter Cannon",
+        "iconPath": "matterCannon.png",
+        "damageFormula": "$misfire1 = Dice::d(10,1)\r\n\t\tif ($misfire1 == 1) {\r\n\t\t\t$fireOrder->pubnotes .= \"<br> Weapon misfire! No damage.\"\r\n\t\t\t (Dice::d(10, 2)+2) * 0",
+        "minDamage": 4,
+        "maxDamage": 22
+    },
+    {
+        "className": "UltraMatterCannon",
+        "parentClass": "Matter",
+        "sourceFile": "matter.php",
+        "name": "UltraMatterCannon",
+        "displayName": "Ultra Matter Cannon",
+        "iconPath": "UltraMatterCannon.png",
+        "animation": "bolt",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "priority": 9,
+        "factionAge": 3,
+        "loadingtime": 1,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            0,
+            5,
+            5
+        ],
+        "damageFormula": "Dice::d(10, 5)+5",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "SniperCannon",
+        "parentClass": "Matter",
+        "sourceFile": "matter.php",
+        "name": "SniperCannon",
+        "displayName": "Sniper Cannon",
+        "iconPath": "SniperCannon.png",
+        "animation": "torpedo",
+        "animationColor": [
+            192,
+            192,
+            192
+        ],
+        "loadingtime": 4,
+        "priority": 2,
+        "firingModes": [
+            "Piercing"
+        ],
+        "damageType": "Piercing",
+        "weaponClass": "Matter",
+        "rangePenalty": 0.25,
+        "fireControl": [
+            null,
+            4,
+            6
+        ],
+        "damageFormula": "Dice::d(10, 4)+30",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "GlancingRam",
+        "parentClass": "Matter",
+        "sourceFile": "matter.php",
+        "trailColor": [
+            206,
+            206,
+            83
+        ],
+        "name": "GlancingRam",
+        "displayName": "Glancing Ram",
+        "iconPath": "GlancingRam.png",
+        "animation": "ball",
+        "factionAge": 3,
+        "loadingtime": 1,
+        "shots": 1,
+        "priority": 1,
+        "doNotIntercept": true,
+        "intercept": 0,
+        "rangePenalty": 0,
+        "range": 0.1,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "damageFormula": "Dice::d(10, 1)",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "WarriorRam",
+        "parentClass": "Matter",
+        "sourceFile": "matter.php",
+        "trailColor": [
+            206,
+            206,
+            83
+        ],
+        "name": "WarriorRam",
+        "displayName": "Warrior Ram",
+        "iconPath": "DirectRam.png",
+        "animation": "ball",
+        "lastCalculatedDamage": null,
+        "factionAge": 3,
+        "loadingtime": 1,
+        "shots": 1,
+        "priority": 1,
+        "doNotIntercept": true,
+        "exclusive": true,
+        "intercept": 0,
+        "rangePenalty": 0,
+        "range": 0.1,
+        "fireControl": [
+            null,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "damageFormula": "$gd = $this->gamedata\r\n    $target = $gd->getShipById($fireOrder->targetid)\r\n\r\n    $thisFighter = $this->getParentFighter()\r\n\r\n    $damage = 0\r\n    if ($thisFighter !== null) {\r\n        $damage = $thisFighter->getRemainingHealth()\r\n        $this->lastCalculatedDamage = $damage // store it",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "MatterBolt",
+        "parentClass": "Weapon",
+        "sourceFile": "matter.php",
+        "name": "MatterBolt",
+        "displayName": "Matter Bolt",
+        "iconPath": "GatlingGun.png",
+        "factionAge": 4,
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "shots": 1,
+        "loadingtime": 1,
+        "normalload": 2,
+        "noOverkill": true,
+        "range": 0,
+        "rangePenalty": 1.0,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "intercept": 2,
+        "firingModes": [
+            "Matter Bolt"
+        ],
+        "damageFormula": "Dice::d(6, 3) + 2",
+        "minDamage": 5,
+        "maxDamage": 20,
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$powerReq = 0"
+        ]
+    }
+]

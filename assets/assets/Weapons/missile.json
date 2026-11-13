@@ -1,0 +1,873 @@
+[
+    {
+        "className": "MissileLauncher",
+        "parentClass": "Weapon",
+        "sourceFile": "missile.php",
+        "useOEW": false,
+        "ballistic": true,
+        "animation": "trail",
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "distanceRange": 0,
+        "firingMode": 1,
+        "rangeMod": 0,
+        "priority": 6,
+        "hits": [],
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "firingModes": [
+            "B"
+        ],
+        "missileArray": [],
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "SMissileRack",
+        "parentClass": "MissileLauncher",
+        "sourceFile": "missile.php",
+        "name": "sMissileRack",
+        "displayName": "Class-S Missile Rack",
+        "range": 20,
+        "distanceRange": 60,
+        "loadingtime": 2,
+        "iconPath": "missile1.png",
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageFormula": "20"
+    },
+    {
+        "className": "RMissileRack",
+        "parentClass": "MissileLauncher",
+        "sourceFile": "missile.php",
+        "name": "rMissileRack",
+        "displayName": "Class-R Missile Rack",
+        "range": 20,
+        "distanceRange": 60,
+        "loadingtime": 1,
+        "iconPath": "missile2.png",
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageFormula": "20"
+    },
+    {
+        "className": "SoMissileRack",
+        "parentClass": "MissileLauncher",
+        "sourceFile": "missile.php",
+        "name": "soMissileRack",
+        "displayName": "Class-SO Missile Rack",
+        "range": 20,
+        "distanceRange": 60,
+        "loadingtime": 2,
+        "iconPath": "missile1.png",
+        "fireControl": [
+            2,
+            2,
+            2
+        ],
+        "damageFormula": "20"
+    },
+    {
+        "className": "LMissileRack",
+        "parentClass": "MissileLauncher",
+        "sourceFile": "missile.php",
+        "name": "lMissileRack",
+        "displayName": "Class-L Missile Rack",
+        "range": 30,
+        "distanceRange": 70,
+        "loadingtime": 2,
+        "iconPath": "missile1.png",
+        "rangeMod": 10,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageFormula": "20"
+    },
+    {
+        "className": "LHMissileRack",
+        "parentClass": "MissileLauncher",
+        "sourceFile": "missile.php",
+        "name": "lHMissileRack",
+        "displayName": "Class-LH Missile Rack",
+        "range": 30,
+        "distanceRange": 70,
+        "loadingtime": 1,
+        "iconPath": "missile2.png",
+        "rangeMod": 10,
+        "fireControl": [
+            4,
+            4,
+            4
+        ],
+        "damageFormula": "20"
+    },
+    {
+        "className": "BMissileRack",
+        "parentClass": "MissileLauncher",
+        "sourceFile": "missile.php",
+        "name": "bMissileRack",
+        "displayName": "Class-B Missile Rack",
+        "range": 20,
+        "distanceRange": 60,
+        "loadingtime": 1,
+        "iconPath": "missile3.png",
+        "rangeMod": 10,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageFormula": "20"
+    },
+    {
+        "className": "AMissileRack",
+        "parentClass": "MissileLauncher",
+        "sourceFile": "missile.php",
+        "name": "aMissileRack",
+        "displayName": "Class-A Missile Rack",
+        "range": 15,
+        "rangeMod": -5,
+        "distanceRange": 45,
+        "loadingtime": 1,
+        "iconPath": "missile1.png",
+        "fireControl": [
+            10,
+            3,
+            3
+        ],
+        "damageFormula": "15"
+    },
+    {
+        "className": "BombRack",
+        "parentClass": "MissileLauncher",
+        "sourceFile": "missile.php",
+        "name": "BombRack",
+        "displayName": "Bomb Rack",
+        "range": 20,
+        "distanceRange": 60,
+        "loadingtime": 2,
+        "iconPath": "bombRack.png",
+        "fireControl": [
+            1,
+            2,
+            3
+        ],
+        "damageFormula": "20"
+    },
+    {
+        "className": "FighterMissileRack",
+        "parentClass": "MissileLauncher",
+        "sourceFile": "missile.php",
+        "name": "FighterMissileRack",
+        "displayName": "Fighter Missile Rack",
+        "loadingtime": 1,
+        "iconPath": "fighterMissile.png",
+        "rangeMod": 0,
+        "firingMode": 1,
+        "maxAmount": 0,
+        "ballistic": true,
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 10,
+        "animationWidth": 2,
+        "trailLength": 60,
+        "priority": 5,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "firingModes": [
+            "FB"
+        ],
+        "damageFormula": "$ammo = $this->missileArray[$fireOrder->firingMode]\r\n         $ammo->getDamage($fireOrder)",
+        "constructorParams": [
+            "$maxAmount",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "FighterTorpedoLauncher",
+        "parentClass": "FighterMissileRack",
+        "sourceFile": "missile.php",
+        "name": "FighterTorpedoLauncher",
+        "displayName": "Fighter Torpedo Launcher",
+        "loadingtime": 1,
+        "iconPath": "fighterTorpedo.png",
+        "rangeMod": 0,
+        "firingMode": 1,
+        "maxAmount": 0,
+        "priority": 4,
+        "animation": "torpedo",
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "firingModes": [
+            "LBT"
+        ],
+        "constructorParams": [
+            "$maxAmount",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ReloadRack",
+        "parentClass": "Weapon",
+        "sourceFile": "missile.php",
+        "name": "ReloadRack",
+        "displayName": "Reload Rack",
+        "iconPath": "missileReload.png",
+        "fireControl": [
+            null,
+            null,
+            null
+        ],
+        "isPrimaryTargetable": false,
+        "isTargetable": false,
+        "weapon": false,
+        "damageType": "Flash",
+        "weaponClass": "Ballistic",
+        "damageFormula": "0",
+        "minDamage": 0,
+        "maxDamage": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth"
+        ]
+    },
+    {
+        "className": "MultiMissileLauncher",
+        "parentClass": "Weapon",
+        "sourceFile": "missile.php",
+        "name": "multiMissileLauncher",
+        "displayName": "ToBeSetInConstructor",
+        "useOEW": false,
+        "ballistic": true,
+        "animation": "trail",
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "trailColor": [
+            141,
+            240,
+            255
+        ],
+        "animationExplosionScale": 0.6,
+        "projectilespeed": 8,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "range": 20,
+        "distanceRange": 60,
+        "firingMode": 1,
+        "rangeMod": 0,
+        "priority": 6,
+        "hits": [],
+        "loadingtime": 2,
+        "iconPath": "missile1.png",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "firingModes": [
+            "Basic",
+            "LongRange",
+            "Heavy",
+            "Flash",
+            "Piercing",
+            "AntiFighter"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Standard",
+            "Standard",
+            "Flash",
+            "Piercing",
+            "Standard"
+        ],
+        "fireControlArray": [
+            [
+                6,
+                6,
+                6
+            ],
+            [
+                6,
+                6,
+                6
+            ],
+            [
+                3,
+                6,
+                6
+            ],
+            [
+                6,
+                6,
+                6
+            ],
+            [
+                3,
+                6,
+                6
+            ],
+            [
+                9,
+                6,
+                6
+            ]
+        ],
+        "rangeArray": [
+            20,
+            30,
+            10,
+            20,
+            20,
+            15
+        ],
+        "distanceRangeArray": [
+            60,
+            90,
+            30,
+            60,
+            60,
+            45
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 2: //Long-Range\r\n\t\t\t\t 15 \r\n\t\t\t\tbreak\r\n\t\t\tcase 3: //Heavy\r\n\t\t\t\t 30 \r\n\t\t\t\tbreak\r\n\t\t\tcase 5: //Piercing\r\n\t\t\t\t 30 \r\n\t\t\t\tbreak\r\n\t\t\tcase 6: //Anti-Fighter\r\n\t\t\t\t 15 \r\n\t\t\t\tbreak\r\n\t\t\tdefault: //most missiles do the same damage\r\n\t\t\t\t 20 \r\n\t\t\t\tbreak",
+        "minDamage": 15,
+        "maxDamage": 15,
+        "constructorParams": [
+            "$armour",
+            "$launcherType",
+            "$startArc",
+            "$endArc",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "MultiBombRack",
+        "parentClass": "Weapon",
+        "sourceFile": "missile.php",
+        "name": "multiBombRack",
+        "displayName": "Bomb Rack",
+        "useOEW": false,
+        "ballistic": true,
+        "animation": "trail",
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "trailColor": [
+            141,
+            240,
+            255
+        ],
+        "animationExplosionScale": 0.4,
+        "projectilespeed": 8,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "range": 20,
+        "distanceRange": 60,
+        "firingMode": 1,
+        "rangeMod": 0,
+        "priority": 6,
+        "hits": [],
+        "loadingtime": 2,
+        "iconPath": "bombRack.png",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "firingModes": [
+            "Basic",
+            "Flash"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Flash"
+        ],
+        "fireControlArray": [
+            [
+                4,
+                5,
+                6
+            ],
+            [
+                4,
+                5,
+                6
+            ]
+        ],
+        "rangeArray": [
+            20,
+            20
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1: //Basic missile\r\n\t\t\t\t 20 \r\n\t\t\t\tbreak\r\n\t\t\tcase 2: //Flash missile\r\n\t\t\t\t 20 \r\n\t\t\t\tbreak\r\n\t\t\tdefault: //most missiles do the same damage\r\n\t\t\t\t 20 \r\n\t\t\t\tbreak",
+        "minDamage": 20,
+        "maxDamage": 20,
+        "constructorParams": [
+            "$armour",
+            "$launcherType",
+            "$startArc",
+            "$endArc",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "AmmoMissileRackS",
+        "parentClass": "Weapon",
+        "sourceFile": "missile.php",
+        "name": "ammoMissileRackS",
+        "displayName": "Class-S Missile Rack",
+        "iconPath": "missile1.png",
+        "checkAmmoMagazine": true,
+        "useOEW": false,
+        "ballistic": true,
+        "animation": "trail",
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "range": 20,
+        "distanceRange": 60,
+        "firingMode": 1,
+        "priority": 6,
+        "loadingtime": 2,
+        "normaload": 2,
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "firingModes": [],
+        "damageTypeArray": [],
+        "fireControlArray": [],
+        "rangeArray": [],
+        "distanceRangeArray": [],
+        "hidetarget": false,
+        "hidetargetArray": [],
+        "maxpulses": 0,
+        "rof": 0,
+        "useDie": 0,
+        "fixedBonusPulses": 0,
+        "maxpulsesArray": [],
+        "rofArray": [],
+        "useDieArray": [],
+        "fixedBonusPulsesArray": [],
+        "calledShotMod": -8,
+        "calledShotModArray": [],
+        "specialRangeCalculation": false,
+        "specialRangeCalculationArray": [],
+        "rangePenalty": 0,
+        "rangePenaltyArray": [],
+        "noLockPenalty": false,
+        "noLockPenaltyArray": [],
+        "specialHitChanceCalculation": false,
+        "specialHitChanceCalculationArray": [],
+        "intercept": 0,
+        "interceptArray": [],
+        "ballisticIntercept": false,
+        "ballisticInterceptArray": [],
+        "canModesIntercept": true,
+        "hextarget": false,
+        "hextargetArray": [],
+        "animationArray": [],
+        "animationExplosionScale": 0,
+        "animationExplosionScaleArray": [],
+        "uninterceptable": false,
+        "uninterceptableArray": [],
+        "doNotIntercept": false,
+        "doNotInterceptArray": [],
+        "mineRange": 0,
+        "mineRangeArray": [],
+        "damageFormula": "$currAmmo = null\r\n        //find appropriate ammo\r\n\t\tif (array_key_exists($this->firingMode,$this->ammoClassesUsed)){\r\n\t\t\t$currAmmo = $this->ammoClassesUsed[$this->firingMode]",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$magazine",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "AmmoMissileRackL",
+        "parentClass": "AmmoMissileRackS",
+        "sourceFile": "missile.php",
+        "name": "ammoMissileRackL",
+        "displayName": "Class-L Missile Rack",
+        "iconPath": "missile1.png",
+        "range": 30,
+        "distanceRange": 70,
+        "firingMode": 1,
+        "priority": 6,
+        "loadingtime": 2,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$magazine",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "AmmoMissileRackLH",
+        "parentClass": "AmmoMissileRackS",
+        "sourceFile": "missile.php",
+        "name": "ammoMissileRackLH",
+        "displayName": "Class-LH Missile Rack",
+        "iconPath": "missile2.png",
+        "range": 30,
+        "distanceRange": 70,
+        "firingMode": 1,
+        "priority": 6,
+        "loadingtime": 1,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$magazine",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "AmmoMissileRackB",
+        "parentClass": "AmmoMissileRackS",
+        "sourceFile": "missile.php",
+        "name": "ammoMissileRackB",
+        "displayName": "Class-B Missile Rack",
+        "iconPath": "missile3.png",
+        "range": 30,
+        "distanceRange": 70,
+        "firingMode": 1,
+        "priority": 6,
+        "loadingtime": 1,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$magazine",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "AmmoMissileRackR",
+        "parentClass": "AmmoMissileRackS",
+        "sourceFile": "missile.php",
+        "name": "ammoMissileRackR",
+        "displayName": "Class-R Missile Rack",
+        "iconPath": "missile2.png",
+        "range": 20,
+        "distanceRange": 60,
+        "firingMode": 1,
+        "priority": 6,
+        "loadingtime": 1,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$magazine",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "AmmoMissileRackSO",
+        "parentClass": "AmmoMissileRackS",
+        "sourceFile": "missile.php",
+        "name": "ammoMissileRackSO",
+        "displayName": "Class-SO Missile Rack",
+        "iconPath": "missile1.png",
+        "range": 20,
+        "distanceRange": 60,
+        "firingMode": 1,
+        "priority": 6,
+        "loadingtime": 2,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$magazine",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "AmmoMissileRackO",
+        "parentClass": "AmmoMissileRackS",
+        "sourceFile": "missile.php",
+        "name": "ammoMissileRackO",
+        "displayName": "Class-O Missile Rack",
+        "iconPath": "missile1.png",
+        "range": 20,
+        "distanceRange": 60,
+        "firingMode": 1,
+        "priority": 6,
+        "loadingtime": 3,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$magazine",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "AmmoMissileRackA",
+        "parentClass": "AmmoMissileRackS",
+        "sourceFile": "missile.php",
+        "name": "ammoMissileRackA",
+        "displayName": "Class-A Missile Rack",
+        "iconPath": "missile2.png",
+        "range": 20,
+        "distanceRange": 60,
+        "firingMode": 1,
+        "priority": 6,
+        "loadingtime": 1,
+        "canModesIntercept": false,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$magazine",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "AmmoMissileRackD",
+        "parentClass": "AmmoMissileRackS",
+        "sourceFile": "missile.php",
+        "name": "AmmoMissileRackD",
+        "displayName": "Class-D Missile Rack",
+        "iconPath": "ClassDMissileRack.png",
+        "range": 20,
+        "distanceRange": 60,
+        "firingMode": 1,
+        "priority": 6,
+        "loadingtime": 1,
+        "intercept": 0,
+        "ballisticIntercept": true,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$magazine",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "AmmoMissileRackG",
+        "parentClass": "AmmoMissileRackS",
+        "sourceFile": "missile.php",
+        "name": "ammoMissileRackG",
+        "displayName": "Guided Missile Rack",
+        "iconPath": "missile1.png",
+        "range": 25,
+        "distanceRange": 65,
+        "firingMode": 1,
+        "priority": 6,
+        "loadingtime": 2,
+        "useOEW": true,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$magazine",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "AmmoMissileRackTriad",
+        "parentClass": "AmmoMissileRackS",
+        "sourceFile": "missile.php",
+        "name": "AmmoMissileRackTriad",
+        "displayName": "Triad Missile Rack",
+        "iconPath": "TriadMissileRack.png",
+        "factionAge": 3,
+        "priority": 6,
+        "loadingtime": 1,
+        "powerReq": 0,
+        "boostable": false,
+        "boostEfficiency": 6,
+        "maxBoostLevel": 1,
+        "powerReqArray": [],
+        "boostModeIndex": null,
+        "damageFormula": "if ($this->boostModeIndex !== null && $fireOrder->firingMode == $this->boostModeIndex) {\r\n             20",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$magazine",
+            "$base = false"
+        ]
+    },
+    {
+        "className": "AmmoBombRack",
+        "parentClass": "AmmoMissileRackS",
+        "sourceFile": "missile.php",
+        "name": "ammoBombRack",
+        "displayName": "Bomb Rack",
+        "iconPath": "bombRack.png",
+        "range": 20,
+        "distanceRange": 60,
+        "firingMode": 1,
+        "priority": 6,
+        "loadingtime": 2,
+        "canModesIntercept": false,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$magazine",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "AmmoFighterRack",
+        "parentClass": "AmmoMissileRackS",
+        "sourceFile": "missile.php",
+        "name": "ammoFighterRack",
+        "displayName": "Missile",
+        "iconPath": "fighterMissile.png",
+        "range": 10,
+        "distanceRange": 30,
+        "firingMode": 1,
+        "priority": 6,
+        "loadingtime": 1,
+        "canModesIntercept": false,
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$magazine",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "AmmoMissileRackF",
+        "parentClass": "AmmoMissileRackS",
+        "sourceFile": "missile.php",
+        "name": "AmmoMissileRackF",
+        "displayName": "Class-F Missile Rack",
+        "iconPath": "ClassFMissileRack.png",
+        "range": 35,
+        "distanceRange": 75,
+        "firingMode": 1,
+        "priority": 6,
+        "loadingtime": 1,
+        "normalload": 2,
+        "basicFC": [
+            3,
+            3,
+            3
+        ],
+        "basicRange": 35,
+        "basicDistanceRange": 75,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$magazine",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "BallisticMineLauncher",
+        "parentClass": "AmmoMissileRackS",
+        "sourceFile": "missile.php",
+        "name": "BallisticMineLauncher",
+        "displayName": "Ballistic Mine Launcher",
+        "iconPath": "BallisticMineLauncher.png",
+        "spawnableClasses": [
+            "spawnCaptorKLB",
+            "spawnCaptorKLH",
+            "spawnCaptorKLW"
+        ],
+        "range": 30,
+        "distanceRange": 60,
+        "firingMode": 1,
+        "priority": 6,
+        "loadingtime": 2,
+        "hextarget": true,
+        "hidetarget": true,
+        "animation": "bolt",
+        "animationColor": [
+            245,
+            90,
+            90
+        ],
+        "animationExplosionScale": 0.25,
+        "animationExplosionScaleArray": [],
+        "animationExplosionType": "AoE",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$magazine",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "AbbaiMineLauncher",
+        "parentClass": "BallisticMineLauncher",
+        "sourceFile": "missile.php",
+        "name": "AbbaiMineLauncher",
+        "displayName": "Mine Launcher",
+        "iconPath": "AbbaiMineLauncher.png",
+        "spawnableClasses": [
+            "spawnCaptorWotcrAbbaiA",
+            "spawnCaptorWotcrAbbaiB"
+        ],
+        "range": 20,
+        "distanceRange": 40,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$magazine",
+            "$base=false"
+        ]
+    }
+]

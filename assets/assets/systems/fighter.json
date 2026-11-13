@@ -1,0 +1,22 @@
+[
+    {
+        "className": "Fighter",
+        "parentClass": "ShipSystem",
+        "sourceFile": "fighter.php",
+        "location": 0,
+        "damage": [],
+        "outputMod": 0,
+        "boostable": false,
+        "power": [],
+        "data": [],
+        "critData": [],
+        "fighter": true,
+        "systems": [],
+        "missileRackReloadedTurn": null,
+        "marinesReloadedTurn": null,
+        "jammingLoadedTurn": 0,
+        "jammingLoadedValue": 0,
+        "possibleCriticals": [],
+        "criticals": []
+    }
+]

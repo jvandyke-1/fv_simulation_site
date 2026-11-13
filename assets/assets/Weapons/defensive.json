@@ -1,0 +1,390 @@
+[
+    {
+        "className": "InterceptorMkI",
+        "parentClass": "Weapon",
+        "sourceFile": "defensive.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "interceptorMkI",
+        "displayName": "Interceptor I",
+        "animation": "trail",
+        "iconPath": "interceptor.png",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "animationExplosionScale": 0.15,
+        "priority": 4,
+        "animationWidth": 1,
+        "intercept": 3,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            null,
+            null,
+            null
+        ],
+        "output": 3,
+        "tohitPenalty": 0,
+        "damagePenalty": 0,
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "boostable": true,
+        "boostEfficiency": 0,
+        "maxBoostLevel": 1,
+        "onMine": false,
+        "damageFormula": "Dice::d(10)+5",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$mine = false"
+        ]
+    },
+    {
+        "className": "InterceptorMkII",
+        "parentClass": "InterceptorMkI",
+        "sourceFile": "defensive.php",
+        "name": "interceptorMkII",
+        "displayName": "Interceptor II",
+        "output": 4,
+        "intercept": 4,
+        "fireControl": [
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "className": "InterceptorPrototype",
+        "parentClass": "InterceptorMkI",
+        "sourceFile": "defensive.php",
+        "name": "interceptorPrototype",
+        "displayName": "Interceptor Prototype",
+        "priority": 3,
+        "output": 2,
+        "intercept": 2,
+        "damageFormula": "Dice::d(10)+3"
+    },
+    {
+        "className": "GuardianArray",
+        "parentClass": "Weapon",
+        "sourceFile": "defensive.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "guardianArray",
+        "displayName": "Guardian Array",
+        "animation": "bolt",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "animationExplosionScale": 0.15,
+        "priority": 4,
+        "intercept": 3,
+        "freeintercept": true,
+        "loadingtime": 1,
+        "rangePenalty": 3,
+        "fireControl": [
+            8,
+            null,
+            null
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(10)+5",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "SentinelPointDefense",
+        "parentClass": "GuardianArray",
+        "sourceFile": "defensive.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "sentinelPointDefense",
+        "displayName": "Sentinel Point Defense",
+        "animation": "laser",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "animationExplosionScale": 0.15,
+        "intercept": 3,
+        "freeintercept": true,
+        "loadingtime": 1,
+        "rangePenalty": 6,
+        "fireControl": [
+            null,
+            null,
+            null
+        ],
+        "damageFormula": "0",
+        "minDamage": 0,
+        "maxDamage": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "Particleimpeder",
+        "parentClass": "Weapon",
+        "sourceFile": "defensive.php",
+        "name": "Particleimpeder",
+        "displayName": "Particle Impeder",
+        "iconPath": "particleImpeder.png",
+        "animation": "laser",
+        "animationColor": [
+            160,
+            160,
+            160
+        ],
+        "animationExplosionScale": 0.15,
+        "priority": 1,
+        "intercept": 3,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            null,
+            null,
+            null
+        ],
+        "output": 0,
+        "boostable": true,
+        "boostEfficiency": 0,
+        "maxBoostLevel": 20,
+        "canInterceptUninterceptable": true,
+        "tohitPenalty": 0,
+        "damagePenalty": 0,
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EMWaveDisruptor",
+        "parentClass": "Weapon",
+        "sourceFile": "defensive.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "eMWaveDisruptor",
+        "displayName": "EM-Wave Disruptor",
+        "animation": "laser",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "animationExplosionScale": 0.15,
+        "animationWidth": 1,
+        "animationWidth2": 0,
+        "boostable": true,
+        "boostEfficiency": 4,
+        "intercept": 3,
+        "loadingtime": 1,
+        "guns": 2,
+        "iconPath": "emWaveDisruptor.png",
+        "priority": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            4,
+            null,
+            null
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Electromagnetic",
+        "damageFormula": "0",
+        "minDamage": 0,
+        "maxDamage": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "Interdictor",
+        "parentClass": "Weapon",
+        "sourceFile": "defensive.php",
+        "name": "Interdictor",
+        "displayName": "Interdictor",
+        "iconPath": "Interdictor.png",
+        "freeintercept": true,
+        "freeinterceptspecial": true,
+        "loadingtime": 1,
+        "priority": 1,
+        "autoFireOnly": true,
+        "rangePenalty": 2,
+        "fireControl": [
+            null,
+            null,
+            null
+        ],
+        "firingMode": "Intercept",
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "intercept": 4,
+        "damageFormula": "0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "FtrInterdictor",
+        "parentClass": "Interdictor",
+        "sourceFile": "defensive.php",
+        "name": "FtrInterdictor",
+        "displayName": "Light Interdictor",
+        "iconPath": "Interdictor.png",
+        "freeintercept": true,
+        "freeinterceptspecial": true,
+        "loadingtime": 1,
+        "priority": 1,
+        "autoFireOnly": true,
+        "rangePenalty": 2,
+        "fireControl": [
+            null,
+            null,
+            null
+        ],
+        "firingMode": "Intercept",
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "intercept": 3,
+        "damageFormula": "0",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "FtrShield",
+        "parentClass": "Shield",
+        "sourceFile": "defensive.php",
+        "name": "FtrShield",
+        "displayName": "Shield",
+        "iconPath": "shield.png",
+        "boostable": false,
+        "baseOutput": 0,
+        "constructorParams": [
+            "$shieldFactor",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "FtrGravShield",
+        "parentClass": "FtrShield",
+        "sourceFile": "defensive.php",
+        "name": "FtrGravShield",
+        "displayName": "Grav Shield"
+    },
+    {
+        "className": "HeavyInterceptorBattery",
+        "parentClass": "InterceptorMkI",
+        "sourceFile": "defensive.php",
+        "name": "HeavyInterceptorBattery",
+        "displayName": "Heavy Interceptor Battery",
+        "iconPath": "HeavyInterceptor.png",
+        "priority": 6,
+        "output": 4,
+        "intercept": 4,
+        "fireControl": [
+            null,
+            null,
+            null
+        ],
+        "damageFormula": "Dice::d(10, 2)+6"
+    },
+    {
+        "className": "ThirdspaceShield",
+        "parentClass": "Shield",
+        "sourceFile": "defensive.php",
+        "name": "ThirdspaceShield",
+        "displayName": "Shield Projection",
+        "primary": true,
+        "isPrimaryTargetable": false,
+        "isTargetable": false,
+        "iconPath": "ThirdspaceShieldF.png",
+        "repairPriority": 0,
+        "baseRating": 0,
+        "blueprintRating": 0,
+        "changeThisTurn": 0,
+        "currentHealth": 0,
+        "side": "",
+        "constructorParams": [
+            "$armor",
+            "$startHealth",
+            "$rating",
+            "$startArc",
+            "$endArc",
+            "$side = 'F'"
+        ]
+    },
+    {
+        "className": "ThoughtShield",
+        "parentClass": "Shield",
+        "sourceFile": "defensive.php",
+        "name": "ThoughtShield",
+        "displayName": "Shield Projection",
+        "primary": true,
+        "isPrimaryTargetable": false,
+        "isTargetable": false,
+        "iconPath": "ThirdspaceShieldF.png",
+        "repairPriority": 0,
+        "changeThisTurn": 0,
+        "currentHealth": 0,
+        "side": "",
+        "baseRating": 0,
+        "defenceMod": 0,
+        "blueprintRating": 0,
+        "blueprintMaxhealth": 0,
+        "constructorParams": [
+            "$armor",
+            "$startHealth",
+            "$rating",
+            "$startArc",
+            "$endArc",
+            "$side = 'F'"
+        ]
+    }
+]

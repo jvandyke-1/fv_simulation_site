@@ -1,0 +1,1889 @@
+[
+    {
+        "className": "EWParticleLance",
+        "parentClass": "Raking",
+        "sourceFile": "customEscalation.php",
+        "name": "EWParticleLance",
+        "displayName": "Particle Lance",
+        "iconPath": "EWParticleLance.png",
+        "animationArray": [
+            "laser",
+            "laser"
+        ],
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationWidthArray": [
+            5,
+            3
+        ],
+        "animationExplosionScale": 0.25,
+        "priorityArray": [
+            8,
+            8
+        ],
+        "gunsArray": [
+            1,
+            2
+        ],
+        "intercept": 1,
+        "loadingtimeArray": [
+            2,
+            2
+        ],
+        "rangePenaltyArray": [
+            0.33,
+            0.5
+        ],
+        "fireControlArray": [
+            [
+                2,
+                4,
+                5
+            ],
+            [
+                2,
+                4,
+                5
+            ]
+        ],
+        "weaponClassArray": [
+            "Particle",
+            "Particle"
+        ],
+        "firingModes": [
+            "Lance",
+            "Particle Cannons"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Raking"
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(10, 3)+20 //ParticleLance\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t Dice::d(10, 2)+15 //ParticleCannon\r\n\t\t\t\tbreak",
+        "minDamage": 23,
+        "maxDamage": 50,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWParticleGun",
+        "parentClass": "Particle",
+        "sourceFile": "customEscalation.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "EWParticleGun",
+        "displayName": "Particle Gun",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "animationWidth": 2,
+        "animationWidth2": 0.2,
+        "intercept": 1,
+        "loadingtime": 2,
+        "priority": 4,
+        "rangePenalty": 1,
+        "fireControl": [
+            2,
+            2,
+            2
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Standard"
+        ],
+        "damageFormula": "Dice::d(10, 2)+0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWLightParticleGun",
+        "parentClass": "Particle",
+        "sourceFile": "customEscalation.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "EWLightParticleGun",
+        "displayName": "Light Particle Gun",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.1,
+        "animationWidth": 1.5,
+        "animationWidth2": 0.2,
+        "intercept": 1,
+        "loadingtime": 1,
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            1,
+            1,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Standard"
+        ],
+        "damageFormula": "Dice::d(10, 1)+1",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWParticleMaul",
+        "parentClass": "Particle",
+        "sourceFile": "customEscalation.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "EWParticleMaul",
+        "displayName": "Particle Maul",
+        "iconPath": "EWParticleMaul.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.1,
+        "animationWidth": 1.5,
+        "animationWidth2": 0.2,
+        "loadingtime": 3,
+        "priority": 5,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -1,
+            1,
+            2
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Standard"
+        ],
+        "damageFormula": "Dice::d(10, 1)+12",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWGatlingParticleBeam",
+        "parentClass": "Particle",
+        "sourceFile": "customEscalation.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "EWGatlingParticleBeam",
+        "displayName": "Gatling Particle Beam",
+        "iconPath": "EWGatlingParticleBeam.png",
+        "animation": "beam",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.1,
+        "animationWidth": 1.5,
+        "animationWidth2": 0.2,
+        "guns": 3,
+        "intercept": 1,
+        "loadingtime": 1,
+        "priority": 4,
+        "rangePenalty": 2,
+        "fireControl": [
+            5,
+            2,
+            2
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Standard"
+        ],
+        "damageFormula": "Dice::d(10, 1)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWGatlingLaser",
+        "parentClass": "Pulse",
+        "sourceFile": "customEscalation.php",
+        "name": "EWGatlingLaser",
+        "displayName": "Gatling Laser",
+        "iconPath": "EWGatlingLaser.png",
+        "animation": "bolt",
+        "trailLength": 12,
+        "animationWidth": 4,
+        "projectilespeed": 9,
+        "animationExplosionScale": 0.1,
+        "rof": 2,
+        "grouping": 20,
+        "maxpulses": 5,
+        "uninterceptable": true,
+        "loadingtime": 2,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "priority": 4,
+        "rangePenalty": 1,
+        "fireControl": [
+            1,
+            1,
+            2
+        ],
+        "firingMode": "Pulse",
+        "damageType": "Pulse",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWHeavyGatlingLaser",
+        "parentClass": "Pulse",
+        "sourceFile": "customEscalation.php",
+        "name": "EWHeavyGatlingLaser",
+        "displayName": "Heavy Gatling Laser",
+        "iconPath": "EWHeavyGatlingLaser.png",
+        "animation": "bolt",
+        "trailLength": 12,
+        "animationWidth": 4,
+        "projectilespeed": 9,
+        "animationExplosionScale": 0.1,
+        "rof": 2,
+        "grouping": 20,
+        "maxpulses": 5,
+        "uninterceptable": true,
+        "loadingtime": 2,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "priority": 6,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            1,
+            1,
+            2
+        ],
+        "firingMode": "Pulse",
+        "damageType": "Pulse",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(10, 2)+5",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWLightLaserBeam",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "customEscalation.php",
+        "name": "EWLightLaserBeam",
+        "iconPath": "EWLightLaserBeam.png",
+        "displayName": "Light Laser Beam",
+        "animation": "laser",
+        "animationColor": [
+            220,
+            100,
+            30
+        ],
+        "animationExplosionScale": 0.1,
+        "animationWidth": 1,
+        "animationWidth2": 0.2,
+        "priority": 3,
+        "uninterceptable": true,
+        "intercept": 2,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 1.5,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(6)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "EWLaserBoltFtr",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "customEscalation.php",
+        "name": "EWLaserBoltFtr",
+        "iconPath": "EWLightLaserBeam.png",
+        "displayName": "Ultralight Laser Bolt",
+        "animation": "trail",
+        "animationColor": [
+            220,
+            60,
+            120
+        ],
+        "trailColor": [
+            220,
+            60,
+            120
+        ],
+        "animationExplosionScale": 0.1,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "trailLength": 10,
+        "uninterceptable": true,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "priority": 3,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(6)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "EWTwinLaserCannon",
+        "parentClass": "Laser",
+        "sourceFile": "customEscalation.php",
+        "name": "EWTwinLaserCannon",
+        "displayName": "Twin Laser Cannon",
+        "iconPath": "EWTwinLaserCannon.png",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            91,
+            91
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "priority": 8,
+        "loadingtime": 2,
+        "raking": 10,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -2,
+            2,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 2)+14",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWProtoMedLaser",
+        "parentClass": "Laser",
+        "sourceFile": "customEscalation.php",
+        "name": "EWProtoMedLaser",
+        "displayName": "Proto Medium Laser",
+        "iconPath": "mediumLaser.png",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            91,
+            91
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "priority": 8,
+        "loadingtime": 3,
+        "raking": 10,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -5,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 3)+10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWRoyalLaser",
+        "parentClass": "Laser",
+        "sourceFile": "customEscalation.php",
+        "name": "EWRoyalLaser",
+        "displayName": "Royal Laser",
+        "iconPath": "EWRoyalLaser.png",
+        "animation": "laser",
+        "animationColor": [
+            220,
+            60,
+            120
+        ],
+        "animationWidth": 4,
+        "animationWidth2": 0.2,
+        "loadingtime": 3,
+        "raking": 10,
+        "priority": 8,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -5,
+            2,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 3)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWSovereignLaser",
+        "parentClass": "Laser",
+        "sourceFile": "customEscalation.php",
+        "name": "EWSovereignLaser",
+        "displayName": "Sovereign Laser",
+        "iconPath": "EWSovereignLaser.png",
+        "animation": "laser",
+        "animationColor": [
+            220,
+            60,
+            120
+        ],
+        "animationWidth": 6,
+        "animationWidth2": 0.6,
+        "loadingtime": 4,
+        "raking": 10,
+        "priority": 9,
+        "rangePenalty": 0.25,
+        "fireControl": [
+            -5,
+            3,
+            4
+        ],
+        "damageFormula": "Dice::d(10, 4)+10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWLaserBolt",
+        "parentClass": "Weapon",
+        "sourceFile": "customEscalation.php",
+        "name": "EWLaserBolt",
+        "displayName": "Laser Bolt",
+        "iconPath": "EWLaserBolt.png",
+        "animation": "trail",
+        "animationColor": [
+            220,
+            60,
+            120
+        ],
+        "trailColor": [
+            220,
+            60,
+            120
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "trailLength": 10,
+        "priority": 4,
+        "loadingtime": 1,
+        "uninterceptable": true,
+        "rangePenalty": 1.0,
+        "fireControl": [
+            3,
+            2,
+            0
+        ],
+        "firingMode": "Standard",
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWDualLaserBolt",
+        "parentClass": "Weapon",
+        "sourceFile": "customEscalation.php",
+        "name": "EWDualLaserBolt",
+        "displayName": "Dual Laser Bolt",
+        "iconPath": "EWDualLaserBolt.png",
+        "animation": "trail",
+        "animationColor": [
+            220,
+            60,
+            120
+        ],
+        "trailColor": [
+            220,
+            60,
+            120
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "trailLength": 10,
+        "priority": 4,
+        "loadingtime": 1,
+        "guns": 2,
+        "uninterceptable": true,
+        "rangePenalty": 1.0,
+        "fireControl": [
+            3,
+            2,
+            0
+        ],
+        "firingMode": "Standard",
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWDefenseLaser",
+        "parentClass": "Weapon",
+        "sourceFile": "customEscalation.php",
+        "name": "EWDefenseLaser",
+        "displayName": "Defense Laser",
+        "iconPath": "EWDefenseLaser.png",
+        "animationColor": [
+            255,
+            30,
+            30
+        ],
+        "animation": "bolt",
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 25,
+        "animationWidth": 10,
+        "trailLength": 5,
+        "priority": 3,
+        "uninterceptable": true,
+        "loadingtime": 1,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            null,
+            null
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(10, 1)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWDefenseLaser2",
+        "parentClass": "EWDefenseLaser",
+        "sourceFile": "customEscalation.php",
+        "name": "EWDefenseLaser2",
+        "displayName": "Defense Laser II",
+        "iconPath": "EWDefenseLaser.png",
+        "animationColor": [
+            255,
+            30,
+            30
+        ],
+        "animation": "bolt",
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 25,
+        "animationWidth": 10,
+        "trailLength": 5,
+        "priority": 3,
+        "uninterceptable": true,
+        "loadingtime": 1,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "rangePenalty": 1,
+        "fireControl": [
+            4,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(10, 1)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWHETLaser",
+        "parentClass": "Laser",
+        "sourceFile": "customEscalation.php",
+        "name": "EWHETLaser",
+        "displayName": "HET Laser",
+        "iconPath": "EWHETLaser.png",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            91,
+            91
+        ],
+        "priority": 8,
+        "loadingtime": 4,
+        "ammunition": 6,
+        "raking": 10,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -4,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 3)+10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWPlasmaGun",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "customEscalation.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "EWPlasmaGun",
+        "iconPath": "EWPlasmaGun.png",
+        "displayName": "Plasma Gun",
+        "animation": "trail",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 15,
+        "animationWidth": 1,
+        "trailLength": 5,
+        "priority": 3,
+        "rangeDamagePenalty": 1,
+        "intercept": 1,
+        "loadingtime": 1,
+        "shots": 1,
+        "defaultShots": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Plasma",
+        "damageFormula": "Dice::d(6)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "EWUltralightPlasmaGun",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "customEscalation.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "EWUltralightPlasmaGun",
+        "iconPath": "EWUltralightPlasmaGun.png",
+        "displayName": "Ultralight Plasma Gun",
+        "animation": "trail",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 15,
+        "animationWidth": 1,
+        "trailLength": 5,
+        "priority": 3,
+        "rangeDamagePenalty": 1,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Plasma",
+        "damageFormula": "Dice::d(3)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "EWPointPlasmaGun",
+        "parentClass": "Plasma",
+        "sourceFile": "customEscalation.php",
+        "name": "EWPointPlasmaGun",
+        "displayName": "Point Plasma Gun",
+        "iconPath": "EWPointPlasmaGun.png",
+        "animation": "trail",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "trailColor": [
+            75,
+            250,
+            90
+        ],
+        "projectilespeed": 15,
+        "animationWidth": 1,
+        "animationExplosionScale": 0.1,
+        "trailLength": 10,
+        "priority": 4,
+        "rangeDamagePenalty": 1,
+        "guns": 2,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            1,
+            1
+        ],
+        "damageFormula": "Dice::d(6, 2)+0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWHeavyPointPlasmaGun",
+        "parentClass": "Plasma",
+        "sourceFile": "customEscalation.php",
+        "name": "EWHeavyPointPlasmaGun",
+        "displayName": "Heavy Point Plasma Gun",
+        "iconPath": "EWHeavyPointPlasmaGun.png",
+        "animation": "trail",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "trailColor": [
+            75,
+            250,
+            90
+        ],
+        "projectilespeed": 15,
+        "animationWidth": 5,
+        "animationExplosionScale": 0.3,
+        "trailLength": 20,
+        "priority": 5,
+        "rangeDamagePenalty": 1,
+        "guns": 2,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            4,
+            3,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 2)+0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWHeavyPlasmaGun",
+        "parentClass": "Plasma",
+        "sourceFile": "customEscalation.php",
+        "name": "EWHeavyPlasmaGun",
+        "displayName": "Heavy Plasma Gun",
+        "iconPath": "EWHeavyPlasmaGun.png",
+        "animation": "trail",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "trailColor": [
+            75,
+            250,
+            90
+        ],
+        "projectilespeed": 10,
+        "animationWidth": 3,
+        "animationExplosionScale": 0.2,
+        "trailLength": 15,
+        "priority": 5,
+        "rangeDamagePenalty": 1,
+        "guns": 1,
+        "loadingtime": 3,
+        "rangePenalty": 1,
+        "fireControl": [
+            -5,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 2)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWPlasmaMine",
+        "parentClass": "Plasma",
+        "sourceFile": "customEscalation.php",
+        "name": "EWPlasmaMine",
+        "displayName": "Plasma Mine",
+        "iconPath": "EWPlasmaMine.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": false,
+        "ballistic": true,
+        "range": 30,
+        "distanceRange": 30,
+        "loadingtime": 3,
+        "rangePenalty": 0,
+        "fireControl": [
+            null,
+            0,
+            2
+        ],
+        "priority": 5,
+        "firingMode": "Ballistic",
+        "damageType": "Plasma",
+        "weaponClass": "Plasma",
+        "damageFormula": "Dice::d(10, 2)+0",
+        "minDamage": 2,
+        "maxDamage": 20,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWPlasmaArc",
+        "parentClass": "PlasmaStream",
+        "sourceFile": "customEscalation.php",
+        "name": "EWPlasmaArc",
+        "displayName": "Plasma Arc",
+        "iconPath": "EWPlasmaArc.png",
+        "animation": "laser",
+        "priority": 1,
+        "damageFormula": "Dice::d(10,2)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWOMissileRack",
+        "parentClass": "MissileLauncher",
+        "sourceFile": "customEscalation.php",
+        "name": "EWOMissileRack",
+        "displayName": "Class-O Missile Rack",
+        "range": 20,
+        "distanceRange": 60,
+        "loadingtime": 3,
+        "iconPath": "missile1.png",
+        "fireControl": [
+            2,
+            2,
+            2
+        ],
+        "damageFormula": "20"
+    },
+    {
+        "className": "EWRocketLauncher",
+        "parentClass": "Torpedo",
+        "sourceFile": "customEscalation.php",
+        "name": "EWRocketLauncher",
+        "displayName": "Rocket Launcher",
+        "iconPath": "EWRocketLauncher.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 15,
+        "guns": 1,
+        "loadingtime": 1,
+        "rangePenalty": 0,
+        "fireControl": [
+            1,
+            1,
+            1
+        ],
+        "priority": 4,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "Dice::d(6, 2)+2",
+        "minDamage": 4,
+        "maxDamage": 14,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWRangedRocketLauncher",
+        "parentClass": "Torpedo",
+        "sourceFile": "customEscalation.php",
+        "name": "EWRangedRocketLauncher",
+        "displayName": "Ranged Rocket Launcher",
+        "iconPath": "EWRocketLauncher.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 16,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 30,
+        "guns": 1,
+        "loadingtime": 1,
+        "rangePenalty": 0,
+        "fireControl": [
+            1,
+            1,
+            1
+        ],
+        "priority": 4,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "Dice::d(6, 2)+2",
+        "minDamage": 4,
+        "maxDamage": 14,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWDualRocketLauncher",
+        "parentClass": "Torpedo",
+        "sourceFile": "customEscalation.php",
+        "name": "EWDualRocketLauncher",
+        "displayName": "Dual Rocket Launcher",
+        "iconPath": "EWDualRocketLauncher.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 15,
+        "guns": 2,
+        "loadingtime": 1,
+        "rangePenalty": 0,
+        "fireControl": [
+            1,
+            1,
+            1
+        ],
+        "priority": 4,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "Dice::d(6, 2)+2",
+        "minDamage": 4,
+        "maxDamage": 14,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWRangedDualRocketLauncher",
+        "parentClass": "Torpedo",
+        "sourceFile": "customEscalation.php",
+        "name": "EWRangedDualRocketLauncher",
+        "displayName": "Ranged Dual Rocket Launcher",
+        "iconPath": "EWDualRocketLauncher.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 16,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 30,
+        "guns": 2,
+        "loadingtime": 1,
+        "rangePenalty": 0,
+        "fireControl": [
+            1,
+            1,
+            1
+        ],
+        "priority": 4,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "Dice::d(6, 2)+2",
+        "minDamage": 4,
+        "maxDamage": 14,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWHeavyRocketLauncher",
+        "parentClass": "Torpedo",
+        "sourceFile": "customEscalation.php",
+        "name": "EWHeavyRocketLauncher",
+        "displayName": "Heavy Rocket Launcher",
+        "iconPath": "EWHeavyRocketLauncher.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.4,
+        "projectilespeed": 12,
+        "animationWidth": 6,
+        "trailLength": 100,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 25,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            0,
+            1,
+            2
+        ],
+        "priority": 6,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "Dice::d(10, 2)+4",
+        "minDamage": 6,
+        "maxDamage": 24,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWRangedHeavyRocketLauncher",
+        "parentClass": "EWHeavyRocketLauncher",
+        "sourceFile": "customEscalation.php",
+        "name": "EWRangedHeavyRocketLauncher",
+        "displayName": "Ranged Heavy Rocket Launcher",
+        "iconPath": "EWHeavyRocketLauncher.png",
+        "range": 50
+    },
+    {
+        "className": "EWRangedDualHeavyRocketLauncher",
+        "parentClass": "Torpedo",
+        "sourceFile": "customEscalation.php",
+        "name": "EWRangedDualHeavyRocketLauncher",
+        "displayName": "Ranged Dual Heavy Rocket Launcher",
+        "iconPath": "EWRangedDualHeavyRocketLauncher.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.4,
+        "projectilespeed": 16,
+        "animationWidth": 6,
+        "trailLength": 100,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 50,
+        "loadingtime": 1,
+        "rangePenalty": 0,
+        "fireControl": [
+            0,
+            1,
+            2
+        ],
+        "priority": 6,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "Dice::d(10, 2)+4",
+        "minDamage": 6,
+        "maxDamage": 24,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWFighterTorpedoLauncher",
+        "parentClass": "FighterMissileRack",
+        "sourceFile": "customEscalation.php",
+        "name": "EWFighterTorpedoLauncher",
+        "displayName": "Fighter Torpedo Launcher",
+        "loadingtime": 1,
+        "iconPath": "fighterTorpedo.png",
+        "rangeMod": 0,
+        "firingMode": 1,
+        "maxAmount": 0,
+        "weaponClass": "Plasma",
+        "priority": 4,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "firingModes": [
+            "LPM"
+        ],
+        "constructorParams": [
+            "$maxAmount",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWLightPlasmaMine",
+        "parentClass": "MissileFB",
+        "sourceFile": "customEscalation.php",
+        "name": "EWLightPlasmaMine",
+        "missileClass": "LPM",
+        "displayName": "Light Plasma Mine",
+        "cost": 8,
+        "surCharge": 0,
+        "damage": 10,
+        "amount": 0,
+        "range": 15,
+        "distanceRange": 15,
+        "hitChanceMod": 0,
+        "priority": 3,
+        "damageType": "Standard",
+        "weaponClass": "Plasma",
+        "damageFormula": "Dice::d(6,2)",
+        "minDamage": 2,
+        "maxDamage": 12,
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$fireControl=null"
+        ]
+    },
+    {
+        "className": "EWNuclearTorpedo",
+        "parentClass": "Torpedo",
+        "sourceFile": "customEscalation.php",
+        "name": "EWNuclearTorpedo",
+        "displayName": "Nuclear Torpedo",
+        "iconPath": "EWNuclearTorpedo.png",
+        "range": 25,
+        "loadingtime": 4,
+        "weaponClass": "Plasma",
+        "damageType": "Flash",
+        "fireControl": [
+            -5,
+            1,
+            2
+        ],
+        "trailColor": [
+            75,
+            230,
+            90
+        ],
+        "animation": "trail",
+        "animationColor": [
+            75,
+            230,
+            90
+        ],
+        "animationExplosionScale": 0.6,
+        "projectilespeed": 11,
+        "animationWidth": 10,
+        "trailLength": 10,
+        "priority": 1,
+        "damageFormula": "Dice::d(10, 5)",
+        "minDamage": 5,
+        "maxDamage": 50,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWNuclearMine",
+        "parentClass": "Torpedo",
+        "sourceFile": "customEscalation.php",
+        "name": "EWNuclearMine",
+        "displayName": "Nuclear Mine",
+        "iconPath": "EWNuclearTorpedo.png",
+        "range": 1,
+        "loadingtime": 4,
+        "ammunition": 2,
+        "uninterceptable": true,
+        "weaponClass": "Plasma",
+        "damageType": "Flash",
+        "fireControl": [
+            -5,
+            1,
+            2
+        ],
+        "trailColor": [
+            75,
+            230,
+            90
+        ],
+        "animation": "trail",
+        "animationColor": [
+            75,
+            230,
+            90
+        ],
+        "animationExplosionScale": 0.6,
+        "projectilespeed": 11,
+        "animationWidth": 10,
+        "trailLength": 10,
+        "priority": 1,
+        "damageFormula": "Dice::d(10, 6)",
+        "minDamage": 6,
+        "maxDamage": 60,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWRangedNuclearTorpedo",
+        "parentClass": "EWNuclearTorpedo",
+        "sourceFile": "customEscalation.php",
+        "name": "EWRangedNuclearTorpedo",
+        "displayName": "Ranged Nuclear Torpedo",
+        "range": 60
+    },
+    {
+        "className": "EWPulseTorpedo",
+        "parentClass": "Pulse",
+        "sourceFile": "customEscalation.php",
+        "name": "EWPulseTorpedo",
+        "displayName": "Pulse Torpedo",
+        "iconPath": "EWPulseTorpedo.png",
+        "useOEW": true,
+        "ballistic": true,
+        "range": 20,
+        "distanceRange": 35,
+        "animation": "trail",
+        "animationColor": [
+            192,
+            192,
+            192
+        ],
+        "trailColor": [
+            215,
+            126,
+            111
+        ],
+        "trailLength": 45,
+        "animationWidth": 2,
+        "projectilespeed": 5,
+        "animationExplosionScale": 0.15,
+        "rof": 2,
+        "grouping": 20,
+        "maxpulses": 6,
+        "priority": 5,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "firingMode": "Ballistic",
+        "damageType": "Pulse",
+        "weaponClass": "Pulse",
+        "damageFormula": "8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWGraviticTractingRod",
+        "parentClass": "Weapon",
+        "sourceFile": "customEscalation.php",
+        "name": "TractingRodHandler",
+        "displayName": "Gravitic Tracting Rod",
+        "iconPath": "EWGraviticTractingRod.png",
+        "animation": "laser",
+        "animationColor": [
+            102,
+            255,
+            0
+        ],
+        "animationExplosionScale": 1.0,
+        "priority": 1,
+        "hextarget": false,
+        "hidetarget": true,
+        "specialAbilities": [
+            "PreFiring"
+        ],
+        "specialAbilityValue": true,
+        "damageType": "Standard",
+        "weaponClass": "Gravitic",
+        "uninterceptable": true,
+        "doNotIntercept": true,
+        "loadingtime": 3,
+        "rangePenalty": 2,
+        "canTargetAll": true,
+        "fireControl": [
+            2,
+            2,
+            2
+        ],
+        "preFires": true,
+        "canSplitShots": true,
+        "moveDistance": "",
+        "showHexagonArc": true,
+        "specialHitChanceCalculation": true,
+        "repairPriority": 6,
+        "firingModes": [
+            "Standard - GN",
+            "Priorty - GN"
+        ],
+        "damageFormula": "0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWEMTorpedo",
+        "parentClass": "Torpedo",
+        "sourceFile": "customEscalation.php",
+        "name": "EWEMTorpedo",
+        "displayName": "EM Torpedo",
+        "iconPath": "EWEMTorpedo.png",
+        "loadingtime": 3,
+        "specialRangeCalculation": true,
+        "weaponClass": "Electromagnetic",
+        "damageType": "Flash",
+        "fireControl": [
+            -6,
+            1,
+            3
+        ],
+        "trailColor": [
+            75,
+            230,
+            90
+        ],
+        "animation": "torpedo",
+        "animationColor": [
+            75,
+            230,
+            90
+        ],
+        "animationExplosionScale": 0.3,
+        "projectilespeed": 11,
+        "animationWidth": 10,
+        "trailLength": 10,
+        "priority": 1,
+        "rangePenalty": 1,
+        "damageFormula": "Dice::d(10, 2)",
+        "minDamage": 2,
+        "maxDamage": 20,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWElectronPolarizer",
+        "parentClass": "Weapon",
+        "sourceFile": "customEscalation.php",
+        "name": "EWElectronPolarizer",
+        "displayName": "Electron Polarizer",
+        "iconPath": "EWElectronPolarizer.png",
+        "loadingtime": 4,
+        "weaponClass": "Electromagnetic",
+        "damageType": "Flash",
+        "rangePenalty": 0.33,
+        "fireControl": [
+            null,
+            2,
+            2
+        ],
+        "trailColor": [
+            75,
+            230,
+            90
+        ],
+        "animation": "beam",
+        "animationColor": [
+            75,
+            230,
+            90
+        ],
+        "animationExplosionScale": 0.3,
+        "projectilespeed": 11,
+        "animationWidth": 10,
+        "trailLength": 10,
+        "priority": 1,
+        "damageFormula": "Dice::d(10, 5)",
+        "minDamage": 5,
+        "maxDamage": 50,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWLightGaussCannon",
+        "parentClass": "MatterCannon",
+        "sourceFile": "customEscalation.php",
+        "name": "EWLightGaussCannon",
+        "displayName": "Light Gauss Cannon",
+        "iconPath": "EWLightGaussCannon.png",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "projectilespeed": 28,
+        "animationWidth": 3,
+        "animationExplosionScale": 0.15,
+        "trailLength": 6,
+        "loadingtime": 1,
+        "priority": 9,
+        "damageType": "Matter",
+        "rangePenalty": 1,
+        "fireControl": [
+            -2,
+            2,
+            1
+        ],
+        "damageFormula": "Dice::d(10, 1)+3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWEarlyRailgun",
+        "parentClass": "MatterCannon",
+        "sourceFile": "customEscalation.php",
+        "name": "EWEarlyRailgun",
+        "displayName": "Early Railgun",
+        "iconPath": "EWEarlyRailgun.png",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "projectilespeed": 28,
+        "animationWidth": 3,
+        "animationExplosionScale": 0.15,
+        "trailLength": 6,
+        "loadingtime": 3,
+        "priority": 9,
+        "damageType": "Matter",
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -3,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 2)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ChoukaMineLauncher",
+        "parentClass": "BallisticMineLauncher",
+        "sourceFile": "customEscalation.php",
+        "name": "ChoukaMineLauncher",
+        "displayName": "Mine Launcher",
+        "iconPath": "BallisticMineLauncher.png",
+        "spawnableClasses": [
+            "spawnCaptorMineVA",
+            "spawnCaptorMineVB",
+            "spawnCaptorMineVC"
+        ],
+        "range": 30,
+        "distanceRange": 60,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$magazine",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "EWFlakBattery",
+        "parentClass": "Weapon",
+        "sourceFile": "customEscalation.php",
+        "name": "EWFlakBattery",
+        "displayName": "Flak Battery",
+        "iconPath": "EWFlakBattery.png",
+        "animation": "ball",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "animationExplosionScale": 0.5,
+        "noProjectile": true,
+        "ballistic": false,
+        "hextarget": true,
+        "hidetarget": false,
+        "priority": 1,
+        "uninterceptable": true,
+        "doNotIntercept": true,
+        "canInterceptUninterceptable": true,
+        "useOEW": false,
+        "loadingtime": 1,
+        "intercept": 3,
+        "tohitPenalty": 0,
+        "damagePenalty": 0,
+        "range": 1,
+        "rangePenalty": 0,
+        "priorityArray": [
+            1
+        ],
+        "firingMode": "Offensive",
+        "boostable": false,
+        "weaponClassArray": [
+            "Matter"
+        ],
+        "damageTypeArray": [
+            "Matter"
+        ],
+        "firingModes": [
+            "Anti-Fighter"
+        ],
+        "fireControlArray": [
+            [
+                0,
+                null,
+                null
+            ]
+        ],
+        "damageFormula": "Dice::d(6, 1)",
+        "minDamage": 1,
+        "maxDamage": 6,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWEMLaser",
+        "parentClass": "Laser",
+        "sourceFile": "customEscalation.php",
+        "name": "EWEMLaser",
+        "iconPath": "EWEMLaser.png",
+        "displayName": "EM Laser",
+        "animation": "laser",
+        "animationColor": [
+            160,
+            0,
+            255
+        ],
+        "priority": 8,
+        "loadingtime": 3,
+        "raking": 10,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -3,
+            2,
+            3
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Electromagnetic",
+        "damageFormula": "Dice::d(10, 3)+10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EWHvyEMLaser",
+        "parentClass": "Laser",
+        "sourceFile": "customEscalation.php",
+        "name": "EWHvyEMLaser",
+        "iconPath": "EWHvyEMLaser.png",
+        "displayName": "Heavy EM Laser",
+        "animation": "laser",
+        "animationColor": [
+            160,
+            0,
+            255
+        ],
+        "priority": 8,
+        "loadingtime": 4,
+        "raking": 10,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -4,
+            2,
+            3
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Electromagnetic",
+        "damageFormula": "Dice::d(10, 4)+16",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    }
+]

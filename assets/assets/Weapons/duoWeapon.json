@@ -1,0 +1,17 @@
+[
+    {
+        "className": "DuoWeapon",
+        "parentClass": "Weapon",
+        "sourceFile": "duoWeapon.php",
+        "duoWeapon": true,
+        "weapons": [],
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$weapons"
+        ]
+    }
+]
