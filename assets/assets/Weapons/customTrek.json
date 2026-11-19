@@ -1,0 +1,1603 @@
+[
+    {
+        "className": "TrekWarpDrive",
+        "parentClass": "JumpEngine",
+        "sourceFile": "customTrek.php",
+        "name": "TrekWarpDrive",
+        "displayName": "Nacelle",
+        "iconPath": "WarpDrive.png",
+        "primary": true,
+        "repairPriority": 7,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$output"
+        ]
+    },
+    {
+        "className": "TrekImpulseDrive",
+        "parentClass": "Engine",
+        "sourceFile": "customTrek.php",
+        "iconPath": "engine.png",
+        "name": "engine",
+        "displayName": "Engine",
+        "primary": true,
+        "isPrimaryTargetable": false,
+        "boostable": false,
+        "outputType": "thrust",
+        "baseOutput": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$output",
+            "$boostEfficiency"
+        ]
+    },
+    {
+        "className": "TrekPhaserBase",
+        "parentClass": "Raking",
+        "sourceFile": "customTrek.php",
+        "animation": "laser",
+        "animationColor": [
+            225,
+            0,
+            0
+        ]
+    },
+    {
+        "className": "TrekDisruptorBase",
+        "parentClass": "Weapon",
+        "sourceFile": "customTrek.php",
+        "animationColor": [
+            142,
+            252,
+            13
+        ],
+        "reduceFacing": 0,
+        "reduceSystem": 0,
+        "reduceStructure": 0
+    },
+    {
+        "className": "TrekLtPhaseCannon",
+        "parentClass": "TrekPhaserBase",
+        "sourceFile": "customTrek.php",
+        "name": "TrekLtPhaseCannon",
+        "displayName": "Light Phase Cannon",
+        "iconPath": "TrekLightPhaseCannon.png",
+        "animationExplosionScale": 0.2,
+        "raking": 6,
+        "intercept": 2,
+        "priority": 8,
+        "priorityAF": 8,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            3,
+            3,
+            2
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Raking"
+        ],
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekPhaseCannon",
+        "parentClass": "TrekPhaserBase",
+        "sourceFile": "customTrek.php",
+        "name": "TrekPhaseCannon",
+        "displayName": "Phase Cannon",
+        "iconPath": "TrekPhaseCannon.png",
+        "animationExplosionScale": 0.3,
+        "raking": 8,
+        "intercept": 2,
+        "priority": 7,
+        "priorityAF": 6,
+        "loadingtime": 1,
+        "normalload": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            2,
+            2,
+            2
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Raking"
+        ],
+        "damageFormula": "switch($this->turnsloaded){\r\n            \tcase 1:\r\n                \t Dice::d(10)+3\r\n\t\t\t    \tbreak\r\n            \tdefault:\r\n                \t Dice::d(10,2)+12\r\n\t\t\t    \tbreak",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekHvyPhaseCannon",
+        "parentClass": "TrekPhaserBase",
+        "sourceFile": "customTrek.php",
+        "name": "TrekHvyPhaseCannon",
+        "displayName": "Heavy Phase Cannon",
+        "iconPath": "TrekHeavyPhaseCannon.png",
+        "animationExplosionScale": 0.35,
+        "raking": 10,
+        "intercept": 1,
+        "priority": 6,
+        "priorityAF": 5,
+        "loadingtime": 2,
+        "normalload": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            0,
+            2,
+            3
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Raking"
+        ],
+        "damageFormula": "switch($this->turnsloaded){\r\n            \tcase 1:\r\n                \t Dice::d(10,2)+8\r\n\t\t\t    \tbreak\r\n            \tdefault:\r\n                \t Dice::d(10,3)+12\r\n\t\t\t    \tbreak",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekPhasedPulseCannon",
+        "parentClass": "Pulse",
+        "sourceFile": "customTrek.php",
+        "name": "TrekPhasedPulseCannon",
+        "displayName": "Phased Pulse Cannon",
+        "iconPath": "TrekPulsePhaseCannon.png",
+        "animationExplosionScale": 0.2,
+        "animationColor": [
+            225,
+            0,
+            0
+        ],
+        "intercept": 2,
+        "priority": 3,
+        "loadingtime": 1,
+        "rangePenalty": 1.5,
+        "fireControl": [
+            3,
+            2,
+            2
+        ],
+        "damageType": "Pulse",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Pulse"
+        ],
+        "grouping": 20,
+        "maxpulses": 6,
+        "damageFormula": "7",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekPhasedPulseAccelerator",
+        "parentClass": "Pulse",
+        "sourceFile": "customTrek.php",
+        "name": "TrekPhasedPulseAccelerator",
+        "displayName": "Phased Pulse Accelerator",
+        "iconPath": "TrekPulsePhaseAccel.png",
+        "animationExplosionScale": 0.2,
+        "animationColor": [
+            225,
+            0,
+            0
+        ],
+        "intercept": 2,
+        "priority": 4,
+        "priorityArray": [
+            4,
+            3
+        ],
+        "loadingtime": 2,
+        "loadingtimeArray": [
+            2,
+            1
+        ],
+        "rangePenalty": 0.66,
+        "rangePenaltyArray": [
+            0.66,
+            1.5
+        ],
+        "fireControl": [
+            2,
+            3,
+            3
+        ],
+        "damageType": "Pulse",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Full",
+            "Light"
+        ],
+        "grouping": 20,
+        "maxpulses": 6,
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\t\tcase 1:\r\n\t\t\t\t\t 9 //full\r\n\t\t\t\t\tbreak\r\n\t\t\t\tcase 2:\r\n\t\t\t\t\t 7 //light\r\n\t\t\t\t\tbreak",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekPhaser",
+        "parentClass": "TrekPhaserBase",
+        "sourceFile": "customTrek.php",
+        "name": "TrekPhaser",
+        "displayName": "Phaser",
+        "iconPath": "TrekPhaserM.png",
+        "animationExplosionScale": 0.3,
+        "raking": 10,
+        "intercept": 2,
+        "priority": 7,
+        "priorityAF": 6,
+        "loadingtime": 1,
+        "normalload": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Raking"
+        ],
+        "damageFormula": "switch($this->turnsloaded){\r\n            \tcase 0:\r\n            \tcase 1:\r\n                \t Dice::d(10)+4\r\n\t\t\t    \tbreak\r\n            \tdefault:\r\n                \t Dice::d(10,2)+14\r\n\t\t\t    \tbreak",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekPhaserLance",
+        "parentClass": "TrekPhaserBase",
+        "sourceFile": "customTrek.php",
+        "name": "TrekPhaserLance",
+        "displayName": "Phaser Lance",
+        "iconPath": "TrekPhaserLanceM.png",
+        "animation": "laser",
+        "animationExplosionScale": 0.4,
+        "animationExplosionScaleArray": [
+            0.4,
+            0.3
+        ],
+        "raking": 10,
+        "intercept": 2,
+        "priority": 7,
+        "priorityArray": [
+            6,
+            7
+        ],
+        "priorityAF": 3,
+        "priorityAFArray": [
+            3,
+            6
+        ],
+        "loadingtime": 2,
+        "gunsArray": [
+            1,
+            2
+        ],
+        "rangePenaltyArray": [
+            0.33,
+            0.5
+        ],
+        "fireControlArray": [
+            [
+                0,
+                4,
+                4
+            ],
+            [
+                2,
+                3,
+                3
+            ]
+        ],
+        "damageType": "Raking",
+        "damageTypeArray": [
+            "Raking",
+            "Raking"
+        ],
+        "weaponClass": "Particle",
+        "weaponClassArray": [
+            "Particle",
+            "Particle"
+        ],
+        "firingModes": [
+            "Lance",
+            "Dual Phasers"
+        ],
+        "firingMode": 1,
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\t\tcase 1:\r\n\t\t\t\t\t Dice::d(10, 3)+14 //Phaser Lance\r\n\t\t\t\t\tbreak\r\n\t\t\t\tcase 2:\r\n\t\t\t\t\t Dice::d(10, 2)+14 //Phaser\r\n\t\t\t\t\tbreak",
+        "minDamage": 17,
+        "maxDamage": 44,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekLightPhaser",
+        "parentClass": "TrekPhaserBase",
+        "sourceFile": "customTrek.php",
+        "name": "TrekLightPhaser",
+        "displayName": "Light Phaser",
+        "iconPath": "TrekPhaserL.png",
+        "animationExplosionScale": 0.3,
+        "raking": 8,
+        "intercept": 2,
+        "priority": 8,
+        "priorityAF": 8,
+        "loadingtime": 1,
+        "rangePenalty": 1.0,
+        "fireControl": [
+            4,
+            3,
+            2
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "firingMode": "Raking",
+        "damageFormula": "Dice::d(10)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekLightPhaserLance",
+        "parentClass": "TrekPhaserBase",
+        "sourceFile": "customTrek.php",
+        "name": "TrekLightPhaserLance",
+        "displayName": "Light Phaser Lance",
+        "iconPath": "TrekPhaserLanceL.png",
+        "animation": "laser",
+        "animationExplosionScale": 0.4,
+        "animationExplosionScaleArray": [
+            0.4,
+            0.3
+        ],
+        "raking": 8,
+        "intercept": 2,
+        "priority": 7,
+        "priorityArray": [
+            7,
+            8
+        ],
+        "gunsArray": [
+            1,
+            2
+        ],
+        "priorityAF": 7,
+        "priorityAFArray": [
+            7,
+            8
+        ],
+        "loadingtime": 1,
+        "rangePenaltyArray": [
+            1.0,
+            1.0
+        ],
+        "fireControlArray": [
+            [
+                3,
+                3,
+                3
+            ],
+            [
+                4,
+                3,
+                2
+            ]
+        ],
+        "damageType": "Raking",
+        "damageTypeArray": [
+            "Raking",
+            "Raking"
+        ],
+        "weaponClass": "Particle",
+        "weaponClassArray": [
+            "Particle",
+            "Particle"
+        ],
+        "firingModes": [
+            "Lance",
+            "Dual Phasers"
+        ],
+        "firingMode": 1,
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\t\tcase 1:\r\n\t\t\t\t\t Dice::d(10, 2)+6 //Light Phaser Lance\r\n\t\t\t\t\tbreak\r\n\t\t\t\tcase 2:\r\n\t\t\t\t\t Dice::d(10, 1)+6 //Light Phaser\r\n\t\t\t\t\tbreak",
+        "minDamage": 8,
+        "maxDamage": 26,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekPlasmaBurst",
+        "parentClass": "Plasma",
+        "sourceFile": "customTrek.php",
+        "name": "TrekPlasmaBurst",
+        "displayName": "Plasma Burst",
+        "animation": "trail",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "animationExplosionScale": 0.15,
+        "rangeDamagePenalty": 1,
+        "intercept": 0,
+        "loadingtime": 1,
+        "priority": 6,
+        "boostable": true,
+        "boostEfficiency": 1,
+        "maxBoostLevel": 1,
+        "firingModes": [
+            "Standard"
+        ],
+        "rangePenalty": 1,
+        "fireControl": [
+            2,
+            2,
+            2
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Plasma",
+        "damageFormula": "$add = $this->getExtraDicebyBoostlevel($fireOrder->turn)\r\n            $dmg = Dice::d(6, (2 + $add)) +0\r\n             $dmg"
+    },
+    {
+        "className": "TrekSpatialTorp",
+        "parentClass": "Torpedo",
+        "sourceFile": "customTrek.php",
+        "name": "TrekSpatialTorp",
+        "displayName": "Spatial Torpedo",
+        "iconPath": "EWRocketLauncher.png",
+        "animation": "bolt",
+        "animationColor": [
+            100,
+            100,
+            100
+        ],
+        "animationExplosionScale": 0.2,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 12,
+        "distanceRange": 18,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            1,
+            1,
+            1
+        ],
+        "priority": 4,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "Dice::d(6, 2)+2",
+        "minDamage": 4,
+        "maxDamage": 14,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekPhotonicTorp",
+        "parentClass": "Torpedo",
+        "sourceFile": "customTrek.php",
+        "name": "TrekPhotonicTorp",
+        "displayName": "Photonic Torpedo",
+        "iconPath": "TrekPhotonicTorpedo.png",
+        "animation": "torpedo",
+        "animationColor": [
+            255,
+            188,
+            0
+        ],
+        "animationExplosionScale": 0.2,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 15,
+        "distanceRange": 25,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            1,
+            1,
+            1
+        ],
+        "priority": 4,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "Dice::d(6, 2)+6",
+        "minDamage": 8,
+        "maxDamage": 18,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekPhotonTorp",
+        "parentClass": "Torpedo",
+        "sourceFile": "customTrek.php",
+        "name": "TrekPhotonTorp",
+        "displayName": "Photon Torpedo",
+        "iconPath": "TrekPhotonicTorpedo.png",
+        "animation": "torpedo",
+        "animationColor": [
+            255,
+            188,
+            0
+        ],
+        "animationExplosionScale": 0.35,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 20,
+        "distanceRange": 30,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            1,
+            1,
+            2
+        ],
+        "priority": 5,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "Dice::d(6, 3)+6",
+        "minDamage": 9,
+        "maxDamage": 24,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HvyPlasmaProjector",
+        "parentClass": "Raking",
+        "sourceFile": "customTrek.php",
+        "name": "HvyPlasmaProjector",
+        "displayName": "Heavy Plasma Projector",
+        "iconPath": "HeavyPlasmaProjector.png",
+        "animation": "laser",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "animationExplosionScale": 0.5,
+        "priority": 7,
+        "rangeDamagePenalty": 0.25,
+        "loadingtime": 4,
+        "raking": 8,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            null,
+            2,
+            4
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Plasma",
+        "firingModes": [
+            "Raking"
+        ],
+        "damageFormula": "Dice::d(10,5)+10",
+        "minDamage": 15,
+        "maxDamage": 60,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LtPlasmaProjector",
+        "parentClass": "Raking",
+        "sourceFile": "customTrek.php",
+        "name": "LtPlasmaProjector",
+        "displayName": "Light Plasma Projector",
+        "iconPath": "LightPlasmaProjector.png",
+        "animation": "laser",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "animationExplosionScale": 0.3,
+        "priority": 5,
+        "rangeDamagePenalty": 0.5,
+        "loadingtime": 2,
+        "raking": 8,
+        "rangePenalty": 1,
+        "fireControl": [
+            1,
+            2,
+            2
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Plasma",
+        "firingModes": [
+            "Raking"
+        ],
+        "damageFormula": "Dice::d(10,2)+5",
+        "minDamage": 7,
+        "maxDamage": 25,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekShieldProjection",
+        "parentClass": "ShipSystem",
+        "sourceFile": "customTrek.php"
+    },
+    {
+        "className": "TrekShieldProjection",
+        "parentClass": "Shield",
+        "sourceFile": "customTrek.php",
+        "name": "TrekShieldProjection",
+        "displayName": "Shield Projection",
+        "primary": true,
+        "isPrimaryTargetable": false,
+        "isTargetable": false,
+        "iconPath": "TrekShieldProjectionF.png",
+        "isCloaked": false,
+        "canOffLine": true,
+        "repairPriority": 0,
+        "constructorParams": [
+            "$armor",
+            "$maxhealth",
+            "$rating",
+            "$startArc",
+            "$endArc",
+            "$side = 'F'"
+        ]
+    },
+    {
+        "className": "TrekShieldProjector",
+        "parentClass": "ShipSystem",
+        "sourceFile": "customTrek.php"
+    },
+    {
+        "className": "TrekShieldProjector",
+        "parentClass": "Shield",
+        "sourceFile": "customTrek.php",
+        "name": "TrekShieldProjector",
+        "displayName": "Shield Projector",
+        "isPrimaryTargetable": true,
+        "iconPath": "TrekShieldProjectorF.png",
+        "boostable": true,
+        "boostEfficiency": 1,
+        "baseOutput": 0,
+        "repairPriority": 7,
+        "constructorParams": [
+            "$armor",
+            "$maxhealth",
+            "$power",
+            "$rating",
+            "$startArc",
+            "$endArc",
+            "$side = 'F'"
+        ]
+    },
+    {
+        "className": "TrekShieldFtr",
+        "parentClass": "ShipSystem",
+        "sourceFile": "customTrek.php",
+        "name": "TrekShieldFtr",
+        "displayName": "Shield Projection",
+        "iconPath": "TrekShieldProjectionF.png",
+        "repairPriority": 0,
+        "constructorParams": [
+            "$armor",
+            "$maxhealth",
+            "$rating",
+            "$recharge"
+        ]
+    },
+    {
+        "className": "TrekFtrPhaser",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "customTrek.php",
+        "name": "TrekFtrPhaser",
+        "displayName": "Phaser",
+        "animation": "bolt",
+        "animationColor": [
+            225,
+            0,
+            0
+        ],
+        "intercept": 2,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(6)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots",
+            "$nameBase = 'Phaser'"
+        ]
+    },
+    {
+        "className": "TrekFtrPhaseCannon",
+        "parentClass": "Raking",
+        "sourceFile": "customTrek.php",
+        "name": "TrekFtrPhaseCannon",
+        "displayName": "Phaser",
+        "animation": "laser",
+        "animationColor": [
+            225,
+            0,
+            0
+        ],
+        "iconPath": "TrekLightPhaseCannon.png",
+        "loadingtime": 2,
+        "raking": 6,
+        "shots": 2,
+        "defaultShots": 2,
+        "priority": 8,
+        "intercept": 2,
+        "rangePenalty": 1.5,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(6,2)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots",
+            "$raking",
+            "$nameBase = 'Phaser'"
+        ]
+    },
+    {
+        "className": "TrekFtrPhaseCannon",
+        "parentClass": "TrekPhaserBase",
+        "sourceFile": "customTrek.php",
+        "name": "TrekFtrPhaseCannon",
+        "displayName": "Phase Cannon",
+        "iconPath": "TrekLightPhaseCannon.png",
+        "animationExplosionScale": 0.2,
+        "loadingtime": 2,
+        "raking": 6,
+        "exclusive": true,
+        "intercept": 2,
+        "priority": 8,
+        "rangePenalty": 1.5,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Raking"
+        ],
+        "damageFormula": "Dice::d(6, 2)+4",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus"
+        ]
+    },
+    {
+        "className": "TrekFtrPhotonTorpedo",
+        "parentClass": "FighterMissileRack",
+        "sourceFile": "customTrek.php",
+        "name": "TrekFtrPhotonTorpedo",
+        "displayName": "Light Photon Torpedo",
+        "loadingtime": 1,
+        "iconPath": "TrekPhotonicTorpedo.png",
+        "rangeMod": 0,
+        "firingMode": 1,
+        "maxAmount": 0,
+        "priority": 5,
+        "animation": "torpedo",
+        "fireControl": [
+            0,
+            1,
+            2
+        ],
+        "firingModes": [
+            "PhotonTorpedo"
+        ],
+        "constructorParams": [
+            "$maxAmount",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekFtrPhotonTorpedoAmmo",
+        "parentClass": "MissileFB",
+        "sourceFile": "customTrek.php",
+        "name": "TrekFtrPhotonTorpedoAmmo",
+        "missileClass": "PhotonTorpedo",
+        "displayName": "Light Photon Torpedo",
+        "cost": 6,
+        "damage": 10,
+        "amount": 0,
+        "range": 10,
+        "distanceRange": 18,
+        "hitChanceMod": 0,
+        "priority": 5,
+        "iconPath": "TrekPhotonicTorpedo.png",
+        "fireControl": [
+            0,
+            1,
+            2
+        ],
+        "animation": "torpedo",
+        "animationColor": [
+            255,
+            188,
+            0
+        ],
+        "damageFormula": "Dice::d(6, 2)+3",
+        "minDamage": 5,
+        "maxDamage": 15,
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$fireControl = null"
+        ]
+    },
+    {
+        "className": "TrekIon",
+        "parentClass": "Weapon",
+        "sourceFile": "customTrek.php",
+        "name": "trekion",
+        "priority": 10,
+        "weaponClass": "SWIon",
+        "damageType": "Standard",
+        "noOverkill": true,
+        "animationColor": [
+            80,
+            150,
+            250
+        ]
+    },
+    {
+        "className": "TrekFighterDisablerBase",
+        "parentClass": "TrekIon",
+        "sourceFile": "customTrek.php",
+        "name": "TrekFighterDisablerBase",
+        "exclusive": false,
+        "isLinked": true,
+        "priority": 10,
+        "damageFormula": "Dice::d(6)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "TrekEarlyFighterDisabler",
+        "parentClass": "TrekFighterDisablerBase",
+        "sourceFile": "customTrek.php",
+        "name": "TrekEarlyFighterDisabler",
+        "displayName": "Early Compact Disabler",
+        "loadingtime": 2,
+        "rangePenalty": 3,
+        "fireControl": [
+            -1,
+            0,
+            0
+        ]
+    },
+    {
+        "className": "TrekFighterDisabler",
+        "parentClass": "TrekFighterDisablerBase",
+        "sourceFile": "customTrek.php",
+        "name": "TrekFighterDisabler",
+        "displayName": "Compact Disabler",
+        "loadingtime": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            1,
+            1
+        ]
+    },
+    {
+        "className": "TrekShipDisablerBase",
+        "parentClass": "TrekIon",
+        "sourceFile": "customTrek.php",
+        "name": "TrekShipDisablerBase",
+        "priority": 10
+    },
+    {
+        "className": "TrekLightDisabler",
+        "parentClass": "TrekShipDisablerBase",
+        "sourceFile": "customTrek.php",
+        "name": "TrekLightDisabler",
+        "displayName": "Light Disabler",
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(10)+2",
+        "constructorParams": [
+            "$armor",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "TrekMediumDisabler",
+        "parentClass": "TrekShipDisablerBase",
+        "sourceFile": "customTrek.php",
+        "name": "TrekMediumDisabler",
+        "displayName": "Disabler",
+        "loadingtime": 2,
+        "rangePenalty": 1,
+        "fireControl": [
+            1,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10)+4",
+        "constructorParams": [
+            "$armor",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "CloakingDevice",
+        "parentClass": "ShipSystem",
+        "sourceFile": "customTrek.php",
+        "name": "CloakingDevice",
+        "displayName": "Cloaking Device",
+        "iconPath": "CloakingDevice.png",
+        "specialAbilities": [
+            "Cloaking"
+        ],
+        "primary": true,
+        "detected": true,
+        "detectedNew": [],
+        "isCloaked": false,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$output"
+        ]
+    },
+    {
+        "className": "TrekEarlyDisruptor",
+        "parentClass": "Pulse",
+        "sourceFile": "customTrek.php",
+        "name": "TrekEarlyDisruptor",
+        "displayName": "Early Disruptor",
+        "iconPath": "TrekEarlyDisruptor.png",
+        "animation": "bolt",
+        "animationColor": [
+            142,
+            252,
+            13
+        ],
+        "rof": 2,
+        "grouping": 20,
+        "maxpulses": 3,
+        "loadingtime": 2,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "priority": 5,
+        "damageType": "Pulse",
+        "weaponClass": "Molecular",
+        "rangePenalty": 0.5,
+        "fireControl": [
+            2,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 1) + 6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekLightDisruptorArray",
+        "parentClass": "Weapon",
+        "sourceFile": "customTrek.php",
+        "name": "TrekLightDisruptorArray",
+        "displayName": "Light Disruptor Array",
+        "iconPath": "TrekDisruptorArray.png",
+        "animation": "laser",
+        "animationColor": [
+            142,
+            252,
+            13
+        ],
+        "raking": 8,
+        "intercept": 2,
+        "priority": 6,
+        "priorityArray": [
+            6,
+            6
+        ],
+        "priorityAF": 4,
+        "loadingtime": 1,
+        "gunsArray": [
+            3,
+            1
+        ],
+        "rangePenaltyArray": [
+            1.33,
+            1.33
+        ],
+        "fireControlArray": [
+            [
+                3,
+                2,
+                2
+            ],
+            [
+                3,
+                2,
+                2
+            ]
+        ],
+        "damageType": "Raking",
+        "damageTypeArray": [
+            "Raking",
+            "Raking"
+        ],
+        "weaponClass": "Molecular",
+        "weaponClassArray": [
+            "Molecular",
+            "Molecular"
+        ],
+        "firingModes": [
+            "Multiple",
+            "Combined"
+        ],
+        "firingMode": 1,
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\t\tcase 1:\r\n\t\t\t\t\t Dice::d(10, 1)+3 //Multiple\r\n\t\t\t\t\tbreak\r\n\t\t\t\tcase 2:\r\n\t\t\t\t\t Dice::d(10, 3)+6 //Combined\r\n\t\t\t\t\tbreak",
+        "minDamage": 4,
+        "maxDamage": 13,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekLightDisruptor",
+        "parentClass": "Pulse",
+        "sourceFile": "customTrek.php",
+        "name": "TrekLightDisruptor",
+        "displayName": "Light Disruptor",
+        "iconPath": "TrekLtDisruptor.png",
+        "animation": "bolt",
+        "animationColor": [
+            142,
+            252,
+            13
+        ],
+        "rof": 3,
+        "grouping": 20,
+        "maxpulses": 5,
+        "loadingtime": 1,
+        "intercept": 2,
+        "priority": 4,
+        "priorityAF": 5,
+        "damageType": "Pulse",
+        "weaponClass": "Molecular",
+        "rangePenalty": 1.32,
+        "fireControl": [
+            4,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(6, 2) + 2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekMedDisruptor",
+        "parentClass": "Pulse",
+        "sourceFile": "customTrek.php",
+        "name": "TrekMedDisruptor",
+        "displayName": "Medium Disruptor",
+        "iconPath": "TrekMedDisruptor.png",
+        "animation": "bolt",
+        "animationColor": [
+            142,
+            252,
+            13
+        ],
+        "postArmorTotal": 0,
+        "rof": 3,
+        "grouping": 20,
+        "maxpulses": 4,
+        "loadingtime": 2,
+        "reduceFacing": 12,
+        "ballisticIntercept": true,
+        "intercept": 2,
+        "priority": 5,
+        "priorityAF": 5,
+        "damageType": "Pulse",
+        "weaponClass": "Molecular",
+        "rangePenalty": 0.66,
+        "fireControl": [
+            2,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(6, 2) + 4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekDisruptorCannon",
+        "parentClass": "TrekDisruptorBase",
+        "sourceFile": "customTrek.php",
+        "name": "TrekDisruptorCannon",
+        "displayName": "Disruptor Cannon",
+        "iconPath": "TrekDisruptorCannon.png",
+        "animation": "laser",
+        "animationColor": [
+            142,
+            252,
+            13
+        ],
+        "raking": 10,
+        "postArmorTotal": 0,
+        "priority": 7,
+        "priorityAF": 3,
+        "loadingtime": 2,
+        "reduceFacing": 12,
+        "rangePenalty": 0.66,
+        "fireControl": [
+            1,
+            2,
+            3
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Molecular",
+        "firingModes": [
+            "Raking"
+        ],
+        "damageFormula": "Dice::d(10, 3) + 10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TrekKlingonLauncher",
+        "parentClass": "Torpedo",
+        "sourceFile": "customTrek.php",
+        "name": "TrekKlingonLauncher",
+        "displayName": "Klingon Launcher",
+        "iconPath": "TrekKlingonLauncher.png",
+        "range": 25,
+        "distanceRange": 40,
+        "loadingtime": 2,
+        "specialRangeCalculation": true,
+        "weaponClass": "Molecular",
+        "damageType": "Standard",
+        "fireControl": [
+            0,
+            2,
+            3
+        ],
+        "rangePenalty": 0.5,
+        "animation": "torpedo",
+        "animationColor": [
+            142,
+            252,
+            13
+        ],
+        "priority": 5,
+        "postArmorTotal": 0,
+        "reduceFacing": 12,
+        "damageFormula": "Dice::d(10, 2)+10",
+        "minDamage": 12,
+        "maxDamage": 30,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CombatTransporter",
+        "parentClass": "Weapon",
+        "sourceFile": "customTrek.php",
+        "name": "CombatTransporter",
+        "displayName": "Combat Transporter",
+        "iconPath": "TrekCombatTransporter.png",
+        "animation": "trail",
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationWidth": 0.2,
+        "useOEW": false,
+        "rangePenalty": 0.66,
+        "fireControl": [
+            null,
+            2,
+            2
+        ],
+        "range": 10,
+        "noPrimaryHits": true,
+        "calledShotMod": 0,
+        "countShields": 0,
+        "countShooterShields": 0,
+        "loadingtime": 1,
+        "noOverkill": true,
+        "priority": 9,
+        "uninterceptable": true,
+        "doNotIntercept": true,
+        "damageType": "Special",
+        "damageTypeArray": [
+            "Special",
+            "Standard",
+            "Special"
+        ],
+        "weaponClass": "Matter",
+        "firingModes": [
+            "Capture Ship",
+            "Sabotage",
+            "Rescue"
+        ],
+        "eliteMarines": false,
+        "isBoardingAction": true,
+        "ammunition": 5,
+        "damageFormula": "//Damage is handled in criticalPhaseEffects()\r\n\t\t 0",
+        "minDamage": 0,
+        "maxDamage": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$ammunition",
+            "$elite"
+        ]
+    },
+    {
+        "className": "MicroJumpSystem",
+        "parentClass": "Weapon",
+        "sourceFile": "customTrek.php"
+    },
+    {
+        "className": "MicroJumpSystem",
+        "parentClass": "Weapon",
+        "sourceFile": "customTrek.php",
+        "name": "MicroJumpSystem",
+        "displayName": "Warp Drive",
+        "noProjectile": true,
+        "specialAbilities": [
+            "PreFiring"
+        ],
+        "specialAbilityValue": true,
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "hextarget": true,
+        "hidetarget": false,
+        "uninterceptable": true,
+        "doNotIntercept": true,
+        "priority": 1,
+        "range": 0,
+        "loadingtime": 4,
+        "rangePenalty": 0,
+        "animation": "blink",
+        "animationColor": [
+            255,
+            255,
+            0
+        ],
+        "animationExplosionScale": 0.3,
+        "animationExplosionType": "AoE",
+        "firingModes": [
+            "Warp Jump"
+        ],
+        "preFires": true,
+        "repairPriority": 6,
+        "ignoresLoS": false,
+        "damageFormula": "0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$range",
+            "$loading"
+        ]
+    },
+    {
+        "className": "TrekShieldProjectionKelly",
+        "parentClass": "TrekShieldProjection",
+        "sourceFile": "customTrek.php",
+        "name": "TrekShieldProjection",
+        "displayName": "Shield Projection",
+        "primary": true,
+        "isPrimaryTargetable": false,
+        "isTargetable": false,
+        "iconPath": "TrekShieldProjectionF.png",
+        "isCloaked": false,
+        "repairPriority": 0
+    },
+    {
+        "className": "TrekPhaserKelly",
+        "parentClass": "TrekPhaserBase",
+        "sourceFile": "customTrek.php",
+        "name": "TrekPhaser",
+        "displayName": "Type 6 Phaser",
+        "iconPath": "TrekPhaserM.png",
+        "animationExplosionScale": 0.3,
+        "raking": 10,
+        "intercept": 2,
+        "priority": 6,
+        "priorityAF": 6,
+        "loadingtime": 1,
+        "normalload": 2,
+        "guns": 0,
+        "gunsArray": [
+            0,
+            0
+        ],
+        "rangePenalty": 0.3,
+        "rangePenaltyArray": [
+            0.3,
+            1
+        ],
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "fireControlArray": [
+            [
+                3,
+                3,
+                3
+            ],
+            [
+                6,
+                2,
+                0
+            ]
+        ],
+        "damageType": "Raking",
+        "damageTypeArray": [
+            "Raking",
+            "Standard"
+        ],
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Raking",
+            "AntiFighter"
+        ],
+        "uninterceptable": true,
+        "boostable": true,
+        "boostEfficiency": 0,
+        "maxBoostLevel": 6,
+        "damageFormula": "$add = $this->getExtraDicebyBoostlevel($fireOrder->turn)\r\n\t\t\r\n\t\t\tif($fireOrder->firingMode == 1){\r\n\t\t\t\tswitch($this->turnsloaded){\r\n\t\t\t\t\tcase 0:\r\n\t\t\t\t\tcase 1:\r\n\t\t\t\t\t\t Dice::d(6, 3 + $add)\r\n\t\t\t\t\tdefault:\r\n\t\t\t\t\t\t Dice::d(6, 6 + $add)",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$guns = 2"
+        ]
+    },
+    {
+        "className": "TrekPhaserKellyType7",
+        "parentClass": "TrekPhaserBase",
+        "sourceFile": "customTrek.php",
+        "name": "TrekPhaserKellyType7",
+        "displayName": "Type 7 Phaser",
+        "iconPath": "TrekPhaserH.png",
+        "raking": 10,
+        "intercept": 2,
+        "priority": 6,
+        "priorityAF": 6,
+        "loadingtime": 2,
+        "normalload": 0,
+        "guns": 1,
+        "gunsArray": [
+            1,
+            1
+        ],
+        "shots": 0,
+        "defaultShots": 0,
+        "rangePenalty": 0.3,
+        "rangePenaltyArray": [
+            0.3,
+            1
+        ],
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "fireControlArray": [
+            [
+                3,
+                3,
+                3
+            ],
+            [
+                6,
+                2,
+                0
+            ]
+        ],
+        "damageType": "Raking",
+        "damageTypeArray": [
+            "Raking",
+            "Standard"
+        ],
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Sustained",
+            "Normal"
+        ],
+        "uninterceptable": true,
+        "overloadable": false,
+        "alwaysoverloading": true,
+        "extraoverloadshots": 2,
+        "extraoverloadshotsArray": [
+            2,
+            0
+        ],
+        "overloadturns": 2,
+        "overloadshots": 2,
+        "boostable": true,
+        "boostEfficiency": 0,
+        "maxBoostLevel": 7,
+        "damageFormula": "Dice::d(10,2)+14",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$shots = 2"
+        ]
+    },
+    {
+        "className": "TrekPhotonTorpKelly",
+        "parentClass": "TrekPhotonTorp",
+        "sourceFile": "customTrek.php",
+        "name": "TrekPhotonTorp",
+        "displayName": "Photon Torpedo",
+        "iconPath": "TrekPhotonicTorpedo.png",
+        "range": 40,
+        "distanceRange": 60,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            1,
+            1,
+            2
+        ],
+        "priority": 5,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "// Dice::d(6, 3)+6 \r\n\t\t 20",
+        "minDamage": 20,
+        "maxDamage": 20
+    }
+]

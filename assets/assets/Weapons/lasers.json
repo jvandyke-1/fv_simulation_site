@@ -1,0 +1,1264 @@
+[
+    {
+        "className": "Raking",
+        "parentClass": "Weapon",
+        "sourceFile": "lasers.php",
+        "raking": 10,
+        "priority": 8,
+        "damageType": "Raking",
+        "weaponClass": "Laser",
+        "animationExplosionScale": 0.5,
+        "firingModes": [
+            "Raking"
+        ],
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "Laser",
+        "parentClass": "Raking",
+        "sourceFile": "lasers.php",
+        "uninterceptable": true
+    },
+    {
+        "className": "HeavyLaser",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "name": "heavyLaser",
+        "displayName": "Heavy Laser",
+        "animation": "laser",
+        "animationColor": [
+            230,
+            0,
+            0
+        ],
+        "animationExplosionScale": 0.5,
+        "animationWidth": 4,
+        "animationWidth2": 0.2,
+        "loadingtime": 4,
+        "overloadable": true,
+        "extraoverloadshots": 2,
+        "raking": 10,
+        "priority": 7,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -4,
+            2,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 4)+20",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MediumLaser",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "name": "mediumLaser",
+        "displayName": "Medium Laser",
+        "animation": "laser",
+        "animationColor": [
+            179,
+            45,
+            0
+        ],
+        "animationExplosionScale": 0.4,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "priority": 8,
+        "loadingtime": 3,
+        "raking": 10,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -3,
+            2,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 3)+12",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightLaser",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "name": "lightLaser",
+        "displayName": "Light Laser",
+        "animation": "laser",
+        "animationColor": [
+            179,
+            45,
+            0
+        ],
+        "animationExplosionScale": 0.3,
+        "animationWidth": 2,
+        "animationWidth2": 0.2,
+        "loadingtime": 2,
+        "priority": 8,
+        "raking": 10,
+        "rangePenalty": 1,
+        "fireControl": [
+            -2,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 2)+7",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "BattleLaser",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "name": "battleLaser",
+        "displayName": "Battle Laser",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            58,
+            31
+        ],
+        "startArcArray": [],
+        "endArcArray": [],
+        "splitArcs": false,
+        "animationExplosionScale": 0.45,
+        "animationWidth": 4,
+        "animationWidth2": 0.2,
+        "loadingtime": 3,
+        "raking": 10,
+        "priority": 7,
+        "priorityArray": [
+            7,
+            2
+        ],
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "damageType": "$this->damageTypeArray[1]",
+        "weaponClass": "Laser",
+        "rangePenalty": 0.25,
+        "fireControl": [
+            -3,
+            3,
+            4
+        ],
+        "fireControlArray": [
+            [
+                -3,
+                3,
+                4
+            ],
+            [
+                null,
+                -1,
+                0
+            ]
+        ],
+        "damageFormula": "Dice::d(10, 4)+12",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AssaultLaser",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "name": "assaultLaser",
+        "displayName": "Assault Laser",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            58,
+            31
+        ],
+        "animationExplosionScale": 0.3,
+        "animationWidth": 3,
+        "animationWidth2": 0.35,
+        "priority": 8,
+        "loadingtime": 2,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -4,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 3)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HvyAssaultLaser",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "name": "HvyAssaultLaser",
+        "displayName": "Heavy Assault Laser",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            58,
+            31
+        ],
+        "animationExplosionScale": 0.35,
+        "loadingtime": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -4,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 5)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AdvancedAssaultLaser",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "name": "advancedAssaultLaser",
+        "displayName": "Advanced Assault Laser",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            11,
+            115
+        ],
+        "animationWidth": 4,
+        "animationWidth2": 0.4,
+        "animationExplosionScale": 0.35,
+        "loadingtime": 2,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -3,
+            4,
+            4
+        ],
+        "damageFormula": "Dice::d(10, 3)+10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NeutronLaser",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "name": "neutronLaser",
+        "displayName": "Neutron Laser",
+        "animation": "laser",
+        "animationColor": [
+            175,
+            225,
+            175
+        ],
+        "animationWidth": 4,
+        "animationWidth2": 0.4,
+        "animationExplosionScale": 0.5,
+        "loadingtime": 3,
+        "overloadable": true,
+        "priority": 7,
+        "priorityArray": [
+            7,
+            2
+        ],
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "fireControlArray": [
+            [
+                1,
+                4,
+                4
+            ],
+            [
+                null,
+                0,
+                0
+            ]
+        ],
+        "extraoverloadshots": 2,
+        "extraoverloadshotsArray": [
+            2,
+            0
+        ],
+        "rangePenalty": 0.25,
+        "damageFormula": "Dice::d(10, 4)+15",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ImprovedNeutronLaser",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "name": "improvedNeutronLaser",
+        "displayName": "Improved Neutron Laser",
+        "iconPath": "neutronLaser.png",
+        "animation": "laser",
+        "animationColor": [
+            175,
+            225,
+            175
+        ],
+        "animationWidth": 5,
+        "animationWidth2": 0.5,
+        "animationExplosionScale": 0.5,
+        "loadingtime": 3,
+        "overloadable": true,
+        "priority": 7,
+        "priorityArray": [
+            7,
+            2
+        ],
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "fireControlArray": [
+            [
+                1,
+                4,
+                5
+            ],
+            [
+                null,
+                0,
+                1
+            ]
+        ],
+        "extraoverloadshots": 3,
+        "extraoverloadshotsArray": [
+            3,
+            0
+        ],
+        "rangePenalty": 0.25,
+        "damageFormula": "Dice::d(10, 4)+18",
+        "maxDamage": 58,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "PowerLaser",
+        "parentClass": "NeutronLaser",
+        "sourceFile": "lasers.php",
+        "name": "PowerLaser",
+        "displayName": "Power Laser",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            255,
+            0
+        ],
+        "loadingtime": 2,
+        "raking": 15,
+        "priority": 7,
+        "priorityArray": [
+            7,
+            2
+        ],
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "fireControlArray": [
+            [
+                4,
+                5,
+                6
+            ],
+            [
+                null,
+                1,
+                2
+            ]
+        ],
+        "rangePenalty": 0.25,
+        "overloadable": true,
+        "extraoverloadshots": 2,
+        "extraoverloadshotsArray": [
+            2,
+            0
+        ],
+        "damageFormula": "Dice::d(10, 8)+18",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MedPowerLaser",
+        "parentClass": "NeutronLaser",
+        "sourceFile": "lasers.php",
+        "name": "MedPowerLaser",
+        "displayName": "Medium Power Laser",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            255,
+            0
+        ],
+        "loadingtime": 2,
+        "raking": 15,
+        "priority": 5,
+        "priorityArray": [
+            5,
+            2
+        ],
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "fireControlArray": [
+            [
+                3,
+                4,
+                5
+            ],
+            [
+                null,
+                0,
+                1
+            ]
+        ],
+        "rangePenalty": 0.25,
+        "damageFormula": "Dice::d(10, 4)+10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LaserLance",
+        "parentClass": "HeavyLaser",
+        "sourceFile": "lasers.php",
+        "name": "laserLance",
+        "displayName": "Laser Lance",
+        "animation": "laser",
+        "animationColor": [
+            220,
+            100,
+            11
+        ],
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "animationExplosionScale": 0.35,
+        "priority": 8,
+        "priorityArray": [
+            8,
+            2
+        ],
+        "loadingtime": 3,
+        "overloadable": false,
+        "raking": 10,
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "fireControlArray": [
+            [
+                -5,
+                3,
+                3
+            ],
+            [
+                null,
+                -1,
+                -1
+            ]
+        ],
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -5,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 3)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HeavyLaserLance",
+        "parentClass": "LaserLance",
+        "sourceFile": "lasers.php",
+        "name": "heavyLaserLance",
+        "displayName": "Heavy Laser Lance",
+        "animationColor": [
+            220,
+            100,
+            11
+        ],
+        "animationWidth": 4,
+        "animationWidth2": 0.6,
+        "animationExplosionScale": 0.45,
+        "loadingtime": 4,
+        "priority": 7,
+        "priorityArray": [
+            7,
+            2
+        ],
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "fireControlArray": [
+            [
+                -5,
+                3,
+                3
+            ],
+            [
+                null,
+                -1,
+                -1
+            ]
+        ],
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -5,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 4)+10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TacLaser",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "name": "tacLaser",
+        "displayName": "Tactical Laser",
+        "animation": "laser",
+        "animationColor": [
+            235,
+            30,
+            30
+        ],
+        "animationWidth": 3,
+        "animationWidth2": 0.2,
+        "animationExplosionScale": 0.25,
+        "priority": 8,
+        "loadingtime": 2,
+        "raking": 10,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -5,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 2)+8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomStrikeLaser",
+        "parentClass": "Weapon",
+        "sourceFile": "lasers.php",
+        "name": "customStrikeLaser",
+        "displayName": "Strike Laser",
+        "iconPath": "customStrikeLaser.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            30,
+            30
+        ],
+        "animationExplosionScale": 0.4,
+        "fireControl": [
+            0,
+            2,
+            2
+        ],
+        "priority": 6,
+        "loadingtime": 3,
+        "rangePenalty": 0.5,
+        "uninterceptable": true,
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(10, 2)+8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ImperialLaser",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "name": "imperialLaser",
+        "displayName": "Imperial Laser",
+        "animation": "laser",
+        "animationColor": [
+            235,
+            30,
+            30
+        ],
+        "animationExplosionScale": 0.45,
+        "animationWidth": 5,
+        "animationWidth2": 0.5,
+        "priority": 7,
+        "loadingtime": 4,
+        "raking": 10,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -5,
+            2,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 4)+8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "BlastLaser",
+        "parentClass": "Weapon",
+        "sourceFile": "lasers.php",
+        "name": "BlastLaser",
+        "displayName": "Blast Laser",
+        "iconPath": "improvedBlastLaser.png",
+        "animationColor": [
+            255,
+            50,
+            50
+        ],
+        "animation": "bolt",
+        "animationExplosionScale": 0.5,
+        "projectilespeed": 17,
+        "animationWidth": 25,
+        "trailLength": 25,
+        "priority": 6,
+        "noPrimaryHits": true,
+        "loadingtime": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            0,
+            2,
+            4
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "uninterceptable": true,
+        "damageFormula": "Dice::d(10, 2)+14",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ImprovedBlastLaser",
+        "parentClass": "Weapon",
+        "sourceFile": "lasers.php",
+        "name": "improvedBlastLaser",
+        "displayName": "Improved Blast Laser",
+        "iconPath": "improvedBlastLaser.png",
+        "animationColor": [
+            255,
+            50,
+            50
+        ],
+        "animation": "beam",
+        "animationExplosionScale": 0.6,
+        "projectilespeed": 17,
+        "animationWidth": 30,
+        "trailLength": 30,
+        "priority": 6,
+        "noPrimaryHits": true,
+        "loadingtime": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -1,
+            3,
+            5
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "uninterceptable": true,
+        "damageFormula": "Dice::d(10, 3)+14",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CombatLaser",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "name": "CombatLaser",
+        "displayName": "Combat Laser",
+        "iconPath": "battleLaser.png",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            70,
+            45
+        ],
+        "animationExplosionScale": 0.45,
+        "animationWidth": 3,
+        "animationWidth2": 0.2,
+        "loadingtime": 3,
+        "raking": 10,
+        "priority": 2,
+        "firingModes": [
+            "Piercing"
+        ],
+        "damageType": "Piercing",
+        "weaponClass": "Laser",
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -2,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 3)+20",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LaserCutter",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "name": "LaserCutter",
+        "displayName": "Laser Cutter",
+        "iconPath": "graviticCutter.png",
+        "animation": "laser",
+        "animationColor": [
+            200,
+            45,
+            0
+        ],
+        "animationExplosionScale": 0.35,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "priority": 8,
+        "loadingtime": 3,
+        "raking": 6,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -2,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 4)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LaserAccelerator",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "name": "LaserAccelerator",
+        "displayName": "Laser Accelerator",
+        "iconPath": "LaserAccelerator.png",
+        "animation": "laser",
+        "animationColor": [
+            179,
+            45,
+            0
+        ],
+        "animationExplosionScale": 0.5,
+        "animationWidth": 4,
+        "animationWidth2": 0.2,
+        "loadingtime": 2,
+        "normalload": 4,
+        "raking": 10,
+        "priority": 7,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            0,
+            2,
+            2
+        ],
+        "damageFormula": "switch($this->turnsloaded){\r\n            \tcase 0:\r\n            \tcase 1: \r\n            \tcase 2:\r\n                \t Dice::d(10,2)+6\r\n\t\t\t\t\tbreak\r\n            \tcase 3:\r\n            \t   \t Dice::d(10,3)+10\r\n\t\t\t\t\tbreak\r\n\t\t\t    default:\r\n\t\t\t    \t Dice::d(10,4)+16\r\n\t\t\t\t\tbreak",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "Maser",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "trailColor": [
+            140,
+            210,
+            255
+        ],
+        "name": "Maser",
+        "displayName": "Maser",
+        "iconPath": "Maser.png",
+        "animation": "laser",
+        "animationColor": [
+            100,
+            30,
+            15
+        ],
+        "animationExplosionScale": 0.2,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "priority": 4,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            2,
+            3,
+            3
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "firingModes": [
+            "Standard"
+        ],
+        "noOverkill": true,
+        "damageFormula": "Dice::d(10, 2)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "SpinalLaser",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "name": "SpinalLaser",
+        "displayName": "Spinal Laser",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            79,
+            15
+        ],
+        "animationWidth": 5,
+        "animationWidth2": 0.3,
+        "animationExplosionScale": 0.75,
+        "loadingtime": 5,
+        "overloadable": true,
+        "extraoverloadshots": 2,
+        "raking": 10,
+        "priority": 9,
+        "repairPriority": 6,
+        "rangePenalty": 0.2,
+        "fireControl": [
+            null,
+            2,
+            4
+        ],
+        "damageFormula": "Dice::d(10, 6)+40",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LtBlastLaser",
+        "parentClass": "Weapon",
+        "sourceFile": "lasers.php",
+        "name": "LtBlastLaser",
+        "displayName": "Light Blast Laser",
+        "iconPath": "improvedBlastLaser.png",
+        "animationColor": [
+            255,
+            30,
+            30
+        ],
+        "animation": "bolt",
+        "uninterceptable": true,
+        "noPrimaryHits": true,
+        "rof": 1,
+        "loadingtime": 1,
+        "priority": 6,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(6,2)+5",
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "UltralightLaser",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "name": "UltralightLaser",
+        "displayName": "Ultralight Laser",
+        "iconPath": "PowerLaser.png",
+        "animationColor": [
+            255,
+            255,
+            0
+        ],
+        "animation": "laser",
+        "animationExplosionScale": 0.2,
+        "uninterceptable": true,
+        "noPrimaryHits": true,
+        "loadingtime": 2,
+        "priority": 6,
+        "rangePenalty": 1,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(6,2)+5",
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "UnreliableBattleLaser",
+        "parentClass": "BattleLaser",
+        "sourceFile": "lasers.php",
+        "name": "UnreliableBattleLaser",
+        "displayName": "Unreliable Battle Laser",
+        "iconPath": "battleLaser.png",
+        "damageFormula": "$misfire2 = Dice::d(10,1)\r\n\t\tif ($misfire2 == 1) {\r\n\t\t\t$fireOrder->pubnotes .= \"<br> Weapon misfire! No damage.\"\r\n\t\t\t (Dice::d(10, 4)+12)*0",
+        "minDamage": 16,
+        "maxDamage": 52
+    },
+    {
+        "className": "PhotonicPrismBeam",
+        "parentClass": "Weapon",
+        "sourceFile": "lasers.php",
+        "name": "PhotonicPrismBeam",
+        "displayName": "Photonic Prism Beam",
+        "iconPath": "PhotonicPrismBeam.png",
+        "factionAge": 4,
+        "animation": "laser",
+        "animationColor": [
+            160,
+            10,
+            30
+        ],
+        "animationArray": [
+            "laser",
+            "laser",
+            "laser",
+            "laser",
+            "laser"
+        ],
+        "animationColorArray": [
+            [
+                160,
+                10,
+                30
+            ],
+            [
+                210,
+                80,
+                10
+            ],
+            [
+                160,
+                220,
+                0
+            ],
+            [
+                0,
+                200,
+                180
+            ],
+            [
+                0,
+                100,
+                255
+            ]
+        ],
+        "loadingtime": 2,
+        "firingMode": 1,
+        "firingModes": [
+            "Split",
+            "//1 PPB",
+            "1 PPB",
+            "//1 PPB",
+            "2 PPB",
+            "//2 PPBs combined",
+            "3 PPB",
+            "//3 PPBs combined",
+            "4 PPB",
+            "//4 PPBs combined",
+            "1 shot"
+        ],
+        "canSplitShots": false,
+        "canSplitShotsArray": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "guns": 3,
+        "gunsArray": [
+            3,
+            1,
+            1,
+            1,
+            1
+        ],
+        "intercept": 0,
+        "damageType": "Raking",
+        "weaponClass": "Laser",
+        "raking": 20,
+        "rakingArray": [
+            20,
+            20,
+            15,
+            15,
+            10
+        ],
+        "rangePenalty": 2,
+        "rangePenaltyArray": [
+            2,
+            1,
+            0.5,
+            0.33,
+            0.2
+        ],
+        "fireControl": [
+            8,
+            3,
+            0
+        ],
+        "fireControlArray": [
+            [
+                8,
+                3,
+                0
+            ],
+            [
+                6,
+                4,
+                1
+            ],
+            [
+                3,
+                4,
+                4
+            ],
+            [
+                4,
+                5,
+                6
+            ],
+            [
+                3,
+                6,
+                8
+            ]
+        ],
+        "ppbRequiredArray": [
+            1,
+            1,
+            2,
+            3,
+            4
+        ],
+        "isCombined": false,
+        "alreadyConsidered": false,
+        "damageFormula": "switch ($this->firingMode) {\r\n\t\t\tcase 1:  Dice::d(10, 4) + 15\r\n\t\t\tcase 2:  Dice::d(10, 8) + 15\r\n\t\t\tcase 3:  Dice::d(10, 14) + 20\r\n\t\t\tcase 4:  Dice::d(10, 20) + 30\r\n\t\t\tcase 5:  Dice::d(10, 24) + 35\r\n\t\t\tdefault:  Dice::d(10, 4) + 15",
+        "minDamage": 16,
+        "maxDamage": 55,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LtPrismBeam",
+        "parentClass": "Laser",
+        "sourceFile": "lasers.php",
+        "name": "LtPrismBeam",
+        "displayName": "Light Prism Beam",
+        "iconPath": "PhotonicPrismBeam.png",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            255,
+            255
+        ],
+        "intercept": 1,
+        "loadingtime": 1,
+        "shots": 1,
+        "guns": 3,
+        "defaultShots": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "priority": 4,
+        "priorityArray": [
+            4,
+            6
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "firingModes": [
+            "Single",
+            "Combined"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Standard"
+        ],
+        "weaponClassArray": [
+            "Laser",
+            "Laser"
+        ],
+        "gunsArray": [
+            3,
+            1
+        ],
+        "rangePenaltyArray": [
+            2,
+            1
+        ],
+        "factionAge": 4,
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\t\tcase 1:\r\n\t\t\t\t\t Dice::d(10, 1)+4 \r\n\t\t\t\t\tbreak\r\n\t\t\t\tcase 2:\r\n\t\t\t\t\t Dice::d(10, 3)+4 \r\n\t\t\t\t\tbreak",
+        "minDamage": 5,
+        "maxDamage": 14,
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$dual = false"
+        ]
+    }
+]

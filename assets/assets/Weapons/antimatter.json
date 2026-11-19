@@ -1,0 +1,580 @@
+[
+    {
+        "className": "AntimatterWeapon",
+        "parentClass": "Weapon",
+        "sourceFile": "antimatter.php",
+        "animation": "bolt",
+        "animationColor": [
+            0,
+            184,
+            230
+        ],
+        "projectilespeed": 10,
+        "animationWidth": 1,
+        "animationExplosionScale": 0.3,
+        "trailLength": 5,
+        "doubleRangeIfNoLock": true,
+        "specialRangeCalculation": true,
+        "damageType": "Standard",
+        "weaponClass": "Antimatter",
+        "firingMode": "Standard",
+        "rngNoPenalty": 1,
+        "rngNoPenaltyArray": [],
+        "rngNormalPenalty": 2,
+        "rngNormalPenaltyArray": [],
+        "maxX": 10,
+        "maxXArray": [],
+        "dmgEquation": "2X+5",
+        "dmgEquationArray": [],
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AntimatterConverter",
+        "parentClass": "Weapon",
+        "sourceFile": "antimatter.php",
+        "name": "antimatterConverter",
+        "displayName": "Antimatter Converter",
+        "animation": "bolt",
+        "animationColor": [
+            175,
+            225,
+            175
+        ],
+        "projectilespeed": 10,
+        "animationWidth": 4,
+        "animationExplosionScale": 0.75,
+        "trailLength": 20,
+        "priority": 2,
+        "loadingtime": 3,
+        "rangePenalty": 1,
+        "fireControl": [
+            -6,
+            4,
+            4
+        ],
+        "damageType": "Flash",
+        "weaponClass": "Antimatter",
+        "firingModes": [
+            "Flash"
+        ],
+        "damageFormula": "$damage = 2 + 4*floor(($fireOrder->needed - $fireOrder->rolled)/5)",
+        "minDamage": 2,
+        "maxDamage": 82,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AntimatterConverter",
+        "parentClass": "AntimatterWeapon",
+        "sourceFile": "antimatter.php",
+        "name": "antimatterConverter",
+        "displayName": "Antimatter Converter",
+        "animation": "bolt",
+        "animationExplosionScale": 0.75,
+        "priority": 2,
+        "loadingtime": 3,
+        "fireControl": [
+            -6,
+            4,
+            4
+        ],
+        "rangePenalty": 1,
+        "rngNoPenalty": 0,
+        "rngNormalPenalty": 999,
+        "maxX": 999,
+        "dmgEquation": "4X+2",
+        "repairPriority": 6,
+        "damageType": "Flash",
+        "weaponClass": "Antimatter",
+        "firingMode": "Flash",
+        "firingModes": [
+            "Flash"
+        ],
+        "damageFormula": "$X = $this->getX($fireOrder)\r\n\t\t\t$damage = 4*$X + 2\r\n\t\t\t $damage",
+        "minDamage": 2,
+        "maxDamage": 82,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AntiprotonGun",
+        "parentClass": "AntimatterWeapon",
+        "sourceFile": "antimatter.php",
+        "name": "AntiprotonGun",
+        "displayName": "Antiproton Gun",
+        "iconPath": "AntiprotonGun.png",
+        "priority": 6,
+        "animationExplosionScale": 0.4,
+        "intercept": 2,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "rngNoPenalty": 5,
+        "rngNormalPenalty": 10,
+        "maxX": 10,
+        "dmgEquation": "X+12",
+        "fireControl": [
+            2,
+            3,
+            3
+        ],
+        "damageFormula": "$X = $this->getX($fireOrder)\r\n\t\t\t\t$damage = $X + 12\r\n\t\t\t\t $damage",
+        "minDamage": 12,
+        "maxDamage": 22,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AntimatterCannon",
+        "parentClass": "AntimatterWeapon",
+        "sourceFile": "antimatter.php",
+        "name": "AntimatterCannon",
+        "displayName": "Antimatter Cannon",
+        "iconPath": "AntimatterCannon.png",
+        "animation": "laser",
+        "animationExplosionScale": 0.5,
+        "repairPriority": 6,
+        "priority": 7,
+        "priorityArray": [
+            7,
+            2
+        ],
+        "raking": 10,
+        "loadingtime": 3,
+        "rangePenalty": 1,
+        "intercept": 1,
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "rngNoPenalty": 10,
+        "rngNormalPenalty": 20,
+        "maxX": 20,
+        "dmgEquation": "2X+16",
+        "fireControlArray": [
+            [
+                -2,
+                3,
+                5
+            ],
+            [
+                null,
+                -1,
+                1
+            ]
+        ],
+        "damageFormula": "$X = $this->getX($fireOrder)\r\n\t\t\t\t$damage = (2* $X) + 16\r\n\t\t\t\t $damage",
+        "minDamage": 16,
+        "maxDamage": 56,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AntiprotonDefender",
+        "parentClass": "AntimatterWeapon",
+        "sourceFile": "antimatter.php",
+        "name": "AntiprotonDefender",
+        "displayName": "Antiproton Defender",
+        "iconPath": "AntiprotonDefender.png",
+        "priority": 5,
+        "animationExplosionScale": 0.3,
+        "intercept": 3,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "rngNoPenalty": 3,
+        "rngNormalPenalty": 6,
+        "maxX": 10,
+        "dmgEquation": "X+8",
+        "fireControl": [
+            4,
+            2,
+            2
+        ],
+        "damageFormula": "$X = $this->getX($fireOrder)\r\n\t\t\t\t$damage = $X + 8\r\n\t\t\t\t $damage",
+        "minDamage": 8,
+        "maxDamage": 18,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AntimatterTorpedo",
+        "parentClass": "AntimatterWeapon",
+        "sourceFile": "antimatter.php",
+        "name": "AntimatterTorpedo",
+        "displayName": "Antimatter Torpedo",
+        "iconPath": "AntimatterTorpedo.png",
+        "animation": "torpedo",
+        "animationExplosionScale": 0.25,
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "projectilespeed": 12,
+        "animationWidth": 7,
+        "trailLength": 7,
+        "priority": 5,
+        "repairPriority": 6,
+        "ballistic": true,
+        "weaponClass": "Ballistic",
+        "loadingtime": 2,
+        "rangePenalty": 1,
+        "rngNoPenalty": 25,
+        "rngNormalPenalty": 50,
+        "maxX": 12,
+        "dmgEquation": "X+8",
+        "fireControl": [
+            -2,
+            2,
+            4
+        ],
+        "damageFormula": "$X = $this->getX($fireOrder)\r\n\t\t\t\t$damage = $X + 8\r\n\t\t\t\t $damage",
+        "minDamage": 8,
+        "maxDamage": 20,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightAntiprotonGun",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "antimatter.php",
+        "name": "LightAntiprotonGun",
+        "displayName": "Light Antiproton Gun",
+        "animation": "bolt",
+        "animationExplosionScale": 0.1,
+        "animationColor": [
+            0,
+            184,
+            230
+        ],
+        "projectilespeed": 12,
+        "animationWidth": 2,
+        "trailLength": 10,
+        "priority": 4,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Antimatter",
+        "damageFormula": "Dice::d(6, 2) - 1",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "LtAntimatterCannon",
+        "parentClass": "Weapon",
+        "sourceFile": "antimatter.php",
+        "iconPath": "LightAntimatterCannon.png",
+        "name": "LtAntimatterCannon",
+        "displayName": "Light Antimatter Cannon",
+        "animation": "bolt",
+        "animationExplosionScale": 0.35,
+        "loadingtime": 2,
+        "priority": 6,
+        "shots": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Antimatter",
+        "damageFormula": "(Dice::d(10, 1) + 4) * 2",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$shots = 1"
+        ]
+    },
+    {
+        "className": "LtAntimatterCannonUnreliable",
+        "parentClass": "LtAntimatterCannon",
+        "sourceFile": "antimatter.php",
+        "iconPath": "LightAntimatterCannon.png",
+        "name": "LtAntimatterCannonUnreliable",
+        "displayName": "Light Antimatter Cannon (Unreliable)",
+        "animation": "bolt",
+        "animationExplosionScale": 0.35,
+        "loadingtime": 2,
+        "priority": 6,
+        "shots": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Antimatter",
+        "damageFormula": "(Dice::d(10, 1) + 4) * 2"
+    },
+    {
+        "className": "AntimatterShredder",
+        "parentClass": "AntimatterWeapon",
+        "sourceFile": "antimatter.php",
+        "name": "AntimatterShredder",
+        "displayName": "Antimatter Shredder",
+        "iconPath": "AntimatterShredder.png",
+        "animation": "bolt",
+        "animationArray": [
+            "bolt",
+            "laser",
+            "laser"
+        ],
+        "projectilespeed": 7,
+        "animationWidth": 3,
+        "trailLength": 10,
+        "animationColor": [
+            0,
+            184,
+            230
+        ],
+        "animationWidth2": 0.2,
+        "animationExplosionScale": 0.35,
+        "animationExplosionScaleArray": [
+            0.35,
+            0.5,
+            0.5
+        ],
+        "repairPriority": 6,
+        "priority": 2,
+        "priorityArray": [
+            2,
+            7,
+            2
+        ],
+        "raking": 10,
+        "loadingtime": 3,
+        "rangePenalty": 1,
+        "intercept": 1,
+        "firingMode": "Shredder",
+        "firingModes": [
+            "Shredder",
+            "Raking",
+            "Piercing"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Raking",
+            "Piercing"
+        ],
+        "rngNoPenalty": 11,
+        "rngNoPenaltyArray": [
+            11,
+            10,
+            10
+        ],
+        "rngNormalPenalty": 11,
+        "rngNormalPenaltyArray": [
+            11,
+            20,
+            20
+        ],
+        "maxX": 10,
+        "maxXArray": [
+            10,
+            20,
+            20
+        ],
+        "dmgEquation": "2X+6",
+        "dmgEquationArray": [
+            "2X+6",
+            "2X+16",
+            "2X+16"
+        ],
+        "ignoreAllEW": true,
+        "ignoreAllEWArray": [
+            true,
+            false,
+            false
+        ],
+        "ignoreJinking": true,
+        "ignoreJinkingArray": [
+            true,
+            false,
+            false
+        ],
+        "fireControlArray": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                -2,
+                3,
+                5
+            ],
+            [
+                null,
+                -1,
+                1
+            ]
+        ],
+        "range": 10,
+        "rangeArray": [
+            10,
+            0,
+            0
+        ],
+        "hextarget": true,
+        "hextargetArray": [
+            true,
+            false,
+            false
+        ],
+        "calledShotMod": 0,
+        "damageFormula": "$damage = 0\r\n\t        $X = $this->getX($fireOrder)\r\n\t\t\tif($this->firingMode ==1){\r\n\t\t\t\t\t$damage = (2*$X) + 6 //Shredder",
+        "minDamage": 6,
+        "maxDamage": 26,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AntimatterWave",
+        "parentClass": "AntimatterWeapon",
+        "sourceFile": "antimatter.php",
+        "name": "AntimatterWave",
+        "displayName": "Antimatter Wave",
+        "iconPath": "AntimatterWave.png",
+        "animation": "ball",
+        "animationExplosionScale": 0.9,
+        "repairPriority": 6,
+        "factionAge": 4,
+        "priority": 2,
+        "loadingtime": 1,
+        "rangePenalty": 0.33,
+        "firingModes": [
+            "Flash"
+        ],
+        "damageType": "Flash",
+        "rngNoPenalty": 0,
+        "rngNormalPenalty": 100,
+        "maxX": 25,
+        "dmgEquation": "5X+10",
+        "fireControl": [
+            5,
+            5,
+            5
+        ],
+        "damageFormula": "$X = $this->getX($fireOrder)\r\n\t\t\t\t$damage = (5* $X) + 10\r\n\t\t\t\t $damage",
+        "minDamage": 15,
+        "maxDamage": 135,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AntimatterSlicer",
+        "parentClass": "AntimatterWeapon",
+        "sourceFile": "antimatter.php",
+        "name": "AntimatterSlicer",
+        "displayName": "Antimatter Slicer",
+        "iconPath": "AntimatterSlicer.png",
+        "animation": "laser",
+        "animationExplosionScale": 0.5,
+        "repairPriority": 6,
+        "factionAge": 4,
+        "priority": 8,
+        "priorityArray": [
+            8,
+            2
+        ],
+        "raking": 20,
+        "loadingtime": 2,
+        "rangePenalty": 1,
+        "intercept": 3,
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "rngNoPenalty": 15,
+        "rngNormalPenalty": 30,
+        "maxX": 999,
+        "dmgEquation": "4X+20",
+        "fireControlArray": [
+            [
+                0,
+                4,
+                5
+            ],
+            [
+                null,
+                0,
+                1
+            ]
+        ],
+        "damageFormula": "$X = $this->getX($fireOrder)\r\n\t\t\t\t$damage = (4* $X) + 20\r\n\t\t\t\t $damage",
+        "minDamage": 20,
+        "maxDamage": 100,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    }
+]

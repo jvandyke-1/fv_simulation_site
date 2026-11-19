@@ -1,0 +1,786 @@
+[
+    {
+        "className": "Molecular",
+        "parentClass": "Weapon",
+        "sourceFile": "molecular.php",
+        "damageType": "Standard",
+        "weaponClass": "Molecular",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "FusionCannon",
+        "parentClass": "Molecular",
+        "sourceFile": "molecular.php",
+        "name": "fusionCannon",
+        "displayName": "Fusion Cannon",
+        "animation": "bolt",
+        "animationColor": [
+            175,
+            225,
+            175
+        ],
+        "intercept": 2,
+        "priority": 6,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            4,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10)+9",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HeavyFusionCannon",
+        "parentClass": "FusionCannon",
+        "sourceFile": "molecular.php",
+        "name": "heavyFusionCannon",
+        "displayName": "Heavy Fusion Cannon",
+        "animation": "beam",
+        "animationExplosionScale": 0.3,
+        "projectilespeed": 10,
+        "animationWidth": 9,
+        "trailLength": 25,
+        "loadingtime": 2,
+        "intercept": 1,
+        "priority": 6,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 2)+14"
+    },
+    {
+        "className": "LightFusionCannon",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "molecular.php",
+        "name": "lightfusionCannon",
+        "displayName": "Light Fusion Cannon",
+        "animation": "bolt",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 12,
+        "animationWidth": 2,
+        "trailLength": 10,
+        "intercept": 0,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "priority": 3,
+        "damageType": "Standard",
+        "weaponClass": "Molecular",
+        "damageFormula": "Dice::d(6)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$shots"
+        ]
+    },
+    {
+        "className": "MolecularDisruptor",
+        "parentClass": "Raking",
+        "sourceFile": "molecular.php",
+        "name": "molecularDisruptor",
+        "displayName": "Molecular Disruptor",
+        "animation": "laser",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "animationExplosionScale": 0.35,
+        "projectilespeed": 12,
+        "animationWidth": 10,
+        "trailLength": 25,
+        "priority": 7,
+        "priorityArray": [
+            7,
+            2
+        ],
+        "intercept": 0,
+        "loadingtime": 4,
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "rangePenalty": 1,
+        "fireControlArray": [
+            [
+                -4,
+                2,
+                4
+            ],
+            [
+                null,
+                -2,
+                0
+            ]
+        ],
+        "fireControl": "$this->fireControlArray[1]",
+        "damageType": "Raking",
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "weaponClass": "Molecular",
+        "damageFormula": "Dice::d(10, 2) + 30",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "SuperHeavyMolecularDisruptor",
+        "parentClass": "Raking",
+        "sourceFile": "molecular.php",
+        "name": "superHeavyMolecularDisruptor",
+        "displayName": "Super Heavy Molecular Disruptor",
+        "animation": "laser",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "animationExplosionScale": 0.35,
+        "projectilespeed": 12,
+        "animationWidth": 10,
+        "trailLength": 25,
+        "priority": 7,
+        "priorityArray": [
+            7,
+            2
+        ],
+        "intercept": 0,
+        "loadingtime": 6,
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "rangePenalty": 0.5,
+        "fireControlArray": [
+            [
+                null,
+                1,
+                3
+            ],
+            [
+                null,
+                -3,
+                -1
+            ]
+        ],
+        "damageType": "Raking",
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "weaponClass": "Molecular",
+        "damageFormula": "Dice::d(10, 4) + 32",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MolecularPenetrator",
+        "parentClass": "Raking",
+        "sourceFile": "molecular.php",
+        "name": "molecularPenetrator",
+        "displayName": "Molecular Penetrator",
+        "animation": "laser",
+        "animationColor": [
+            100,
+            100,
+            255
+        ],
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "animationWidth": 4.5,
+        "animationWidth2": 0.3,
+        "animationExplosionScale": 0.35,
+        "priority": 7,
+        "priorityArray": [
+            7,
+            2
+        ],
+        "intercept": 0,
+        "loadingtime": 4,
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "rangePenalty": 0.33,
+        "fireControlArray": [
+            [
+                null,
+                1,
+                4
+            ],
+            [
+                null,
+                -3,
+                0
+            ]
+        ],
+        "damageType": "Raking",
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "weaponClass": "Molecular",
+        "damageFormula": "Dice::d(10, 4)+15",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "DestabilizerBeam",
+        "parentClass": "Molecular",
+        "sourceFile": "molecular.php",
+        "name": "destabilizerBeam",
+        "displayName": "Destabilizer Beam",
+        "animation": "laser",
+        "animationColor": [
+            100,
+            100,
+            255
+        ],
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "animationWidth": 4.5,
+        "animationWidth2": 0.3,
+        "animationExplosionScale": 0.35,
+        "priority": 2,
+        "intercept": 0,
+        "loadingtime": 4,
+        "firingModes": [
+            "Piercing"
+        ],
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -5,
+            1,
+            6
+        ],
+        "damageType": "Piercing",
+        "weaponClass": "Molecular",
+        "damageFormula": "Dice::d(10, 6)+30",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MolecularFlayer",
+        "parentClass": "Molecular",
+        "sourceFile": "molecular.php",
+        "name": "molecularFlayer",
+        "displayName": "Molecular Flayer",
+        "animation": "trail",
+        "animationColor": [
+            0,
+            200,
+            200
+        ],
+        "animationExplosionScale": 0.5,
+        "trailColor": [
+            0,
+            200,
+            200
+        ],
+        "projectilespeed": 15,
+        "animationWidth": 6,
+        "trailLength": 15,
+        "priority": 1,
+        "intercept": 0,
+        "loadingtime": 1,
+        "firingModes": [
+            "Flaying"
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Molecular",
+        "rangePenalty": 0.33,
+        "fireControl": [
+            null,
+            0,
+            4
+        ],
+        "damageFormula": "0",
+        "minDamage": 0,
+        "maxDamage": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "FusionAgitator",
+        "parentClass": "Raking",
+        "sourceFile": "molecular.php",
+        "name": "fusionAgitator",
+        "displayName": "Fusion Agitator",
+        "animation": "laser",
+        "animationColor": [
+            0,
+            200,
+            200
+        ],
+        "animationExplosionScale": 0.15,
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "animationWidth": 2,
+        "animationWidth2": 0.3,
+        "intercept": 0,
+        "loadingtime": 3,
+        "raking": 6,
+        "priority": 8,
+        "boostable": true,
+        "boostEfficiency": 4,
+        "maxBoostLevel": 4,
+        "firingModes": [
+            "Raking"
+        ],
+        "rangePenalty": 0.33,
+        "fireControl": [
+            null,
+            4,
+            4
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Molecular",
+        "damageFormula": "$add = $this->getExtraDicebyBoostlevel($fireOrder->turn)\r\n            $dmg = Dice::d(10, (5 + $add)) +10\r\n             $dmg"
+    },
+    {
+        "className": "EarlyFusionAgitator",
+        "parentClass": "Raking",
+        "sourceFile": "molecular.php",
+        "name": "earlyFusionAgitator",
+        "displayName": "Early Fusion Agitator",
+        "animation": "laser",
+        "intercept": 0,
+        "loadingtime": 3,
+        "raking": 6,
+        "priority": 7,
+        "firingModes": [
+            "Raking"
+        ],
+        "rangePenalty": 0.33,
+        "fireControl": [
+            null,
+            2,
+            4
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Molecular",
+        "damageFormula": "Dice::d(10, 4)+10"
+    },
+    {
+        "className": "FusionCutter",
+        "parentClass": "Raking",
+        "sourceFile": "molecular.php",
+        "name": "fusionCutter",
+        "displayName": "Fusion Cutter",
+        "animation": "laser",
+        "animationColor": [
+            0,
+            200,
+            200
+        ],
+        "animationExplosionScale": 0.15,
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "animationWidth": 2,
+        "animationWidth2": 0.3,
+        "intercept": 0,
+        "loadingtime": 3,
+        "raking": 6,
+        "priority": 7,
+        "firingModes": [
+            "Raking"
+        ],
+        "rangePenalty": 0.5,
+        "fireControl": [
+            null,
+            2,
+            3
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Molecular",
+        "damageFormula": "Dice::d(10, 4)+8"
+    },
+    {
+        "className": "LightMolecularDisruptor",
+        "parentClass": "Raking",
+        "sourceFile": "molecular.php",
+        "name": "molecularDisruptor",
+        "displayName": "Light Molecular Disruptor",
+        "animation": "laser",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 10,
+        "animationWidth": 5,
+        "trailLength": 12,
+        "loadingtime": 3,
+        "raking": 10,
+        "exclusive": true,
+        "priority": 8,
+        "rangePenalty": 1,
+        "fireControl": [
+            -4,
+            0,
+            3
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Molecular",
+        "damageFormula": "Dice::d(10, 2)+15",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus"
+        ]
+    },
+    {
+        "className": "LightMolecularDisruptorShip",
+        "parentClass": "Raking",
+        "sourceFile": "molecular.php",
+        "name": "molecularDisruptor",
+        "displayName": "Light Molecular Disruptor",
+        "animation": "laser",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 10,
+        "animationWidth": 5,
+        "trailLength": 12,
+        "loadingtime": 3,
+        "raking": 10,
+        "exclusive": true,
+        "priority": 8,
+        "rangePenalty": 1,
+        "fireControl": [
+            -4,
+            0,
+            3
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Molecular",
+        "damageFormula": "Dice::d(10, 2)+15"
+    },
+    {
+        "className": "FtrPolarityCannon",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "molecular.php",
+        "name": "FtrPolarityCannon",
+        "iconPath": "ftrPolarityCannon.png",
+        "displayName": "Polarity Cannon",
+        "animation": "trail",
+        "animationColor": [
+            45,
+            180,
+            255
+        ],
+        "trailColor": [
+            45,
+            180,
+            255
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 12,
+        "animationWidth": 2,
+        "trailLength": 10,
+        "factionAge": 3,
+        "intercept": 1,
+        "loadingtime": 1,
+        "normalload": 2,
+        "guns": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "priority": 5,
+        "damageType": "Standard",
+        "weaponClass": "Molecular",
+        "damageFormula": "Dice::d(6,2)+2",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$shots=1"
+        ]
+    },
+    {
+        "className": "MolecularSlicerBeamL",
+        "parentClass": "Raking",
+        "sourceFile": "molecular.php",
+        "name": "MolecularSlicerBeamL",
+        "displayName": "Light Slicer Beam",
+        "iconPath": "MolecularSlicerBeamL.png",
+        "animation": "laser",
+        "animationColor": [
+            213,
+            0,
+            255
+        ],
+        "animationExplosionScale": 0.2,
+        "factionAge": 3,
+        "firingModes": [
+            "Sweeping"
+        ],
+        "loadingtime": 1,
+        "normalload": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            2,
+            4,
+            6
+        ],
+        "priority": 7,
+        "uninterceptable": true,
+        "intercept": 0,
+        "raking": 10,
+        "damageType": "Raking",
+        "weaponClass": "Molecular",
+        "maxVariableShots": 8,
+        "canSplitShots": true,
+        "specialHitChanceCalculation": true,
+        "repairPriority": 6,
+        "damageFormula": "//Both numbers were parsed, clamped and stashed by beforeFiringOrderResolution.\r\n        $damDice = isset($this->damageDice[$fireOrder->id]) ? $this->damageDice[$fireOrder->id] : 0\r\n\r\n        if ($this->legacyDamageSplit){\r\n            //Declared before per-shot set damage existed: split the flat pool evenly between\r\n            //the offensive shots, as this weapon used to.\r\n            $noOfShots = 0\r\n            foreach ($this->fireOrders as $fOrder) {\r\n                if($fOrder->type == \"normal\") $noOfShots++ //Only count offensive shots for this.",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MolecularSlicerBeamM",
+        "parentClass": "MolecularSlicerBeamL",
+        "sourceFile": "molecular.php",
+        "name": "MolecularSlicerBeamM",
+        "displayName": "Slicer Beam",
+        "iconPath": "MolecularSlicerBeamM.png",
+        "animationExplosionScale": 0.25,
+        "firingModes": [
+            "Sweeping"
+        ],
+        "rangePenalty": 0.33,
+        "fireControl": [
+            4,
+            6,
+            8
+        ],
+        "priority": 7,
+        "raking": 15,
+        "intercept": 2,
+        "damageType": "Raking",
+        "weaponClass": "Molecular",
+        "maxVariableShots": 16,
+        "canSplitShots": true,
+        "canSplitShotsArray": [
+            true
+        ],
+        "specialHitChanceCalculation": true,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MolecularSlicerBeamH",
+        "parentClass": "MolecularSlicerBeamL",
+        "sourceFile": "molecular.php",
+        "name": "MolecularSlicerBeamH",
+        "displayName": "Heavy Slicer Beam",
+        "iconPath": "MolecularSlicerBeamH.png",
+        "animationExplosionScale": 0.3,
+        "firingModes": [
+            "Piercing",
+            "Raking"
+        ],
+        "modeLetters": 1,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            0,
+            2,
+            4
+        ],
+        "fireControlArray": [
+            [
+                0,
+                2,
+                4
+            ],
+            [
+                4,
+                6,
+                8
+            ]
+        ],
+        "priority": 2,
+        "priorityArray": [
+            2,
+            3
+        ],
+        "raking": 15,
+        "intercept": 2,
+        "damageType": "Piercing",
+        "weaponClass": "Molecular",
+        "startArcArray": [],
+        "endArcArray": [],
+        "splitArcs": false,
+        "maxVariableShots": 24,
+        "canSplitShots": true,
+        "canSplitShotsArray": [
+            true,
+            true
+        ],
+        "specialHitChanceCalculation": true,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$startArc2 = null",
+            "$endArc2 = null"
+        ]
+    },
+    {
+        "className": "MultiphasedCutterL",
+        "parentClass": "Weapon",
+        "sourceFile": "molecular.php",
+        "name": "MultiphasedCutterL",
+        "iconPath": "MultiphasedCutterL.png",
+        "displayName": "Light Multiphased Cutter",
+        "animation": "laser",
+        "animationColor": [
+            9,
+            0,
+            255
+        ],
+        "priority": 5,
+        "factionAge": 3,
+        "loadingtime": 1,
+        "intercept": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            6,
+            3,
+            3
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Molecular",
+        "damageFormula": "Dice::d(10, 2)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MultiphasedCutter",
+        "parentClass": "MultiphasedCutterL",
+        "sourceFile": "molecular.php",
+        "name": "MultiphasedCutter",
+        "iconPath": "MultiphasedCutter.png",
+        "displayName": "Multiphased Cutter",
+        "guns": 3,
+        "canSplitShots": false,
+        "canSplitShotsArray": [
+            false,
+            true
+        ],
+        "firingModes": [
+            "Normal",
+            "Split"
+        ],
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    }
+]

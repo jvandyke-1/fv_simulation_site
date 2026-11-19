@@ -1,0 +1,759 @@
+[
+    {
+        "className": "Gravitic",
+        "parentClass": "Weapon",
+        "sourceFile": "gravitic.php",
+        "damageType": "Raking",
+        "weaponClass": "Gravitic",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "GravitonPulsar",
+        "parentClass": "Pulse",
+        "sourceFile": "gravitic.php",
+        "name": "gravitonPulsar",
+        "displayName": "Graviton Pulsar",
+        "animation": "bolt",
+        "animationColor": [
+            99,
+            255,
+            0
+        ],
+        "boostable": true,
+        "boostEfficiency": 2,
+        "maxBoostLevel": 2,
+        "loadingtime": 1,
+        "maxpulses": 3,
+        "priority": 4,
+        "rangePenalty": 1,
+        "fireControl": [
+            4,
+            2,
+            2
+        ],
+        "intercept": 1,
+        "grouping": 20,
+        "damageType": "Pulse",
+        "weaponClass": "Gravitic",
+        "damageFormula": "10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "GraviticBolt",
+        "parentClass": "Gravitic",
+        "sourceFile": "gravitic.php",
+        "name": "graviticBolt",
+        "displayName": "Gravitic Bolt",
+        "animation": "bolt",
+        "animationColor": [
+            99,
+            255,
+            0
+        ],
+        "boostable": true,
+        "boostEfficiency": 2,
+        "maxBoostLevel": 2,
+        "loadingtime": 1,
+        "curDamage": 9,
+        "priority": 4,
+        "rangePenalty": 1,
+        "fireControl": [
+            4,
+            2,
+            2
+        ],
+        "intercept": 1,
+        "damageType": "Standard",
+        "weaponClass": "Gravitic",
+        "damageFormula": "$this->getCurDamage($fireOrder->turn)",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "GravitonBeam",
+        "parentClass": "Raking",
+        "sourceFile": "gravitic.php",
+        "name": "gravitonBeam",
+        "displayName": "Graviton Beam",
+        "animation": "laser",
+        "animationColor": [
+            99,
+            255,
+            0
+        ],
+        "animationWidth": 4,
+        "animationWidth2": 0.4,
+        "priority": 7,
+        "loadingtime": 4,
+        "raking": 10,
+        "rangePenalty": 0.25,
+        "fireControl": [
+            -5,
+            2,
+            3
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Gravitic",
+        "damageFormula": "Dice::d(10, 5)+12",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "GraviticCannon",
+        "parentClass": "Gravitic",
+        "sourceFile": "gravitic.php",
+        "name": "graviticCannon",
+        "displayName": "Gravitic Cannon",
+        "animation": "bolt",
+        "animationColor": [
+            99,
+            255,
+            0
+        ],
+        "loadingtime": 1,
+        "priority": 5,
+        "damageType": "Standard",
+        "weaponClass": "Gravitic",
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -1,
+            2,
+            2
+        ],
+        "intercept": 1,
+        "damageFormula": "Dice::d(10)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightGraviticBolt",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "gravitic.php",
+        "name": "lightGraviticBolt",
+        "displayName": "Light Gravitic Bolt",
+        "iconPath": "lightGraviticBolt.png",
+        "animation": "bolt",
+        "animationColor": [
+            99,
+            255,
+            0
+        ],
+        "intercept": 2,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "priority": 4,
+        "damageType": "Standard",
+        "weaponClass": "Gravitic",
+        "damageFormula": "7",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$shots = 2"
+        ]
+    },
+    {
+        "className": "UltraLightGraviticBolt",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "gravitic.php",
+        "name": "ultraLightGraviticBolt",
+        "displayName": "Ultra Light Gravitic Bolt",
+        "iconPath": "lightGraviticBolt.png",
+        "animation": "bolt",
+        "animationColor": [
+            99,
+            255,
+            0
+        ],
+        "intercept": 2,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "priority": 3,
+        "damageType": "Standard",
+        "weaponClass": "Gravitic",
+        "damageFormula": "5",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$shots = 2"
+        ]
+    },
+    {
+        "className": "LightGravitonBeam",
+        "parentClass": "Weapon",
+        "sourceFile": "gravitic.php",
+        "name": "lightGravitonBeam",
+        "displayName": "Light Graviton Beam",
+        "animation": "laser",
+        "animationColor": [
+            99,
+            255,
+            0
+        ],
+        "animationWidth": 1,
+        "animationWidth2": 0,
+        "loadingtime": 3,
+        "raking": 10,
+        "exclusive": true,
+        "priority": 8,
+        "rangePenalty": 1,
+        "fireControl": [
+            -5,
+            0,
+            0
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Gravitic",
+        "damageFormula": "Dice::d(6, 5)",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus"
+        ]
+    },
+    {
+        "className": "GraviticLance",
+        "parentClass": "Raking",
+        "sourceFile": "gravitic.php",
+        "name": "GraviticLance",
+        "displayName": "Gravitic Lance",
+        "iconPath": "graviticLance.png",
+        "animationArray": [
+            "laser",
+            "laser",
+            "laser"
+        ],
+        "animationColor": [
+            99,
+            255,
+            0
+        ],
+        "animationWidthArray": [
+            6,
+            4
+        ],
+        "animationWidth2": 0.5,
+        "animationExplosionScale": 0.35,
+        "raking": 10,
+        "priorityArray": [
+            7,
+            7,
+            7
+        ],
+        "gunsArray": [
+            1,
+            2,
+            2
+        ],
+        "uninterceptableArray": [
+            false,
+            false,
+            false
+        ],
+        "loadingtimeArray": [
+            4,
+            4,
+            4
+        ],
+        "rangePenaltyArray": [
+            0.2,
+            0.25,
+            0.25
+        ],
+        "fireControlArray": [
+            [
+                -5,
+                2,
+                3
+            ],
+            [
+                -5,
+                2,
+                3
+            ],
+            [
+                -5,
+                2,
+                3
+            ]
+        ],
+        "firingModes": [
+            "Lance (Sustained)",
+            "Beams",
+            "Split Beams"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Raking",
+            "Raking"
+        ],
+        "weaponClassArray": [
+            "Gravitic",
+            "Gravitic",
+            "Gravitic"
+        ],
+        "intercept": 0,
+        "overloadable": false,
+        "alwaysoverloading": true,
+        "extraoverloadshots": 2,
+        "extraoverloadshotsArray": [
+            2,
+            0,
+            0
+        ],
+        "overloadturns": 4,
+        "overloadshots": 2,
+        "canSplitShots": false,
+        "canSplitShotsArray": [
+            false,
+            false,
+            true
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(10, 6)+24 //Lance\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t Dice::d(10, 5)+12 //Beam\r\n\t\t\t\tbreak\r\n\t\t\tcase 3:\r\n\t\t\t\t Dice::d(10, 5)+12 //Beam\r\n\t\t\t\tbreak",
+        "minDamage": 30,
+        "maxDamage": 84,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "GraviticCutter",
+        "parentClass": "Raking",
+        "sourceFile": "gravitic.php",
+        "name": "graviticCutter",
+        "displayName": "Gravitic Cutter",
+        "animation": "laser",
+        "animationColor": [
+            99,
+            255,
+            0
+        ],
+        "animationWidth": 2,
+        "animationWidth2": 0.2,
+        "priority": 8,
+        "raking": 6,
+        "boostable": true,
+        "boostEfficiency": 5,
+        "maxBoostLevel": 1,
+        "loadingtime": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -4,
+            2,
+            4
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Gravitic",
+        "damageFormula": "if($this->getBoostLevel($fireOrder->turn)==0){\r\n                $this->raking = 6\r\n                 (Dice::d(10, 2)+8)",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "GraviticShifter",
+        "parentClass": "Weapon",
+        "sourceFile": "gravitic.php",
+        "name": "GraviticShifter",
+        "displayName": "Gravitic Shifter",
+        "animation": "bolt",
+        "animationColor": [
+            99,
+            255,
+            0
+        ],
+        "animationExplosionScale": 0.3,
+        "priority": 1,
+        "specialAbilities": [
+            "PreFiring",
+            "alliedEW"
+        ],
+        "specialAbilityValue": true,
+        "damageType": "Standard",
+        "weaponClass": "Gravitic",
+        "uninterceptable": true,
+        "doNotIntercept": true,
+        "loadingtime": 3,
+        "rangePenalty": 1,
+        "canTargetAll": true,
+        "firingModes": [
+            "Clockwise",
+            "Anti-Clockwise"
+        ],
+        "fireControl": [
+            -3,
+            3,
+            5
+        ],
+        "preFires": true,
+        "specialHitChanceCalculation": true,
+        "repairPriority": 6,
+        "damageFormula": "0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "GravityNet",
+        "parentClass": "Weapon",
+        "sourceFile": "gravitic.php",
+        "name": "GravityNetHandler",
+        "displayName": "Gravity Net",
+        "animation": "laser",
+        "animationColor": [
+            102,
+            255,
+            0
+        ],
+        "animationExplosionScale": 1.0,
+        "priority": 1,
+        "hextarget": false,
+        "hidetarget": true,
+        "specialAbilities": [
+            "PreFiring",
+            "alliedEW"
+        ],
+        "specialAbilityValue": true,
+        "damageType": "Standard",
+        "weaponClass": "Gravitic",
+        "uninterceptable": true,
+        "doNotIntercept": true,
+        "loadingtime": 2,
+        "rangePenalty": 1,
+        "canTargetAll": true,
+        "fireControl": [
+            1,
+            2,
+            3
+        ],
+        "preFires": true,
+        "canSplitShots": true,
+        "moveDistance": "",
+        "showHexagonArc": true,
+        "specialHitChanceCalculation": true,
+        "repairPriority": 6,
+        "firingModes": [
+            "Standard - GN",
+            "Priority - GN"
+        ],
+        "damageFormula": "0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HypergravitonBlaster",
+        "parentClass": "Weapon",
+        "sourceFile": "gravitic.php",
+        "name": "HypergravitonBlaster",
+        "displayName": "Hypergraviton Blaster",
+        "iconPath": "HypergravitonBlaster.png",
+        "animation": "laser",
+        "animationColor": [
+            250,
+            251,
+            196
+        ],
+        "factionAge": 3,
+        "boostable": true,
+        "boostEfficiency": 0,
+        "loadingtime": 1,
+        "normalload": 2,
+        "priority": 7,
+        "rangePenalty": 0.25,
+        "fireControl": [
+            6,
+            6,
+            6
+        ],
+        "raking": 20,
+        "damageType": "Raking",
+        "weaponClass": "Gravitic",
+        "firingModes": [
+            "Raking"
+        ],
+        "firstShotMissed": false,
+        "transferQueue": [],
+        "damageFormula": "$add = $this->getBoostLevel($fireOrder->turn)\r\n\t\t\tswitch($this->turnsloaded){\r\n\t\t\t\tcase 0:\r\n\t\t\t\tcase 1:\r\n\t\t\t\t\t$dmg = Dice::d(10, 5) + 40 + ($add * 10)\r\n\t\t\t\t\t $dmg\r\n\t\t\t\t\tbreak\r\n\t\t\t\tdefault:\r\n\t\t\t\t\t$dmg = Dice::d(10, 10) + 80 + ($add * 10)\r\n\t\t\t\t\t $dmg\r\n\t\t\t\t\tbreak",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HypergravitonBeam",
+        "parentClass": "Weapon",
+        "sourceFile": "gravitic.php",
+        "name": "HypergravitonBeam",
+        "displayName": "Hypergraviton Beam",
+        "iconPath": "HypergravitonBeam.png",
+        "animation": "laser",
+        "animationColor": [
+            250,
+            251,
+            196
+        ],
+        "factionAge": 3,
+        "boostable": true,
+        "boostEfficiency": 0,
+        "loadingtime": 1,
+        "priority": 6,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            3,
+            4,
+            5
+        ],
+        "raking": 15,
+        "damageType": "Raking",
+        "weaponClass": "Gravitic",
+        "linkedOrbital": null,
+        "damageFormula": "$add = $this->getBoostLevel($fireOrder->turn)\r\n\t\t\t$dmg = Dice::d(10, 4) + 20 + ($add * 5)\r\n             $dmg",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$pairing = null"
+        ]
+    },
+    {
+        "className": "MedAntigravityBeam",
+        "parentClass": "Gravitic",
+        "sourceFile": "gravitic.php",
+        "name": "MedAntigravityBeam",
+        "displayName": "Medium Antigravity Beam",
+        "iconPath": "MedAntigravityBeam.png",
+        "animation": "laser",
+        "animationColor": [
+            250,
+            251,
+            196
+        ],
+        "factionAge": 4,
+        "linkedOrbital": null,
+        "intercept": 2,
+        "priority": 5,
+        "gunsArray": [
+            1,
+            2
+        ],
+        "loadingtime": 1,
+        "rangePenaltyArray": [
+            0.5,
+            0.5
+        ],
+        "fireControlArray": [
+            [
+                4,
+                3,
+                1
+            ],
+            [
+                4,
+                3,
+                1
+            ]
+        ],
+        "damageType": "Standard",
+        "damageTypeArray": [
+            "Standard",
+            "Standard"
+        ],
+        "weaponClass": "Gravitic",
+        "weaponClassArray": [
+            "Gravitic",
+            "Gravitic"
+        ],
+        "firingModes": [
+            "Single",
+            "Dual Beams"
+        ],
+        "firingMode": 1,
+        "canSplitShots": false,
+        "canSplitShotsArray": [
+            false,
+            true
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\t\tcase 1:\r\n\t\t\t\t\t Dice::d(10, 2)+4 //Medium Antigravity Beam\r\n\t\t\t\t\tbreak\r\n\t\t\t\tcase 2:\r\n\t\t\t\t\t Dice::d(10, 1)+2 //Split Beam\r\n\t\t\t\t\tbreak",
+        "minDamage": 6,
+        "maxDamage": 24,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$pairing = null"
+        ]
+    },
+    {
+        "className": "AntigravityBeam",
+        "parentClass": "Gravitic",
+        "sourceFile": "gravitic.php",
+        "name": "AntigravityBeam",
+        "displayName": "Antigravity Beam",
+        "iconPath": "AntigravityBeam.png",
+        "animation": "laser",
+        "animationColor": [
+            250,
+            251,
+            196
+        ],
+        "factionAge": 3,
+        "linkedOrbital": null,
+        "intercept": 3,
+        "priority": 5,
+        "gunsArray": [
+            1,
+            3
+        ],
+        "loadingtime": 1,
+        "rangePenaltyArray": [
+            0.5,
+            0.5
+        ],
+        "fireControlArray": [
+            [
+                5,
+                3,
+                1
+            ],
+            [
+                5,
+                3,
+                1
+            ]
+        ],
+        "damageType": "Standard",
+        "damageTypeArray": [
+            "Standard",
+            "Standard"
+        ],
+        "weaponClass": "Gravitic",
+        "weaponClassArray": [
+            "Gravitic",
+            "Gravitic"
+        ],
+        "firingModes": [
+            "Single",
+            "Triple Beams"
+        ],
+        "firingMode": 1,
+        "canSplitShots": false,
+        "canSplitShotsArray": [
+            false,
+            true
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\t\tcase 1:\r\n\t\t\t\t\t Dice::d(10, 3)+6 //Antigravity Beam\r\n\t\t\t\t\tbreak\r\n\t\t\t\tcase 2:\r\n\t\t\t\t\t Dice::d(10, 1)+2 //Split Beam\r\n\t\t\t\t\tbreak",
+        "minDamage": 9,
+        "maxDamage": 36,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$pairing = null"
+        ]
+    },
+    {
+        "className": "GraviticMine",
+        "parentClass": "Weapon",
+        "sourceFile": "gravitic.php",
+        "name": "GraviticMine",
+        "displayName": "Gravitic Mine",
+        "iconPath": "graviticMine.png",
+        "damageType": "Flash",
+        "noPrimaryHits": true,
+        "weaponClass": "Gravitic",
+        "hextarget": true,
+        "hidetarget": true,
+        "revealAfterPreFire": true,
+        "ballistic": true,
+        "uninterceptable": true,
+        "doNotIntercept": true,
+        "priority": 1,
+        "range": 40,
+        "loadingtime": 2,
+        "animation": "ball",
+        "animationColor": [
+            250,
+            251,
+            196
+        ],
+        "animationExplosionScale": 1,
+        "firingModes": [
+            "Gravitic Mine"
+        ],
+        "damageFormula": "if ($fireOrder->damageclass === 'graviticShear') {\r\n                $dmg = GraviticMineHandler::$shearDamageByTargetId[$fireOrder->targetid] ?? 0\r\n                //Debug::log(\"GraviticMine getDamage: shear order target={$fireOrder->targetid",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    }
+]

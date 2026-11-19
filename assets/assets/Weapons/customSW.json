@@ -1,0 +1,785 @@
+[
+    {
+        "className": "SWRayShield",
+        "parentClass": "Shield",
+        "sourceFile": "customSW.php",
+        "name": "swrayshield",
+        "displayName": "Ray Shield",
+        "iconPath": "shield.png",
+        "boostable": true,
+        "baseOutput": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$shieldFactor",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "SWFtrBallisticLauncher",
+        "parentClass": "FighterMissileRack",
+        "sourceFile": "customSW.php",
+        "loadingtime": 1,
+        "rangeMod": 0,
+        "firingMode": 1,
+        "maxAmount": 0,
+        "priority": 5,
+        "firingModes": [
+            "Spread"
+        ],
+        "animationExplosionScale": 0.25,
+        "damageType": "Pulse",
+        "weaponClass": "Ballistic",
+        "noPrimaryHits": true,
+        "maxpulses": 0,
+        "constructorParams": [
+            "$maxAmount",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWFtrMissile",
+        "parentClass": "MissileFB",
+        "sourceFile": "customSW.php",
+        "priority": 5,
+        "damageType": "Pulse",
+        "weaponClass": "Ballistic",
+        "damageFormula": "$this->damage",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$noOfLaunchers",
+            "$fireControl = null"
+        ]
+    },
+    {
+        "className": "SWDirectWeapon",
+        "parentClass": "Pulse",
+        "sourceFile": "customSW.php",
+        "shots": 1,
+        "firingModes": [
+            "Burst"
+        ],
+        "damageType": "Pulse",
+        "weaponClass": "Particle",
+        "animation": "bolt",
+        "animationColor": [
+            225,
+            0,
+            0
+        ],
+        "animationExplosionScale": 0.15,
+        "damageFormula": "??",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWBallisticWeapon",
+        "parentClass": "Torpedo",
+        "sourceFile": "customSW.php",
+        "firingModes": [
+            "Spread"
+        ],
+        "priority": 6,
+        "iconPath": "starwars/photonTorpedo.png",
+        "damageType": "Pulse",
+        "weaponClass": "Ballistic",
+        "noPrimaryHits": true,
+        "maxpulses": 0,
+        "animation": "torpedo",
+        "animationColor": [
+            90,
+            170,
+            190
+        ],
+        "damageFormula": "??",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWIon",
+        "parentClass": "SWDirectWeapon",
+        "sourceFile": "customSW.php",
+        "name": "swion",
+        "priority": 10,
+        "weaponClass": "SWIon",
+        "animationColor": [
+            80,
+            150,
+            250
+        ]
+    },
+    {
+        "className": "SWFighterLaser",
+        "parentClass": "SWDirectWeapon",
+        "sourceFile": "customSW.php",
+        "name": "SWFighterLaser",
+        "displayName": "Fighter Laser",
+        "priority": 3,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(6)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWFighterIon",
+        "parentClass": "SWIon",
+        "sourceFile": "customSW.php",
+        "name": "SWFighterIon",
+        "displayName": "Fighter Ion Cannon",
+        "loadingtime": 1,
+        "rangePenalty": 1.5,
+        "fireControl": [
+            -3,
+            -1,
+            -1
+        ],
+        "exclusive": false,
+        "isLinked": true,
+        "priority": 10,
+        "damageFormula": "Dice::d(4)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWFtrProtonTorpedoLauncher",
+        "parentClass": "SWFtrBallisticLauncher",
+        "sourceFile": "customSW.php",
+        "name": "SWFtrProtonTorpedo",
+        "missileClass": "Torpedo",
+        "displayName": "Fighter Proton Torpedo",
+        "loadingtime": 1,
+        "rangeMod": 0,
+        "firingMode": 1,
+        "maxAmount": 0,
+        "priority": 5,
+        "fireControl": [
+            -4,
+            -1,
+            0
+        ],
+        "constructorParams": [
+            "$maxAmount",
+            "$startArc",
+            "$endArc",
+            "$noOfShots"
+        ]
+    },
+    {
+        "className": "SWFtrProtonTorpedo",
+        "parentClass": "SWFtrMissile",
+        "sourceFile": "customSW.php",
+        "name": "SWFtrProtonTorpedo",
+        "missileClass": "FtrTorpedo",
+        "displayName": "Fighter Proton Torpedo",
+        "cost": 6,
+        "damage": 11,
+        "amount": 0,
+        "range": 8,
+        "distanceRange": 16,
+        "hitChanceMod": 0,
+        "priority": 2,
+        "damageType": "Pulse",
+        "weaponClass": "Ballistic",
+        "damageFormula": "$this->damage",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$noOfShots",
+            "$fireControl = null"
+        ]
+    },
+    {
+        "className": "SWFtrConcMissileLauncher",
+        "parentClass": "SWFtrBallisticLauncher",
+        "sourceFile": "customSW.php",
+        "name": "SWFtrConcMissileLauncher",
+        "missileClass": "FtrMissile",
+        "displayName": "Fighter Concussion Missile",
+        "loadingtime": 1,
+        "rangeMod": 0,
+        "firingMode": 1,
+        "maxAmount": 0,
+        "priority": 3,
+        "fireControl": [
+            2,
+            1,
+            0
+        ],
+        "animationExplosionScale": 0.15,
+        "constructorParams": [
+            "$maxAmount",
+            "$startArc",
+            "$endArc",
+            "$noOfShots"
+        ]
+    },
+    {
+        "className": "SWFtrConcMissile",
+        "parentClass": "SWFtrMissile",
+        "sourceFile": "customSW.php",
+        "name": "SWFtrConcMissile",
+        "missileClass": "FtrMissile",
+        "displayName": "Fighter Concussion Missile",
+        "cost": 2,
+        "damage": 6,
+        "amount": 0,
+        "range": 6,
+        "distanceRange": 18,
+        "hitChanceMod": 0,
+        "priority": 2,
+        "damageType": "Pulse",
+        "weaponClass": "Ballistic",
+        "animationExplosionScale": 0.15,
+        "damageFormula": "$this->damage",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$noOfShots",
+            "$fireControl = null"
+        ]
+    },
+    {
+        "className": "SWLightLaser",
+        "parentClass": "SWDirectWeapon",
+        "sourceFile": "customSW.php",
+        "name": "SWLightLaser",
+        "displayName": "Light Laser",
+        "priority": 3,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            4,
+            2,
+            1
+        ],
+        "damageFormula": "Dice::d(6)+2 +$this->damagebonus",
+        "constructorParams": [
+            "$armor",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWMediumLaser",
+        "parentClass": "SWDirectWeapon",
+        "sourceFile": "customSW.php",
+        "name": "SWMediumLaser",
+        "displayName": "Medium Laser",
+        "priority": 3,
+        "loadingtime": 1,
+        "rangePenalty": 1.5,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(6)+4 +$this->damagebonus",
+        "constructorParams": [
+            "$armor",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWHeavyLaser",
+        "parentClass": "SWDirectWeapon",
+        "sourceFile": "customSW.php",
+        "name": "SWHeavyLaser",
+        "displayName": "Heavy Laser",
+        "priority": 4,
+        "loadingtime": 2,
+        "rangePenalty": 1,
+        "fireControl": [
+            1,
+            2,
+            3
+        ],
+        "damageFormula": "Dice::d(8)+4 +$this->damagebonus",
+        "constructorParams": [
+            "$armor",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWMediumLaserAF",
+        "parentClass": "SWDirectWeapon",
+        "sourceFile": "customSW.php",
+        "name": "SWMediumLaserAF",
+        "displayName": "AF Medium Laser",
+        "priority": 3,
+        "loadingtime": 1,
+        "rangePenalty": 1.5,
+        "fireControl": [
+            6,
+            2,
+            0
+        ],
+        "damageFormula": "Dice::d(6)+4 +$this->damagebonus",
+        "constructorParams": [
+            "$armor",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWLightTLaser",
+        "parentClass": "SWDirectWeapon",
+        "sourceFile": "customSW.php",
+        "name": "SWLightTLaser",
+        "displayName": "Light Turbolaser",
+        "priority": 4,
+        "loadingtime": 2,
+        "rangePenalty": 0.66,
+        "fireControl": [
+            -2,
+            2,
+            3
+        ],
+        "animationColor": [
+            245,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(6)+6 +$this->damagebonus",
+        "constructorParams": [
+            "$armor",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWMediumTLaser",
+        "parentClass": "SWDirectWeapon",
+        "sourceFile": "customSW.php",
+        "name": "SWMediumTLaser",
+        "displayName": "Medium Turbolaser",
+        "priority": 4,
+        "loadingtime": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -3,
+            1,
+            3
+        ],
+        "animationColor": [
+            245,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(8)+6 +$this->damagebonus",
+        "constructorParams": [
+            "$armor",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWHeavyTLaser",
+        "parentClass": "SWDirectWeapon",
+        "sourceFile": "customSW.php",
+        "name": "SWHeavyTLaser",
+        "displayName": "Heavy Turbolaser",
+        "priority": 5,
+        "loadingtime": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -6,
+            0,
+            3
+        ],
+        "animationColor": [
+            245,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(6,2)+7 +$this->damagebonus",
+        "constructorParams": [
+            "$armor",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWHeavyTLaserBattery",
+        "parentClass": "SWDirectWeapon",
+        "sourceFile": "customSW.php",
+        "name": "SWHeavyTLaserBattery",
+        "displayName": "Heavy Turbolaser Battery",
+        "priority": 6,
+        "loadingtime": 4,
+        "rangePenalty": 0.25,
+        "fireControl": [
+            -8,
+            -1,
+            3
+        ],
+        "animationColor": [
+            245,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(10,2)+7 +$this->damagebonus",
+        "constructorParams": [
+            "$armor",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWLightLaserE",
+        "parentClass": "SWLightLaser",
+        "sourceFile": "customSW.php",
+        "name": "SWLightLaserE",
+        "displayName": "Light Laser (Early)",
+        "priority": 3,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            2,
+            1
+        ],
+        "damageFormula": "Dice::d(6)+1 +$this->damagebonus"
+    },
+    {
+        "className": "SWMediumLaserE",
+        "parentClass": "SWMediumLaser",
+        "sourceFile": "customSW.php",
+        "name": "SWMediumLaserE",
+        "displayName": "Medium Laser (Early)",
+        "priority": 3,
+        "loadingtime": 1,
+        "rangePenalty": 1.5,
+        "fireControl": [
+            2,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(8)+2 +$this->damagebonus"
+    },
+    {
+        "className": "SWHeavyLaserE",
+        "parentClass": "SWHeavyLaser",
+        "sourceFile": "customSW.php",
+        "name": "SWHeavyLaserE",
+        "displayName": "Heavy Laser (Early)",
+        "priority": 4,
+        "loadingtime": 2,
+        "rangePenalty": 1,
+        "fireControl": [
+            0,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(8)+3 +$this->damagebonus"
+    },
+    {
+        "className": "SWLightTLaserE",
+        "parentClass": "SWLightTLaser",
+        "sourceFile": "customSW.php",
+        "name": "SWLightTLaserE",
+        "displayName": "Light Turbolaser (Early)",
+        "priority": 4,
+        "loadingtime": 2,
+        "rangePenalty": 1,
+        "fireControl": [
+            -2,
+            2,
+            3
+        ],
+        "damageFormula": "Dice::d(6)+5 +$this->damagebonus"
+    },
+    {
+        "className": "SWMediumTLaserE",
+        "parentClass": "SWMediumTLaser",
+        "sourceFile": "customSW.php",
+        "name": "SWMediumTLaserE",
+        "displayName": "Medium Turbolaser (Early)",
+        "priority": 4,
+        "loadingtime": 3,
+        "rangePenalty": 0.6,
+        "fireControl": [
+            -4,
+            1,
+            3
+        ],
+        "damageFormula": "Dice::d(8)+6 +$this->damagebonus"
+    },
+    {
+        "className": "SWHeavyTLaserE",
+        "parentClass": "SWHeavyTLaser",
+        "sourceFile": "customSW.php",
+        "name": "SWHeavyTLaserE",
+        "displayName": "Heavy Turbolaser (Early)",
+        "priority": 5,
+        "loadingtime": 4,
+        "rangePenalty": 0.4,
+        "fireControl": [
+            -7,
+            0,
+            3
+        ],
+        "damageFormula": "Dice::d(6,2)+7 +$this->damagebonus"
+    },
+    {
+        "className": "SWLightIon",
+        "parentClass": "SWIon",
+        "sourceFile": "customSW.php",
+        "name": "SWLightIon",
+        "displayName": "Light Ion Cannon",
+        "priority": 10,
+        "loadingtime": 2,
+        "rangePenalty": 0.75,
+        "fireControl": [
+            -4,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(4)+4 +$this->damagebonus",
+        "constructorParams": [
+            "$armor",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWMediumIon",
+        "parentClass": "SWIon",
+        "sourceFile": "customSW.php",
+        "name": "SWMediumIon",
+        "displayName": "Medium Ion Cannon",
+        "priority": 10,
+        "loadingtime": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -6,
+            0,
+            2
+        ],
+        "damageFormula": "Dice::d(5)+5 +$this->damagebonus",
+        "constructorParams": [
+            "$armor",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWHeavyIon",
+        "parentClass": "SWIon",
+        "sourceFile": "customSW.php",
+        "name": "SWHeavyIon",
+        "displayName": "Heavy Ion Cannon",
+        "priority": 10,
+        "loadingtime": 4,
+        "rangePenalty": 0.25,
+        "fireControl": [
+            null,
+            -1,
+            1
+        ],
+        "damageFormula": "Dice::d(4,2)+5 +$this->damagebonus",
+        "constructorParams": [
+            "$armor",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWCapitalConcussion",
+        "parentClass": "SWBallisticWeapon",
+        "sourceFile": "customSW.php",
+        "name": "SWCapitalConcussion",
+        "displayName": "Capital Concussion Missile",
+        "range": 16,
+        "distanceRange": 24,
+        "loadingtime": 3,
+        "fireControl": [
+            -6,
+            -1,
+            0
+        ],
+        "damageFormula": "15",
+        "minDamage": 15,
+        "constructorParams": [
+            "$armor",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWCapitalProton",
+        "parentClass": "SWBallisticWeapon",
+        "sourceFile": "customSW.php",
+        "name": "SWCapitalProton",
+        "displayName": "Capital Proton Torpedo",
+        "range": 20,
+        "distanceRange": 30,
+        "loadingtime": 3,
+        "fireControl": [
+            -8,
+            0,
+            1
+        ],
+        "animationColor": [
+            150,
+            190,
+            230
+        ],
+        "damageFormula": "18",
+        "minDamage": 18,
+        "constructorParams": [
+            "$armor",
+            "$startArc",
+            "$endArc",
+            "$noOfShots"
+        ]
+    },
+    {
+        "className": "SWAntifighterConcussion",
+        "parentClass": "SWBallisticWeapon",
+        "sourceFile": "customSW.php",
+        "name": "SWAntifighterConcussion",
+        "displayName": "Antifighter Missile",
+        "range": 9,
+        "distanceRange": 18,
+        "loadingtime": 1,
+        "priority": 3,
+        "fireControl": [
+            2,
+            1,
+            0
+        ],
+        "damageFormula": "6",
+        "minDamage": 6,
+        "constructorParams": [
+            "$armor",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWTractorBeam",
+        "parentClass": "SWDirectWeapon",
+        "sourceFile": "customSW.php",
+        "name": "SWTractorBeam",
+        "displayName": "Tractor Beam",
+        "priority": 10,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "intercept": 0,
+        "fireControl": [
+            null,
+            2,
+            4
+        ],
+        "animation": "laser",
+        "animationColor": [
+            55,
+            55,
+            55
+        ],
+        "animationExplosionScale": 0.8,
+        "damageFormula": "0",
+        "constructorParams": [
+            "$armor",
+            "$startArc",
+            "$endArc",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "SWFighterASLaserR",
+        "parentClass": "SWDirectWeapon",
+        "sourceFile": "customSW.php",
+        "name": "SWFighterASLaserR",
+        "displayName": "Antiship Laser Prototype",
+        "priority": 6,
+        "loadingtime": 3,
+        "rangePenalty": 1.5,
+        "fireControl": [
+            -4,
+            0,
+            0
+        ],
+        "intercept": 0,
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(6,$this->damagedice) + $this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagedice = 3",
+            "$damagebonus = 12"
+        ]
+    },
+    {
+        "className": "SWFighterASLaser",
+        "parentClass": "SWDirectWeapon",
+        "sourceFile": "customSW.php",
+        "name": "SWFighterASLaser",
+        "displayName": "Antiship Laser",
+        "priority": 6,
+        "loadingtime": 2,
+        "rangePenalty": 1.5,
+        "fireControl": [
+            -4,
+            0,
+            0
+        ],
+        "intercept": 0,
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(6,$this->damagedice) + $this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagedice = 2",
+            "$damagebonus = 4"
+        ]
+    }
+]

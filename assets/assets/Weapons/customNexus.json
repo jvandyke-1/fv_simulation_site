@@ -1,0 +1,6951 @@
+[
+    {
+        "className": "NexusRAMLauncher",
+        "parentClass": "Torpedo",
+        "sourceFile": "customNexus.php",
+        "name": "NexusRAMLauncher",
+        "displayName": "RAM Launcher",
+        "iconPath": "NexusRAMLauncher.png",
+        "range": 50,
+        "loadingtime": 2,
+        "specialRangeCalculation": true,
+        "weaponClass": "Ballistic",
+        "damageType": "Standard",
+        "fireControl": [
+            -4,
+            1,
+            3
+        ],
+        "rangePenalty": 1,
+        "animation": "torpedo",
+        "animationColor": [
+            255,
+            215,
+            0
+        ],
+        "priority": 6,
+        "damageFormula": "Dice::d(10, 2)+5",
+        "minDamage": 7,
+        "maxDamage": 25,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusKineticBoxLauncher",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "nexusKineticBoxLauncher",
+        "displayName": "Kinetic Box Launcher",
+        "iconPath": "NexusKineticBoxLauncher.png",
+        "animation": "trail",
+        "trailColor": [
+            141,
+            240,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 10,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": false,
+        "ballistic": true,
+        "range": 15,
+        "distanceRange": 30,
+        "ammunition": 4,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            0,
+            1,
+            2
+        ],
+        "noOverkill": true,
+        "priority": 9,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "damageFormula": "$dmg = 8\r\n             $dmg",
+        "minDamage": 8,
+        "maxDamage": 8,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusRangedKineticBoxLauncher",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusRangedKineticBoxLauncher",
+        "displayName": "Ranged Kinetic Box Launcher",
+        "iconPath": "NexusKineticBoxLauncher.png",
+        "animation": "trail",
+        "trailColor": [
+            141,
+            240,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 10,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": false,
+        "ballistic": true,
+        "range": 45,
+        "distanceRange": 60,
+        "ammunition": 10,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            0,
+            1,
+            2
+        ],
+        "noOverkill": true,
+        "priority": 9,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "damageFormula": "$dmg = 8\r\n             $dmg",
+        "minDamage": 8,
+        "maxDamage": 8,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusAdvKineticBoxLauncher",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusAdvKineticBoxLauncher",
+        "displayName": "Advanced Kinetic Box Launcher",
+        "iconPath": "NexusAdvKineticBoxLauncher.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": false,
+        "ballistic": true,
+        "range": 15,
+        "distanceRange": 30,
+        "ammunition": 5,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            1,
+            2,
+            3
+        ],
+        "noOverkill": true,
+        "priority": 9,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "damageFormula": "$dmg = 8\r\n             $dmg",
+        "minDamage": 8,
+        "maxDamage": 8,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusAntifighterLauncher",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusAntifighterLauncher",
+        "displayName": "Anti-fighter Launcher",
+        "iconPath": "NexusDefenderMissile.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 8,
+        "distanceRange": 24,
+        "ammunition": 8,
+        "loadingtime": 1,
+        "rangePenalty": 0,
+        "fireControl": [
+            4,
+            null,
+            null
+        ],
+        "priority": 4,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "damageFormula": "8",
+        "minDamage": 8,
+        "maxDamage": 8,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLaserMissile",
+        "parentClass": "Laser",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLaserMissile",
+        "displayName": "Laser Missile",
+        "iconPath": "NexusLaserMissile2.png",
+        "animationArray": [
+            "laser",
+            "laser"
+        ],
+        "trailColor": [
+            141,
+            240,
+            255
+        ],
+        "animationColorArray": [
+            [
+                220,
+                60,
+                120
+            ],
+            [
+                220,
+                60,
+                120
+            ]
+        ],
+        "animationExplosionScale": 0.5,
+        "projectilespeed": 10,
+        "animationWidth": 5,
+        "trailLength": 100,
+        "uninterceptableArray": [
+            false,
+            false
+        ],
+        "doInterceptDegradation": true,
+        "useOEW": false,
+        "ballistic": true,
+        "rangeArray": [
+            20,
+            10
+        ],
+        "distanceRangeArray": [
+            30,
+            15
+        ],
+        "ammunition": 20,
+        "loadingtimeArray": [
+            2,
+            2
+        ],
+        "rangePenaltyArray": [
+            0,
+            0
+        ],
+        "fireControlArray": [
+            [
+                null,
+                2,
+                2
+            ],
+            [
+                null,
+                2,
+                2
+            ]
+        ],
+        "raking": 8,
+        "priorityArray": [
+            8,
+            8
+        ],
+        "firingModes": [
+            "Long-range",
+            "Short-range"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Raking"
+        ],
+        "weaponClass": "Ballistic",
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(10, 2)+3 //Light Chemical Laser\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t Dice::d(10, 3)+4 //Medium Chemical Laser\r\n\t\t\t\tbreak",
+        "minDamage": 5,
+        "maxDamage": 23,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusHeavyLaserMissile",
+        "parentClass": "Laser",
+        "sourceFile": "customNexus.php",
+        "name": "NexusHeavyLaserMissile",
+        "displayName": "Heavy Laser Missile",
+        "iconPath": "NexusHeavyLaserMissile2.png",
+        "animationArray": [
+            "laser",
+            "laser"
+        ],
+        "trailColor": [
+            141,
+            240,
+            255
+        ],
+        "animationColorArray": [
+            [
+                220,
+                60,
+                120
+            ],
+            [
+                220,
+                60,
+                120
+            ]
+        ],
+        "animationExplosionScale": 0.5,
+        "projectilespeed": 10,
+        "animationWidth": 5,
+        "trailLength": 100,
+        "uninterceptableArray": [
+            false,
+            false
+        ],
+        "doInterceptDegradation": true,
+        "useOEW": false,
+        "ballistic": true,
+        "rangeArray": [
+            50,
+            20
+        ],
+        "distanceRangeArray": [
+            60,
+            30
+        ],
+        "ammunition": 30,
+        "loadingtimeArray": [
+            2,
+            2
+        ],
+        "rangePenaltyArray": [
+            0,
+            0
+        ],
+        "fireControlArray": [
+            [
+                null,
+                2,
+                2
+            ],
+            [
+                null,
+                2,
+                2
+            ]
+        ],
+        "raking": 8,
+        "priorityArray": [
+            8,
+            8
+        ],
+        "firingModes": [
+            "Long-range",
+            "Short-range"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Raking"
+        ],
+        "weaponClass": "Ballistic",
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(10, 2)+3 //Light Chemical Laser\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t Dice::d(10, 3)+4 //Medium Chemical Laser\r\n\t\t\t\tbreak",
+        "minDamage": 5,
+        "maxDamage": 23,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLargeRocket",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLargeRocket",
+        "displayName": "Large Rocket Launcher",
+        "iconPath": "NexusLargeRocket.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 20,
+        "distanceRange": 30,
+        "ammunition": 10,
+        "loadingtime": 3,
+        "rangePenalty": 0,
+        "fireControl": [
+            -2,
+            1,
+            3
+        ],
+        "priority": 6,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "Dice::d(10, 2)+10",
+        "minDamage": 12,
+        "maxDamage": 30,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusStandardRocket",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusStandardRocket",
+        "displayName": "Standard Rocket Launcher",
+        "iconPath": "NexusStandardRocket.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 15,
+        "distanceRange": 25,
+        "ammunition": 15,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            -1,
+            1,
+            2
+        ],
+        "priority": 6,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "Dice::d(10, 1)+6",
+        "minDamage": 7,
+        "maxDamage": 16,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusMiniRocket",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusMiniRocket",
+        "displayName": "Mini Rocket Launcher",
+        "iconPath": "NexusMiniRocket.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 10,
+        "distanceRange": 20,
+        "ammunition": 15,
+        "loadingtime": 1,
+        "rangePenalty": 0,
+        "fireControl": [
+            0,
+            1,
+            2
+        ],
+        "priority": 6,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "Dice::d(6, 1)+5",
+        "minDamage": 6,
+        "maxDamage": 11,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusPlasmaBombRack",
+        "parentClass": "Plasma",
+        "sourceFile": "customNexus.php",
+        "name": "NexusPlasmaBombRack",
+        "displayName": "Plasma Bomb Rack",
+        "iconPath": "NexusPlasmaBomb.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "ballistic": true,
+        "range": 15,
+        "distanceRange": 25,
+        "ammunition": 8,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            null,
+            2,
+            2
+        ],
+        "priority": 6,
+        "firingMode": "Ballistic",
+        "damageType": "Plasma",
+        "weaponClass": "Plasma",
+        "damageFormula": "12",
+        "minDamage": 12,
+        "maxDamage": 12,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusFighterTorpedoLauncher",
+        "parentClass": "FighterMissileRack",
+        "sourceFile": "customNexus.php",
+        "name": "NexusFighterTorpedoLauncher",
+        "displayName": "Fighter Torpedo Launcher",
+        "loadingtime": 1,
+        "iconPath": "fighterTorpedo.png",
+        "rangeMod": 0,
+        "firingMode": 1,
+        "maxAmount": 0,
+        "weaponClass": "Plasma",
+        "priority": 4,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "firingModes": [
+            "LPT"
+        ],
+        "constructorParams": [
+            "$maxAmount",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLtPlasmaTorpedo",
+        "parentClass": "MissileFB",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLtPlasmaTorpedo",
+        "missileClass": "LPT",
+        "displayName": "Light Plasma Torpedo",
+        "cost": 8,
+        "surCharge": 0,
+        "damage": 10,
+        "amount": 0,
+        "range": 15,
+        "distanceRange": 15,
+        "hitChanceMod": 0,
+        "priority": 4,
+        "damageType": "Standard",
+        "weaponClass": "Plasma",
+        "damageFormula": "10",
+        "minDamage": 10,
+        "maxDamage": 10,
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$fireControl=null"
+        ]
+    },
+    {
+        "className": "NexusDartInterceptor",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusDartInterceptor",
+        "displayName": "Dart Interceptor",
+        "iconPath": "NexusDartInterceptor.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "guns": 2,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 8,
+        "distanceRange": 24,
+        "ammunition": 40,
+        "loadingtime": 1,
+        "rangePenalty": 0,
+        "fireControl": [
+            3,
+            null,
+            null
+        ],
+        "priority": 4,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "8",
+        "minDamage": 8,
+        "maxDamage": 8,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusStreakInterceptor",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusStreakInterceptor",
+        "displayName": "Streak Interceptor",
+        "iconPath": "NexusStreakInterceptor.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "guns": 2,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 10,
+        "distanceRange": 30,
+        "ammunition": 40,
+        "loadingtime": 1,
+        "rangePenalty": 0,
+        "fireControl": [
+            4,
+            null,
+            null
+        ],
+        "priority": 4,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "10",
+        "minDamage": 10,
+        "maxDamage": 10,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusSmallEarlyRocket",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusSmallEarlyRocket",
+        "displayName": "Small Early Rocket",
+        "iconPath": "NexusSmallEarlyRocket.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 10,
+        "distanceRange": 20,
+        "ammunition": 15,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            null,
+            1,
+            2
+        ],
+        "priority": 4,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "Dice::d(6, 1)+3",
+        "minDamage": 4,
+        "maxDamage": 9,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusEarlyRocket",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusEarlyRocket",
+        "displayName": "Early Rocket",
+        "iconPath": "NexusEarlyRocket.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 15,
+        "distanceRange": 25,
+        "ammunition": 10,
+        "loadingtime": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            null,
+            1,
+            2
+        ],
+        "priority": 4,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "Dice::d(10, 1)+5",
+        "minDamage": 6,
+        "maxDamage": 15,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLargeEarlyRocket",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLargeEarlyRocket",
+        "displayName": "Large Early Rocket",
+        "iconPath": "NexusLargeEarlyRocket.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 20,
+        "distanceRange": 35,
+        "ammunition": 8,
+        "loadingtime": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            null,
+            1,
+            3
+        ],
+        "priority": 7,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "Dice::d(10, 2)+6",
+        "minDamage": 8,
+        "maxDamage": 26,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusPlasmaCharge",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusPlasmaCharge",
+        "displayName": "Plasma Charge",
+        "iconPath": "NexusPlasmaCharge.png",
+        "animation": "bolt",
+        "animationColor": [
+            99,
+            255,
+            0
+        ],
+        "boostable": true,
+        "boostEfficiency": 4,
+        "maxBoostLevel": 2,
+        "loadingtime": 1,
+        "curDamage": 9,
+        "priority": 2,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            null,
+            3,
+            4
+        ],
+        "rangeDamagePenalty": 0.33,
+        "intercept": 1,
+        "damageType": "Flash",
+        "weaponClass": "Plasma",
+        "damageFormula": "$this->getCurDamage($fireOrder->turn)",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusPlasmaChargeThrust",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusPlasmaChargeThrust",
+        "displayName": "Plasma Charge",
+        "iconPath": "NexusPlasmaCharge.png",
+        "animation": "bolt",
+        "animationColor": [
+            99,
+            255,
+            0
+        ],
+        "boostable": true,
+        "boostEfficiency": 0,
+        "maxBoostLevel": 2,
+        "loadingtime": 1,
+        "curDamage": 9,
+        "priority": 2,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            null,
+            3,
+            4
+        ],
+        "rangeDamagePenalty": 0.33,
+        "intercept": 1,
+        "damageType": "Flash",
+        "weaponClass": "Plasma",
+        "damageFormula": "$add = $this->getExtraDicebyBoostlevel($fireOrder->turn)\r\n            $dmg = Dice::d(10, (1 + $add)) + 10\r\n             $dmg",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusHeavyPlasmaCharge",
+        "parentClass": "Torpedo",
+        "sourceFile": "customNexus.php",
+        "name": "NexusHeavyPlasmaCharge",
+        "displayName": "Heavy Plasma Charge",
+        "iconPath": "NexusHeavyPlasmaCharge.png",
+        "loadingtime": 2,
+        "specialRangeCalculation": true,
+        "weaponClass": "Plasma",
+        "firingMode": "Ballistic",
+        "damageType": "Plasma",
+        "fireControl": [
+            -4,
+            2,
+            3
+        ],
+        "rangePenalty": 1,
+        "animation": "trail",
+        "trailColor": [
+            40,
+            199,
+            251
+        ],
+        "animationColor": [
+            52,
+            249,
+            11
+        ],
+        "animationWidth": 0.5,
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "trailLength": 12,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 0,
+        "rangeDamagePenaltyHPCharge": 1,
+        "priority": 6,
+        "damageFormula": "Dice::d(10, 1)+10   \r\n\t\t\t// 10 To test damage and range penalty effects",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusBoltTorpedo",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusBoltTorpedo",
+        "displayName": "Bolt Torpedo",
+        "iconPath": "NexusBoltTorpedo.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 20,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            -1,
+            2,
+            2
+        ],
+        "priority": 4,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "10",
+        "minDamage": 10,
+        "maxDamage": 10,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusRangedBoltTorpedo",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusRangedBoltTorpedo",
+        "displayName": "Ranged Bolt Torpedo",
+        "iconPath": "NexusBoltTorpedo.png",
+        "animation": "trail",
+        "trailColor": [
+            11,
+            224,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "useOEW": true,
+        "ballistic": true,
+        "range": 40,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            -1,
+            2,
+            2
+        ],
+        "priority": 5,
+        "firingMode": "Ballistic",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "12",
+        "minDamage": 12,
+        "maxDamage": 12,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusChaffLauncher",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "nexusChaffLauncher",
+        "displayName": "Chaff Launcher",
+        "iconPath": "NexusChaffLauncher.png",
+        "trailColor": [
+            192,
+            192,
+            192
+        ],
+        "animation": "ball",
+        "animationColor": [
+            192,
+            192,
+            192
+        ],
+        "animationExplosionScale": 0.5,
+        "animationExplosionType": "AoE",
+        "explosionColor": [
+            235,
+            235,
+            235
+        ],
+        "projectilespeed": 12,
+        "animationWidth": 10,
+        "trailLength": 10,
+        "ballistic": false,
+        "hextarget": false,
+        "hidetarget": false,
+        "priority": 1,
+        "uninterceptable": true,
+        "doNotIntercept": true,
+        "canInterceptUninterceptable": true,
+        "useOEW": false,
+        "loadingtime": 1,
+        "range": 100,
+        "rangePenalty": 0,
+        "fireControl": [
+            100,
+            100,
+            100
+        ],
+        "intercept": 2,
+        "firingMode": "Intercept",
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "0 //this weapon does no damage, in case it actually hits something!",
+        "minDamage": 0,
+        "maxDamage": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusParticleProjectorLight",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "nexusParticleProjectorLight",
+        "displayName": "Light Particle Projector",
+        "iconPath": "NexusParticleProjectorLight.png",
+        "animation": "beam",
+        "animationColor": [
+            205,
+            200,
+            200
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 10,
+        "animationWidth": 3,
+        "trailLength": 10,
+        "intercept": 2,
+        "loadingtime": 1,
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(6, 1)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusParticleProjectorHeavy",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "nexusParticleProjectorHeavy",
+        "displayName": "Heavy Particle Projector",
+        "iconPath": "NexusParticleProjectorHeavy.png",
+        "animation": "beam",
+        "animationColor": [
+            205,
+            200,
+            200
+        ],
+        "animationExplosionScale": 0.35,
+        "projectilespeed": 17,
+        "animationWidth": 5,
+        "trailLength": 30,
+        "intercept": 1,
+        "loadingtime": 3,
+        "priority": 6,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            0,
+            2,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 2)+8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusParticleProjectorFtr",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "nexusParticleProjectorFtr",
+        "displayName": "Particle Projector",
+        "animation": "beam",
+        "animationColor": [
+            205,
+            200,
+            200
+        ],
+        "animationExplosionScale": 0.25,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "trailLength": 20,
+        "iconPath": "particleProjector.png",
+        "intercept": 2,
+        "loadingtime": 2,
+        "priority": 5,
+        "rangePenalty": 1,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusParticleAgitator",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "nexusParticleAgitator",
+        "displayName": "Particle Agitator",
+        "iconPath": "NexusParticleAgitator.png",
+        "animation": "beam",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.25,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "intercept": 1,
+        "loadingtime": 2,
+        "priority": 6,
+        "rangePenalty": 1,
+        "fireControl": [
+            0,
+            2,
+            2
+        ],
+        "firingMode": "Standard",
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(10, 2)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusProjectorArray",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusProjectorArray",
+        "displayName": "Projector Array",
+        "iconPath": "NexusProjectorArray.png",
+        "animation": "beam",
+        "animationColor": [
+            205,
+            200,
+            200
+        ],
+        "animationExplosionScale": 0.25,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "trailLength": 20,
+        "intercept": 1,
+        "loadingtime": 1,
+        "priority": 4,
+        "rangePenalty": 1,
+        "fireControl": [
+            1,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightProjectorArray",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusLightProjectorArray",
+        "displayName": "Light Projector Array",
+        "iconPath": "NexusLightProjectorArray.png",
+        "animation": "beam",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 15,
+        "animationWidth": 3,
+        "trailLength": 3,
+        "intercept": 2,
+        "loadingtime": 1,
+        "guns": 2,
+        "priority": 4,
+        "rangePenalty": 2,
+        "fireControl": [
+            4,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(6, 1)+3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusShatterGun",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusShatterGun",
+        "displayName": "Shatter Gun",
+        "iconPath": "NexusShattergun.png",
+        "animationArray": [
+            "trail",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                245,
+                245,
+                44
+            ],
+            [
+                245,
+                245,
+                44
+            ]
+        ],
+        "trailLength": 5,
+        "animationWidth": 4,
+        "projectilespeed": 18,
+        "animationExplosionScale": 0.1,
+        "rof": 3,
+        "groupingArray": [
+            25,
+            0
+        ],
+        "maxpulses": 4,
+        "priorityArray": [
+            5,
+            7
+        ],
+        "defaultShotsArray": [
+            4,
+            1
+        ],
+        "loadingtimeArray": [
+            1,
+            1
+        ],
+        "rangePenaltyArray": [
+            2,
+            2
+        ],
+        "intercept": 1,
+        "ballisticIntercept": true,
+        "firingModes": [
+            "Burst",
+            "Concentrated"
+        ],
+        "fireControlArray": [
+            [
+                2,
+                1,
+                1
+            ],
+            [
+                0,
+                -1,
+                -1
+            ]
+        ],
+        "damageTypeArray": [
+            "Pulse",
+            "Standard"
+        ],
+        "weaponClassArray": [
+            "Matter",
+            "Matter"
+        ],
+        "damageFormula": "switch($this->firingMode){ \r\n            \tcase 1:\r\n                \t 3\r\n\t\t\t    \t\t\tbreak\r\n            \tcase 2:\r\n            \t   \t Dice::d(2, 1)*3\r\n\t\t\t    \t\t\tbreak",
+        "minDamage": 3,
+        "maxDamage": 3,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusShatterGunFtr",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusShatterGunFtr",
+        "displayName": "Light Shatter Gun",
+        "iconPath": "NexusShattergun.png",
+        "animationArray": [
+            "trail",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                245,
+                245,
+                44
+            ],
+            [
+                245,
+                245,
+                44
+            ]
+        ],
+        "trailLength": 5,
+        "animationWidth": 4,
+        "projectilespeed": 18,
+        "animationExplosionScale": 0.1,
+        "ammunition": 12,
+        "rof": 3,
+        "groupingArray": [
+            0,
+            0
+        ],
+        "maxpulses": 2,
+        "priorityArray": [
+            5,
+            7
+        ],
+        "defaultShotsArray": [
+            2,
+            1
+        ],
+        "loadingtimeArray": [
+            1,
+            1
+        ],
+        "rangePenaltyArray": [
+            2,
+            2
+        ],
+        "intercept": 1,
+        "ballisticIntercept": true,
+        "firingModes": [
+            "Burst",
+            "Concentrated"
+        ],
+        "fireControlArray": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                -2,
+                -2,
+                -2
+            ]
+        ],
+        "damageTypeArray": [
+            "Pulse",
+            "Standard"
+        ],
+        "weaponClassArray": [
+            "Matter",
+            "Matter"
+        ],
+        "damageFormula": "switch($this->firingMode){ \r\n            \tcase 1:\r\n                \t 3\r\n\t\t\t    \t\t\tbreak\r\n            \tcase 2:\r\n            \t   \t Dice::d(2, 1)*3\r\n\t\t\t    \t\t\tbreak",
+        "minDamage": 3,
+        "maxDamage": 3,
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "NexusLightGasGun",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusLightGasGun",
+        "displayName": "Light Gas Gun",
+        "iconPath": "NexusLightGasGun.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            245,
+            44
+        ],
+        "animationExplosionScale": 0.3,
+        "projectilespeed": 18,
+        "animationWidth": 2,
+        "trailLength": 35,
+        "loadingtime": 1,
+        "guns": 1,
+        "priority": 8,
+        "rangePenalty": 1.0,
+        "fireControl": [
+            0,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(6, 1)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightGasGunFtr",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusLightGasGunFtr",
+        "displayName": "Fighter Gas Gun",
+        "iconPath": "NexusLightGasGun.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            245,
+            44
+        ],
+        "animationExplosionScale": 0.3,
+        "projectilespeed": 18,
+        "animationWidth": 2,
+        "trailLength": 35,
+        "loadingtime": 2,
+        "priority": 8,
+        "ammunition": 6,
+        "rangePenalty": 1.5,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(6, 1)+2",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "NexusGasGun",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusGasGun",
+        "displayName": "Gas Gun",
+        "iconPath": "NexusGasGun.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            245,
+            44
+        ],
+        "animationExplosionScale": 0.3,
+        "projectilespeed": 18,
+        "animationWidth": 5,
+        "trailLength": 20,
+        "loadingtime": 2,
+        "guns": 1,
+        "priority": 9,
+        "rangePenalty": 0.66,
+        "fireControl": [
+            -2,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 1)+8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusACIDS",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            206,
+            206,
+            83
+        ],
+        "name": "NexusACIDS",
+        "displayName": "Advanced Close-In Defense System",
+        "iconPath": "NexusACIDS.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            245,
+            44
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 10,
+        "animationWidth": 2,
+        "trailLength": 35,
+        "intercept": 1,
+        "ballisticIntercept": true,
+        "loadingtime": 1,
+        "guns": 3,
+        "priority": 3,
+        "rangePenalty": 3,
+        "fireControl": [
+            3,
+            1,
+            1
+        ],
+        "damageFormula": "Dice::d(6, 1)+3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusRCIDS",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            206,
+            206,
+            83
+        ],
+        "name": "NexusRCIDS",
+        "displayName": "Rapid Close-In Defense System",
+        "iconPath": "NexusRCIDS.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            245,
+            44
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 10,
+        "animationWidth": 2,
+        "trailLength": 35,
+        "intercept": 1,
+        "ballisticIntercept": true,
+        "loadingtime": 1,
+        "guns": 2,
+        "priority": 3,
+        "rangePenalty": 3,
+        "fireControl": [
+            3,
+            1,
+            1
+        ],
+        "damageFormula": "Dice::d(6, 1)+3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusCIDS",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            206,
+            206,
+            83
+        ],
+        "name": "NexusCIDS",
+        "displayName": "Close-In Defense System",
+        "iconPath": "NexusRCIDS.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            245,
+            44
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 10,
+        "animationWidth": 2,
+        "trailLength": 35,
+        "intercept": 1,
+        "ballisticIntercept": true,
+        "loadingtime": 1,
+        "guns": 1,
+        "priority": 3,
+        "rangePenalty": 3,
+        "fireControl": [
+            3,
+            1,
+            1
+        ],
+        "damageFormula": "Dice::d(6, 1)+3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusCIDS",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusCIDS",
+        "displayName": "Close-In Defense System",
+        "iconPath": "NexusRCIDS.png",
+        "animation": "trail",
+        "trailLength": 35,
+        "animationWidth": 2,
+        "projectilespeed": 10,
+        "animationExplosionScale": 0.1,
+        "animationColor": [
+            245,
+            245,
+            44
+        ],
+        "trailColor": [
+            206,
+            206,
+            83
+        ],
+        "guns": 1,
+        "loadingtime": 1,
+        "normalload": 1,
+        "priority": 6,
+        "ballisticIntercept": true,
+        "intercept": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            1,
+            1
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "damageFormula": "Dice::d(6, 1)+1",
+        "minDamage": 3,
+        "maxDamage": 3,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusACIDS",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusACIDS",
+        "displayName": "Advanced Close-In Defense System",
+        "iconPath": "NexusACIDS.png",
+        "animation": "trail",
+        "trailLength": 35,
+        "animationWidth": 2,
+        "projectilespeed": 10,
+        "animationExplosionScale": 0.1,
+        "animationColor": [
+            245,
+            245,
+            44
+        ],
+        "trailColor": [
+            206,
+            206,
+            83
+        ],
+        "guns": 1,
+        "loadingtime": 1,
+        "normalload": 1,
+        "priority": 3,
+        "ballisticIntercept": true,
+        "intercept": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            1,
+            1
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "damageFormula": "Dice::d(6, 1)+2",
+        "minDamage": 3,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusAutocannon",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            206,
+            206,
+            83
+        ],
+        "name": "NexusAutocannon",
+        "displayName": "Autocannon",
+        "iconPath": "NexusAutocannon.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            245,
+            44
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 10,
+        "animationWidth": 2,
+        "trailLength": 35,
+        "loadingtime": 1,
+        "guns": 1,
+        "priority": 5,
+        "rangePenalty": 1,
+        "fireControl": [
+            2,
+            3,
+            3
+        ],
+        "damageFormula": "6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusAutocannonFtr",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            206,
+            206,
+            83
+        ],
+        "name": "NexusAutocannonFtr",
+        "displayName": "Light Autocannon",
+        "iconPath": "NexusAutocannon.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            245,
+            44
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 10,
+        "animationWidth": 2,
+        "trailLength": 35,
+        "loadingtime": 2,
+        "guns": 1,
+        "priority": 8,
+        "ammunition": 6,
+        "rangePenalty": 1.5,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageFormula": "6",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "NexusAutogun",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            206,
+            206,
+            83
+        ],
+        "name": "NexusAutogun",
+        "displayName": "Autogun",
+        "iconPath": "NexusAutocannon.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            245,
+            44
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 10,
+        "animationWidth": 2,
+        "trailLength": 35,
+        "loadingtime": 1,
+        "guns": 1,
+        "priority": 5,
+        "ammunition": 6,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(3, 2)",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "NexusHeavySentryGun",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            206,
+            206,
+            83
+        ],
+        "name": "NexusHeavySentryGun",
+        "displayName": "Heavy Sentry Gun",
+        "iconPath": "NexusHeavySentryGun.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            245,
+            44
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 10,
+        "animationWidth": 2,
+        "trailLength": 35,
+        "loadingtime": 3,
+        "priority": 8,
+        "rangePenalty": 0.66,
+        "fireControl": [
+            -2,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(6, 4)",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusMedSentryGun",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            206,
+            206,
+            83
+        ],
+        "name": "NexusMedSentryGun",
+        "displayName": "Medium Sentry Gun",
+        "iconPath": "NexusMedSentryGun.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            245,
+            44
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 10,
+        "animationWidth": 2,
+        "trailLength": 35,
+        "loadingtime": 3,
+        "priority": 8,
+        "rangePenalty": 1.0,
+        "fireControl": [
+            -2,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(6, 3)",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightSentryGun",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            206,
+            206,
+            83
+        ],
+        "name": "NexusLightSentryGun",
+        "displayName": "Light Sentry Gun",
+        "iconPath": "NexusLightSentryGun.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            245,
+            44
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 10,
+        "animationWidth": 2,
+        "trailLength": 35,
+        "loadingtime": 2,
+        "priority": 8,
+        "rangePenalty": 1,
+        "fireControl": [
+            -1,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(6, 2)",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusDualParticleBeam",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusDualParticleBeam",
+        "displayName": "Dual Particle Beam",
+        "iconPath": "NexusDualParticleBeam.png",
+        "animation": "trail",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 1,
+        "guns": 2,
+        "priority": 5,
+        "intercept": 2,
+        "rangePenalty": 1,
+        "fireControl": [
+            4,
+            4,
+            4
+        ],
+        "damageFormula": "Dice::d(10, 1)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusTwinParticleBeam",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusTwinParticleBeam",
+        "displayName": "Twin Particle Beam",
+        "iconPath": "NexusTwinParticleBeam.png",
+        "animation": "trail",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 1,
+        "guns": 2,
+        "priority": 5,
+        "intercept": 2,
+        "rangePenalty": 1,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightParticleArray",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusLightParticleArray",
+        "displayName": "Light Particle Array",
+        "iconPath": "NexusLightParticleArray.png",
+        "animation": "trail",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 1,
+        "priority": 4,
+        "intercept": 2,
+        "guns": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(3, 2)+1",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusFighterArray",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusFighterArray",
+        "displayName": "Fighter Array",
+        "iconPath": "NexusLightParticleArray.png",
+        "animation": "trail",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 12,
+        "animationWidth": 2,
+        "trailLength": 10,
+        "intercept": 2,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(3, 2)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "NexusFighterArray",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusFighterArray",
+        "displayName": "Fighter Array",
+        "iconPath": "NexusLightParticleArray.png",
+        "animation": "trail",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "trailLength": 6,
+        "loadingtime": 1,
+        "priority": 4,
+        "intercept": 2,
+        "guns": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(3, 2)+1",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "NexusParticleArray",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusParticleArray",
+        "displayName": "Particle Array",
+        "iconPath": "NexusParticleArray.png",
+        "animation": "beam",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 1,
+        "priority": 4,
+        "intercept": 2,
+        "guns": 2,
+        "rangePenalty": 1,
+        "fireControl": [
+            3,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(3, 2)+3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusHeavyParticleArray",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusHeavyParticleArray",
+        "displayName": "Heavy Particle Array",
+        "iconPath": "NexusHeavyParticleArray.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 1,
+        "priority": 5,
+        "intercept": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(3, 2)+7",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusGatlingParticleArray",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusGatlingParticleArray",
+        "displayName": "Gatling Particle Array",
+        "iconPath": "NexusGatlingParticleArray.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 1,
+        "priority": 5,
+        "intercept": 3,
+        "guns": 2,
+        "rangePenalty": 1,
+        "fireControl": [
+            2,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(3, 2)+5",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusParticleBolt",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusParticleBolt",
+        "displayName": "Particle Bolt",
+        "iconPath": "NexusParticleBolt.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 1,
+        "priority": 5,
+        "intercept": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            2,
+            1
+        ],
+        "damageFormula": "Dice::d(10, 1)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusTwinBolt",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusTwinBolt",
+        "displayName": "Twin Bolt",
+        "iconPath": "NexusTwinBolt.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 1,
+        "priority": 5,
+        "intercept": 2,
+        "guns": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            2,
+            1
+        ],
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusImprovedParticleBeam",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusImprovedParticleBeam",
+        "displayName": "Improved Particle Beam",
+        "iconPath": "NexusImprovedParticleBeam.png",
+        "animation": "beam",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 1,
+        "priority": 4,
+        "intercept": 2,
+        "rangePenalty": 1,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusMinigun",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusMinigun",
+        "displayName": "Minigun",
+        "iconPath": "NexusMinigun.png",
+        "animationArray": [
+            "trail",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                245,
+                245,
+                44
+            ],
+            [
+                245,
+                245,
+                44
+            ]
+        ],
+        "trailLength": 5,
+        "animationWidth": 4,
+        "projectilespeed": 18,
+        "animationExplosionScale": 0.1,
+        "rof": 3,
+        "groupingArray": [
+            25,
+            0
+        ],
+        "maxpulses": 6,
+        "priorityArray": [
+            4,
+            7
+        ],
+        "defaultShotsArray": [
+            6,
+            1
+        ],
+        "loadingtimeArray": [
+            1,
+            1
+        ],
+        "rangePenaltyArray": [
+            2,
+            2
+        ],
+        "intercept": 1,
+        "ballisticIntercept": true,
+        "firingModes": [
+            "Burst",
+            "Concentrated"
+        ],
+        "fireControlArray": [
+            [
+                3,
+                2,
+                2
+            ],
+            [
+                1,
+                0,
+                0
+            ]
+        ],
+        "damageTypeArray": [
+            "Pulse",
+            "Standard"
+        ],
+        "weaponClassArray": [
+            "Matter",
+            "Matter"
+        ],
+        "damageFormula": "switch($this->firingMode){ \r\n            \tcase 1:\r\n                \t 4\r\n\t\t\t    \t\t\tbreak\r\n            \tcase 2:\r\n            \t   \t Dice::d(3, 1)*4\r\n\t\t\t    \t\t\tbreak",
+        "minDamage": 4,
+        "maxDamage": 4,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusMinigunFtr",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusMinigunFtr",
+        "displayName": "Light Minigun",
+        "iconPath": "NexusMinigun.png",
+        "animationArray": [
+            "trail",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                245,
+                245,
+                44
+            ],
+            [
+                245,
+                245,
+                44
+            ]
+        ],
+        "trailLength": 5,
+        "animationWidth": 4,
+        "projectilespeed": 18,
+        "animationExplosionScale": 0.1,
+        "ammunition": 12,
+        "rof": 3,
+        "groupingArray": [
+            0,
+            0
+        ],
+        "maxpulses": 3,
+        "priorityArray": [
+            4,
+            7
+        ],
+        "defaultShotsArray": [
+            3,
+            1
+        ],
+        "loadingtimeArray": [
+            1,
+            1
+        ],
+        "rangePenaltyArray": [
+            2,
+            2
+        ],
+        "intercept": 1,
+        "ballisticIntercept": true,
+        "firingModes": [
+            "Burst",
+            "Concentrated"
+        ],
+        "fireControlArray": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                -2,
+                -2,
+                -2
+            ]
+        ],
+        "damageTypeArray": [
+            "Pulse",
+            "Standard"
+        ],
+        "weaponClassArray": [
+            "Matter",
+            "Matter"
+        ],
+        "damageFormula": "switch($this->firingMode){ \r\n            \tcase 1:\r\n                \t 3\r\n\t\t\t    \t\t\tbreak\r\n            \tcase 2:\r\n            \t   \t 6\r\n\t\t\t    \t\t\tbreak",
+        "minDamage": 3,
+        "maxDamage": 3,
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "NexusAutocannonDefender",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "name": "NexusAutocannonDefender",
+        "displayName": "Autocannon Defender",
+        "iconPath": "NexusAutocannonDefender.png",
+        "animation": "trail",
+        "trailLength": 12,
+        "animationWidth": 4,
+        "projectilespeed": 9,
+        "animationExplosionScale": 0.1,
+        "loadingtime": 1,
+        "priority": 4,
+        "rangePenalty": 1,
+        "fireControl": [
+            2,
+            2,
+            2
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(6, 2)+1",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusProtector",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusProtector",
+        "displayName": "Protector",
+        "animation": "beam",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 10,
+        "animationWidth": 3,
+        "trailLength": 8,
+        "iconPath": "NexusProtector.png",
+        "canInterceptUninterceptable": true,
+        "intercept": 2,
+        "freeintercept": true,
+        "freeinterceptspecial": true,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            null,
+            null,
+            null
+        ],
+        "priority": 1,
+        "damageFormula": "0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusInterceptorArray",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusInterceptorArray",
+        "displayName": "Interceptor Array",
+        "animation": "beam",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 10,
+        "animationWidth": 3,
+        "trailLength": 8,
+        "iconPath": "NexusInterceptorArray.png",
+        "intercept": 3,
+        "freeintercept": true,
+        "freeinterceptspecial": true,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            4,
+            2,
+            0
+        ],
+        "priority": 4,
+        "damageFormula": "Dice::d(3,2)+5",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusMauler",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "name": "NexusMauler",
+        "displayName": "Mauler",
+        "iconPath": "NexusMauler.png",
+        "animation": "trail",
+        "animationColor": [
+            139,
+            239,
+            250
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 9,
+        "animationWidth": 6,
+        "trailLength": 10,
+        "loadingtime": 2,
+        "exclusive": true,
+        "priority": 4,
+        "rangePenalty": 1,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(6, 2)+6",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "NexusParticleGrid",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusParticleGrid",
+        "displayName": "Particle Grid",
+        "iconPath": "NexusParticleGrid.png",
+        "animation": "beam",
+        "animationColor": [
+            205,
+            200,
+            200
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 10,
+        "animationWidth": 3,
+        "trailLength": 10,
+        "intercept": 2,
+        "loadingtime": 1,
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(6, 1)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusParticleBolter",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "name": "NexusParticleBolter",
+        "displayName": "Particle Bolter",
+        "iconPath": "NexusParticleBolter.png",
+        "animation": "bolt",
+        "animationColor": [
+            204,
+            122,
+            0
+        ],
+        "intercept": 1,
+        "loadingtime": 2,
+        "priority": 4,
+        "rangePenalty": 1,
+        "fireControl": [
+            1,
+            2,
+            2
+        ],
+        "damageFormula": "12",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusSpiker",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusSpiker",
+        "displayName": "Spiker",
+        "iconPath": "NexusSpiker.png",
+        "animation": "trail",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 2,
+        "priority": 8,
+        "ammunition": 10,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -4,
+            3,
+            0
+        ],
+        "damageFormula": "8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusUltralightRailgun",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "name": "NexusUltralightRailgun",
+        "displayName": "Ultralight Railgun",
+        "animation": "trail",
+        "iconPath": "NexusUltralightRailgun.png",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "projectilespeed": 30,
+        "animationWidth": 4,
+        "animationExplosionScale": 0.2,
+        "priority": 6,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            2,
+            2,
+            0
+        ],
+        "damageFormula": "Dice::d(6, 1)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusHeavyCoilgun",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            226,
+            26,
+            20
+        ],
+        "name": "NexusHeavyCoilgun",
+        "displayName": "Heavy Coilgun",
+        "iconPath": "NexusCoilgun.png",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            191,
+            190
+        ],
+        "animationExplosionScale": 0.25,
+        "projectilespeed": 30,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 3,
+        "guns": 1,
+        "priority": 9,
+        "rangePenalty": 0.25,
+        "fireControl": [
+            -4,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 3)+3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusCoilgun",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            226,
+            26,
+            20
+        ],
+        "name": "NexusCoilgun",
+        "displayName": "Coilgun",
+        "iconPath": "NexusCoilgun.png",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            191,
+            190
+        ],
+        "animationExplosionScale": 0.25,
+        "projectilespeed": 20,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 3,
+        "guns": 1,
+        "priority": 9,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -4,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 3)+3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightCoilgun",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            226,
+            26,
+            20
+        ],
+        "name": "NexusLightCoilgun",
+        "displayName": "Light Coilgun",
+        "iconPath": "NexusLightCoilgun.png",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            191,
+            190
+        ],
+        "animationExplosionScale": 0.25,
+        "projectilespeed": 20,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 2,
+        "guns": 1,
+        "priority": 9,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -4,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 2)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusDualSlugCannon",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            11,
+            152,
+            155
+        ],
+        "name": "NexusDualSlugCannon",
+        "displayName": "Dual Slug Cannon",
+        "iconPath": "NexusDualSlugCannon.png",
+        "animation": "trail",
+        "animationColor": [
+            189,
+            250,
+            251
+        ],
+        "animationExplosionScale": 0.25,
+        "projectilespeed": 25,
+        "animationWidth": 2,
+        "trailLength": 5,
+        "loadingtime": 1,
+        "guns": 2,
+        "priority": 6,
+        "ammunition": 40,
+        "rangePenalty": 2,
+        "fireControl": [
+            2,
+            4,
+            0
+        ],
+        "damageFormula": "$dmg = 3\r\n             $dmg",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusMicroCannon",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            11,
+            152,
+            155
+        ],
+        "name": "NexusMicroCannon",
+        "displayName": "Micro Cannon",
+        "iconPath": "NexusMicroCannon.png",
+        "animation": "trail",
+        "animationColor": [
+            189,
+            250,
+            251
+        ],
+        "animationExplosionScale": 0.25,
+        "projectilespeed": 25,
+        "animationWidth": 2,
+        "trailLength": 5,
+        "loadingtime": 1,
+        "guns": 2,
+        "priority": 6,
+        "ammunition": 40,
+        "rangePenalty": 3,
+        "fireControl": [
+            2,
+            4,
+            0
+        ],
+        "damageFormula": "$dmg = 1\r\n             $dmg",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusFletchletteGun",
+        "parentClass": "Pulse",
+        "sourceFile": "customNexus.php",
+        "name": "NexusFletchletteGun",
+        "displayName": "Fletchlette Gun",
+        "iconPath": "NexusFletchletteGun.png",
+        "animation": "trail",
+        "trailLength": 12,
+        "animationWidth": 4,
+        "projectilespeed": 9,
+        "animationExplosionScale": 0.1,
+        "rof": 2,
+        "grouping": 25,
+        "maxpulses": 3,
+        "loadingtime": 2,
+        "intercept": 2,
+        "priority": 9,
+        "rangePenalty": 1,
+        "fireControl": [
+            1,
+            3,
+            0
+        ],
+        "damageType": "Matter",
+        "weaponClass": "Pulse",
+        "damageFormula": "Dice::d(6, 1)+3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusHeavyFletchletteGun",
+        "parentClass": "Pulse",
+        "sourceFile": "customNexus.php",
+        "name": "NexusHeavyFletchletteGun",
+        "displayName": "Heavy Fletchlette Gun",
+        "iconPath": "NexusHeavyFletchletteGun.png",
+        "animation": "trail",
+        "trailLength": 12,
+        "animationWidth": 4,
+        "projectilespeed": 9,
+        "animationExplosionScale": 0.1,
+        "rof": 3,
+        "grouping": 25,
+        "maxpulses": 5,
+        "loadingtime": 3,
+        "priority": 9,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            0,
+            4,
+            0
+        ],
+        "damageType": "Matter",
+        "weaponClass": "Pulse",
+        "damageFormula": "Dice::d(6, 1)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusImpactor",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            226,
+            26,
+            20
+        ],
+        "name": "NexusImpactor",
+        "displayName": "Impactor",
+        "iconPath": "NexusImpactor.png",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            191,
+            190
+        ],
+        "animationExplosionScale": 0.25,
+        "projectilespeed": 20,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 1,
+        "priority": 9,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -3,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightGaussCannon",
+        "parentClass": "MatterCannon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLightGaussCannon",
+        "displayName": "Light Gauss Cannon",
+        "iconPath": "NexusLightGaussCannon.png",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "projectilespeed": 28,
+        "animationWidth": 4,
+        "animationExplosionScale": 0.2,
+        "trailLength": 8,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            -2,
+            2,
+            1
+        ],
+        "damageFormula": "Dice::d(10, 1)+3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightMatterGun",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLightMatterGun",
+        "displayName": "Light Matter Gun",
+        "iconPath": "NexusLightMatterGun.png",
+        "animation": "trail",
+        "trailLength": 12,
+        "animationWidth": 4,
+        "projectilespeed": 9,
+        "animationExplosionScale": 0.1,
+        "loadingtime": 1,
+        "priority": 9,
+        "rangePenalty": 2,
+        "fireControl": [
+            -2,
+            4,
+            0
+        ],
+        "damageType": "Matter",
+        "damageFormula": "Dice::d(6, 1)+0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusMatterGun",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "name": "NexusMatterGun",
+        "displayName": "Matter Gun",
+        "iconPath": "NexusMatterGun.png",
+        "animation": "trail",
+        "trailLength": 12,
+        "animationWidth": 4,
+        "projectilespeed": 9,
+        "animationExplosionScale": 0.1,
+        "loadingtime": 2,
+        "priority": 9,
+        "rangePenalty": 1,
+        "fireControl": [
+            -3,
+            4,
+            0
+        ],
+        "damageType": "Matter",
+        "damageFormula": "Dice::d(6, 1)+8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightGatlingGun",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "customNexus.php",
+        "name": "LightGatlingGun",
+        "displayName": "Light Gatling Guns",
+        "iconPath": "pairedGatlingGun.png",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "projectilespeed": 24,
+        "animationWidth": 2,
+        "trailLength": 12,
+        "animationExplosionScale": 0.15,
+        "shots": 2,
+        "defaultShots": 2,
+        "ammunition": 6,
+        "loadingtime": 1,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "noOverkill": true,
+        "priority": 3,
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "damageFormula": "$dmg = Dice::d(3, 1)\r\n             $dmg",
+        "minDamage": 1,
+        "maxDamage": 3,
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightAssaultCannon",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            190,
+            75,
+            20
+        ],
+        "name": "NexusLightAssaultCannon",
+        "displayName": "Light Assault Cannon",
+        "iconPath": "NexusLightAssaultCannon.png",
+        "animation": "trail",
+        "animationColor": [
+            255,
+            11,
+            11
+        ],
+        "animationExplosionScale": 0.3,
+        "projectilespeed": 12,
+        "animationWidth": 2,
+        "trailLength": 10,
+        "loadingtime": 2,
+        "priority": 5,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            null,
+            1,
+            2
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Projectile",
+        "damageFormula": "Dice::d(10, 2)+7",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusDefenseGun",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            190,
+            75,
+            20
+        ],
+        "name": "NexusDefenseGun",
+        "displayName": "Defense Gun",
+        "iconPath": "NexusDefenseGun.png",
+        "animation": "trail",
+        "animationColor": [
+            255,
+            11,
+            11
+        ],
+        "animationExplosionScale": 0.3,
+        "projectilespeed": 12,
+        "animationWidth": 2,
+        "trailLength": 10,
+        "loadingtime": 1,
+        "priority": 4,
+        "intercept": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            1,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Projectile",
+        "damageFormula": "Dice::d(6, 1)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightAssaultCannon",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLightAssaultCannon",
+        "displayName": "Light Assault Cannon",
+        "iconPath": "NexusLightAssaultCannon.png",
+        "animationArray": [
+            "trail",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                255,
+                11,
+                11
+            ],
+            [
+                124,
+                219,
+                226
+            ]
+        ],
+        "animationWidthArray": [
+            2,
+            2
+        ],
+        "trailColor": [
+            190,
+            75,
+            20
+        ],
+        "trailLength": 10,
+        "projectilespeed": 12,
+        "animationExplosionScaleArray": [
+            0.3,
+            2
+        ],
+        "priorityArray": [
+            7,
+            1
+        ],
+        "uninterceptableArray": [
+            false,
+            false
+        ],
+        "defaultShotsArray": [
+            1,
+            1
+        ],
+        "loadingtimeArray": [
+            3,
+            3
+        ],
+        "rangePenaltyArray": [
+            0.5,
+            0.5
+        ],
+        "fireControlArray": [
+            [
+                null,
+                1,
+                2
+            ],
+            [
+                null,
+                1,
+                2
+            ]
+        ],
+        "firingModes": [
+            "Standard",
+            "Flash"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Flash"
+        ],
+        "weaponClassArray": [
+            "Particle",
+            "Plasma"
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(10, 2)+7 //Standard shot\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t Dice::d(10, 2)+2 //High Explosive shot\r\n\t\t\t\tbreak",
+        "minDamage": 9,
+        "maxDamage": 27,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightAssaultCannonBattery",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLightAssaultCannonBattery",
+        "displayName": "Light Assault Cannon Battery",
+        "iconPath": "NexusLightAssaultCannonBattery.png",
+        "animationArray": [
+            "trail",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                255,
+                11,
+                11
+            ],
+            [
+                124,
+                219,
+                226
+            ]
+        ],
+        "animationWidthArray": [
+            2,
+            2
+        ],
+        "trailColor": [
+            190,
+            75,
+            20
+        ],
+        "trailLength": 10,
+        "projectilespeed": 12,
+        "animationExplosionScaleArray": [
+            0.3,
+            2
+        ],
+        "priorityArray": [
+            7,
+            1
+        ],
+        "uninterceptableArray": [
+            false,
+            false
+        ],
+        "defaultShotsArray": [
+            1,
+            1
+        ],
+        "loadingtimeArray": [
+            2,
+            2
+        ],
+        "rangePenaltyArray": [
+            0.5,
+            0.5
+        ],
+        "fireControlArray": [
+            [
+                null,
+                1,
+                2
+            ],
+            [
+                null,
+                1,
+                2
+            ]
+        ],
+        "firingModes": [
+            "Standard",
+            "Flash"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Flash"
+        ],
+        "weaponClassArray": [
+            "Particle",
+            "Plasma"
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(10, 2)+7 //Standard shot\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t Dice::d(10, 2)+2 //High Explosive shot\r\n\t\t\t\tbreak",
+        "minDamage": 9,
+        "maxDamage": 27,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusAssaultCannon",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            190,
+            75,
+            20
+        ],
+        "name": "NexusAssaultCannon",
+        "displayName": "Assault Cannon",
+        "iconPath": "NexusAssaultCannon.png",
+        "animation": "trail",
+        "animationColor": [
+            255,
+            11,
+            11
+        ],
+        "animationExplosionScale": 0.3,
+        "projectilespeed": 12,
+        "animationWidth": 2,
+        "trailLength": 10,
+        "loadingtime": 4,
+        "priority": 2,
+        "firingModes": [
+            "Piercing"
+        ],
+        "damageType": "Piercing",
+        "weaponClass": "Projectile",
+        "rangePenalty": 0.33,
+        "fireControl": [
+            null,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 2)+24",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusAssaultCannon",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusAssaultCannon",
+        "displayName": "Assault Cannon",
+        "iconPath": "NexusAssaultCannon.png",
+        "animationArray": [
+            "trail",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                255,
+                11,
+                11
+            ],
+            [
+                124,
+                219,
+                226
+            ]
+        ],
+        "animationWidthArray": [
+            2,
+            2
+        ],
+        "trailColor": [
+            190,
+            75,
+            20
+        ],
+        "trailLength": 10,
+        "projectilespeed": 12,
+        "animationExplosionScaleArray": [
+            0.3,
+            2
+        ],
+        "priorityArray": [
+            7,
+            1
+        ],
+        "uninterceptableArray": [
+            false,
+            false
+        ],
+        "defaultShotsArray": [
+            1,
+            1
+        ],
+        "loadingtimeArray": [
+            4,
+            4
+        ],
+        "rangePenaltyArray": [
+            0.33,
+            0.33
+        ],
+        "fireControlArray": [
+            [
+                null,
+                1,
+                2
+            ],
+            [
+                null,
+                1,
+                2
+            ]
+        ],
+        "firingModes": [
+            "Standard",
+            "Flash"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Flash"
+        ],
+        "weaponClassArray": [
+            "Particle",
+            "Plasma"
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(10, 2)+12 //Standard shot\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t Dice::d(10, 2)+6 //High Explosive shot\r\n\t\t\t\tbreak",
+        "minDamage": 14,
+        "maxDamage": 32,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusAssaultCannonBattery",
+        "parentClass": "NexusAssaultCannon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusAssaultCannonBattery",
+        "displayName": "Assault Cannon Battery",
+        "iconPath": "NexusAssaultCannonBattery.png",
+        "loadingtime": 2,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusMedAssaultCannon",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            190,
+            75,
+            20
+        ],
+        "name": "NexusMedAssaultCannon",
+        "displayName": "Medium Assault Cannon",
+        "iconPath": "NexusMedAssaultCannon.png",
+        "animation": "trail",
+        "animationColor": [
+            255,
+            11,
+            11
+        ],
+        "animationExplosionScale": 0.3,
+        "projectilespeed": 12,
+        "animationWidth": 2,
+        "trailLength": 8,
+        "loadingtime": 3,
+        "priority": 2,
+        "firingModes": [
+            "Piercing"
+        ],
+        "damageType": "Piercing",
+        "weaponClass": "Projectile",
+        "rangePenalty": 0.5,
+        "fireControl": [
+            null,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 2)+20",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusHeavyAssaultCannon",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusHeavyAssaultCannon",
+        "displayName": "Heavy Assault Cannon",
+        "iconPath": "NexusHeavyAssaultCannon.png",
+        "animationArray": [
+            "trail",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                255,
+                11,
+                11
+            ],
+            [
+                124,
+                219,
+                226
+            ]
+        ],
+        "animationWidthArray": [
+            3,
+            3
+        ],
+        "trailColor": [
+            190,
+            75,
+            20
+        ],
+        "trailLength": 15,
+        "projectilespeed": 12,
+        "animationExplosionScaleArray": [
+            0.3,
+            2
+        ],
+        "priorityArray": [
+            7,
+            1
+        ],
+        "uninterceptableArray": [
+            false,
+            false
+        ],
+        "defaultShotsArray": [
+            1,
+            1
+        ],
+        "loadingtimeArray": [
+            4,
+            4
+        ],
+        "rangePenaltyArray": [
+            0.33,
+            0.33
+        ],
+        "fireControlArray": [
+            [
+                null,
+                1,
+                2
+            ],
+            [
+                null,
+                1,
+                2
+            ]
+        ],
+        "firingModes": [
+            "Standard",
+            "Flash"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Flash"
+        ],
+        "weaponClassArray": [
+            "Projectile",
+            "Plasma"
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(10, 3)+12 //Standard shot\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t Dice::d(10, 3)+6 //High Explosive shot\r\n\t\t\t\tbreak",
+        "minDamage": 15,
+        "maxDamage": 42,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusHeavyAssaultCannonBattery",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusHeavyAssaultCannonBattery",
+        "displayName": "Heavy Assault Cannon Battery",
+        "iconPath": "NexusHeavyAssaultCannonBattery.png",
+        "animationArray": [
+            "trail",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                255,
+                11,
+                11
+            ],
+            [
+                124,
+                219,
+                226
+            ]
+        ],
+        "animationWidthArray": [
+            3,
+            3
+        ],
+        "trailColor": [
+            190,
+            75,
+            20
+        ],
+        "trailLength": 15,
+        "projectilespeed": 12,
+        "animationExplosionScaleArray": [
+            0.3,
+            2
+        ],
+        "priorityArray": [
+            7,
+            1
+        ],
+        "uninterceptableArray": [
+            false,
+            false
+        ],
+        "defaultShotsArray": [
+            1,
+            1
+        ],
+        "loadingtimeArray": [
+            3,
+            3
+        ],
+        "rangePenaltyArray": [
+            0.33,
+            0.33
+        ],
+        "fireControlArray": [
+            [
+                null,
+                1,
+                2
+            ],
+            [
+                null,
+                1,
+                2
+            ]
+        ],
+        "firingModes": [
+            "Standard",
+            "Flash"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Flash"
+        ],
+        "weaponClassArray": [
+            "Projectile",
+            "Plasma"
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(10, 3)+12 //Standard shot\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t Dice::d(10, 3)+6 //High Explosive shot\r\n\t\t\t\tbreak",
+        "minDamage": 15,
+        "maxDamage": 42,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusSmallXrayLaser",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusSmallXrayLaser",
+        "iconPath": "EWLightLaserBeam.png",
+        "displayName": "Small X-Ray Laser",
+        "animation": "bolt",
+        "animationColor": [
+            0,
+            150,
+            255
+        ],
+        "priority": 3,
+        "uninterceptable": true,
+        "intercept": 2,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(6)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "NexusHeavyMaser",
+        "parentClass": "Laser",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            140,
+            210,
+            255
+        ],
+        "name": "NexusHeavyMaser",
+        "displayName": "Heavy Maser",
+        "iconPath": "HeavyMaser.png",
+        "animation": "laser",
+        "animationColor": [
+            100,
+            30,
+            15
+        ],
+        "priority": 6,
+        "loadingtime": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            0,
+            4,
+            4
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "firingModes": [
+            "Standard"
+        ],
+        "noOverkill": true,
+        "damageFormula": "Dice::d(10, 4)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightMaser",
+        "parentClass": "Laser",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            140,
+            210,
+            255
+        ],
+        "name": "NexusLightMaser",
+        "displayName": "Light Maser",
+        "iconPath": "LightMaser.png",
+        "animation": "laser",
+        "animationColor": [
+            100,
+            30,
+            15
+        ],
+        "priority": 2,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            4,
+            1,
+            1
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "firingModes": [
+            "Standard"
+        ],
+        "noOverkill": true,
+        "damageFormula": "Dice::d(10, 1)+1",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusPointDefenseLaser",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusPointDefenseLaser",
+        "displayName": "Point Defense Laser",
+        "iconPath": "NexusPointDefenseLaser.png",
+        "animationColor": [
+            255,
+            30,
+            30
+        ],
+        "animation": "bolt",
+        "animationExplosionScale": 0.45,
+        "projectilespeed": 17,
+        "animationWidth": 25,
+        "trailLength": 25,
+        "priority": 3,
+        "uninterceptable": true,
+        "loadingtime": 1,
+        "intercept": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(10, 1)+0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusTwinXRayLaser",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusTwinXRayLaser",
+        "displayName": "Twin X-Ray Laser",
+        "iconPath": "NexusTwinXRayLaser.png",
+        "animationColor": [
+            0,
+            150,
+            255
+        ],
+        "animation": "bolt",
+        "animationExplosionScale": 0.45,
+        "projectilespeed": 17,
+        "animationWidth": 25,
+        "trailLength": 25,
+        "priority": 5,
+        "guns": 2,
+        "uninterceptable": true,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            0,
+            2,
+            3
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(6, 2)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusDualXRayLaser",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusDualXRayLaser",
+        "displayName": "Dual X-Ray Laser",
+        "iconPath": "NexusDualXRayLaser.png",
+        "animationColor": [
+            0,
+            150,
+            255
+        ],
+        "animation": "bolt",
+        "animationExplosionScale": 0.45,
+        "projectilespeed": 17,
+        "animationWidth": 25,
+        "trailLength": 25,
+        "priority": 4,
+        "guns": 2,
+        "uninterceptable": true,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(6, 1)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightXRayLaser",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLightXRayLaser",
+        "displayName": "Light X-Ray Laser",
+        "iconPath": "NexusLightXRayLaser.png",
+        "animationColor": [
+            0,
+            150,
+            255
+        ],
+        "animation": "bolt",
+        "animationExplosionScale": 0.45,
+        "projectilespeed": 17,
+        "animationWidth": 25,
+        "trailLength": 25,
+        "priority": 4,
+        "uninterceptable": true,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            4,
+            2,
+            1
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(6, 1)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusXRayLaser",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusXRayLaser",
+        "displayName": "X-Ray Laser",
+        "iconPath": "NexusXRayLaser.png",
+        "animationColor": [
+            0,
+            150,
+            255
+        ],
+        "animation": "bolt",
+        "animationExplosionScale": 0.45,
+        "projectilespeed": 17,
+        "animationWidth": 25,
+        "trailLength": 25,
+        "priority": 5,
+        "uninterceptable": true,
+        "loadingtime": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -1,
+            1,
+            3
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(6, 1)+10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusHeavyXRayLaser",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusHeavyXRayLaser",
+        "displayName": "Heavy X-Ray Laser",
+        "iconPath": "NexusHeavyXRayLaser.png",
+        "animationColor": [
+            0,
+            150,
+            255
+        ],
+        "animation": "bolt",
+        "animationExplosionScale": 0.45,
+        "projectilespeed": 17,
+        "animationWidth": 25,
+        "trailLength": 25,
+        "priority": 6,
+        "uninterceptable": true,
+        "loadingtime": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -3,
+            2,
+            3
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(6, 2)+12",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightChemicalLaser",
+        "parentClass": "Laser",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLightChemicalLaser",
+        "displayName": "Light Chemical Laser",
+        "iconPath": "NexusLightChemicalLaser.png",
+        "animation": "laser",
+        "animationColor": [
+            220,
+            60,
+            120
+        ],
+        "animationWidth": 5,
+        "animationWidth2": 0.5,
+        "priority": 8,
+        "loadingtime": 2,
+        "raking": 8,
+        "rangePenalty": 1,
+        "fireControl": [
+            -2,
+            1,
+            1
+        ],
+        "damageFormula": "Dice::d(10, 2)+3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusMediumChemicalLaser",
+        "parentClass": "Laser",
+        "sourceFile": "customNexus.php",
+        "name": "NexusMediumChemicalLaser",
+        "displayName": "Medium Chemical Laser",
+        "iconPath": "NexusMediumChemicalLaser.png",
+        "animation": "laser",
+        "animationColor": [
+            220,
+            60,
+            120
+        ],
+        "animationWidth": 5,
+        "animationWidth2": 0.5,
+        "priority": 8,
+        "loadingtime": 3,
+        "raking": 8,
+        "rangePenalty": 0.66,
+        "fireControl": [
+            -4,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 3)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusMedChemicalLaserFtr",
+        "parentClass": "Laser",
+        "sourceFile": "customNexus.php",
+        "name": "NexusMedChemicalLaserFtr",
+        "displayName": "Medium Chemical Laser",
+        "iconPath": "NexusMediumChemicalLaser.png",
+        "animation": "laser",
+        "animationColor": [
+            220,
+            60,
+            120
+        ],
+        "animationWidth": 5,
+        "animationWidth2": 0.5,
+        "ammunition": 6,
+        "priority": 8,
+        "loadingtime": 3,
+        "raking": 8,
+        "rangePenalty": 0.66,
+        "fireControl": [
+            -4,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(10, 3)+4",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "NexusHeavyChemicalLaser",
+        "parentClass": "Laser",
+        "sourceFile": "customNexus.php",
+        "name": "NexusHeavyChemicalLaser",
+        "displayName": "Heavy Chemical Laser",
+        "iconPath": "NexusHeavyChemicalLaser.png",
+        "animation": "laser",
+        "animationColor": [
+            220,
+            60,
+            120
+        ],
+        "animationWidth": 5,
+        "animationWidth2": 0.5,
+        "priority": 8,
+        "loadingtime": 4,
+        "raking": 8,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -6,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 4)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightLaserCutter",
+        "parentClass": "Laser",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLightLaserCutter",
+        "displayName": "Light Laser Cutter",
+        "iconPath": "NexusLightLaserCutter.png",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            91,
+            91
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "priority": 8,
+        "loadingtime": 2,
+        "raking": 6,
+        "rangePenalty": 1,
+        "fireControl": [
+            1,
+            1,
+            1
+        ],
+        "damageFormula": "Dice::d(10, 2)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusHeavyLaserCutter",
+        "parentClass": "Laser",
+        "sourceFile": "customNexus.php",
+        "name": "NexusHeavyLaserCutter",
+        "displayName": "Heavy Laser Cutter",
+        "iconPath": "NexusHeavyLaserCutter.png",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            91,
+            91
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "priority": 8,
+        "loadingtime": 4,
+        "raking": 6,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -2,
+            1,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 5)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusInterceptLaser",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusInterceptLaser",
+        "displayName": "Intercept Laser",
+        "iconPath": "NexusInterceptLaser.png",
+        "animationColor": [
+            255,
+            30,
+            30
+        ],
+        "animation": "bolt",
+        "animationExplosionScale": 0.45,
+        "projectilespeed": 17,
+        "animationWidth": 25,
+        "trailLength": 25,
+        "priority": 3,
+        "intercept": 2,
+        "loadingtime": 1,
+        "uninterceptable": true,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(10, 1)+1",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusDualInterceptLaser",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusDualInterceptLaser",
+        "displayName": "Dual Intercept Laser",
+        "iconPath": "NexusDualInterceptLaser.png",
+        "animationColor": [
+            255,
+            30,
+            30
+        ],
+        "animation": "bolt",
+        "animationExplosionScale": 0.45,
+        "projectilespeed": 17,
+        "animationWidth": 25,
+        "trailLength": 25,
+        "priority": 3,
+        "intercept": 2,
+        "loadingtime": 1,
+        "guns": 2,
+        "uninterceptable": true,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(10, 1)+1",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLargeDefenseLaser",
+        "parentClass": "Laser",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLargeDefenseLaser",
+        "displayName": "Large Defense Laser",
+        "animation": "laser",
+        "animationExplosionScale": 0.1,
+        "animationColor": [
+            255,
+            58,
+            31
+        ],
+        "animationWidth": 3,
+        "animationWidth2": 0.2,
+        "iconPath": "NexusLargeDefenseLaser.png",
+        "intercept": 2,
+        "freeintercept": true,
+        "freeinterceptspecial": true,
+        "loadingtime": 2,
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "rangePenalty": 1,
+        "fireControl": [
+            3,
+            2,
+            2
+        ],
+        "priority": 4,
+        "damageFormula": "Dice::d(10, 1)+3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLaserSpear",
+        "parentClass": "LaserLance",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLaserSpear",
+        "displayName": "Laser Spear",
+        "iconPath": "NexusLaserSpear.png",
+        "animation": "laser",
+        "animationColor": [
+            64,
+            123,
+            168
+        ],
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "priority": 8,
+        "priorityArray": [
+            8,
+            2
+        ],
+        "loadingtime": 3,
+        "overloadable": false,
+        "raking": 10,
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "fireControlArray": [
+            [
+                -5,
+                2,
+                3
+            ],
+            [
+                null,
+                -1,
+                -1
+            ]
+        ],
+        "rangePenalty": 0.66,
+        "damageFormula": "Dice::d(10, 3)+3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusHeavyLaserSpear",
+        "parentClass": "LaserLance",
+        "sourceFile": "customNexus.php",
+        "name": "NexusHeavyLaserSpear",
+        "displayName": "Heavy Laser Spear",
+        "iconPath": "NexusHeavyLaserSpear.png",
+        "animation": "laser",
+        "animationColor": [
+            64,
+            123,
+            168
+        ],
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "priority": 8,
+        "priorityArray": [
+            8,
+            2
+        ],
+        "loadingtime": 4,
+        "overloadable": false,
+        "raking": 10,
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "fireControlArray": [
+            [
+                -5,
+                2,
+                3
+            ],
+            [
+                null,
+                -1,
+                -1
+            ]
+        ],
+        "rangePenalty": 0.66,
+        "damageFormula": "Dice::d(10, 4)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusIndustrialLaser",
+        "parentClass": "Laser",
+        "sourceFile": "customNexus.php",
+        "name": "NexusIndustrialLaser",
+        "displayName": "Industrial Laser",
+        "iconPath": "NexusIndustrialLaser.png",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            91,
+            91
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "priority": 7,
+        "loadingtime": 3,
+        "raking": 6,
+        "rangePenalty": 0.66,
+        "fireControl": [
+            -3,
+            0,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 3)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightIndustrialLaser",
+        "parentClass": "Laser",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLightIndustrialLaser",
+        "displayName": "Light Industrial Laser",
+        "iconPath": "NexusLightIndustrialLaser.png",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            91,
+            91
+        ],
+        "animationExplosionScale": 0.16,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "priority": 7,
+        "loadingtime": 2,
+        "raking": 6,
+        "rangePenalty": 1.0,
+        "fireControl": [
+            -3,
+            0,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 2)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightMagGun",
+        "parentClass": "Plasma",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLightMagGun",
+        "displayName": "Light Mag Gun",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            105,
+            0
+        ],
+        "priority": 2,
+        "loadingtime": 3,
+        "rangePenalty": 1,
+        "fireControl": [
+            null,
+            2,
+            6
+        ],
+        "damageType": "Flash",
+        "weaponClass": "Plasma",
+        "firingModes": [
+            "Flash"
+        ],
+        "damageFormula": "Dice::d(10,4)+10",
+        "minDamage": 14,
+        "maxDamage": 50,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightPlasmaGun",
+        "parentClass": "Plasma",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLightPlasmaGun",
+        "displayName": "Light Plasma Gun",
+        "iconPath": "NexusLightPlasmaaGun.png",
+        "animation": "trail",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "trailColor": [
+            75,
+            250,
+            90
+        ],
+        "projectilespeed": 15,
+        "animationWidth": 5,
+        "animationExplosionScale": 0.3,
+        "trailLength": 20,
+        "rangeDamagePenalty": 0.5,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            -3,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(6, 1)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusMediumPlasmaGun",
+        "parentClass": "Plasma",
+        "sourceFile": "customNexus.php",
+        "name": "NexusMediumPlasmaGun",
+        "displayName": "Medium Plasma Gun",
+        "iconPath": "NexusLightPlasmaaGun.png",
+        "animation": "trail",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "trailColor": [
+            75,
+            250,
+            90
+        ],
+        "projectilespeed": 15,
+        "animationWidth": 5,
+        "animationExplosionScale": 0.3,
+        "trailLength": 20,
+        "rangeDamagePenalty": 0.5,
+        "loadingtime": 2,
+        "rangePenalty": 1.5,
+        "fireControl": [
+            -4,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 2)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusHeavyPlasmaGun",
+        "parentClass": "Plasma",
+        "sourceFile": "customNexus.php",
+        "name": "NexusHeavyPlasmaGun",
+        "displayName": "Heavy Plasma Gun",
+        "iconPath": "NexusHeavyPlasmaaGun.png",
+        "animation": "trail",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "trailColor": [
+            75,
+            250,
+            90
+        ],
+        "projectilespeed": 15,
+        "animationWidth": 5,
+        "animationExplosionScale": 0.3,
+        "trailLength": 20,
+        "rangeDamagePenalty": 0.5,
+        "loadingtime": 3,
+        "rangePenalty": 1,
+        "fireControl": [
+            -5,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(10,3)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusChargedPlasmaGun",
+        "parentClass": "Plasma",
+        "sourceFile": "customNexus.php",
+        "name": "NexusChargedPlasmaGun",
+        "displayName": "Charged Plasma Gun",
+        "iconPath": "NexusChargedPlasmaGun.png",
+        "trailColor": [
+            75,
+            250,
+            90
+        ],
+        "animation": "ball",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "projectilespeed": 10,
+        "animationWidth": 4,
+        "animationExplosionScale": 0.9,
+        "trailLength": 8,
+        "rangeDamagePenalty": 0.33,
+        "intercept": 0,
+        "rangeDamagePenaltyHCPG": 0.33,
+        "priority": 1,
+        "loadingtime": 2,
+        "boostable": true,
+        "boostEfficiency": 3,
+        "maxBoostLevel": 1,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            null,
+            2,
+            3
+        ],
+        "damageType": "Flash",
+        "weaponClass": "Plasma",
+        "damageFormula": "$add = $this->getExtraDicebyBoostlevel($fireOrder->turn)\r\n            $dmg = Dice::d(10, (2 + $add))+4\r\n             $dmg",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusHeavyChargedPlasmaGun",
+        "parentClass": "Plasma",
+        "sourceFile": "customNexus.php",
+        "name": "NexusHeavyChargedPlasmaGun",
+        "displayName": "Heavy Charged Plasma Gun",
+        "iconPath": "NexusHeavyChargedPlasmaGun.png",
+        "trailColor": [
+            75,
+            250,
+            90
+        ],
+        "animation": "ball",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "projectilespeed": 10,
+        "animationWidth": 5,
+        "animationExplosionScale": 1,
+        "trailLength": 10,
+        "rangeDamagePenalty": 0.5,
+        "intercept": 0,
+        "rangeDamagePenaltyHCPG": 0.5,
+        "priority": 1,
+        "loadingtime": 3,
+        "boostable": true,
+        "boostEfficiency": 3,
+        "maxBoostLevel": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            null,
+            2,
+            3
+        ],
+        "damageType": "Flash",
+        "weaponClass": "Plasma",
+        "damageFormula": "$add = $this->getExtraDicebyBoostlevel($fireOrder->turn)\r\n            $dmg = Dice::d(10, (2 + $add))+4\r\n             $dmg",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusEarlyPlasmaWave",
+        "parentClass": "Torpedo",
+        "sourceFile": "customNexus.php",
+        "name": "NexusEarlyPlasmaWave",
+        "displayName": "Early Plasma Wave",
+        "iconPath": "plasmaWaveTorpedo.png",
+        "range": 20,
+        "loadingtime": 3,
+        "weaponClass": "Plasma",
+        "damageType": "Flash",
+        "fireControl": [
+            null,
+            0,
+            2
+        ],
+        "trailColor": [
+            75,
+            230,
+            90
+        ],
+        "animation": "torpedo",
+        "animationColor": [
+            75,
+            230,
+            90
+        ],
+        "animationExplosionScale": 0.3,
+        "projectilespeed": 11,
+        "animationWidth": 10,
+        "trailLength": 10,
+        "priority": 1,
+        "damageFormula": "Dice::d(10, 2)",
+        "minDamage": 2,
+        "maxDamage": 20,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusRangedEarlyPlasmaWave",
+        "parentClass": "Torpedo",
+        "sourceFile": "customNexus.php",
+        "name": "NexusRangedEarlyPlasmaWave",
+        "displayName": "Ranged Early Plasma Wave",
+        "iconPath": "plasmaWaveTorpedo.png",
+        "range": 40,
+        "loadingtime": 3,
+        "weaponClass": "Plasma",
+        "damageType": "Flash",
+        "fireControl": [
+            null,
+            0,
+            2
+        ],
+        "trailColor": [
+            75,
+            230,
+            90
+        ],
+        "animation": "torpedo",
+        "animationColor": [
+            75,
+            230,
+            90
+        ],
+        "animationExplosionScale": 0.3,
+        "projectilespeed": 11,
+        "animationWidth": 10,
+        "trailLength": 10,
+        "priority": 1,
+        "damageFormula": "Dice::d(10, 2)",
+        "minDamage": 2,
+        "maxDamage": 20,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusRangedPlasmaWave",
+        "parentClass": "Torpedo",
+        "sourceFile": "customNexus.php",
+        "name": "NexusRangedPlasmaWave",
+        "displayName": "Ranged Plasma Wave",
+        "iconPath": "plasmaWaveTorpedo.png",
+        "range": 60,
+        "loadingtime": 3,
+        "weaponClass": "Plasma",
+        "damageType": "Flash",
+        "fireControl": [
+            null,
+            0,
+            2
+        ],
+        "trailColor": [
+            75,
+            230,
+            90
+        ],
+        "animation": "torpedo",
+        "animationColor": [
+            75,
+            230,
+            90
+        ],
+        "animationExplosionScale": 0.3,
+        "projectilespeed": 11,
+        "animationWidth": 10,
+        "trailLength": 10,
+        "priority": 1,
+        "damageFormula": "Dice::d(10, 3)",
+        "minDamage": 3,
+        "maxDamage": 30,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusHeavyEnhPlasma",
+        "parentClass": "Plasma",
+        "sourceFile": "customNexus.php",
+        "name": "NexusHeavyEnhPlasma",
+        "displayName": "Heavy Enhanced Plasma",
+        "iconPath": "NexusHeavyEnhPlasma.png",
+        "priority": 6,
+        "rangeDamagePenalty": 0,
+        "rangeDamagePenaltyPBolter": 0.5,
+        "loadingtime": 3,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -4,
+            1,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 2)+10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusMedEnhPlasma",
+        "parentClass": "Plasma",
+        "sourceFile": "customNexus.php",
+        "name": "NexusMedEnhPlasma",
+        "displayName": "Medium Enhanced Plasma",
+        "iconPath": "NexusMediumEnhPlasma.png",
+        "priority": 5,
+        "rangeDamagePenalty": 0,
+        "rangeDamagePenaltyPBolter": 0.66,
+        "loadingtime": 2,
+        "rangePenalty": 0.66,
+        "fireControl": [
+            -4,
+            1,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 2)+7",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightEnhPlasma",
+        "parentClass": "Plasma",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLightEnhPlasma",
+        "displayName": "Light Enhanced Plasma",
+        "iconPath": "NexusLightEnhPlasma.png",
+        "priority": 4,
+        "rangeDamagePenalty": 0,
+        "rangeDamagePenaltyPBolter": 1,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            -4,
+            1,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 1)+5",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLtEnhPlasmaFtr",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLtEnhPlasmaFtr",
+        "displayName": "Light Enhanced Plasma",
+        "iconPath": "lightPlasmalinked.png",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "intercept": 0,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "rangeDamagePenalty": 0,
+        "rangeDamagePenaltyPBolter": 1,
+        "damageBonus": 0,
+        "damageType": "Standard",
+        "weaponClass": "Plasma",
+        "damageFormula": "Dice::d(3, 1)+4",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "NexusIonBeam",
+        "parentClass": "Raking",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusIonBeam",
+        "displayName": "Ion Beam",
+        "animation": "laser",
+        "iconPath": "NexusIonBeam.png",
+        "animationColor": [
+            127,
+            0,
+            255
+        ],
+        "animationExplosionScale": 0.25,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "trailLength": 24,
+        "priority": 8,
+        "loadingtime": 2,
+        "shots": 1,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -2,
+            2,
+            2
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Ion",
+        "firingModes": [
+            "Raking"
+        ],
+        "damageFormula": "Dice::d(10, 2)+5",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusIonGun",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusIonGun",
+        "displayName": "Ion Gun",
+        "iconPath": "NexusIonGun.png",
+        "animation": "trail",
+        "animationColor": [
+            127,
+            0,
+            255
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 16,
+        "animationWidth": 3,
+        "trailLength": 3,
+        "priority": 3,
+        "loadingtime": 1,
+        "intercept": 2,
+        "rangePenalty": 1,
+        "damageType": "Standard",
+        "weaponClass": "Ion",
+        "fireControl": [
+            2,
+            2,
+            2
+        ],
+        "damageFormula": "6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusTwinIonGun",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusTwinIonGun",
+        "displayName": "Twin Ion Gun",
+        "iconPath": "dualIonBolter.png",
+        "animation": "trail",
+        "animationColor": [
+            127,
+            0,
+            255
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 16,
+        "animationWidth": 3,
+        "trailLength": 3,
+        "priority": 3,
+        "loadingtime": 1,
+        "intercept": 2,
+        "rangePenalty": 1,
+        "guns": 2,
+        "damageType": "Standard",
+        "weaponClass": "Ion",
+        "fireControl": [
+            2,
+            2,
+            2
+        ],
+        "damageFormula": "6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightIonGun",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLightIonGun",
+        "displayName": "Light Ion Gun",
+        "animationColor": [
+            127,
+            0,
+            255
+        ],
+        "intercept": 2,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageBonus": 0,
+        "priority": 3,
+        "damageType": "Standard",
+        "weaponClass": "Ion",
+        "damageFormula": "5 +$this->damageBonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damageBonus=0",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "NexusIonBolter",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusIonBolter",
+        "displayName": "Ion Bolter",
+        "iconPath": "NexusIonBolter.png",
+        "animation": "trail",
+        "animationColor": [
+            127,
+            0,
+            255
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 16,
+        "animationWidth": 3,
+        "trailLength": 3,
+        "priority": 3,
+        "loadingtime": 1,
+        "intercept": 2,
+        "rangePenalty": 1,
+        "damageType": "Standard",
+        "weaponClass": "Ion",
+        "fireControl": [
+            2,
+            2,
+            2
+        ],
+        "damageFormula": "8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightIonBolter",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLightIonBolter",
+        "displayName": "Light Ion Bolter",
+        "animationColor": [
+            127,
+            0,
+            255
+        ],
+        "intercept": 2,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageBonus": 0,
+        "priority": 3,
+        "damageType": "Standard",
+        "weaponClass": "Ion",
+        "damageFormula": "7 +$this->damageBonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damageBonus=0",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "NexusLightBurstBeam",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLightBurstBeam",
+        "displayName": "Light Burst Beam",
+        "iconPath": "NexusLightBurstBeam.png",
+        "animation": "laser",
+        "animationColor": [
+            158,
+            240,
+            255
+        ],
+        "trailColor": [
+            158,
+            240,
+            255
+        ],
+        "projectilespeed": 15,
+        "animationWidth": 2,
+        "animationWidth2": 0.2,
+        "animationExplosionScale": 0.1,
+        "trailLength": 30,
+        "noOverkill": true,
+        "loadingtime": 1,
+        "priority": 10,
+        "priorityAFArray": [
+            3
+        ],
+        "rangePenalty": 2,
+        "fireControl": [
+            4,
+            null,
+            null
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Electromagnetic",
+        "damageFormula": "0",
+        "minDamage": 0,
+        "maxDamage": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightChargeCannon",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusLightChargeCannon",
+        "displayName": "Light Charge Cannon",
+        "iconPath": "NexusLightChargeCannon.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "animationWidth": 2,
+        "animationWidth2": 0.2,
+        "intercept": 1,
+        "loadingtime": 1,
+        "priority": 3,
+        "rangePenalty": 1,
+        "fireControl": [
+            3,
+            2,
+            2
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Electromagnetic",
+        "firingModes": [
+            "Standard"
+        ],
+        "damageFormula": "Dice::d(6, 2)+0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusChargeCannon",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusChargeCannon",
+        "displayName": "Charge Cannon",
+        "iconPath": "NexusChargeCannon.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "animationWidth": 2,
+        "animationWidth2": 0.2,
+        "intercept": 2,
+        "loadingtime": 1,
+        "priority": 5,
+        "rangePenalty": 1,
+        "fireControl": [
+            5,
+            2,
+            2
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Electromagnetic",
+        "firingModes": [
+            "Standard"
+        ],
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusSwarmTorpedo",
+        "parentClass": "Pulse",
+        "sourceFile": "customNexus.php",
+        "name": "NexusSwarmTorpedo",
+        "displayName": "Swarm Torpedo",
+        "iconPath": "NexusSwarmTorpedo.png",
+        "useOEW": true,
+        "ballistic": true,
+        "range": 25,
+        "distanceRange": 35,
+        "animation": "trail",
+        "animationColor": [
+            192,
+            192,
+            192
+        ],
+        "trailColor": [
+            215,
+            126,
+            111
+        ],
+        "trailLength": 45,
+        "animationWidth": 2,
+        "projectilespeed": 5,
+        "animationExplosionScale": 0.15,
+        "rof": 2,
+        "grouping": 25,
+        "maxpulses": 4,
+        "priority": 4,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            -1,
+            2,
+            2
+        ],
+        "firingMode": "Ballistic",
+        "damageType": "Pulse",
+        "weaponClass": "Pulse",
+        "damageFormula": "10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusRangedSwarmTorpedo",
+        "parentClass": "Pulse",
+        "sourceFile": "customNexus.php",
+        "name": "NexusRangedSwarmTorpedo",
+        "displayName": "Ranged Swarm Torpedo",
+        "iconPath": "NexusSwarmTorpedo.png",
+        "useOEW": true,
+        "ballistic": true,
+        "range": 50,
+        "distanceRange": 35,
+        "animation": "trail",
+        "animationColor": [
+            192,
+            192,
+            192
+        ],
+        "trailColor": [
+            215,
+            126,
+            111
+        ],
+        "trailLength": 45,
+        "animationWidth": 2,
+        "projectilespeed": 5,
+        "animationExplosionScale": 0.15,
+        "rof": 2,
+        "grouping": 25,
+        "maxpulses": 4,
+        "priority": 4,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            -1,
+            2,
+            2
+        ],
+        "firingMode": "Ballistic",
+        "damageType": "Pulse",
+        "weaponClass": "Pulse",
+        "damageFormula": "12",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusHeavySwarmTorpedo",
+        "parentClass": "Pulse",
+        "sourceFile": "customNexus.php",
+        "name": "NexusHeavySwarmTorpedo",
+        "displayName": "Heavy Swarm Torpedo",
+        "iconPath": "NexusHeavySwarmTorpedo.png",
+        "useOEW": true,
+        "ballistic": true,
+        "range": 25,
+        "distanceRange": 35,
+        "animation": "trail",
+        "animationColor": [
+            192,
+            192,
+            192
+        ],
+        "trailColor": [
+            215,
+            126,
+            111
+        ],
+        "trailLength": 45,
+        "animationWidth": 2,
+        "projectilespeed": 5,
+        "animationExplosionScale": 0.15,
+        "rof": 2,
+        "grouping": 25,
+        "maxpulses": 6,
+        "priority": 4,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            0,
+            3,
+            3
+        ],
+        "firingMode": "Ballistic",
+        "damageType": "Pulse",
+        "weaponClass": "Pulse",
+        "damageFormula": "12",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusDefensePulsar",
+        "parentClass": "Pulse",
+        "sourceFile": "customNexus.php",
+        "name": "NexusDefensePulsar",
+        "displayName": "Defense Pulsar",
+        "iconPath": "NexusDefensePulsar.png",
+        "animation": "trail",
+        "trailLength": 12,
+        "animationWidth": 4,
+        "projectilespeed": 9,
+        "animationExplosionScale": 0.1,
+        "rof": 3,
+        "grouping": 25,
+        "maxpulses": 3,
+        "loadingtime": 1,
+        "intercept": 2,
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            2,
+            1
+        ],
+        "damageFormula": "6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusWaterCaster",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusWaterCaster",
+        "displayName": "Water Caster",
+        "iconPath": "NexusWaterCaster.png",
+        "animation": "ball",
+        "animationExplosionScale": 0.5,
+        "animationColor": [
+            0,
+            0,
+            0
+        ],
+        "animationExplosionType": "AoE",
+        "explosionColor": [
+            75,
+            250,
+            90
+        ],
+        "ballistic": false,
+        "hextarget": true,
+        "hidetarget": false,
+        "priority": 1,
+        "priorityArray": [
+            1,
+            2
+        ],
+        "uninterceptable": true,
+        "doNotIntercept": true,
+        "canInterceptUninterceptable": true,
+        "useOEW": false,
+        "loadingtime": 1,
+        "intercept": 0,
+        "tohitPenalty": 0,
+        "damagePenalty": 0,
+        "range": 100,
+        "rangeArray": [
+            100,
+            3
+        ],
+        "rangePenalty": 0,
+        "rangePenaltyArray": [
+            0,
+            0
+        ],
+        "boostable": true,
+        "boostEfficiency": 1,
+        "maxBoostLevel": 1,
+        "weaponClassArray": [
+            "Standard",
+            "Standard"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Standard"
+        ],
+        "weaponClass": "Standard",
+        "damageType": "Standard",
+        "firingMode": "Defensive",
+        "firingModes": [
+            "Defensive",
+            "Offensive",
+            "///"
+        ],
+        "fireControlArray": [
+            [
+                50,
+                50,
+                50
+            ],
+            [
+                50,
+                null,
+                null
+            ]
+        ],
+        "fireControl": [
+            50,
+            50,
+            50
+        ],
+        "damageFormula": "switch($this->firingMode){ \r\n            \tcase 1:\r\n                \t 0 \r\n\t\t\t    \t\t\tbreak\r\n///            \tcase 2:\r\n///            \t   \t Dice::d(6,1)+2\r\n///\t\t\t    \t\t\tbreak",
+        "minDamage": 0,
+        "maxDamage": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusLightRadCannon",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusLightRadCannon",
+        "displayName": "Light Rad Cannon",
+        "iconPath": "LightRadCannon.png",
+        "animation": "bolt",
+        "animationColor": [
+            150,
+            10,
+            10
+        ],
+        "animationExplosionScale": 0.3,
+        "loadingtime": 2,
+        "noOverkill": true,
+        "rangePenalty": 0.66,
+        "fireControl": [
+            null,
+            1,
+            2
+        ],
+        "intercept": 0,
+        "priority": 2,
+        "firingModes": [
+            "Irradiate"
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Ion",
+        "damageFormula": "0 /*no actual damage, just various effects*/",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightParticleBeamFtr",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "LightParticleBeamFtr",
+        "displayName": "Light Particle Beam",
+        "iconPath": "lightParticleBeamShip.png",
+        "animation": "beam",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.12,
+        "projectilespeed": 12,
+        "animationWidth": 3,
+        "trailLength": 8,
+        "intercept": 2,
+        "loadingtime": 1,
+        "priority": 4,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "HvyParticleGunFtr",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "HvyParticleGunFtr",
+        "displayName": "Heavy Particle Gun",
+        "iconPath": "lightParticleBeamShip.png",
+        "animation": "beam",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.12,
+        "projectilespeed": 12,
+        "animationWidth": 3,
+        "trailLength": 8,
+        "intercept": 2,
+        "loadingtime": 1,
+        "priority": 4,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "NexusParticleGridFtr",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusParticleGridFtr",
+        "displayName": "Particle Grid",
+        "iconPath": "NexusParticleGrid.png",
+        "animation": "beam",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.12,
+        "projectilespeed": 12,
+        "animationWidth": 3,
+        "trailLength": 8,
+        "intercept": 2,
+        "loadingtime": 1,
+        "priority": 4,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(6, 1)+4",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "StdParticleBeamFtr",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "StdParticleBeamFtr",
+        "displayName": "Standard Particle Beam",
+        "iconPath": "stdParticleBeam.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            102,
+            0
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 12,
+        "animationWidth": 3,
+        "trailLength": 10,
+        "intercept": 2,
+        "loadingtime": 1,
+        "priority": 5,
+        "rangePenalty": 1,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(10, 1)+6",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "TwinArrayFtr",
+        "parentClass": "Particle",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "TwinArrayFtr",
+        "displayName": "Twin Array",
+        "iconPath": "twinArray.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 12,
+        "animationWidth": 3,
+        "trailLength": 10,
+        "intercept": 2,
+        "loadingtime": 1,
+        "guns": 2,
+        "priority": 4,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "range": 5,
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "TAFtr8",
+        "parentClass": "TwinArrayFtr",
+        "sourceFile": "customNexus.php",
+        "range": 8
+    },
+    {
+        "className": "NexusLightDefenseGun",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusLightDefenseGun",
+        "displayName": "Light Defense Gun",
+        "iconPath": "NexusLightDefenseGunSingle.png",
+        "animation": "trail",
+        "animationColor": [
+            255,
+            11,
+            11
+        ],
+        "animationExplosionScale": 0.12,
+        "projectilespeed": 12,
+        "animationWidth": 3,
+        "trailLength": 8,
+        "ammunition": 6,
+        "intercept": 1,
+        "loadingtime": 1,
+        "priority": 4,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Projectile",
+        "damageFormula": "Dice::d(6, 1)+3",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "LtPlasmaCannonFtr",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "customNexus.php",
+        "name": "LtPlasmaCannonFtr",
+        "displayName": "Light Plasma Cannon",
+        "iconPath": "lightPlasma.png",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "intercept": 0,
+        "loadingtime": 3,
+        "shots": 1,
+        "defaultShots": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            -5,
+            0,
+            0
+        ],
+        "rangeDamagePenalty": 0.5,
+        "priority": 5,
+        "damageType": "Standard",
+        "weaponClass": "Plasma",
+        "damageFormula": "Dice::d(10,2)+2",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$shots = 1"
+        ]
+    },
+    {
+        "className": "MedPlasmaCannonFtr",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "customNexus.php",
+        "name": "MedPlasmaCannonFtr",
+        "displayName": "Medium Plasma Cannon",
+        "iconPath": "mediumPlasma.png",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "animation": "trail",
+        "trailColor": [
+            75,
+            250,
+            90
+        ],
+        "projectilespeed": 10,
+        "animationWidth": 4,
+        "trailLength": 13,
+        "animationExplosionScale": 0.23,
+        "intercept": 0,
+        "loadingtime": 3,
+        "shots": 1,
+        "defaultShots": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            -5,
+            0,
+            0
+        ],
+        "rangeDamagePenalty": 0.5,
+        "priority": 6,
+        "damageType": "Standard",
+        "weaponClass": "Plasma",
+        "damageFormula": "Dice::d(10,3)+4",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$shots = 1"
+        ]
+    },
+    {
+        "className": "MatterCannonFtr",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "name": "MatterCannonFtr",
+        "displayName": "Matter Cannon",
+        "iconPath": "matterCannon.png",
+        "animation": "bolt",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "priority": 9,
+        "loadingtime": 2,
+        "exclusive": false,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "range": 6,
+        "damageFormula": "Dice::d(10, 2)+2",
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MCFtr8",
+        "parentClass": "MatterCannonFtr",
+        "sourceFile": "customNexus.php",
+        "range": 8
+    },
+    {
+        "className": "BattleLaserFtr",
+        "parentClass": "BattleLaser",
+        "sourceFile": "customNexus.php",
+        "name": "BattleLaserFtr",
+        "displayName": "Battle Laser",
+        "iconPath": "battleLaser.png",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            58,
+            31
+        ],
+        "priority": 7,
+        "fireControlArray": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                null,
+                -6,
+                -6
+            ]
+        ],
+        "range": 12,
+        "damageFormula": "Dice::d(10, 4)+12",
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "GatlingGunFtr",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "GatlingGunFtr",
+        "displayName": "Gatling Gun",
+        "iconPath": "pairedParticleGun.png",
+        "animation": "trail",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 12,
+        "animationWidth": 2,
+        "trailLength": 10,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "ammunition": 6,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "priority": 2,
+        "rangePenalty": 3,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(6)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "NexusRailgunAccelerator",
+        "parentClass": "Matter",
+        "sourceFile": "customNexus.php",
+        "name": "NexusRailgunAccelerator",
+        "displayName": "Railgun Accelerator",
+        "iconPath": "NexusRGAccelerator.png",
+        "loadingtime": 1,
+        "normalload": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -3,
+            2,
+            2
+        ],
+        "damageFormula": "switch($this->turnsloaded){\r\n                case 0:\r\n                case 1:\r\n                     Dice::d(10)+1\r\n\t\t\t    \tbreak\r\n                case 2:\r\n                     Dice::d(10, 2)+2\r\n\t\t\t    \tbreak\r\n                default:\r\n                     Dice::d(10,3)+3\r\n\t\t\t    \tbreak",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "NexusSandCaster",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "NexusSandCaster",
+        "displayName": "Sand Caster",
+        "iconPath": "FlakCannon.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.5,
+        "priority": 1,
+        "intercept": 3,
+        "freeintercept": true,
+        "freeinterceptspecial": true,
+        "loadingtime": 1,
+        "canInterceptUninterceptable": true,
+        "rangePenalty": 2,
+        "fireControl": [
+            4,
+            null,
+            null
+        ],
+        "firingModes": [
+            "Anti-Fighter"
+        ],
+        "damageType": "Flash",
+        "weaponClass": "Matter",
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t Dice::d(10, 1)+5 //Anti-fighter shot\r\n\t\t\t\tbreak\t\r\n\r\n\t\t\tcase 2:\r\n\t\t\t\t 0 //Manual intercept\r\n\t\t\t\tbreak",
+        "minDamage": 6,
+        "maxDamage": 15,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AmmoMag",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "AmmoMag",
+        "displayName": "Ammo Magazine",
+        "iconPath": "AmmoMagazine.png",
+        "fireControl": [
+            null,
+            null,
+            null
+        ],
+        "isPrimaryTargetable": false,
+        "isTargetable": false,
+        "weapon": false,
+        "damageType": "Flash",
+        "weaponClass": "Ballistic",
+        "damageFormula": "0",
+        "minDamage": 0,
+        "maxDamage": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth"
+        ]
+    },
+    {
+        "className": "NexusTestBlaster",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusTestBlaster",
+        "displayName": "Test Blaster",
+        "iconPath": "NexusParticleBolt.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 1,
+        "priority": 5,
+        "intercept": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            2,
+            1
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Standard"
+        ],
+        "grouping": 25,
+        "maxpulses": 3,
+        "damageFormula": "$damage = 0\r\n\t\t\t$damage+=(($this->rollPulses($turn, $needed, $rolled)) * 1)\r\n\t\t\t $damage",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "Enveloper",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "Enveloper",
+        "displayName": "Enveloper",
+        "iconPath": "ResonanceGenerator.png",
+        "animation": "laser",
+        "animationColor": [
+            125,
+            125,
+            230
+        ],
+        "animationExplosionScale": 0.6,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            null,
+            2,
+            2
+        ],
+        "intercept": 0,
+        "priority": 1,
+        "noPrimaryHits": true,
+        "damageType": "Standard",
+        "weaponClass": "Electromagnetic",
+        "damageFormula": "10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$aftFacing=false"
+        ]
+    },
+    {
+        "className": "MultiDefenseLauncher",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "name": "MultiDefenseLauncher",
+        "displayName": "ToBeSetInConstructor",
+        "useOEW": false,
+        "ballistic": true,
+        "animation": "trail",
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "trailColor": [
+            141,
+            240,
+            255
+        ],
+        "animationExplosionScale": 0.4,
+        "projectilespeed": 8,
+        "animationWidth": 4,
+        "trailLength": 100,
+        "range": 20,
+        "distanceRange": 60,
+        "firingMode": 1,
+        "rangeMod": 0,
+        "priority": 6,
+        "hits": [],
+        "loadingtime": 1,
+        "iconPath": "ClassDMissileRack.png",
+        "loadingtimeArray": [
+            1,
+            1,
+            1
+        ],
+        "priorityArray": [
+            1,
+            1,
+            4
+        ],
+        "intercept": 6,
+        "ballisticIntercept": true,
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "firingModes": [
+            "Interceptor",
+            "Chaff",
+            "AntiFighter"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Standard",
+            "Standard"
+        ],
+        "fireControlArray": [
+            [
+                null,
+                null,
+                null
+            ],
+            [
+                6,
+                6,
+                6
+            ],
+            [
+                9,
+                6,
+                6
+            ]
+        ],
+        "rangeArray": [
+            20,
+            20,
+            15
+        ],
+        "distanceRangeArray": [
+            60,
+            60,
+            45
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1: //Anti-missile\r\n\t\t\t\t 0 \r\n\t\t\t\tbreak\r\n\t\t\tcase 2: //Chaff\r\n\t\t\t\t 0 \r\n\t\t\t\tbreak\r\n\t\t\tcase 3: //Anti-Fighter\r\n\t\t\t\t 15 \r\n\t\t\t\tbreak\r\n\t\t\tdefault: \r\n\t\t\t\t 0 \r\n\t\t\t\tbreak",
+        "minDamage": 0,
+        "maxDamage": 0,
+        "constructorParams": [
+            "$armour",
+            "$launcherType",
+            "$startArc",
+            "$endArc",
+            "$base=false"
+        ]
+    },
+    {
+        "className": "TestGun1",
+        "parentClass": "Weapon",
+        "sourceFile": "customNexus.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "NexusImprovedParticleBeam",
+        "displayName": "Improved Particle Beam",
+        "iconPath": "NexusImprovedParticleBeam.png",
+        "animation": "beam",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "loadingtime": 1,
+        "priority": 4,
+        "intercept": 2,
+        "rangePenalty": 1,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "damageFormula": "5",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TestGun2a",
+        "parentClass": "TestGun1",
+        "sourceFile": "customNexus.php",
+        "weaponClass": "Laser"
+    },
+    {
+        "className": "TestGun3",
+        "parentClass": "TestGun1",
+        "sourceFile": "customNexus.php",
+        "weaponClass": "Antimatter"
+    },
+    {
+        "className": "TestGun4",
+        "parentClass": "TestGun1",
+        "sourceFile": "customNexus.php",
+        "weaponClass": "Projectile"
+    },
+    {
+        "className": "TestGun5",
+        "parentClass": "TestGun1",
+        "sourceFile": "customNexus.php",
+        "weaponClass": "Plasma"
+    },
+    {
+        "className": "TestGun6",
+        "parentClass": "TestGun1",
+        "sourceFile": "customNexus.php",
+        "weaponClass": "Electromagnetic"
+    },
+    {
+        "className": "TestGun7",
+        "parentClass": "TestGun1",
+        "sourceFile": "customNexus.php",
+        "weaponClass": "Molecular"
+    }
+]

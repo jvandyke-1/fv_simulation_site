@@ -1,0 +1,23 @@
+[
+    {
+        "id": "the_system_systemBallisticsShip",
+        "name": "Syste$1 $2allistic$1 $2hip",
+        "shipClass": "Medium Ships",
+        "pointCost": 400,
+        "imagePath": "Assets/races/the_system/ships/systemBallisticsShip.png"
+    },
+    {
+        "id": "the_system_systemDrone",
+        "name": "Syste$1 $2rone",
+        "shipClass": "Medium Ships",
+        "pointCost": 400,
+        "imagePath": "Assets/races/the_system/ships/systemDrone.png"
+    },
+    {
+        "id": "the_system_systemDrone_large",
+        "name": "Syste$1 $2rone Large",
+        "shipClass": "Medium Ships",
+        "pointCost": 400,
+        "imagePath": "Assets/races/the_system/ships/systemDrone_large.png"
+    }
+]

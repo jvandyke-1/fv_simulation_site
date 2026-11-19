@@ -1,0 +1,269 @@
+[
+    {
+        "className": "IonBolt",
+        "parentClass": "Weapon",
+        "sourceFile": "ion.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "ionBolt",
+        "displayName": "Ion Bolt",
+        "animation": "bolt",
+        "animationColor": [
+            127,
+            0,
+            255
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 12,
+        "animationWidth": 3,
+        "trailLength": 20,
+        "priority": 6,
+        "loadingtime": 2,
+        "shots": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            -4,
+            0,
+            0
+        ],
+        "exclusive": true,
+        "damageType": "Standard",
+        "weaponClass": "Ion",
+        "damageFormula": "Dice::d(6, 3)",
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "IonCannon",
+        "parentClass": "Raking",
+        "sourceFile": "ion.php",
+        "name": "ionCannon",
+        "displayName": "Ion Cannon",
+        "animation": "laser",
+        "animationColor": [
+            127,
+            0,
+            255
+        ],
+        "animationExplosionScale": 0.25,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "trailLength": 24,
+        "priority": 8,
+        "intercept": 1,
+        "loadingtime": 2,
+        "shots": 1,
+        "rangePenalty": 0.25,
+        "fireControl": [
+            0,
+            2,
+            2
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Ion",
+        "firingModes": [
+            "Raking"
+        ],
+        "damageFormula": "Dice::d(10, 2)+10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ImprovedIonCannon",
+        "parentClass": "Raking",
+        "sourceFile": "ion.php",
+        "name": "improvedIonCannon",
+        "displayName": "Improved Ion Cannon",
+        "animation": "laser",
+        "animationColor": [
+            127,
+            0,
+            255
+        ],
+        "animationExplosionScale": 0.25,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "intercept": 1,
+        "priority": 8,
+        "loadingtime": 2,
+        "shots": 1,
+        "rangePenalty": 0.25,
+        "fireControl": [
+            0,
+            2,
+            2
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Ion",
+        "firingModes": [
+            "Raking"
+        ],
+        "damageFormula": "Dice::d(10, 2)+15",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "Ionizer",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "ion.php",
+        "name": "Ionizer",
+        "iconPath": "ionizer2.png",
+        "displayName": "Ionizer",
+        "animation": "bolt",
+        "animationColor": [
+            160,
+            0,
+            255
+        ],
+        "animationExplosionScale": 0.1,
+        "animationWidth": 2,
+        "animationWidth2": 0.2,
+        "priority": 3,
+        "intercept": 0,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "uninterceptable": true,
+        "damageType": "Standard",
+        "weaponClass": "Ion",
+        "damageFormula": "Dice::d(3,2)+2",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "IonizerHvy",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "ion.php",
+        "name": "IonizerHvy",
+        "iconPath": "ionizerHvy2.png",
+        "displayName": "Heavy Ionizer",
+        "animation": "bolt",
+        "animationColor": [
+            160,
+            0,
+            255
+        ],
+        "animationExplosionScale": 0.1,
+        "animationWidth": 2,
+        "animationWidth2": 0.2,
+        "priority": 5,
+        "intercept": 0,
+        "loadingtime": 2,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            -3,
+            0,
+            0
+        ],
+        "exclusive": true,
+        "uninterceptable": true,
+        "damageType": "Standard",
+        "weaponClass": "Ion",
+        "damageFormula": "Dice::d(3,3)+3",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "IonicLaser",
+        "parentClass": "Laser",
+        "sourceFile": "ion.php",
+        "name": "IonicLaser",
+        "iconPath": "ionicLaser.png",
+        "displayName": "Ionic Laser",
+        "animation": "laser",
+        "animationColor": [
+            160,
+            0,
+            255
+        ],
+        "animationExplosionScale": 0.18,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "priority": 8,
+        "loadingtime": 2,
+        "raking": 10,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -3,
+            2,
+            3
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Ion",
+        "damageFormula": "Dice::d(10, 3)+8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "DualIonBolter",
+        "parentClass": "Weapon",
+        "sourceFile": "ion.php",
+        "name": "DualIonBolter",
+        "displayName": "Dual Ion Bolter",
+        "iconPath": "dualIonBolter.png",
+        "animation": "trail",
+        "animationColor": [
+            127,
+            0,
+            255
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 16,
+        "animationWidth": 3,
+        "trailLength": 3,
+        "priority": 3,
+        "loadingtime": 1,
+        "intercept": 2,
+        "rangePenalty": 1,
+        "guns": 2,
+        "damageType": "Standard",
+        "weaponClass": "Ion",
+        "fireControl": [
+            2,
+            2,
+            2
+        ],
+        "damageFormula": "8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "className": "LinkedWeapon",
+        "parentClass": "Weapon",
+        "sourceFile": "linkedWeapon.php",
+        "isLinked": true,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    }
+]

@@ -1,0 +1,1030 @@
+[
+    {
+        "className": "Plasma",
+        "parentClass": "Weapon",
+        "sourceFile": "plasma.php",
+        "priority": 6,
+        "damageType": "Standard",
+        "weaponClass": "Plasma",
+        "animation": "bolt",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "PlasmaAccelerator",
+        "parentClass": "Plasma",
+        "sourceFile": "plasma.php",
+        "name": "plasmaAccelerator",
+        "displayName": "Plasma Accelerator",
+        "animation": "trail",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "trailColor": [
+            75,
+            250,
+            90
+        ],
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "animationExplosionScale": 0.4,
+        "trailLength": 30,
+        "rangeDamagePenalty": 1,
+        "loadingtime": 1,
+        "normalload": 3,
+        "rangePenalty": 1,
+        "fireControl": [
+            -4,
+            1,
+            3
+        ],
+        "damageFormula": "switch($this->turnsloaded){\r\n                case 0:\r\n                case 1:\r\n                     Dice::d(10)+4\r\n\t\t\t    \tbreak\r\n                case 2:\r\n                     Dice::d(10, 2)+8\r\n\t\t\t    \tbreak\r\n                default:\r\n                     Dice::d(10,4)+12\r\n\t\t\t    \tbreak",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MagGun",
+        "parentClass": "Plasma",
+        "sourceFile": "plasma.php",
+        "name": "magGun",
+        "displayName": "Mag Gun",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            105,
+            0
+        ],
+        "trailColor": [
+            255,
+            140,
+            60
+        ],
+        "projectilespeed": 10,
+        "animationWidth": 6,
+        "animationExplosionScale": 0.9,
+        "trailLength": 30,
+        "priority": 2,
+        "loadingtime": 3,
+        "rangePenalty": 1,
+        "fireControl": [
+            null,
+            2,
+            6
+        ],
+        "damageType": "Flash",
+        "weaponClass": "Plasma",
+        "firingModes": [
+            "Flash"
+        ],
+        "damageFormula": "Dice::d(10,8)+10",
+        "minDamage": 18,
+        "maxDamage": 90,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HeavyPlasma",
+        "parentClass": "Plasma",
+        "sourceFile": "plasma.php",
+        "name": "heavyPlasma",
+        "displayName": "Heavy Plasma Cannon",
+        "animation": "trail",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "trailColor": [
+            75,
+            250,
+            90
+        ],
+        "projectilespeed": 15,
+        "animationWidth": 5,
+        "animationExplosionScale": 0.3,
+        "trailLength": 20,
+        "rangeDamagePenalty": 0.5,
+        "loadingtime": 3,
+        "rangePenalty": 0.66,
+        "fireControl": [
+            -5,
+            1,
+            3
+        ],
+        "damageFormula": "Dice::d(10,4)+8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MediumPlasma",
+        "parentClass": "Plasma",
+        "sourceFile": "plasma.php",
+        "name": "mediumPlasma",
+        "displayName": "Medium Plasma Cannon",
+        "animation": "trail",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "trailColor": [
+            75,
+            250,
+            90
+        ],
+        "projectilespeed": 13,
+        "animationWidth": 4,
+        "animationExplosionScale": 0.25,
+        "trailLength": 16,
+        "rangeDamagePenalty": 0.5,
+        "loadingtime": 3,
+        "rangePenalty": 1,
+        "fireControl": [
+            -5,
+            1,
+            3
+        ],
+        "damageFormula": "Dice::d(10,3)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightPlasma",
+        "parentClass": "Plasma",
+        "sourceFile": "plasma.php",
+        "name": "lightPlasma",
+        "displayName": "Light Plasma Cannon",
+        "animation": "trail",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "trailColor": [
+            75,
+            250,
+            90
+        ],
+        "projectilespeed": 11,
+        "animationWidth": 3,
+        "trailLength": 12,
+        "animationExplosionScale": 0.2,
+        "rangeDamagePenalty": 0.5,
+        "loadingtime": 2,
+        "rangePenalty": 1,
+        "fireControl": [
+            -5,
+            1,
+            3
+        ],
+        "damageFormula": "Dice::d(10,2)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "PlasmaTorch",
+        "parentClass": "Plasma",
+        "sourceFile": "plasma.php",
+        "iconPath": "plasmaTorch.png",
+        "name": "PlasmaTorch",
+        "displayName": "Plasma Torch",
+        "animation": "trail",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "trailColor": [
+            75,
+            250,
+            90
+        ],
+        "projectilespeed": 15,
+        "animationWidth": 5,
+        "animationExplosionScale": 0.4,
+        "trailLength": 10,
+        "rangeDamagePenalty": 1,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            null,
+            0,
+            2
+        ],
+        "damageFormula": "Dice::d(10,2)+10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "PairedPlasmaBlaster",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "plasma.php",
+        "name": "pairedPlasmaBlaster",
+        "displayName": "Plasma Blaster",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "intercept": 2,
+        "priority": 4,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "rangeDamagePenalty": 1,
+        "damageType": "Standard",
+        "weaponClass": "Plasma",
+        "damageFormula": "Dice::d(3)+2",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "PlasmaGun",
+        "parentClass": "Plasma",
+        "sourceFile": "plasma.php",
+        "name": "plasmaGun",
+        "displayName": "Plasma Gun",
+        "rangeDamagePenalty": 1,
+        "loadingtime": 2,
+        "exlusive": true,
+        "priority": 5,
+        "rangePenalty": 1.5,
+        "fireControl": [
+            -6,
+            4,
+            4
+        ],
+        "damageFormula": "Dice::d(3)+6",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$shots = 1"
+        ]
+    },
+    {
+        "className": "RogolonLtPlasmaGun",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "plasma.php",
+        "name": "RogolonLtPlasmaGun",
+        "displayName": "Light Plasma Gun",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "rangeDamagePenalty": 1,
+        "damageBonus": 5,
+        "priority": 5,
+        "intercept": 2,
+        "damageType": "Standard",
+        "weaponClass": "Plasma",
+        "damageFormula": "Dice::d(3) +$this->damageBonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damageBonus=5",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "RogolonLtPlasmaCannon",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "plasma.php",
+        "name": "RogolonLtPlasmaCannon",
+        "displayName": "Light Plasma Cannon",
+        "iconPath": "mediumPlasma.png",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "intercept": 0,
+        "loadingtime": 2,
+        "shots": 1,
+        "defaultShots": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            -5,
+            0,
+            0
+        ],
+        "rangeDamagePenalty": 0.5,
+        "priority": 6,
+        "damageType": "Standard",
+        "weaponClass": "Plasma",
+        "damageFormula": "Dice::d(10,2)+2",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$shots = 1"
+        ]
+    },
+    {
+        "className": "LightPlasmaAccelerator",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "plasma.php",
+        "name": "LightPlasmaAccelerator",
+        "displayName": "Light Plasma Accelerator",
+        "iconPath": "LightPlasmaAccelerator.png",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "intercept": 2,
+        "priority": 5,
+        "priorityArray": [
+            5,
+            6
+        ],
+        "loadingtime": 1,
+        "normalload": 2,
+        "loadingtimeArray": [
+            1,
+            2
+        ],
+        "shots": 2,
+        "defaultShots": 2,
+        "firingModes": [
+            "Standard",
+            "Charged"
+        ],
+        "rangePenalty": 2,
+        "fireControlArray": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                null,
+                0,
+                0
+            ]
+        ],
+        "rangeDamagePenalty": 1,
+        "damageType": "Standard",
+        "weaponClass": "Plasma",
+        "damageFormula": "switch($this->firingMode){ \r\n            \tcase 1:\r\n                \t Dice::d(6)+3\r\n\t\t\t    \t\t\tbreak\r\n            \tcase 2:\r\n            \t   \t Dice::d(6,2)+6\r\n\t\t\t    \t\t\tbreak",
+        "minDamage": 4,
+        "maxDamage": 9,
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "HeavyPlasmaBolter",
+        "parentClass": "Plasma",
+        "sourceFile": "plasma.php",
+        "name": "heavyPlasmaBolter",
+        "displayName": "Heavy Plasma Bolter",
+        "iconPath": "HeavyPlasmaBolter.png",
+        "priority": 6,
+        "rangeDamagePenalty": 0,
+        "rangeDamagePenaltyPBolter": 0.33,
+        "loadingtime": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -4,
+            2,
+            3
+        ],
+        "damageFormula": "22",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MediumPlasmaBolter",
+        "parentClass": "Plasma",
+        "sourceFile": "plasma.php",
+        "name": "mediumPlasmaBolter",
+        "displayName": "Medium Plasma Bolter",
+        "iconPath": "MediumPlasmaBolter.png",
+        "priority": 6,
+        "rangeDamagePenalty": 0,
+        "rangeDamagePenaltyPBolter": 0.5,
+        "loadingtime": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -3,
+            2,
+            3
+        ],
+        "damageFormula": "16",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightPlasmaBolter",
+        "parentClass": "Plasma",
+        "sourceFile": "plasma.php",
+        "name": "lightPlasmaBolter",
+        "displayName": "Light Plasma Bolter",
+        "iconPath": "LightPlasmaBolter.png",
+        "priority": 5,
+        "rangeDamagePenalty": 0,
+        "rangeDamagePenaltyPBolter": 1,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            -2,
+            2,
+            3
+        ],
+        "damageFormula": "10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightPlasmaBolterFighter",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "plasma.php",
+        "name": "LightPlasmaBolterFighter",
+        "displayName": "Light Plasma Bolter",
+        "iconPath": "LightPlasmaBolterFighter.png",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "intercept": 0,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "rangeDamagePenalty": 0,
+        "rangeDamagePenaltyPBolter": 1,
+        "damageBonus": 0,
+        "damageType": "Standard",
+        "weaponClass": "Plasma",
+        "damageFormula": "7",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "DualPlasmaCannon",
+        "parentClass": "Plasma",
+        "sourceFile": "plasma.php",
+        "name": "DualPlasmaCannon",
+        "displayName": "Dual Plasma Cannon",
+        "iconPath": "dualplasmacannon.png",
+        "rangeDamagePenalty": 0.5,
+        "priorityArray": [
+            7,
+            5
+        ],
+        "gunsArray": [
+            1,
+            2
+        ],
+        "loadingtimeArray": [
+            3,
+            3
+        ],
+        "rangePenaltyArray": [
+            0.5,
+            1
+        ],
+        "fireControlArray": [
+            [
+                -5,
+                1,
+                3
+            ],
+            [
+                -5,
+                1,
+                3
+            ]
+        ],
+        "firingModes": [
+            "Dual",
+            "Medium Plasmas"
+        ],
+        "damageTypeArray": [
+            "Plasma",
+            "Plasma"
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(10, 5)+8 //DualPlasma\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t Dice::d(10, 3)+4 //MediumPlasma\r\n\t\t\t\tbreak",
+        "minDamage": 13,
+        "maxDamage": 58,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MegaPlasma",
+        "parentClass": "Plasma",
+        "sourceFile": "plasma.php",
+        "name": "MegaPlasma",
+        "displayName": "Mega Plasma Cannon",
+        "iconPath": "MegaPlasma.png",
+        "rangeDamagePenalty": 0.5,
+        "loadingtime": 4,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -5,
+            1,
+            3
+        ],
+        "damageFormula": "Dice::d(10,6)+12",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "PlasmaProjector",
+        "parentClass": "Raking",
+        "sourceFile": "plasma.php",
+        "name": "PlasmaProjector",
+        "displayName": "Plasma Projector",
+        "iconPath": "PlasmaProjector.png",
+        "animation": "laser",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "priority": 6,
+        "rangeDamagePenalty": 0.25,
+        "loadingtime": 3,
+        "raking": 8,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            null,
+            2,
+            3
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Plasma",
+        "firingModes": [
+            "Raking"
+        ],
+        "damageFormula": "Dice::d(10,4)+5",
+        "minDamage": 9,
+        "maxDamage": 45,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "PlasmaBlast",
+        "parentClass": "Weapon",
+        "sourceFile": "plasma.php",
+        "name": "PlasmaBlast",
+        "displayName": "Plasma Blast",
+        "iconPath": "PlasmaWeb.png",
+        "animation": "ball",
+        "animationColor": [
+            192,
+            192,
+            192
+        ],
+        "trailColor": [
+            192,
+            192,
+            192
+        ],
+        "animationExplosionScale": 0.5,
+        "animationExplosionType": "AoE",
+        "ballistic": false,
+        "hextarget": false,
+        "hidetarget": false,
+        "priority": 1,
+        "uninterceptable": true,
+        "doNotIntercept": true,
+        "canInterceptUninterceptable": true,
+        "useOEW": false,
+        "range": 3,
+        "loadingtime": 1,
+        "rangePenalty": 0,
+        "fireControl": [
+            100,
+            null,
+            null
+        ],
+        "intercept": 2,
+        "firingMode": "AoE",
+        "damageType": "Flash",
+        "weaponClass": "Plasma",
+        "damageFormula": "//             Dice::d(6, 1)+2 \r\n             5",
+        "minDamage": 5,
+        "maxDamage": 5,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "Fuser",
+        "parentClass": "Plasma",
+        "sourceFile": "plasma.php",
+        "name": "Fuser",
+        "displayName": "Fuser",
+        "iconPath": "Fuser.png",
+        "priority": 2,
+        "rangeDamagePenalty": 1,
+        "loadingtime": 5,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            null,
+            3,
+            5
+        ],
+        "damageType": "Flash",
+        "weaponClass": "Plasma",
+        "firingModes": [
+            "Flash"
+        ],
+        "damageFormula": "Dice::d(10,9)+20",
+        "minDamage": 29,
+        "maxDamage": 110,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "RangedFuser",
+        "parentClass": "Plasma",
+        "sourceFile": "plasma.php",
+        "name": "RangedFuser",
+        "displayName": "Ranged Fuser",
+        "iconPath": "RangedFuser.png",
+        "priority": 2,
+        "rangeDamagePenalty": 0.25,
+        "loadingtime": 5,
+        "rangePenalty": 0.25,
+        "fireControl": [
+            null,
+            3,
+            5
+        ],
+        "damageType": "Flash",
+        "weaponClass": "Plasma",
+        "firingModes": [
+            "Flash"
+        ],
+        "damageFormula": "Dice::d(10,6)+12",
+        "minDamage": 18,
+        "maxDamage": 72,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "PakmaraPlasmaWeb",
+        "parentClass": "Weapon",
+        "sourceFile": "plasma.php",
+        "name": "PakmaraPlasmaWeb",
+        "displayName": "Plasma Web",
+        "iconPath": "PlasmaWeb.png",
+        "animation": "ball",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "animationExplosionScale": 0.5,
+        "noProjectile": true,
+        "ballistic": false,
+        "hextarget": true,
+        "hidetarget": false,
+        "factionAge": 4,
+        "priority": 1,
+        "priorityArray": [
+            1,
+            2
+        ],
+        "uninterceptable": true,
+        "doNotIntercept": true,
+        "canInterceptUninterceptable": true,
+        "useOEW": false,
+        "loadingtime": 1,
+        "intercept": 0,
+        "tohitPenalty": 0,
+        "damagePenalty": 0,
+        "range": 100,
+        "rangeArray": [
+            100,
+            3
+        ],
+        "rangePenalty": 0,
+        "rangePenaltyArray": [
+            0,
+            0
+        ],
+        "boostable": true,
+        "boostEfficiency": 1,
+        "maxBoostLevel": 1,
+        "weaponClassArray": [
+            "Plasma",
+            "Plasma"
+        ],
+        "damageTypeArray": [
+            "Plasma",
+            "Plasma"
+        ],
+        "firingMode": "Defensive",
+        "firingModes": [
+            "Defensive Plasma Web",
+            "Anti-Fighter Plasma Web"
+        ],
+        "fireControlArray": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                null,
+                null
+            ]
+        ],
+        "damageFormula": "switch($this->firingMode){ \r\n            \tcase 1:\r\n                \t 0 \r\n\t\t\t    \t\t\tbreak\r\n            \tcase 2:\r\n            \t   \t Dice::d(6,1)+2\r\n\t\t\t    \t\t\tbreak",
+        "minDamage": 0,
+        "maxDamage": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HyperplasmaCutter",
+        "parentClass": "Weapon",
+        "sourceFile": "plasma.php",
+        "name": "HyperplasmaCutter",
+        "displayName": "Hyperplasma Cutter",
+        "iconPath": "HyperplasmaCutter.png",
+        "factionAge": 3,
+        "animation": "laser",
+        "animationColor": [
+            200,
+            60,
+            220
+        ],
+        "loadingtime": 1,
+        "normalload": 2,
+        "raking": 15,
+        "rangeDamagePenalty": 0.33,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            6,
+            6,
+            6
+        ],
+        "firingMode": 1,
+        "firingModes": [
+            "Normal",
+            "Sustained"
+        ],
+        "canSplitShots": true,
+        "canSplitShotsArray": [
+            true,
+            true
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Plasma",
+        "maxDice": 10,
+        "intercept": 1,
+        "overloadturns": 0,
+        "overloadshots": 0,
+        "extraoverloadshots": 0,
+        "damageDice": [],
+        "damageFormula": "$dice = isset($this->damageDice[$fireOrder->id]) ? $this->damageDice[$fireOrder->id] : 1\r\n\t\t Dice::d(10, $dice)",
+        "minDamage": 1,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HyperplasmaMatrix",
+        "parentClass": "Weapon",
+        "sourceFile": "plasma.php",
+        "name": "HyperplasmaMatrix",
+        "displayName": "Hyperplasma Matrix",
+        "iconPath": "HyperplasmaCutter.png",
+        "factionAge": 4,
+        "damageType": "Flash",
+        "weaponClass": "Plasma",
+        "firingModes": [
+            "Flash"
+        ],
+        "raking": 0,
+        "rangePenalty": 1,
+        "loadingtime": 1,
+        "intercept": 2,
+        "animation": "laser",
+        "animationColor": [
+            200,
+            60,
+            220
+        ],
+        "damageDice": [],
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageFormula": "if (isset($this->damageDice[$fireOrder->id])) {\r\n             Dice::d(6, $this->damageDice[$fireOrder->id]) + 12",
+        "minDamage": 14,
+        "maxDamage": 84,
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$dualMount = false"
+        ]
+    },
+    {
+        "className": "PlasmaDriver",
+        "parentClass": "Pulse",
+        "sourceFile": "plasma.php",
+        "name": "PlasmaDriver",
+        "displayName": "Plasma Driver",
+        "iconPath": "PlasmaDriver.png",
+        "factionAge": 4,
+        "animation": "bolt",
+        "animationColor": [
+            75,
+            250,
+            90
+        ],
+        "grouping": 15,
+        "maxpulses": 5,
+        "priority": 6,
+        "loadingtime": 1,
+        "intercept": 2,
+        "rangePenalty": 0.5,
+        "rangeDamagePenalty": 0.5,
+        "fireControl": [
+            6,
+            4,
+            3
+        ],
+        "damageType": "Pulse",
+        "weaponClass": "Plasma",
+        "damageFormula": "22",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "FuserArray",
+        "parentClass": "Plasma",
+        "sourceFile": "plasma.php",
+        "name": "FuserArray",
+        "displayName": "Fuser Array",
+        "iconPath": "FuserArray.png",
+        "priority": 2,
+        "rangeDamagePenalty": 0.66,
+        "factionAge": 4,
+        "loadingtime": 1,
+        "guns": 2,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            0,
+            4,
+            5
+        ],
+        "damageType": "Flash",
+        "weaponClass": "Plasma",
+        "firingModes": [
+            "Normal",
+            "Split"
+        ],
+        "canSplitShots": false,
+        "canSplitShotsArray": [
+            false,
+            true
+        ],
+        "damageFormula": "Dice::d(10, 6)+26",
+        "minDamage": 32,
+        "maxDamage": 86,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    }
+]

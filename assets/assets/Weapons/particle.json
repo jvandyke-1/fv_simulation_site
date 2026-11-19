@@ -1,0 +1,1594 @@
+[
+    {
+        "className": "Particle",
+        "parentClass": "Weapon",
+        "sourceFile": "particle.php",
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            102,
+            0
+        ],
+        "priority": 6,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "StdParticleBeam",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "stdParticleBeam",
+        "displayName": "Standard Particle Beam",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            102,
+            0
+        ],
+        "trailColor": [
+            255,
+            102,
+            0
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 12,
+        "animationWidth": 3,
+        "trailLength": 10,
+        "intercept": 2,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            4,
+            4,
+            4
+        ],
+        "priority": 5,
+        "damageFormula": "Dice::d(10)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "QuadParticleBeam",
+        "parentClass": "StdParticleBeam",
+        "sourceFile": "particle.php",
+        "name": "quadParticleBeam",
+        "displayName": "Quad Particle Beam",
+        "iconPath": "quadParticleBeam.png",
+        "guns": 4,
+        "firingModes": [
+            "Normal",
+            "Split"
+        ],
+        "canSplitShots": false,
+        "canSplitShotsArray": [
+            false,
+            true
+        ],
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ParticleBlaster",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "particleBlaster",
+        "displayName": "Particle Blaster",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            102,
+            0
+        ],
+        "trailColor": [
+            255,
+            102,
+            0
+        ],
+        "animationExplosionScale": 0.25,
+        "projectilespeed": 15,
+        "animationWidth": 5,
+        "trailLength": 10,
+        "priority": 6,
+        "loadingtime": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            0,
+            4,
+            4
+        ],
+        "damageFormula": "Dice::d(10)+12",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ParticleBlasterFtr",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "particleBlasterFtr",
+        "displayName": "Particle Blaster",
+        "iconPath": "particleBlaster.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            102,
+            0
+        ],
+        "trailColor": [
+            255,
+            102,
+            0
+        ],
+        "animationExplosionScale": 0.25,
+        "projectilespeed": 12,
+        "animationWidth": 5,
+        "trailLength": 10,
+        "priority": 6,
+        "loadingtime": 3,
+        "rangePenalty": 1,
+        "fireControl": [
+            -4,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(10)+12",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "AdvParticleBeam",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "advParticleBeam",
+        "displayName": "Advanced Particle Beam",
+        "animation": "beam",
+        "iconPath": "stdParticleBeam.png",
+        "animationColor": [
+            255,
+            102,
+            0
+        ],
+        "trailColor": [
+            255,
+            102,
+            0
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 14,
+        "animationWidth": 5,
+        "trailLength": 10,
+        "priority": 5,
+        "intercept": 2,
+        "loadingtime": 1,
+        "rangePenalty": 0.66,
+        "fireControl": [
+            5,
+            5,
+            5
+        ],
+        "damageFormula": "Dice::d(10)+8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TwinArray",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "twinArray",
+        "displayName": "Twin Array",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "trailColor": [
+            255,
+            163,
+            26
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 12,
+        "animationWidth": 3,
+        "trailLength": 10,
+        "intercept": 2,
+        "loadingtime": 1,
+        "guns": 2,
+        "priority": 4,
+        "rangePenalty": 2,
+        "fireControl": [
+            6,
+            5,
+            4
+        ],
+        "firingModes": [
+            "Normal",
+            "Split"
+        ],
+        "canSplitShots": false,
+        "canSplitShotsArray": [
+            false,
+            true
+        ],
+        "startArcArray": [],
+        "endArcArray": [],
+        "splitArcs": false,
+        "damageFormula": "Dice::d(10)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$startArc2 = null",
+            "$endArc2 = null"
+        ]
+    },
+    {
+        "className": "HeavyArray",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "heavyArray",
+        "displayName": "Heavy Array",
+        "animation": "bolt",
+        "intercept": 2,
+        "loadingtime": 1,
+        "guns": 2,
+        "priority": 6,
+        "rangePenalty": 1,
+        "fireControl": [
+            2,
+            3,
+            4
+        ],
+        "firingModes": [
+            "Normal",
+            "Split"
+        ],
+        "canSplitShots": false,
+        "canSplitShotsArray": [
+            false,
+            true
+        ],
+        "damageFormula": "Dice::d(10, 2)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HeavyParticleBeam",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "HeavyParticleBeam",
+        "displayName": "Heavy Particle Beam",
+        "animation": "bolt",
+        "iconPath": "HeavyParticleBeam.png",
+        "guns": 1,
+        "intercept": 2,
+        "loadingtime": 1,
+        "priority": 6,
+        "rangePenalty": 1,
+        "fireControl": [
+            2,
+            3,
+            4
+        ],
+        "damageFormula": "Dice::d(10, 2)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ParticleCannon",
+        "parentClass": "Raking",
+        "sourceFile": "particle.php",
+        "name": "particleCannon",
+        "displayName": "Particle Cannon",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "trailColor": [
+            255,
+            163,
+            26
+        ],
+        "animationExplosionScale": 0.25,
+        "animationWidth": 4,
+        "animationWidth2": 0.3,
+        "intercept": 1,
+        "loadingtime": 2,
+        "priority": 8,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            2,
+            4,
+            5
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Raking"
+        ],
+        "damageFormula": "Dice::d(10, 2)+15",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightParticleCannon",
+        "parentClass": "Raking",
+        "sourceFile": "particle.php",
+        "name": "lightParticleCannon",
+        "displayName": "Light Particle Cannon",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "trailColor": [
+            255,
+            163,
+            26
+        ],
+        "animationExplosionScale": 0.2,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "intercept": 2,
+        "loadingtime": 2,
+        "priority": 8,
+        "rangePenalty": 1,
+        "fireControl": [
+            0,
+            2,
+            4
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Raking"
+        ],
+        "damageFormula": "Dice::d(10, 2)+8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HvyParticleCannon",
+        "parentClass": "Raking",
+        "sourceFile": "particle.php",
+        "name": "hvyParticleCannon",
+        "displayName": "Heavy Particle Cannon",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "animationColor2": [
+            255,
+            163,
+            26
+        ],
+        "trailColor": [
+            255,
+            163,
+            26
+        ],
+        "animationExplosionScale": 0.45,
+        "animationWidth": 7,
+        "priority": 7,
+        "loadingtime": 6,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            0,
+            4,
+            6
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Raking"
+        ],
+        "damageFormula": "Dice::d(10, 6)+60",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ParticleCutter",
+        "parentClass": "Raking",
+        "sourceFile": "particle.php",
+        "name": "particleCutter",
+        "displayName": "Particle Cutter",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            153,
+            102
+        ],
+        "trailColor": [
+            255,
+            153,
+            102
+        ],
+        "animationExplosionScale": 0.45,
+        "animationWidth": 3,
+        "animationWidth2": 0.3,
+        "firingModes": [
+            "Sustained"
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "alwaysoverloading": true,
+        "overloadturns": 2,
+        "extraoverloadshots": 2,
+        "overloadshots": 2,
+        "loadingtime": 2,
+        "priority": 8,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            2,
+            3,
+            4
+        ],
+        "damageFormula": "Dice::d(10, 2)+12",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ParticleRepeater",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "particleRepeater",
+        "displayName": "Particle Repeater",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "loadingtime": 1,
+        "boostable": true,
+        "boostEfficiency": 1,
+        "priority": 5,
+        "intercept": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            4,
+            2,
+            2
+        ],
+        "canSplitShots": false,
+        "specialHitChanceCalculation": false,
+        "damageFormula": "Dice::d(10, 2)",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$baseGuns = 1"
+        ]
+    },
+    {
+        "className": "RepeaterGun",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "repeaterGun",
+        "displayName": "Repeater Gun",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "loadingtime": 1,
+        "boostable": true,
+        "boostEfficiency": 2,
+        "priority": 4,
+        "intercept": 1,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            2,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 1)+3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "PairedParticleGun",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "particle.php",
+        "name": "pairedParticleGun",
+        "displayName": "Particle Gun",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "intercept": 2,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(6)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "SolarCannon",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "solarCannon",
+        "displayName": "Solar Cannon",
+        "animation": "bolt",
+        "animationColor": [
+            204,
+            204,
+            0
+        ],
+        "animationExplosionScale": 0.45,
+        "projectilespeed": 15,
+        "animationWidth": 8,
+        "trailLength": 14,
+        "priority": 6,
+        "loadingtime": 3,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            0,
+            3,
+            5
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "noOverkill": true,
+        "firingModes": [
+            "Melt"
+        ],
+        "damageFormula": "Dice::d(5)+12",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightParticleBlaster",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "particle.php",
+        "name": "lightParticleBlaster",
+        "displayName": "Light Particle Blaster",
+        "animation": "bolt",
+        "animationColor": [
+            230,
+            115,
+            0
+        ],
+        "trailColor": [
+            230,
+            115,
+            0
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 12,
+        "animationWidth": 2,
+        "trailLength": 10,
+        "intercept": 2,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(3)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "LightParticleBeam",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "particle.php",
+        "name": "lightParticleBeam",
+        "iconPath": "lightParticleBeam.png",
+        "displayName": "Light Particle Beam",
+        "animation": "bolt",
+        "animationColor": [
+            230,
+            115,
+            0
+        ],
+        "trailColor": [
+            230,
+            115,
+            0
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 12,
+        "animationWidth": 2,
+        "trailLength": 10,
+        "priority": 3,
+        "intercept": 2,
+        "loadingtime": 1,
+        "shots": 2,
+        "defaultShots": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(6)+$this->damagebonus",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "HeavyBolter",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "heavyBolter",
+        "displayName": "Heavy Bolter",
+        "animation": "bolt",
+        "animationColor": [
+            204,
+            122,
+            0
+        ],
+        "animationExplosionScale": 0.5,
+        "projectilespeed": 12,
+        "animationWidth": 6,
+        "trailLength": 6,
+        "priority": 6,
+        "loadingtime": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -1,
+            2,
+            3
+        ],
+        "damageFormula": "24",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MediumBolter",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "mediumBolter",
+        "displayName": "Medium Bolter",
+        "animation": "bolt",
+        "animationColor": [
+            204,
+            122,
+            0
+        ],
+        "animationExplosionScale": 0.4,
+        "projectilespeed": 14,
+        "animationWidth": 4,
+        "trailLength": 4,
+        "priority": 6,
+        "loadingtime": 2,
+        "intercept": 1,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            1,
+            2,
+            3
+        ],
+        "damageFormula": "18",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightBolter",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "lightBolter",
+        "displayName": "Light Bolter",
+        "animation": "bolt",
+        "animationColor": [
+            204,
+            122,
+            0
+        ],
+        "animationExplosionScale": 0.3,
+        "projectilespeed": 16,
+        "animationWidth": 3,
+        "trailLength": 3,
+        "priority": 5,
+        "loadingtime": 1,
+        "intercept": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            3,
+            2,
+            2
+        ],
+        "damageFormula": "12",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightParticleBeamShip",
+        "parentClass": "StdParticleBeam",
+        "sourceFile": "particle.php",
+        "name": "lightParticleBeamShip",
+        "displayName": "Light Particle Beam",
+        "iconPath": "lightParticleBeamShip.png",
+        "animation": "beam",
+        "animationColor": [
+            255,
+            153,
+            51
+        ],
+        "trailColor": [
+            255,
+            153,
+            51
+        ],
+        "animationExplosionScale": 0.12,
+        "projectilespeed": 12,
+        "animationWidth": 3,
+        "trailLength": 8,
+        "intercept": 2,
+        "loadingtime": 1,
+        "priority": 4,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "BAInterceptorMkI",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "BAInterceptorMkI",
+        "displayName": "BA Interceptor I",
+        "iconPath": "interceptor.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "trailColor": [
+            255,
+            163,
+            26
+        ],
+        "animationExplosionScale": 0.15,
+        "animationWidth": 1,
+        "priority": 4,
+        "intercept": 3,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            6,
+            null,
+            null
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(10)+5",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "BAInterceptorPrototype",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "BAInterceptorPrototype",
+        "displayName": "BA Interceptor Prototype",
+        "iconPath": "interceptor.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "trailColor": [
+            255,
+            163,
+            26
+        ],
+        "animationExplosionScale": 0.15,
+        "animationWidth": 1,
+        "priority": 3,
+        "intercept": 2,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            4,
+            null,
+            null
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(10)+3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "QuadArray",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "quadArray",
+        "displayName": "Quad Array",
+        "iconPath": "quadArray.png",
+        "animation": "bolt",
+        "intercept": 2,
+        "priority": 4,
+        "loadingtime": 1,
+        "guns": 4,
+        "rangePenalty": 2,
+        "fireControl": [
+            6,
+            5,
+            4
+        ],
+        "firingModes": [
+            "4Quad",
+            "3Triple",
+            "2Dual",
+            "1Single",
+            "Split"
+        ],
+        "canSplitShots": false,
+        "canSplitShotsArray": [
+            false,
+            false,
+            false,
+            false,
+            true
+        ],
+        "gunsArray": [
+            4,
+            3,
+            2,
+            1,
+            4
+        ],
+        "damageFormula": "Dice::d(10)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ParticleHammer",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "particleHammer",
+        "displayName": "Particle Hammer",
+        "iconPath": "ParticleHammer.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "trailColor": [
+            255,
+            163,
+            26
+        ],
+        "animationExplosionScale": 0.5,
+        "projectilespeed": 12,
+        "animationWidth": 10,
+        "loadingtime": 4,
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -2,
+            1,
+            3
+        ],
+        "priority": 6,
+        "damageFormula": "Dice::d(10, 2)+15",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ParticleProjector",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "particleProjector",
+        "displayName": "Particle Projector",
+        "animation": "beam",
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "trailColor": [
+            255,
+            163,
+            26
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 12,
+        "animationWidth": 4,
+        "trailLength": 10,
+        "intercept": 2,
+        "loadingtime": 2,
+        "priority": 4,
+        "rangePenalty": 1,
+        "fireControl": [
+            1,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HvyParticleProjector",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "hvyParticleProjector",
+        "displayName": "Heavy Particle Projector",
+        "iconPath": "HeavyParticleProjector.png",
+        "animation": "beam",
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "trailColor": [
+            255,
+            163,
+            26
+        ],
+        "animationExplosionScale": 0.4,
+        "projectilespeed": 15,
+        "animationWidth": 4,
+        "intercept": 1,
+        "loadingtime": 3,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -1,
+            2,
+            3
+        ],
+        "priority": 6,
+        "damageFormula": "Dice::d(10, 2)+8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightParticleProjector",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "lightParticleProjector",
+        "displayName": "Light Particle Projector",
+        "iconPath": "LightParticleProjector.png",
+        "animation": "trail",
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "trailColor": [
+            255,
+            163,
+            26
+        ],
+        "animationExplosionScale": 0.15,
+        "projectilespeed": 12,
+        "animationWidth": 1,
+        "trailLength": 5,
+        "loadingtime": 1,
+        "intercept": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            2,
+            2
+        ],
+        "priority": 4,
+        "damageFormula": "Dice::d(6)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "PentagonArray",
+        "parentClass": "Raking",
+        "sourceFile": "particle.php",
+        "name": "PentagonArray",
+        "displayName": "Pentagon Array",
+        "iconPath": "PentagonArray.png",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            153,
+            51
+        ],
+        "animationExplosionScale": 0.2,
+        "rakes": [],
+        "priority": 6,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "intercept": 5,
+        "firingModes": [
+            "Raking"
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "grouping": 0,
+        "maxpulses": 5,
+        "rof": 1,
+        "damageFormula": "$damage = 0\r\n        if($this->targetedFighters){\r\n            $damage = Dice::d(10)",
+        "minDamage": 5,
+        "maxDamage": 50,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "PentagonArray",
+        "parentClass": "Raking",
+        "sourceFile": "particle.php",
+        "name": "PentagonArray",
+        "displayName": "Pentagon Array",
+        "iconPath": "PentagonArray.png",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            153,
+            51
+        ],
+        "rakes": [],
+        "priority": 8,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "intercept": 5,
+        "firingModes": [
+            "Raking"
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "damageFormula": "$this->rakes = array()\r\n\t\t$damage = 0\r\n\t\t$rake = Dice::d(10)\r\n\t\t$damage+=$rake\r\n\t\t$this->rakes[] = $rake\r\n\t\t$rake = Dice::d(10)\r\n\t\t$damage+=$rake\r\n\t\t$this->rakes[] = $rake\r\n\t\t$rake = Dice::d(10)\r\n\t\t$damage+=$rake\r\n\t\t$this->rakes[] = $rake\r\n\t\t$rake = Dice::d(10)\r\n\t\t$damage+=$rake\r\n\t\t$this->rakes[] = $rake\r\n\t\t$rake = Dice::d(10)\r\n\t\t$damage+=$rake\r\n\t\t$this->rakes[] = $rake\r\n\r\n\t\t $damage",
+        "minDamage": 5,
+        "maxDamage": 50,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ParticleAccelerator",
+        "parentClass": "Raking",
+        "sourceFile": "particle.php",
+        "name": "ParticleAccelerator",
+        "displayName": "Particle Accelerator",
+        "iconPath": "ParticleAccelerator.png",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "animationExplosionScale": 0.25,
+        "animationWidth": 4,
+        "animationWidth2": 0.3,
+        "intercept": 2,
+        "priority": 8,
+        "loadingtime": 1,
+        "normalload": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            2,
+            4,
+            4
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Raking"
+        ],
+        "damageFormula": "switch($this->turnsloaded){\r\n            \tcase 0:\r\n            \tcase 1:\r\n                \t Dice::d(10)+6\r\n\t\t\t    \tbreak\r\n            \tdefault:\r\n                \t Dice::d(10,2)+14\r\n\t\t\t    \tbreak",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "BoltAccelerator",
+        "parentClass": "Raking",
+        "sourceFile": "particle.php",
+        "name": "BoltAccelerator",
+        "displayName": "Bolt Accelerator",
+        "iconPath": "BoltAccelerator.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "animationExplosionScale": 0.25,
+        "animationWidth": 4,
+        "animationWidth2": 0.3,
+        "intercept": 3,
+        "priority": 8,
+        "loadingtime": 1,
+        "normalload": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            1,
+            3,
+            5
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Standard"
+        ],
+        "damageFormula": "switch($this->turnsloaded){\r\n            \tcase 0:\r\n            \tcase 1:\r\n                \t 11\r\n\t\t\t    \tbreak\r\n            \tcase 2:\r\n                \t 17\r\n\t\t\t    \tbreak\t\t\t    \t\r\n            \tdefault:\r\n                \t 23\r\n\t\t\t    \tbreak",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightParticleAccelerator",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "particle.php",
+        "name": "LightParticleAccelerator",
+        "displayName": "Light Particle Accelerator",
+        "iconPath": "LightParticleAccelerator.png",
+        "animation": "trail",
+        "trailColor": [
+            255,
+            163,
+            26
+        ],
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "animationExplosionScaleArray": [
+            0.1,
+            0.15
+        ],
+        "animationWidthArray": [
+            2,
+            3
+        ],
+        "trailLengthArray": [
+            10,
+            15
+        ],
+        "loadingtime": 1,
+        "normalload": 2,
+        "loadingtimeArray": [
+            1,
+            2
+        ],
+        "shots": 2,
+        "defaultShots": 2,
+        "intercept": 2,
+        "firingMode": 1,
+        "firingModes": [
+            "Standard",
+            "Charged"
+        ],
+        "priorityArray": [
+            3,
+            6
+        ],
+        "rangePenalty": 2,
+        "fireControlArray": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                -4,
+                0,
+                2
+            ]
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "switch($this->firingMode){ \r\n            \tcase 1:\r\n                \t Dice::d(6)+2\r\n\t\t\t    \t\t\tbreak\r\n            \tcase 2:\r\n            \t   \t Dice::d(6,2)+4\r\n\t\t\t    \t\t\tbreak",
+        "minDamage": 3,
+        "maxDamage": 8,
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 2"
+        ]
+    },
+    {
+        "className": "LightParticleBolt",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "LightParticleBolt",
+        "displayName": "Light Particle Bolt",
+        "iconPath": "LightParticleBolt.png",
+        "animation": "trail",
+        "animationColor": [
+            255,
+            163,
+            26
+        ],
+        "animationExplosionScale": 0.2,
+        "projectilespeed": 16,
+        "animationWidth": 2,
+        "trailLength": 2,
+        "priority": 5,
+        "loadingtime": 1,
+        "intercept": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            2,
+            2,
+            1
+        ],
+        "damageFormula": "Dice::d(10)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "UnreliableTwinArray",
+        "parentClass": "TwinArray",
+        "sourceFile": "particle.php",
+        "name": "UnreliableTwinArray",
+        "displayName": "Unreliable Twin Array",
+        "iconPath": "twinArray.png",
+        "damageFormula": "$misfire3 = Dice::d(10,1)\r\n\t\tif ($misfire3 == 1) {\r\n\t\t\t$fireOrder->pubnotes .= \"<br> Weapon misfire! No damage.\"\r\n\t\t\t (Dice::d(10)+4) * 0",
+        "minDamage": 5,
+        "maxDamage": 14
+    },
+    {
+        "className": "TelekineticCutter",
+        "parentClass": "Raking",
+        "sourceFile": "particle.php",
+        "name": "TelekineticCutter",
+        "displayName": "Telekinetic Cutter",
+        "iconPath": "TelekineticCutter.png",
+        "animation": "laser",
+        "animationColor": [
+            204,
+            102,
+            0
+        ],
+        "intercept": 4,
+        "loadingtime": 1,
+        "priority": 6,
+        "guns": 2,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            4,
+            4,
+            4
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "firingModes": [
+            "Normal",
+            "Split"
+        ],
+        "canSplitShots": false,
+        "canSplitShotsArray": [
+            false,
+            true
+        ],
+        "damageFormula": "Dice::d(10, 4)",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MinorThoughtPulsar",
+        "parentClass": "LinkedWeapon",
+        "sourceFile": "particle.php",
+        "name": "MinorThoughtPulsar",
+        "displayName": "Minor Thought Pulsar",
+        "iconPath": "MinorThoughtPulsar.png",
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "animation": "bolt",
+        "animationColor": [
+            204,
+            102,
+            0
+        ],
+        "factionAge": 3,
+        "intercept": 1,
+        "loadingtime": 1,
+        "guns": 2,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "priority": 5,
+        "firingMode": 1,
+        "firingModes": [
+            "RoF",
+            "Damage",
+            "Hitchance",
+            "1Combo1",
+            "2Combo2"
+        ],
+        "bonusDamageShots": 0,
+        "specialHitChanceCalculation": true,
+        "damageFormula": "$damage = Dice::d(6,1)+ 5\r\n\r\n\t    if($this->bonusDamageShots > 0){\r\n\t    \t$damage +=5\r\n\t    \t$this->bonusDamageShots -= 1",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$shots=1"
+        ]
+    },
+    {
+        "className": "AdvParticleBlastGun",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "AdvParticleBlastGun",
+        "displayName": "Advanced Particle Blast Gun",
+        "iconPath": "AdvPartBlastGun.png",
+        "animation": "bolt",
+        "factionAge": 4,
+        "intercept": 4,
+        "loadingtime": 1,
+        "guns": 2,
+        "priority": 6,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            2,
+            3,
+            5
+        ],
+        "firingModes": [
+            "Normal",
+            "Split"
+        ],
+        "canSplitShots": false,
+        "canSplitShotsArray": [
+            false,
+            true
+        ],
+        "startArcArray": [],
+        "endArcArray": [],
+        "splitArcs": false,
+        "damageFormula": "Dice::d(10, 2)+15",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$startArc2 = null",
+            "$endArc2 = null"
+        ]
+    },
+    {
+        "className": "SolarBlaster",
+        "parentClass": "Particle",
+        "sourceFile": "particle.php",
+        "name": "SolarBlaster",
+        "displayName": "Solar Blaster",
+        "iconPath": "SolarBlaster.png",
+        "factionAge": 4,
+        "animation": "bolt",
+        "animationColor": [
+            204,
+            204,
+            0
+        ],
+        "animationExplosionScale": 0.5,
+        "priority": 6,
+        "loadingtime": 1,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            2,
+            5,
+            5
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "noOverkill": true,
+        "firingModes": [
+            "Melt"
+        ],
+        "damageFormula": "Dice::d(10, 3)+20",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    }
+]

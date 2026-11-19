@@ -1,0 +1,446 @@
+[
+    {
+        "className": "AbbaiShieldProjector",
+        "parentClass": "Weapon",
+        "sourceFile": "supportWeapons.php",
+        "name": "abbaiShieldProjector",
+        "displayName": "Shield Projector",
+        "iconPath": "shieldProjector.png",
+        "damageType": "Raking",
+        "weaponClass": "Support",
+        "uninterceptable": true,
+        "doNotIntercept": true,
+        "priority": 1,
+        "useOEW": false,
+        "noLockPenalty": false,
+        "loadingtime": 1,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "animation": "bolt",
+        "animationColor": [
+            150,
+            150,
+            220
+        ],
+        "output": 0,
+        "outputDisplay": "",
+        "animationExplosionScale": 0.4,
+        "repairPriority": 5,
+        "ballistic": true,
+        "startArc": 0,
+        "endArc": 0,
+        "defensiveSystem": true,
+        "tohitPenalty": 0,
+        "damagePenalty": 0,
+        "rangePenalty": 0,
+        "range": 10,
+        "canOffLine": true,
+        "isPrimaryTargetable": true,
+        "firingModes": [
+            "Shield Projector"
+        ],
+        "damageFormula": "0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$shieldFactor"
+        ]
+    },
+    {
+        "className": "ShieldReinforcement",
+        "parentClass": "Weapon",
+        "sourceFile": "supportWeapons.php",
+        "name": "ShieldReinforcement",
+        "displayName": "Shield Reinforcement",
+        "iconPath": "ShieldReinforcement.png",
+        "damageType": "Raking",
+        "weaponClass": "Support",
+        "uninterceptable": true,
+        "doNotIntercept": true,
+        "priority": 1,
+        "useOEW": false,
+        "noLockPenalty": false,
+        "loadingtime": 1,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "animation": "bolt",
+        "animationColor": [
+            204,
+            153,
+            255
+        ],
+        "output": 0,
+        "outputDisplay": "",
+        "animationExplosionScale": 0.4,
+        "repairPriority": 5,
+        "ballistic": true,
+        "boostable": true,
+        "boostEfficiency": 0,
+        "maxBoostLevel": 20,
+        "rangePenalty": 0,
+        "range": 20,
+        "canOffLine": true,
+        "isPrimaryTargetable": false,
+        "firingModes": [
+            "Shield Reinforcement"
+        ],
+        "damageFormula": "0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$shieldFactor"
+        ]
+    },
+    {
+        "className": "ShadeModulator",
+        "parentClass": "Weapon",
+        "sourceFile": "supportWeapons.php",
+        "name": "ShadeModulator",
+        "displayName": "Shade Modulator",
+        "iconPath": "ShadeModulator.png",
+        "damageType": "Raking",
+        "weaponClass": "Support",
+        "uninterceptable": true,
+        "doNotIntercept": true,
+        "priority": 1,
+        "useOEW": false,
+        "noLockPenalty": false,
+        "loadingtime": 1,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "animation": "bolt",
+        "animationArray": [
+            "ball",
+            "bolt",
+            "ball",
+            "bolt"
+        ],
+        "animationColor": [
+            255,
+            255,
+            0
+        ],
+        "animationColorArray": [
+            [
+                0,
+                128,
+                0
+            ],
+            [
+                0,
+                128,
+                0
+            ],
+            [
+                255,
+                255,
+                0
+            ],
+            [
+                255,
+                255,
+                0
+            ]
+        ],
+        "noProjectile": true,
+        "noProjectileArray": [
+            true,
+            false,
+            true,
+            false
+        ],
+        "output": 0,
+        "outputDisplay": "",
+        "animationExplosionScale": 0.4,
+        "animationExplosionScaleArray": [
+            3,
+            0.4,
+            5,
+            0.4
+        ],
+        "repairPriority": 5,
+        "boostable": true,
+        "boostEfficiency": 15,
+        "maxBoostLevel": 3,
+        "firingModes": [
+            "1-Blanket Shield",
+            "2-Individual Shield",
+            "3-Blanket Shade",
+            "4-Individual Shade"
+        ],
+        "rangePenalty": 0,
+        "range": 3,
+        "rangeArray": [
+            3,
+            5,
+            15,
+            20
+        ],
+        "canOffLine": true,
+        "autoFireOnly": true,
+        "autoFireOnlyArray": [
+            true,
+            false,
+            true,
+            false
+        ],
+        "hextarget": true,
+        "hextargetArray": [
+            true,
+            false,
+            true,
+            false
+        ],
+        "canSplitShots": true,
+        "damageFormula": "0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$output"
+        ]
+    },
+    {
+        "className": "TransverseDrive",
+        "parentClass": "Weapon",
+        "sourceFile": "supportWeapons.php",
+        "name": "TransverseDrive",
+        "displayName": "Transverse Drive",
+        "noProjectile": true,
+        "specialAbilities": [
+            "PreFiring"
+        ],
+        "specialAbilityValue": true,
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "hextarget": true,
+        "hidetarget": false,
+        "uninterceptable": true,
+        "doNotIntercept": true,
+        "priority": 1,
+        "factionAge": 3,
+        "range": 3,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "animation": "blink",
+        "animationColor": [
+            255,
+            255,
+            0
+        ],
+        "animationExplosionScale": 0.3,
+        "animationExplosionType": "AoE",
+        "firingModes": [
+            "Transverse Jump"
+        ],
+        "preFires": true,
+        "repairPriority": 6,
+        "ignoresLoS": true,
+        "damageFormula": "0"
+    },
+    {
+        "className": "GraviticAugmenter",
+        "parentClass": "Weapon",
+        "sourceFile": "supportWeapons.php",
+        "name": "GraviticAugmenter",
+        "displayName": "Gravitic Augmenter",
+        "iconPath": "GraviticAugmenter.png",
+        "linkedOrbital": null,
+        "damageType": "Standard",
+        "weaponClass": "Support",
+        "weaponClassArray": [
+            "Support",
+            "Support",
+            "Gravitic"
+        ],
+        "specialAbilities": [
+            "PreFiring",
+            "alliedEW"
+        ],
+        "specialAbilityValue": true,
+        "uninterceptable": true,
+        "doNotIntercept": true,
+        "priority": 1,
+        "useOEW": false,
+        "useOEWArray": [
+            false,
+            false,
+            true
+        ],
+        "noLockPenalty": false,
+        "noLockPenaltyArray": [
+            false,
+            false,
+            true
+        ],
+        "loadingtime": 1,
+        "fireControl": [
+            0,
+            5,
+            6
+        ],
+        "animation": "ball",
+        "animationArray": [
+            "ball",
+            "bolt",
+            "bolt"
+        ],
+        "animationColor": [
+            99,
+            255,
+            0
+        ],
+        "noProjectile": true,
+        "noProjectileArray": [
+            true,
+            false,
+            false
+        ],
+        "output": 0,
+        "outputDisplay": "",
+        "animationExplosionScale": 0.4,
+        "animationExplosionScaleArray": [
+            3,
+            0.4,
+            0.4
+        ],
+        "repairPriority": 4,
+        "boostable": true,
+        "boostEfficiency": 15,
+        "maxBoostLevel": 3,
+        "firingModes": [
+            "Matter Weapon Enhancement",
+            "Warrior Enhancement",
+            "Gravity Shifting"
+        ],
+        "rangePenalty": 0,
+        "rangePenaltyArray": [
+            0,
+            0,
+            0.5
+        ],
+        "range": 20,
+        "canOffLine": true,
+        "autoFireOnly": true,
+        "autoFireOnlyArray": [
+            true,
+            false,
+            false
+        ],
+        "hextarget": true,
+        "hextargetArray": [
+            true,
+            false,
+            false
+        ],
+        "preFires": true,
+        "canSplitShots": true,
+        "damageFormula": "0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$pairing = null"
+        ]
+    },
+    {
+        "className": "FlareGenerator",
+        "parentClass": "Weapon",
+        "sourceFile": "supportWeapons.php",
+        "name": "FlareGenerator",
+        "displayName": "Flare Generator",
+        "iconPath": "FlareGenerator.png",
+        "factionAge": 4,
+        "animation": "laser",
+        "animationArray": [
+            "laser",
+            "ball"
+        ],
+        "animationColor": [
+            255,
+            255,
+            255
+        ],
+        "animationExplosionScale": 2,
+        "animationExplosionScaleArray": [
+            0.4,
+            2
+        ],
+        "animationExplosionType": "AoE",
+        "explosionColor": [
+            255,
+            255,
+            255
+        ],
+        "noProjectile": false,
+        "noProjectileArray": [
+            false,
+            true
+        ],
+        "loadingtime": 2,
+        "startArc": 0,
+        "endArc": 0,
+        "firingMode": 1,
+        "firingModes": [
+            "Offensive",
+            "Flare"
+        ],
+        "damageType": "Raking",
+        "damageTypeArray": [
+            "Raking",
+            "Flash"
+        ],
+        "weaponClass": "Electromagnetic",
+        "raking": 20,
+        "rangePenalty": 0.25,
+        "fireControl": [
+            4,
+            6,
+            7
+        ],
+        "intercept": 6,
+        "ballistic": false,
+        "preFires": false,
+        "autoFireOnly": false,
+        "autoFireOnlyArray": [
+            false,
+            true
+        ],
+        "hextarget": false,
+        "hextargetArray": [
+            false,
+            true
+        ],
+        "hidetarget": false,
+        "defensiveSystem": true,
+        "damageFormula": "//Mode 1 only - Mode 2 damage is handled in fire()\r\n         Dice::d(10, 6) + 50",
+        "minDamage": 56,
+        "maxDamage": 110,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    }
+]

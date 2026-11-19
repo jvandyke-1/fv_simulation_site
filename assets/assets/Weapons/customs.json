@@ -1,0 +1,2557 @@
+[
+    {
+        "className": "CustomERLightPBeam",
+        "parentClass": "Particle",
+        "sourceFile": "customs.php",
+        "name": "CustomERLightPBeam",
+        "displayName": "Extended Range Light Particle Beam",
+        "iconPath": "lightParticleBeamShip.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "intercept": 2,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomLightMatterCannon",
+        "parentClass": "Matter",
+        "sourceFile": "customs.php",
+        "name": "customLightMatterCannon",
+        "displayName": "Light Matter Cannon",
+        "iconPath": "customLightMatterCannon.png",
+        "animation": "bolt",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "priority": 6,
+        "loadingtime": 2,
+        "rangePenalty": 1,
+        "fireControl": [
+            -1,
+            3,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomLightMatterCannonF",
+        "parentClass": "Matter",
+        "sourceFile": "customs.php",
+        "name": "customLightMatterCannonF",
+        "displayName": "Light Matter Cannon",
+        "iconPath": "customLightMatterCannon.png",
+        "animation": "trail",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "priority": 9,
+        "loadingtime": 3,
+        "ammunition": 6,
+        "exclusive": false,
+        "rangePenalty": 1,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageFormula": "Dice::d(10, 1)+4",
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomHeavyMatterCannon",
+        "parentClass": "Matter",
+        "sourceFile": "customs.php",
+        "name": "customHeavyMatterCannon",
+        "displayName": "Heavy Matter Cannon",
+        "iconPath": "customHeavyMatterCannon.png",
+        "animation": "bolt",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "priority": 9,
+        "loadingtime": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -3,
+            3,
+            4
+        ],
+        "damageFormula": "Dice::d(10, 3)+5",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomMatterStream",
+        "parentClass": "Matter",
+        "sourceFile": "customs.php",
+        "name": "customMatterStream",
+        "displayName": "Matter Stream",
+        "iconPath": "customMatterStream.png",
+        "animation": "laser",
+        "animationColor": [
+            60,
+            60,
+            45
+        ],
+        "animationExplosionScale": 0.45,
+        "priority": 7,
+        "loadingtime": 3,
+        "rangePenalty": 0.66,
+        "raking": 6,
+        "alwaysoverloading": true,
+        "overloadturns": 3,
+        "extraoverloadshots": 2,
+        "overloadshots": 2,
+        "fireControl": [
+            -3,
+            2,
+            2
+        ],
+        "firingModes": [
+            "Sustained"
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Matter",
+        "damageFormula": "Dice::d(10, 2)+8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomGatlingMattergunLight",
+        "parentClass": "Pulse",
+        "sourceFile": "customs.php",
+        "name": "customGatlingMattergunLight",
+        "displayName": "Light Gatling Mattergun",
+        "iconPath": "customGatlingMattergunLight.png",
+        "animation": "trail",
+        "animationColor": [
+            225,
+            225,
+            150
+        ],
+        "priority": 3,
+        "grouping": 25,
+        "maxpulses": 4,
+        "loadingtime": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            4,
+            2,
+            2
+        ],
+        "noOverkill": true,
+        "ballisticIntercept": true,
+        "intercept": 2,
+        "firingMode": "Standard",
+        "damageType": "Pulse",
+        "weaponClass": "Matter",
+        "damageFormula": "Dice::d(6, 1)",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomGatlingMattergunMedium",
+        "parentClass": "Pulse",
+        "sourceFile": "customs.php",
+        "name": "customGatlingMattergunMedium",
+        "displayName": "Gatling Mattergun",
+        "iconPath": "customGatlingMattergunMedium.png",
+        "animation": "trail",
+        "animationColor": [
+            225,
+            225,
+            150
+        ],
+        "priority": 5,
+        "grouping": 20,
+        "maxpulses": 4,
+        "loadingtime": 2,
+        "rangePenalty": 1,
+        "fireControl": [
+            1,
+            2,
+            3
+        ],
+        "noOverkill": true,
+        "ballisticIntercept": true,
+        "intercept": 1,
+        "firingMode": "Standard",
+        "damageType": "Pulse",
+        "weaponClass": "Matter",
+        "damageFormula": "Dice::d(10, 1)",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomGatlingMattergunHeavy",
+        "parentClass": "Pulse",
+        "sourceFile": "customs.php",
+        "name": "customGatlingMattergunHeavy",
+        "displayName": "Heavy Gatling Mattergun",
+        "iconPath": "customGatlingMattergunHeavy.png",
+        "animation": "trail",
+        "animationColor": [
+            225,
+            225,
+            150
+        ],
+        "priority": 9,
+        "grouping": 20,
+        "maxpulses": 4,
+        "loadingtime": 3,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -2,
+            3,
+            4
+        ],
+        "noOverkill": true,
+        "ballisticIntercept": true,
+        "intercept": 1,
+        "firingMode": "Standard",
+        "damageType": "Pulse",
+        "weaponClass": "Matter",
+        "damageFormula": "Dice::d(10, 2)",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomPulsarLaser",
+        "parentClass": "Pulse",
+        "sourceFile": "customs.php",
+        "name": "customPulsarLaser",
+        "displayName": "Pulsar Laser",
+        "animationColor": [
+            255,
+            58,
+            31
+        ],
+        "animation": "bolt",
+        "uninterceptable": true,
+        "priority": 5,
+        "grouping": 25,
+        "maxpulses": 4,
+        "loadingtime": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            -1,
+            3,
+            3
+        ],
+        "weaponClass": "Laser",
+        "damageFormula": "12",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomStrikeLaser",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "name": "customStrikeLaser",
+        "displayName": "Strike Laser",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            30,
+            30
+        ],
+        "animationExplosionScale": 0.45,
+        "fireControl": [
+            0,
+            2,
+            2
+        ],
+        "priority": 6,
+        "loadingtime": 3,
+        "rangePenalty": 0.5,
+        "uninterceptable": true,
+        "damageType": "Standard",
+        "weaponClass": "Laser",
+        "damageFormula": "Dice::d(10, 2)+8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HLPA",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "name": "hlpa",
+        "displayName": "Heavy Laser-Pulse Array",
+        "iconPath": "hlpa.png",
+        "animationArray": [
+            "laser",
+            "bolt"
+        ],
+        "animationColorArray": [
+            [
+                255,
+                11,
+                11
+            ],
+            [
+                190,
+                75,
+                20
+            ]
+        ],
+        "animationExplosionScale": 0.2,
+        "groupingArray": [
+            0,
+            20
+        ],
+        "maxpulses": 6,
+        "raking": 10,
+        "priorityArray": [
+            7,
+            6
+        ],
+        "uninterceptableArray": [
+            true,
+            false
+        ],
+        "defaultShotsArray": [
+            1,
+            6
+        ],
+        "loadingtimeArray": [
+            4,
+            3
+        ],
+        "rangePenaltyArray": [
+            0.33,
+            0.5
+        ],
+        "fireControlArray": [
+            [
+                -4,
+                2,
+                3
+            ],
+            [
+                -1,
+                3,
+                4
+            ]
+        ],
+        "firingModes": [
+            "Laser",
+            "Pulse"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Pulse"
+        ],
+        "weaponClassArray": [
+            "Laser",
+            "Particle"
+        ],
+        "intercept": 1,
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(10, 4)+20 //Heavy Laser\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t 15 //Heavy Pulse\r\n\t\t\t\tbreak",
+        "minDamage": 24,
+        "maxDamage": 60,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MLPA",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "name": "mlpa",
+        "displayName": "Medium Laser-Pulse Array",
+        "iconPath": "mlpa.png",
+        "animationArray": [
+            "laser",
+            "bolt"
+        ],
+        "animationColorArray": [
+            [
+                255,
+                11,
+                11
+            ],
+            [
+                190,
+                75,
+                20
+            ]
+        ],
+        "groupingArray": [
+            0,
+            20
+        ],
+        "maxpulses": 6,
+        "raking": 10,
+        "priorityArray": [
+            8,
+            4
+        ],
+        "uninterceptableArray": [
+            true,
+            false
+        ],
+        "defaultShotsArray": [
+            1,
+            6
+        ],
+        "loadingtimeArray": [
+            3,
+            2
+        ],
+        "rangePenaltyArray": [
+            0.5,
+            1
+        ],
+        "fireControlArray": [
+            [
+                -3,
+                2,
+                3
+            ],
+            [
+                1,
+                3,
+                4
+            ]
+        ],
+        "firingModes": [
+            "Laser",
+            "Pulse"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Pulse"
+        ],
+        "weaponClassArray": [
+            "Laser",
+            "Particle"
+        ],
+        "intercept": 2,
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(10, 3)+12 //Medium Laser\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t 10 //Medium Pulse\r\n\t\t\t\tbreak",
+        "minDamage": 15,
+        "maxDamage": 42,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AbsorbtionShield",
+        "parentClass": "Shield",
+        "sourceFile": "customs.php",
+        "name": "absorbtionshield",
+        "displayName": "Absorption Shield",
+        "iconPath": "shield.png",
+        "boostable": true,
+        "baseOutput": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$shieldFactor",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "customPhaseDisruptor",
+        "parentClass": "Raking",
+        "sourceFile": "customs.php",
+        "name": "customPhaseDisruptor",
+        "displayName": "Phase Disruptor",
+        "iconPath": "PhaseDisruptor.png",
+        "animation": "laser",
+        "animationColor": [
+            50,
+            125,
+            210
+        ],
+        "uninterceptable": false,
+        "loadingtime": 1,
+        "normalload": 2,
+        "loadingtimeArray": [
+            1,
+            2
+        ],
+        "rangePenalty": 0.5,
+        "fireControl": [
+            2,
+            4,
+            6
+        ],
+        "priority": 8,
+        "rakes": [],
+        "firingModes": [
+            "Concentrated",
+            "Split"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Raking"
+        ],
+        "gunsArray": [
+            1,
+            3
+        ],
+        "factionAge": 2,
+        "damageType": "Raking",
+        "weaponClass": "Molecular",
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1: //damage for concentrated shot\r\n\t\t\t\t$this->rakes = array()\r\n\t\t\t\t$damage = 0\r\n\t\t\t\t$rake = Dice::d(6, 3)\r\n\t\t\t\t$damage+=$rake\r\n\t\t\t\t$this->rakes[] = $rake\r\n\t\t\t\tif ($this->turnsloaded > 1) { //more rakes - for full arming cycle only\r\n\t\t\t\t\t$rake = Dice::d(6, 3)\r\n\t\t\t\t\t$damage+=$rake\r\n\t\t\t\t\t$this->rakes[] = $rake\r\n\t\t\t\t\t$rake = Dice::d(6, 3)\r\n\t\t\t\t\t$damage+=$rake\r\n\t\t\t\t\t$this->rakes[] = $rake",
+        "minDamage": 3,
+        "maxDamage": 18,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "customLtPhaseDisruptorShip",
+        "parentClass": "Raking",
+        "sourceFile": "customs.php",
+        "name": "customLtPhaseDisruptorShip",
+        "displayName": "Light Phase Disruptor",
+        "iconPath": "LtPhaseDisruptor.png",
+        "animation": "laser",
+        "animationColor": [
+            50,
+            125,
+            210
+        ],
+        "uninterceptable": false,
+        "loadingtime": 1,
+        "rangePenalty": 1,
+        "fireControl": [
+            4,
+            4,
+            4
+        ],
+        "priority": 8,
+        "rakes": [],
+        "guns": 1,
+        "firingModes": [
+            "Concentrated",
+            "Split"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Raking"
+        ],
+        "gunsArray": [
+            1,
+            2
+        ],
+        "weaponClass": "Molecular",
+        "factionAge": 2,
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1: //damage for concentrated shot\r\n\t\t\t\t$this->rakes = array()\r\n\t\t\t\t$damage = 0\r\n\t\t\t\t$rake = Dice::d(6, 3)\r\n\t\t\t\t$damage+=$rake\r\n\t\t\t\t$this->rakes[] = $rake\r\n\t\t\t\t$rake = Dice::d(6, 3)\r\n\t\t\t\t$damage+=$rake\r\n\t\t\t\t$this->rakes[] = $rake\r\n\t\t\t\t $damage \r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t$damage = Dice::d(6, 3) //damage for separate shot\r\n\t\t\t\t$this->rakes = array($damage)\r\n\t\t\t\t $damage\r\n\t\t\t\tbreak",
+        "minDamage": 6,
+        "maxDamage": 18,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "customLtPolarityPulsar",
+        "parentClass": "Pulse",
+        "sourceFile": "customs.php",
+        "name": "customLtPolarityPulsar",
+        "displayName": "Light Polarity Pulsar",
+        "iconPath": "LightPolarityPulsar.png",
+        "animationColor": [
+            255,
+            140,
+            0
+        ],
+        "animation": "trail",
+        "weaponClass": "Molecular",
+        "loadingtime": 1,
+        "priority": 4,
+        "rof": 2,
+        "rangePenalty": 1.5,
+        "fireControl": [
+            4,
+            3,
+            3
+        ],
+        "grouping": 15,
+        "maxpulses": 6,
+        "intercept": 2,
+        "factionAge": 2,
+        "damageFormula": "10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "customMedPolarityPulsar",
+        "parentClass": "Pulse",
+        "sourceFile": "customs.php",
+        "name": "customMedPolarityPulsar",
+        "displayName": "Medium Polarity Pulsar",
+        "iconPath": "MediumPolarityPulsar.png",
+        "animationColor": [
+            255,
+            140,
+            0
+        ],
+        "animation": "trail",
+        "loadingtime": 2,
+        "priority": 5,
+        "weaponClass": "Molecular",
+        "rof": 2,
+        "rangePenalty": 0.66,
+        "fireControl": [
+            2,
+            3,
+            4
+        ],
+        "grouping": 15,
+        "maxpulses": 6,
+        "intercept": 2,
+        "factionAge": 2,
+        "damageFormula": "12",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "customHeavyPolarityPulsar",
+        "parentClass": "Pulse",
+        "sourceFile": "customs.php",
+        "name": "customHeavyPolarityPulsar",
+        "displayName": "Heavy Polarity Pulsar",
+        "iconPath": "HeavyPolarityPulsar.png",
+        "animationColor": [
+            255,
+            140,
+            0
+        ],
+        "animation": "trail",
+        "loadingtime": 3,
+        "priority": 6,
+        "weaponClass": "Molecular",
+        "rof": 2,
+        "rangePenalty": 0.4,
+        "fireControl": [
+            0,
+            3,
+            5
+        ],
+        "grouping": 15,
+        "maxpulses": 6,
+        "intercept": 1,
+        "factionAge": 2,
+        "damageFormula": "18",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "customMphasedBeamAcc",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "name": "customMphasedBeamAcc",
+        "displayName": "Multiphased Beam Accelerator",
+        "iconPath": "MultiphasedBeamAccelerator.png",
+        "animation": "laser",
+        "animationColor": [
+            225,
+            130,
+            0
+        ],
+        "raking": 10,
+        "damageType": "Raking",
+        "weaponClass": "Molecular",
+        "uninterceptable": true,
+        "priority": 7,
+        "priorityArray": [
+            7,
+            2
+        ],
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "loadingtime": 1,
+        "normalload": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            3,
+            4,
+            5
+        ],
+        "fireControlArray": [
+            [
+                3,
+                4,
+                5
+            ],
+            [
+                null,
+                0,
+                1
+            ]
+        ],
+        "factionAge": 2,
+        "damageFormula": "switch($this->turnsloaded){\r\n                case 0: //should not happen\r\n                case 1:\r\n                     Dice::d(10,2)+2\r\n                    break\r\n                case 2:\r\n                     Dice::d(10, 4)+4\r\n                    break\r\n                case 3:\r\n                default:\r\n                     Dice::d(10,8)+8\r\n                    break",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "customLtPhaseDisruptor",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "trailColor": [
+            255,
+            170,
+            10
+        ],
+        "name": "customLtPhaseDisruptor",
+        "displayName": "Light Phase Disruptor",
+        "iconPath": "LtPhaseDisruptor.png",
+        "animation": "trail",
+        "animationColor": [
+            255,
+            170,
+            10
+        ],
+        "intercept": 1,
+        "loadingtime": 1,
+        "shots": 1,
+        "guns": 3,
+        "defaultShots": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "priority": 4,
+        "priorityArray": [
+            4,
+            6
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Molecular",
+        "firingModes": [
+            "Split",
+            "Concentrated"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Standard"
+        ],
+        "gunsArray": [
+            3,
+            1
+        ],
+        "fireControlArray": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                -3,
+                0,
+                0
+            ]
+        ],
+        "rangePenaltyArray": [
+            2,
+            1.5
+        ],
+        "factionAge": 2,
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\t\tcase 1:\r\n\t\t\t\t\t Dice::d(3, 4) //4d3, Antifighter\r\n\t\t\t\t\tbreak\r\n\t\t\t\tcase 2:\r\n\t\t\t\t\t Dice::d(4, 4)+6 //4d4+6, Antiship\r\n\t\t\t\t\tbreak",
+        "minDamage": 4,
+        "maxDamage": 12,
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "customPhaseSweeper",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "trailColor": [
+            255,
+            170,
+            10
+        ],
+        "name": "customPhaseSweeper",
+        "displayName": "Phase Sweeper",
+        "iconPath": "LtPhaseDisruptor.png",
+        "intercept": 2,
+        "loadingtime": 1,
+        "shots": 1,
+        "guns": 4,
+        "defaultShots": 1,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "priority": 4,
+        "animation": "trail",
+        "animationColor": [
+            255,
+            170,
+            10
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Molecular",
+        "factionAge": 2,
+        "damageFormula": "Dice::d(3, 4) //4d3",
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightScattergun",
+        "parentClass": "Pulse",
+        "sourceFile": "customs.php",
+        "shots": 2,
+        "iconPath": "scatterGun.png",
+        "grouping": 2500,
+        "maxpulses": 3,
+        "name": "LightScattergun",
+        "displayName": "Light Scattergun",
+        "damageType": "Pulse",
+        "weaponClass": "Particle",
+        "animation": "bolt",
+        "animationColor": [
+            190,
+            75,
+            20
+        ],
+        "intercept": 2,
+        "rangePenalty": 2,
+        "priority": 4,
+        "damageFormula": "Dice::d(6,2)",
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomBPALight",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "name": "CustomBPALight",
+        "displayName": "Light Bolt-Pulse Array",
+        "iconPath": "CustomBPALight.png",
+        "animationArray": [
+            "trail",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                255,
+                11,
+                11
+            ],
+            [
+                255,
+                250,
+                230
+            ]
+        ],
+        "groupingArray": [
+            0,
+            20
+        ],
+        "maxpulses": 6,
+        "priorityArray": [
+            5,
+            3
+        ],
+        "uninterceptableArray": [
+            false,
+            false
+        ],
+        "defaultShotsArray": [
+            1,
+            6
+        ],
+        "loadingtimeArray": [
+            1,
+            1
+        ],
+        "rangePenaltyArray": [
+            1,
+            2
+        ],
+        "fireControlArray": [
+            [
+                4,
+                3,
+                3
+            ],
+            [
+                4,
+                3,
+                3
+            ]
+        ],
+        "firingModes": [
+            "Bolt",
+            "Pulse"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Pulse"
+        ],
+        "weaponClassArray": [
+            "Particle",
+            "Particle"
+        ],
+        "intercept": 2,
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t 12 //Light Bolter\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t 8 //Light Pulse\r\n\t\t\t\tbreak",
+        "minDamage": 12,
+        "maxDamage": 12,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomBPAMedium",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "name": "CustomBPAMedium",
+        "displayName": "Medium Bolt-Pulse Array",
+        "iconPath": "CustomBPAMedium.png",
+        "animationArray": [
+            "trail",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                255,
+                11,
+                11
+            ],
+            [
+                255,
+                250,
+                230
+            ]
+        ],
+        "groupingArray": [
+            0,
+            20
+        ],
+        "maxpulses": 6,
+        "priorityArray": [
+            6,
+            4
+        ],
+        "uninterceptableArray": [
+            false,
+            false
+        ],
+        "defaultShotsArray": [
+            1,
+            6
+        ],
+        "loadingtimeArray": [
+            2,
+            2
+        ],
+        "rangePenaltyArray": [
+            0.5,
+            1
+        ],
+        "fireControlArray": [
+            [
+                1,
+                3,
+                4
+            ],
+            [
+                1,
+                3,
+                4
+            ]
+        ],
+        "firingModes": [
+            "Bolt",
+            "Pulse"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Pulse"
+        ],
+        "weaponClassArray": [
+            "Particle",
+            "Particle"
+        ],
+        "intercept": 2,
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t 18 //Medium Bolter\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t 10 //Medium Pulse\r\n\t\t\t\tbreak",
+        "minDamage": 18,
+        "maxDamage": 18,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomBPAHeavy",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "name": "CustomBPAHeavy",
+        "displayName": "Heavy Bolt-Pulse Array",
+        "iconPath": "CustomBPAHeavy.png",
+        "animationArray": [
+            "trail",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                255,
+                11,
+                11
+            ],
+            [
+                255,
+                250,
+                230
+            ]
+        ],
+        "groupingArray": [
+            0,
+            20
+        ],
+        "maxpulses": 6,
+        "priorityArray": [
+            6,
+            6
+        ],
+        "uninterceptableArray": [
+            false,
+            false
+        ],
+        "defaultShotsArray": [
+            1,
+            6
+        ],
+        "loadingtimeArray": [
+            3,
+            3
+        ],
+        "rangePenaltyArray": [
+            0.33,
+            0.5
+        ],
+        "fireControlArray": [
+            [
+                -1,
+                3,
+                4
+            ],
+            [
+                -1,
+                3,
+                4
+            ]
+        ],
+        "firingModes": [
+            "Bolt",
+            "Pulse"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Pulse"
+        ],
+        "weaponClassArray": [
+            "Particle",
+            "Particle"
+        ],
+        "intercept": 1,
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t 24 //Heavy Bolter\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t 15 //Heavy Pulse\r\n\t\t\t\tbreak",
+        "minDamage": 24,
+        "maxDamage": 24,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomIndustrialGrappler",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "name": "customIndustrialGrappler",
+        "displayName": "Industrial Grappler",
+        "iconPath": "grapplingClaw.png",
+        "weaponClass": "Particle",
+        "loadingtime": 1,
+        "rangePenalty": 0,
+        "fireControl": [
+            null,
+            null,
+            null
+        ],
+        "damageFormula": "0",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomMiningCutter",
+        "parentClass": "Laser",
+        "sourceFile": "customs.php",
+        "name": "customMiningCutter",
+        "displayName": "Mining Cutter",
+        "iconPath": "miningCutter.png",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "uninterceptable": false,
+        "loadingtime": 3,
+        "priority": 8,
+        "raking": 6,
+        "rangePenalty": 1,
+        "fireControl": [
+            0,
+            1,
+            2
+        ],
+        "damageFormula": "Dice::d(10, 2)+5",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomLightSMissileRack",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "name": "CustomLightSMissileRack",
+        "displayName": "Light S-Missile Rack",
+        "iconPath": "missile1.png",
+        "animation": "trail",
+        "trailColor": [
+            141,
+            240,
+            255
+        ],
+        "animationColor": [
+            50,
+            50,
+            50
+        ],
+        "useOEW": false,
+        "ballistic": true,
+        "range": 15,
+        "distanceRange": 45,
+        "ammunition": 20,
+        "loadingtime": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            6,
+            6,
+            6
+        ],
+        "noOverkill": false,
+        "priority": 6,
+        "firingMode": "Standard",
+        "damageType": "Standard",
+        "weaponClass": "Ballistic",
+        "damageFormula": "$dmg = 12\r\n             $dmg",
+        "minDamage": 12,
+        "maxDamage": 12,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomLightSoMissileRack",
+        "parentClass": "CustomLightSMissileRack",
+        "sourceFile": "customs.php",
+        "name": "CustomLightSoMissileRack",
+        "displayName": "Light SO-Missile Rack",
+        "loadingtime": 2,
+        "fireControl": [
+            5,
+            5,
+            5
+        ],
+        "ammunition": 12
+    },
+    {
+        "className": "CustomLightOMissileRack",
+        "parentClass": "CustomLightSMissileRack",
+        "sourceFile": "customs.php",
+        "name": "CustomLightOMissileRack",
+        "displayName": "Light O-Missile Rack",
+        "loadingtime": 3,
+        "fireControl": [
+            4,
+            4,
+            4
+        ],
+        "ammunition": 8
+    },
+    {
+        "className": "GromeLgtRailgun",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "name": "GromeLgtRailgun",
+        "displayName": "Light Railgun",
+        "iconPath": "LightRailgun.png",
+        "animation": "bolt",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "animationArray": [
+            "trail",
+            "trail",
+            "trail",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                250,
+                250,
+                190
+            ],
+            [
+                250,
+                250,
+                190
+            ],
+            [
+                250,
+                250,
+                190
+            ],
+            [
+                250,
+                250,
+                190
+            ]
+        ],
+        "animationWidthArray": [
+            4,
+            4,
+            4,
+            4
+        ],
+        "trailColor": [
+            190,
+            75,
+            20
+        ],
+        "trailLength": 3,
+        "projectilespeed": 30,
+        "animationExplosionScaleArray": [
+            0.2,
+            0.4,
+            0.3,
+            0.3
+        ],
+        "groupingArray": [
+            0,
+            0,
+            0,
+            25
+        ],
+        "maxpulses": 4,
+        "priorityArray": [
+            6,
+            1,
+            7,
+            5
+        ],
+        "uninterceptableArray": [
+            false,
+            false,
+            false,
+            false
+        ],
+        "defaultShotsArray": [
+            1,
+            1,
+            1,
+            4
+        ],
+        "loadingtimeArray": [
+            2,
+            2,
+            2,
+            2
+        ],
+        "rangePenaltyArray": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "fireControlArray": [
+            [
+                3,
+                2,
+                0
+            ],
+            [
+                3,
+                2,
+                0
+            ],
+            [
+                3,
+                2,
+                0
+            ],
+            [
+                1,
+                0,
+                -2
+            ]
+        ],
+        "noOverkillArray": [
+            true,
+            false,
+            true,
+            true
+        ],
+        "firingModes": [
+            "Standard",
+            "Flash",
+            "Heavy",
+            "Pulse"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Flash",
+            "Standard",
+            "Pulse"
+        ],
+        "weaponClassArray": [
+            "Matter",
+            "Plasma",
+            "Matter",
+            "Matter"
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(10, 1)+5 //Standard shot\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t Dice::d(10, 1)+5 //Flash\r\n\t\t\t\tbreak\t\r\n\t\t\tcase 3:\r\n\t\t\t\t Dice::d(10, 1)+10 //Heavy\r\n\t\t\t\tbreak\r\n\t\t\tcase 4:\r\n\t\t\t\t Dice::d(6, 1)+1 //Pulse\r\n\t\t\t\tbreak",
+        "minDamage": 6,
+        "maxDamage": 15,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "GromeMedRailgun",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "name": "GromeMedRailgun",
+        "displayName": "Medium Railgun",
+        "iconPath": "Railgun.png",
+        "animation": "bolt",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "animationArray": [
+            "trail",
+            "trail",
+            "trail",
+            "trail",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                250,
+                250,
+                190
+            ],
+            [
+                250,
+                250,
+                190
+            ],
+            [
+                250,
+                250,
+                190
+            ],
+            [
+                250,
+                250,
+                190
+            ],
+            [
+                250,
+                250,
+                190
+            ]
+        ],
+        "animationWidthArray": [
+            5,
+            5,
+            5,
+            5,
+            5
+        ],
+        "trailColor": [
+            190,
+            75,
+            20
+        ],
+        "trailLength": 3,
+        "projectilespeed": 25,
+        "animationExplosionScaleArray": [
+            0.25,
+            0.45,
+            0.35,
+            0.35,
+            0.2
+        ],
+        "groupingArray": [
+            0,
+            0,
+            0,
+            25,
+            0
+        ],
+        "maxpulses": 4,
+        "priorityArray": [
+            7,
+            1,
+            7,
+            5,
+            6
+        ],
+        "uninterceptableArray": [
+            false,
+            false,
+            false,
+            false,
+            false
+        ],
+        "defaultShotsArray": [
+            1,
+            1,
+            1,
+            4,
+            1
+        ],
+        "loadingtimeArray": [
+            3,
+            3,
+            3,
+            3,
+            3
+        ],
+        "rangePenaltyArray": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.33
+        ],
+        "fireControlArray": [
+            [
+                -3,
+                2,
+                2
+            ],
+            [
+                -3,
+                2,
+                2
+            ],
+            [
+                -3,
+                2,
+                2
+            ],
+            [
+                -5,
+                0,
+                0
+            ],
+            [
+                -3,
+                2,
+                2
+            ]
+        ],
+        "noOverkillArray": [
+            true,
+            false,
+            true,
+            true,
+            true
+        ],
+        "firingModes": [
+            "Standard",
+            "Flash",
+            "Heavy",
+            "Pulse",
+            "Long-range"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Flash",
+            "Standard",
+            "Pulse",
+            "Standard"
+        ],
+        "weaponClassArray": [
+            "Matter",
+            "Plasma",
+            "Matter",
+            "Matter",
+            "Matter"
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(10, 3)+3 //Standard shot\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t Dice::d(10, 3)+3 //Flash\r\n\t\t\t\tbreak\t\r\n\t\t\tcase 3:\r\n\t\t\t\t Dice::d(10, 3)+13 //Heavy\r\n\t\t\t\tbreak\r\n\t\t\tcase 4:\r\n\t\t\t\t Dice::d(10, 1)+3 //Pulse\r\n\t\t\t\tbreak\t\r\n\t\t\tcase 5:\r\n\t\t\t\t Dice::d(10, 1)+5 //Long-range\r\n\t\t\t\tbreak",
+        "minDamage": 6,
+        "maxDamage": 33,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "GromeHvyRailgun",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "name": "GromeHvyRailgun",
+        "displayName": "Heavy Railgun",
+        "iconPath": "HeavyRailgun.png",
+        "animation": "bolt",
+        "animationColor": [
+            250,
+            250,
+            190
+        ],
+        "animationArray": [
+            "trail",
+            "trail",
+            "trail",
+            "trail",
+            "trail",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                250,
+                250,
+                190
+            ],
+            [
+                250,
+                250,
+                190
+            ],
+            [
+                250,
+                250,
+                190
+            ],
+            [
+                250,
+                250,
+                190
+            ],
+            [
+                250,
+                250,
+                190
+            ],
+            [
+                250,
+                250,
+                190
+            ]
+        ],
+        "animationWidthArray": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "trailColor": [
+            190,
+            75,
+            20
+        ],
+        "trailLength": 3,
+        "projectilespeed": 25,
+        "animationExplosionScaleArray": [
+            0.3,
+            0.5,
+            0.4,
+            0.4,
+            0.25,
+            0.2
+        ],
+        "groupingArray": [
+            0,
+            0,
+            0,
+            25,
+            0,
+            0
+        ],
+        "maxpulses": 6,
+        "priorityArray": [
+            7,
+            1,
+            7,
+            5,
+            7,
+            6
+        ],
+        "uninterceptableArray": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+        ],
+        "defaultShotsArray": [
+            1,
+            1,
+            1,
+            5,
+            1,
+            1
+        ],
+        "loadingtimeArray": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+        ],
+        "rangePenaltyArray": [
+            0.33,
+            0.33,
+            0.33,
+            0.33,
+            0.25,
+            0.2
+        ],
+        "fireControlArray": [
+            [
+                -3,
+                2,
+                2
+            ],
+            [
+                -3,
+                2,
+                2
+            ],
+            [
+                -3,
+                2,
+                2
+            ],
+            [
+                -5,
+                0,
+                0
+            ],
+            [
+                -3,
+                2,
+                2
+            ],
+            [
+                -3,
+                2,
+                2
+            ]
+        ],
+        "noOverkillArray": [
+            true,
+            false,
+            true,
+            true,
+            true,
+            true
+        ],
+        "firingModes": [
+            "Standard",
+            "Flash",
+            "Heavy",
+            "Pulse",
+            "Long-range",
+            "Ultra long-range"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Flash",
+            "Standard",
+            "Pulse",
+            "Standard",
+            "Standard"
+        ],
+        "weaponClassArray": [
+            "Matter",
+            "Plasma",
+            "Matter",
+            "Matter",
+            "Matter",
+            "Matter"
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t Dice::d(10, 5)+7 //Standard shot\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t Dice::d(10, 5)+7 //Flash\r\n\t\t\t\tbreak\t\r\n\t\t\tcase 3:\r\n\t\t\t\t Dice::d(10, 5)+22 //Heavy\r\n\t\t\t\tbreak\r\n\t\t\tcase 4:\r\n\t\t\t\t Dice::d(10, 1)+5 //Pulse\r\n\t\t\t\tbreak\t\r\n\t\t\tcase 5:\r\n\t\t\t\t Dice::d(10, 3)+3 //Long-range\r\n\t\t\t\tbreak\t\t\t\r\n\t\t\tcase 6:\r\n\t\t\t\t Dice::d(10, 1)+5 //Ultra long-range\r\n\t\t\t\tbreak",
+        "minDamage": 12,
+        "maxDamage": 57,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomLtParticleCutter",
+        "parentClass": "Raking",
+        "sourceFile": "customs.php",
+        "name": "customLtParticleCutter",
+        "displayName": "Light Particle Cutter",
+        "iconPath": "customLtParticleCutter.png",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            153,
+            102
+        ],
+        "firingModes": [
+            "Sustained"
+        ],
+        "damageType": "Raking",
+        "weaponClass": "Particle",
+        "raking": 8,
+        "alwaysoverloading": true,
+        "overloadturns": 2,
+        "extraoverloadshots": 2,
+        "overloadshots": 2,
+        "loadingtime": 2,
+        "priority": 8,
+        "rangePenalty": 1,
+        "fireControl": [
+            3,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(6, 8)+8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "CustomEarlyLtParticleCutter",
+        "parentClass": "CustomLtParticleCutter",
+        "sourceFile": "customs.php",
+        "name": "customEarlyLtParticleCutter",
+        "displayName": "Early Light Particle Cutter",
+        "iconPath": "customLtParticleCutter.png",
+        "raking": 6,
+        "fireControl": [
+            2,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(8, 2)+4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "GaimPhotonBomb",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "name": "GaimPhotonBomb",
+        "displayName": "Photon Bomb",
+        "iconPath": "GaimPhotonBomb.png",
+        "animation": "laser",
+        "animationArray": [
+            "laser",
+            "bolt"
+        ],
+        "animationColor": [
+            255,
+            153,
+            102
+        ],
+        "animationExplosionScale": 0.5,
+        "firingModes": [
+            "Razzle",
+            "Dazzle"
+        ],
+        "damageType": "Flash",
+        "damageTypeArray": [
+            "Flash",
+            "Standard"
+        ],
+        "weaponClass": "Particle",
+        "loadingtime": 1,
+        "priority": 4,
+        "rangePenalty": 1,
+        "fireControl": [
+            4,
+            0,
+            0
+        ],
+        "range": 0,
+        "rangeArray": [
+            0,
+            10
+        ],
+        "intercept": 2,
+        "hextarget": false,
+        "hextargetArray": [
+            false,
+            true
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\t\tcase 1:\r\n\t\t\t\t\t 12\r\n\t\t\t\t\tbreak\r\n\t\t\t\tcase 2:\r\n\t\t\t\t\t 0\r\n\t\t\t\t\tbreak",
+        "minDamage": 12,
+        "maxDamage": 12,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "TestLaser",
+        "parentClass": "Laser",
+        "sourceFile": "customs.php",
+        "name": "testLaser",
+        "displayName": "TEST Laser",
+        "animation": "laser",
+        "animationColor": [
+            255,
+            58,
+            31
+        ],
+        "priority": 8,
+        "iconPath": "MultiphasedBeamAccelerator.png",
+        "loadingtime": 1,
+        "rangePenalty": 0.1,
+        "fireControl": [
+            5,
+            5,
+            5
+        ],
+        "raking": 1,
+        "damageFormula": "5",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "FtrDefenseGun",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "name": "FtrDefenseGun",
+        "displayName": "Defense Gun",
+        "iconPath": "sentinelPointDefense.png",
+        "loadingtime": 1,
+        "priority": 1,
+        "autoFireOnly": true,
+        "rangePenalty": 2,
+        "fireControl": [
+            null,
+            null,
+            null
+        ],
+        "firingMode": "Intercept",
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "ballisticIntercept": true,
+        "intercept": 4,
+        "damageFormula": "0",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "WarLance",
+        "parentClass": "LaserLance",
+        "sourceFile": "customs.php",
+        "name": "WarLance",
+        "displayName": "War Lance",
+        "animationColor": [
+            220,
+            100,
+            11
+        ],
+        "iconPath": "WarLance.png",
+        "loadingtime": 4,
+        "priority": 7,
+        "priorityArray": [
+            7,
+            2
+        ],
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "fireControlArray": [
+            [
+                -5,
+                3,
+                4
+            ],
+            [
+                null,
+                -1,
+                0
+            ]
+        ],
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -5,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 5)+15",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightLaserLance",
+        "parentClass": "LaserLance",
+        "sourceFile": "customs.php",
+        "name": "LightLaserLance",
+        "displayName": "Light Laser Lance",
+        "animationColor": [
+            220,
+            100,
+            11
+        ],
+        "iconPath": "LightLaserLance.png",
+        "loadingtime": 2,
+        "priority": 4,
+        "priorityArray": [
+            4,
+            2
+        ],
+        "firingModes": [
+            "Raking",
+            "Piercing"
+        ],
+        "damageTypeArray": [
+            "Raking",
+            "Piercing"
+        ],
+        "fireControlArray": [
+            [
+                -5,
+                3,
+                4
+            ],
+            [
+                null,
+                -1,
+                0
+            ]
+        ],
+        "rangePenalty": 0.66,
+        "fireControl": [
+            -5,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 2)+10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ImpRapidGatling",
+        "parentClass": "Matter",
+        "sourceFile": "customs.php",
+        "name": "ImpRapidGatling",
+        "displayName": "Improved Gatling Railgun",
+        "iconPath": "rapidGatling.png",
+        "guns": 2,
+        "intercept": 1,
+        "loadingtime": 1,
+        "ballisticIntercept": true,
+        "priority": 5,
+        "rangePenalty": 2,
+        "fireControl": [
+            6,
+            4,
+            3
+        ],
+        "damageFormula": "Dice::d(6, 2)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "GaussRifle",
+        "parentClass": "MatterCannon",
+        "sourceFile": "customs.php",
+        "name": "GaussRifle",
+        "displayName": "Gauss Rifle",
+        "loadingtime": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            -6,
+            3,
+            4
+        ],
+        "damageFormula": "Dice::d(10, 1)+15",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HeavyGaussRifle",
+        "parentClass": "MatterCannon",
+        "sourceFile": "customs.php",
+        "name": "HeavyGaussRifle",
+        "displayName": "Heavy Gauss Rifle",
+        "iconPath": "HeavyGaussRifle.png",
+        "loadingtime": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            null,
+            3,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 3)+18",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "OrieniFlakArray",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "name": "OrieniFlakArray",
+        "displayName": "Flak Array",
+        "iconPath": "FlakArray.png",
+        "animation": "bolt",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.5,
+        "guns": 2,
+        "priority": 1,
+        "intercept": 3,
+        "freeintercept": true,
+        "freeinterceptspecial": true,
+        "loadingtime": 1,
+        "canInterceptUninterceptable": true,
+        "rangePenalty": 2,
+        "fireControl": [
+            5,
+            4,
+            3
+        ],
+        "firingModes": [
+            "Offensive Mode"
+        ],
+        "damageType": "Flash",
+        "weaponClass": "Matter",
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t Dice::d(10, 1)+6 //Offensive mode\r\n\t\t\t\tbreak\t\r\n\r\n\t\t\tcase 2:\r\n\t\t\t\t 0 //Manual intercept\r\n\t\t\t\tbreak",
+        "minDamage": 7,
+        "maxDamage": 16,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HvyGraviticBolt",
+        "parentClass": "Gravitic",
+        "sourceFile": "customs.php",
+        "name": "HvyGraviticBolt",
+        "displayName": "Heavy Gravitic Bolt",
+        "animation": "bolt",
+        "iconPath": "HvyGraviticBolt.png",
+        "animationColor": [
+            99,
+            255,
+            0
+        ],
+        "boostable": true,
+        "boostEfficiency": 3,
+        "maxBoostLevel": 2,
+        "loadingtime": 2,
+        "curDamage": 12,
+        "priority": 5,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            0,
+            2,
+            4
+        ],
+        "intercept": 1,
+        "damageType": "Standard",
+        "weaponClass": "Gravitic",
+        "damageFormula": "$this->getCurDamage($fireOrder->turn)",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "BoltRailgun",
+        "parentClass": "Matter",
+        "sourceFile": "customs.php",
+        "name": "BoltRailgun",
+        "displayName": "Bolt Railgun",
+        "iconPath": "rapidGatling.png",
+        "guns": 1,
+        "intercept": 1,
+        "loadingtime": 1,
+        "ballisticIntercept": true,
+        "priority": 4,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            1,
+            0
+        ],
+        "damageFormula": "Dice::d(6, 1)+1",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EarlyParticleCannon",
+        "parentClass": "ParticleCannon",
+        "sourceFile": "customs.php",
+        "name": "EarlyParticleCannon",
+        "displayName": "Early Particle Cannon",
+        "fireControl": [
+            0,
+            2,
+            3
+        ],
+        "damageFormula": "Dice::d(10, 2)+10",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LightParticleGun",
+        "parentClass": "StdParticleBeam",
+        "sourceFile": "customs.php",
+        "name": "LightParticleGun",
+        "displayName": "Light Particle Gun",
+        "iconPath": "lightParticleBeamShip.png",
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            1,
+            0
+        ],
+        "damageFormula": "Dice::d(10)+2",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "ChargedParticleGun",
+        "parentClass": "StdParticleBeam",
+        "sourceFile": "customs.php",
+        "name": "ChargedParticleGun",
+        "displayName": "Charged Particle Gun",
+        "iconPath": "lightParticleBeamShip.png",
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            1,
+            1
+        ],
+        "damageFormula": "Dice::d(10)+5",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "InterceptorArray",
+        "parentClass": "Interdictor",
+        "sourceFile": "customs.php",
+        "name": "InterceptorArray",
+        "displayName": "Interceptor Array",
+        "iconPath": "Interdictor.png",
+        "intercept": 3,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HvyPlasmaGunFtr",
+        "parentClass": "Weapon",
+        "sourceFile": "customs.php",
+        "name": "HvyPlasmaGunFtr",
+        "displayName": "Heavy Plasma Gun",
+        "rof": 1,
+        "intercept": 2,
+        "loadingtime": 1,
+        "priority": 6,
+        "rangePenalty": 1.5,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Plasma",
+        "damageFormula": "Dice::d(3,3)+6",
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "FusionGun",
+        "parentClass": "FusionCannon",
+        "sourceFile": "customs.php",
+        "name": "FusionGun",
+        "displayName": "Fusion Gun",
+        "rangePenalty": 1.5,
+        "fireControl": [
+            3,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(10)+7",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HeavySlugCannon",
+        "parentClass": "Matter",
+        "sourceFile": "customs.php",
+        "name": "HeavySlugCannon",
+        "displayName": "Heavy Slug Cannon",
+        "iconPath": "rapidGatling.png",
+        "guns": 2,
+        "intercept": 1,
+        "loadingtime": 1,
+        "ballisticIntercept": true,
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            3,
+            1,
+            0
+        ],
+        "damageFormula": "4",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "AttackLaser",
+        "parentClass": "Laser",
+        "sourceFile": "customs.php",
+        "name": "AttackLaser",
+        "displayName": "Attack Laser",
+        "iconPath": "defenseLaser.png",
+        "intercept": 2,
+        "loadingtime": 1,
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            4,
+            2,
+            2
+        ],
+        "damageFormula": "Dice::d(10)+3",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MolecularSlicerBeamA",
+        "parentClass": "MolecularSlicerBeamL",
+        "sourceFile": "customs.php",
+        "name": "MolecularSlicerBeamA",
+        "displayName": "Advanced Slicer Beam",
+        "iconPath": "MolecularSlicerBeamA.png",
+        "animationExplosionScale": 0.3,
+        "firingModes": [
+            "Piercing",
+            "Piercing"
+        ],
+        "modeLetters": 1,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            0,
+            2,
+            4
+        ],
+        "fireControlArray": [
+            [
+                0,
+                2,
+                4
+            ],
+            [
+                0,
+                2,
+                4
+            ]
+        ],
+        "priority": 2,
+        "priorityArray": [
+            2,
+            3
+        ],
+        "raking": 15,
+        "intercept": 2,
+        "damageType": "Piercing",
+        "weaponClass": "Molecular",
+        "startArcArray": [],
+        "endArcArray": [],
+        "splitArcs": false,
+        "maxVariableShots": 16,
+        "canSplitShots": true,
+        "canSplitShotsArray": [
+            true,
+            true
+        ],
+        "specialHitChanceCalculation": true,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    }
+]

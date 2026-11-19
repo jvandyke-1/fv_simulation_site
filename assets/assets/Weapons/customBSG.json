@@ -1,0 +1,1202 @@
+[
+    {
+        "className": "BSGHypergun",
+        "parentClass": "Pulse",
+        "sourceFile": "customBSG.php",
+        "name": "BSGHypergun",
+        "displayName": "Hypergun",
+        "iconPath": "starwars/swFighter4.png",
+        "animation": "trail",
+        "animationColor": [
+            217,
+            11,
+            41
+        ],
+        "trailLength": 5,
+        "animationWidth": 4,
+        "projectilespeed": 18,
+        "animationExplosionScale": 0.1,
+        "rof": 3,
+        "grouping": 15,
+        "maxpulses": 5,
+        "loadingtime": 1,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "priority": 5,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "damageFormula": "3",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "BSGLtKineticEnergyWeapon",
+        "parentClass": "Pulse",
+        "sourceFile": "customBSG.php",
+        "name": "BSGLtKineticEnergyWeapon",
+        "displayName": "Light Kinetic Energy Weapon",
+        "iconPath": "starwars/swFighter2.png",
+        "animation": "trail",
+        "animationColor": [
+            217,
+            11,
+            41
+        ],
+        "trailLength": 5,
+        "animationWidth": 4,
+        "projectilespeed": 18,
+        "animationExplosionScale": 0.1,
+        "rof": 3,
+        "grouping": 25,
+        "maxpulses": 2,
+        "loadingtime": 1,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "damageFormula": "Dice::d(6, 1)+2",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "BSGKineticEnergyWeapon",
+        "parentClass": "Pulse",
+        "sourceFile": "customBSG.php",
+        "name": "BSGKineticEnergyWeapon",
+        "displayName": "Kinetic Energy Weapon",
+        "iconPath": "starwars/swFighter4.png",
+        "animation": "trail",
+        "animationColor": [
+            217,
+            11,
+            41
+        ],
+        "trailLength": 5,
+        "animationWidth": 4,
+        "projectilespeed": 18,
+        "animationExplosionScale": 0.1,
+        "rof": 3,
+        "grouping": 15,
+        "maxpulses": 4,
+        "loadingtime": 1,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "damageFormula": "Dice::d(6, 1)+3",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "BSGHvyKineticEnergyWeapon",
+        "parentClass": "Pulse",
+        "sourceFile": "customBSG.php",
+        "name": "BSGHvyKineticEnergyWeapon",
+        "displayName": "Heavy Kinetic Energy Weapon",
+        "iconPath": "gatlingPulseCannon.png",
+        "animation": "trail",
+        "animationColor": [
+            217,
+            11,
+            41
+        ],
+        "trailLength": 6,
+        "animationWidth": 5,
+        "projectilespeed": 15,
+        "animationExplosionScale": 0.2,
+        "rof": 3,
+        "grouping": 20,
+        "maxpulses": 3,
+        "loadingtime": 2,
+        "priority": 4,
+        "rangePenalty": 1,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "damageFormula": "Dice::d(6, 2)+4",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "BSGMarineAssault",
+        "parentClass": "Weapon",
+        "sourceFile": "customBSG.php",
+        "name": "BSGMarineAssault",
+        "displayName": "Marine Assault",
+        "iconPath": "BSGMarines.png",
+        "animation": "trail",
+        "animationColor": [
+            217,
+            11,
+            41
+        ],
+        "trailLength": 5,
+        "animationWidth": 4,
+        "projectilespeed": 18,
+        "animationExplosionScale": 0.1,
+        "noOverkill": true,
+        "uninterceptable": true,
+        "exclusive": true,
+        "loadingtime": 2,
+        "priority": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "range": 0.1,
+        "calledShotMod": 0,
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "damageFormula": "Dice::d(6, 3)+2",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "BSGCenturions",
+        "parentClass": "Weapon",
+        "sourceFile": "customBSG.php",
+        "name": "BSGCenturions",
+        "displayName": "Centurions",
+        "iconPath": "BSGCenturions.png",
+        "animation": "trail",
+        "animationColor": [
+            217,
+            11,
+            41
+        ],
+        "trailLength": 5,
+        "animationWidth": 4,
+        "projectilespeed": 18,
+        "animationExplosionScale": 0.1,
+        "noOverkill": true,
+        "uninterceptable": true,
+        "exclusive": true,
+        "loadingtime": 2,
+        "priority": 2,
+        "rangePenalty": 0,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "range": 0.1,
+        "calledShotMod": 0,
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "damageFormula": "Dice::d(6, 3)+2",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "BSGFlakBattery",
+        "parentClass": "Weapon",
+        "sourceFile": "customBSG.php",
+        "name": "BSGFlakBattery",
+        "displayName": "Flak Battery",
+        "iconPath": "FlakCannon.png",
+        "trailColor": [
+            245,
+            245,
+            44
+        ],
+        "animation": "ball",
+        "animationColor": [
+            245,
+            245,
+            44
+        ],
+        "animationExplosionScale": 1,
+        "animationExplosionType": "AoE",
+        "explosionColor": [
+            141,
+            240,
+            255
+        ],
+        "projectilespeed": 12,
+        "animationWidth": 10,
+        "trailLength": 10,
+        "range": 5,
+        "freeintercept": true,
+        "freeinterceptspecial": true,
+        "intercept": 3,
+        "loadingtime": 1,
+        "canInterceptUninterceptable": true,
+        "rangePenalty": 1,
+        "fireControl": [
+            6,
+            null,
+            null
+        ],
+        "priority": 1,
+        "damageType": "Flash",
+        "weaponClass": "Matter",
+        "damageFormula": "Dice::d(6, 1)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "BSGMainBattery",
+        "parentClass": "Pulse",
+        "sourceFile": "customBSG.php",
+        "name": "BSGMainBattery",
+        "displayName": "Main Battery",
+        "iconPath": "NexusHeavyAssaultCannon.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            245,
+            44
+        ],
+        "trailLength": 20,
+        "animationWidth": 5,
+        "projectilespeed": 12,
+        "animationExplosionScale": 0.15,
+        "rof": 3,
+        "priority": 6,
+        "grouping": 25,
+        "maxpulses": 6,
+        "loadingtime": 3,
+        "rangePenalty": 0.33,
+        "fireControl": [
+            null,
+            3,
+            4
+        ],
+        "noOverkill": true,
+        "damageType": "Pulse",
+        "weaponClass": "Matter",
+        "damageFormula": "8",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "BSGMedBattery",
+        "parentClass": "Pulse",
+        "sourceFile": "customBSG.php",
+        "name": "BSGMedBattery",
+        "displayName": "Battery",
+        "iconPath": "NexusAssaultCannon.png",
+        "animation": "trail",
+        "animationColor": [
+            245,
+            245,
+            44
+        ],
+        "trailLength": 15,
+        "animationWidth": 3,
+        "projectilespeed": 12,
+        "animationExplosionScale": 0.1,
+        "rof": 3,
+        "priority": 6,
+        "grouping": 25,
+        "maxpulses": 5,
+        "loadingtime": 2,
+        "rangePenalty": 0.5,
+        "fireControl": [
+            null,
+            2,
+            3
+        ],
+        "noOverkill": true,
+        "damageType": "Pulse",
+        "weaponClass": "Matter",
+        "damageFormula": "5",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "FlakArray2",
+        "parentClass": "InterceptorMkI",
+        "sourceFile": "customBSG.php",
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "name": "FlakArray2",
+        "displayName": "Flak Array",
+        "animation": "trail",
+        "animationColor": [
+            255,
+            250,
+            230
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 10,
+        "animationWidth": 2,
+        "trailLength": 8,
+        "iconPath": "FlakArray.png",
+        "guns": 2,
+        "intercept": 3,
+        "freeintercept": true,
+        "freeinterceptspecial": true,
+        "loadingtime": 1,
+        "output": 3,
+        "canInterceptUninterceptable": true,
+        "rangePenalty": 2,
+        "fireControl": [
+            5,
+            4,
+            3
+        ],
+        "priority": 1,
+        "damageType": "Flash",
+        "weaponClass": "Matter",
+        "damageFormula": "Dice::d(10,1)+6",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "FlakArray",
+        "parentClass": "Weapon",
+        "sourceFile": "customBSG.php",
+        "name": "FlakArray",
+        "displayName": "Flak Array",
+        "iconPath": "FlakArray.png",
+        "animationArray": [
+            "trail",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                255,
+                250,
+                230
+            ],
+            [
+                255,
+                250,
+                230
+            ]
+        ],
+        "animationWidthArray": [
+            2,
+            2
+        ],
+        "trailColor": [
+            30,
+            170,
+            255
+        ],
+        "trailLength": 5,
+        "projectilespeed": 10,
+        "animationExplosionScaleArray": [
+            0.6,
+            0.6
+        ],
+        "priorityArray": [
+            1,
+            1
+        ],
+        "uninterceptableArray": [
+            true,
+            false
+        ],
+        "doNotInterceptArray": [
+            true,
+            false
+        ],
+        "guns": 2,
+        "intercept": 3,
+        "freeintercept": true,
+        "freeinterceptspecial": true,
+        "loadingtime": 1,
+        "output": 3,
+        "canInterceptUninterceptable": true,
+        "range": 100,
+        "loadingtimeArray": [
+            1,
+            1
+        ],
+        "rangePenaltyArray": [
+            0,
+            2
+        ],
+        "fireControlArray": [
+            [
+                50,
+                50,
+                50
+            ],
+            [
+                5,
+                4,
+                3
+            ]
+        ],
+        "firingModes": [
+            "Intercept",
+            "Offensive-mode"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Flash"
+        ],
+        "weaponClassArray": [
+            "Matter",
+            "Matter"
+        ],
+        "damageFormula": "switch($this->firingMode){\r\n\t\t\tcase 1:\r\n\t\t\t\t 0 //Manual intercept\r\n\t\t\t\tbreak\r\n\t\t\tcase 2:\r\n\t\t\t\t Dice::d(10, 1)+2 //Anti-fighter shot\r\n\t\t\t\tbreak",
+        "minDamage": 0,
+        "maxDamage": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "SensorSpearFtr",
+        "parentClass": "Weapon",
+        "sourceFile": "customBSG.php",
+        "name": "SensorSpearFtr",
+        "displayName": "DRADIS Jammer",
+        "priority": 10,
+        "loadingtime": 2,
+        "rangePenalty": 1,
+        "intercept": 0,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Electromagnetic",
+        "animation": "laser",
+        "animationColor": [
+            150,
+            150,
+            220
+        ],
+        "animationColor2": [
+            160,
+            160,
+            240
+        ],
+        "animationExplosionScale": 0.25,
+        "animationWidth": 10,
+        "animationWidth2": 0.5,
+        "damageFormula": "0",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "SensorSpikeFtr",
+        "parentClass": "Weapon",
+        "sourceFile": "customBSG.php",
+        "name": "SensorSpikeFtr",
+        "displayName": "DRADIS Jammer",
+        "priority": 10,
+        "loadingtime": 2,
+        "rangePenalty": 1,
+        "intercept": 0,
+        "fireControl": [
+            0,
+            0,
+            0
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Electromagnetic",
+        "animation": "laser",
+        "animationColor": [
+            150,
+            150,
+            220
+        ],
+        "animationColor2": [
+            160,
+            160,
+            240
+        ],
+        "animationExplosionScale": 0.25,
+        "animationWidth": 10,
+        "animationWidth2": 0.5,
+        "damageFormula": "0",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "CommJammerFtr",
+        "parentClass": "Weapon",
+        "sourceFile": "customBSG.php",
+        "name": "CommJammerFtr",
+        "displayName": "Comm Jammer",
+        "priority": 10,
+        "loadingtime": 3,
+        "rangePenalty": 1,
+        "intercept": 0,
+        "fireControl": [
+            0,
+            2,
+            2
+        ],
+        "exclusive": true,
+        "damageType": "Standard",
+        "weaponClass": "Electromagnetic",
+        "animation": "laser",
+        "animationColor": [
+            150,
+            150,
+            220
+        ],
+        "animationColor2": [
+            160,
+            160,
+            240
+        ],
+        "animationExplosionScale": 0.25,
+        "animationWidth": 10,
+        "animationWidth2": 0.5,
+        "damageFormula": "0",
+        "constructorParams": [
+            "$startArc",
+            "$endArc",
+            "$damagebonus",
+            "$nrOfShots = 1"
+        ]
+    },
+    {
+        "className": "BSGMedScattergun",
+        "parentClass": "Pulse",
+        "sourceFile": "customBSG.php",
+        "shots": 2,
+        "iconPath": "scatterGun.png",
+        "grouping": 2500,
+        "maxpulses": 2,
+        "damageType": "Pulse",
+        "weaponClass": "Particle",
+        "name": "BSGMedScattergun",
+        "displayName": "Medium Scattergun",
+        "animation": "trail",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "animationExplosionScale": 0.1,
+        "projectilespeed": 12,
+        "animationWidth": 2,
+        "trailLength": 10,
+        "intercept": 2,
+        "rangePenalty": 2,
+        "priority": 4,
+        "damageFormula": "Dice::d(6,2)",
+        "constructorParams": [
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "FlakBlast",
+        "parentClass": "Weapon",
+        "sourceFile": "customBSG.php",
+        "name": "FlakBlast",
+        "displayName": "Flak Blast",
+        "iconPath": "PlasmaWeb.png",
+        "range": 5,
+        "loadingtime": 1,
+        "hextarget": true,
+        "flashDamage": true,
+        "priority": 1,
+        "animation": "ball",
+        "trailColor": [
+            30,
+            140,
+            60
+        ],
+        "animationColor": [
+            30,
+            140,
+            60
+        ],
+        "animationExplosionScale": 1,
+        "animationExplosionType": "AoE",
+        "projectilespeed": 12,
+        "animationWidth": 10,
+        "trailLength": 10,
+        "firingMode": "AoE",
+        "damageType": "Flash",
+        "weaponClass": "Plasma",
+        "rangePenalty": 0,
+        "fireControl": [
+            50,
+            null,
+            null
+        ],
+        "damageFormula": "Dice::d(6, 1)+2",
+        "minDamage": 12,
+        "maxDamage": 12,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "BSGLtKineticEnergyWeaponVA",
+        "parentClass": "Pulse",
+        "sourceFile": "customBSG.php",
+        "name": "BSGLtKineticEnergyWeaponVA",
+        "displayName": "Light Kinetic Energy Weapon",
+        "iconPath": "starwars/swFighter2.png",
+        "animation": "trail",
+        "animationColor": [
+            217,
+            11,
+            41
+        ],
+        "trailLength": 5,
+        "animationWidth": 4,
+        "projectilespeed": 18,
+        "animationExplosionScale": 0.1,
+        "defaultShots": 1,
+        "shots": 1,
+        "grouping": 25,
+        "maxpulses": 2,
+        "loadingtime": 1,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "priority": 3,
+        "rangePenalty": 2,
+        "fireControl": [
+            -1,
+            0,
+            0
+        ],
+        "fireControlArray": [
+            [
+                -1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ]
+        ],
+        "firingModes": [
+            "Angled",
+            "Focused"
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Particle",
+        "damageFormula": "Dice::d(6)+$this->damagebonus",
+        "constructorParams": [
+            "$startNarrowArc",
+            "$endNarrowArc",
+            "$widen",
+            "$damagebonus",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "BSGHypergunVA",
+        "parentClass": "Pulse",
+        "sourceFile": "customBSG.php",
+        "name": "BSGHypergunVA",
+        "displayName": "Hypergun",
+        "iconPath": "starwars/swFighter4.png",
+        "animation": "trail",
+        "animationColor": [
+            217,
+            11,
+            41
+        ],
+        "trailLength": 5,
+        "animationWidth": 4,
+        "projectilespeed": 18,
+        "animationExplosionScale": 0.1,
+        "defaultShots": 1,
+        "shots": 1,
+        "grouping": 15,
+        "maxpulses": 5,
+        "loadingtime": 1,
+        "intercept": 2,
+        "ballisticIntercept": true,
+        "priority": 5,
+        "rangePenalty": 2,
+        "fireControl": [
+            -1,
+            0,
+            0
+        ],
+        "fireControlArray": [
+            [
+                -1,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ]
+        ],
+        "firingModes": [
+            "Angled",
+            "Focused"
+        ],
+        "damageType": "Standard",
+        "weaponClass": "Matter",
+        "damageFormula": "3+$this->damagebonus",
+        "constructorParams": [
+            "$startNarrowArc",
+            "$endNarrowArc",
+            "$widen",
+            "$damagebonus",
+            "$nrOfShots"
+        ]
+    },
+    {
+        "className": "LtGuidedMissile",
+        "parentClass": "Torpedo",
+        "sourceFile": "customBSG.php",
+        "name": "LtGuidedMissile",
+        "displayName": "Light Guided Missile",
+        "iconPath": "NexusSmallEarlyRocket.png",
+        "range": 10,
+        "loadingtime": 1,
+        "fireControl": [
+            3,
+            1,
+            0
+        ],
+        "animation": "torpedo",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "priority": 4,
+        "damageFormula": "10",
+        "minDamage": 10,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MedGuidedMissile",
+        "parentClass": "Torpedo",
+        "sourceFile": "customBSG.php",
+        "name": "MedGuidedMissile",
+        "displayName": "Medium Guided Missile",
+        "iconPath": "NexusEarlyRocket.png",
+        "range": 30,
+        "loadingtime": 2,
+        "fireControl": [
+            1,
+            2,
+            2
+        ],
+        "animation": "torpedo",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "priority": 6,
+        "damageFormula": "15",
+        "minDamage": 15,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HvyGuidedMissile",
+        "parentClass": "Torpedo",
+        "sourceFile": "customBSG.php",
+        "name": "HvyGuidedMissile",
+        "displayName": "Heavy Guided Missile",
+        "iconPath": "NexusLargeEarlyRocket.png",
+        "range": 50,
+        "loadingtime": 3,
+        "fireControl": [
+            -4,
+            1,
+            3
+        ],
+        "animation": "torpedo",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "priority": 7,
+        "damageFormula": "20",
+        "minDamage": 20,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "LtGuidedMissileS",
+        "parentClass": "Torpedo",
+        "sourceFile": "customBSG.php",
+        "name": "LtGuidedMissileS",
+        "displayName": "Special Light Guided Missile",
+        "iconPath": "NexusSmallEarlyRocket.png",
+        "range": 10,
+        "loadingtimeArray": [
+            1,
+            1,
+            1
+        ],
+        "fireControlArray": [
+            [
+                3,
+                1,
+                0
+            ],
+            [
+                3,
+                1,
+                0
+            ],
+            [
+                3,
+                1,
+                0
+            ]
+        ],
+        "animation": "torpedo",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "priorityArray": [
+            3,
+            1,
+            1
+        ],
+        "firingModes": [
+            "Standard",
+            "Disruption",
+            "Electromagnetic"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Standard",
+            "Standard"
+        ],
+        "weaponClassArray": [
+            "Ballistic",
+            "Electromagnetic",
+            "Electromagnetic"
+        ],
+        "damageFormula": "switch($this->firingMode){ \r\n            \tcase 1:\r\n                \t 10  //Standard\r\n\t\t\t    \tbreak\r\n            \tcase 2:\r\n            \t   \t 0   //Initiative\r\n\t\t\t    \tbreak",
+        "minDamage": 10,
+        "maxDamage": 10,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "MedGuidedMissileS",
+        "parentClass": "Torpedo",
+        "sourceFile": "customBSG.php",
+        "name": "MedGuidedMissileS",
+        "displayName": "Special Medium Guided Missile",
+        "iconPath": "NexusEarlyRocket.png",
+        "range": 30,
+        "loadingtime": 2,
+        "loadingtimeArray": [
+            2,
+            2
+        ],
+        "fireControl": [
+            1,
+            2,
+            2
+        ],
+        "fireControlArray": [
+            [
+                1,
+                2,
+                2
+            ],
+            [
+                1,
+                2,
+                2
+            ]
+        ],
+        "animation": "torpedo",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "priority": 6,
+        "priorityArray": [
+            5,
+            1,
+            1
+        ],
+        "firingModes": [
+            "Standard",
+            "Initiative"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Standard"
+        ],
+        "weaponClassArray": [
+            "Ballistic",
+            "Electromagnetic"
+        ],
+        "damageFormula": "switch($this->firingMode){ \r\n            \tcase 1:\r\n                \t 15  //Standard\r\n\t\t\t    \tbreak\r\n            \tcase 2:\r\n            \t   \t 0   //Initiative\r\n\t\t\t    \tbreak",
+        "minDamage": 15,
+        "maxDamage": 15,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "HvyGuidedMissileS",
+        "parentClass": "Torpedo",
+        "sourceFile": "customBSG.php",
+        "name": "HvyGuidedMissileS",
+        "displayName": "Special Heavy Guided Missile",
+        "iconPath": "NexusLargeEarlyRocket.png",
+        "range": 50,
+        "loadingtimeArray": [
+            3,
+            3,
+            3
+        ],
+        "fireControlArray": [
+            [
+                -4,
+                1,
+                3
+            ],
+            [
+                -4,
+                1,
+                3
+            ],
+            [
+                -4,
+                1,
+                3
+            ]
+        ],
+        "animation": "torpedo",
+        "animationColor": [
+            30,
+            170,
+            255
+        ],
+        "priorityArray": [
+            7,
+            1,
+            1
+        ],
+        "firingModes": [
+            "Standard",
+            "Disruption",
+            "Electromagnetic"
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Standard",
+            "Standard"
+        ],
+        "weaponClassArray": [
+            "Ballistic",
+            "Electromagnetic",
+            "Electromagnetic"
+        ],
+        "damageFormula": "switch($this->firingMode){ \r\n            \tcase 1:\r\n                \t 20  //Standard\r\n\t\t\t    \tbreak\r\n            \tcase 2:\r\n            \t   \t 0   //Initiative\r\n\t\t\t    \tbreak",
+        "minDamage": 20,
+        "maxDamage": 20,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    },
+    {
+        "className": "EMMissile",
+        "parentClass": "Torpedo",
+        "sourceFile": "customBSG.php",
+        "name": "EMMissile",
+        "displayName": "EM Missile",
+        "iconPath": "EWEMTorpedo.png",
+        "animationArray": [
+            "trail",
+            "trail"
+        ],
+        "animationColorArray": [
+            [
+                75,
+                230,
+                90
+            ],
+            [
+                75,
+                230,
+                90
+            ]
+        ],
+        "trailLength": 5,
+        "animationWidth": 4,
+        "projectilespeed": 18,
+        "animationExplosionScale": 0.1,
+        "priority": 10,
+        "loadingtimeArray": [
+            1,
+            1,
+            1
+        ],
+        "rangeArray": [
+            30,
+            30,
+            30
+        ],
+        "distanceRangeArray": [
+            60,
+            60,
+            60
+        ],
+        "damageTypeArray": [
+            "Standard",
+            "Standard",
+            "Standard"
+        ],
+        "fireControlArray": [
+            [
+                3,
+                3,
+                3
+            ],
+            [
+                3,
+                3,
+                3
+            ],
+            [
+                3,
+                3,
+                3
+            ]
+        ],
+        "weaponClassArray": [
+            "Electromagnetic",
+            "Electromagnetic",
+            "Electromagnetic"
+        ],
+        "firingModes": [
+            "Sensor",
+            "Initiative",
+            "Power"
+        ],
+        "damageFormula": "0",
+        "minDamage": 0,
+        "maxDamage": 0,
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    }
+]

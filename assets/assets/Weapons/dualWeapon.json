@@ -1,0 +1,35 @@
+[
+    {
+        "className": "DualWeapon",
+        "parentClass": "Weapon",
+        "sourceFile": "dualWeapon.php",
+        "dualWeapon": true,
+        "weapons": [],
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc",
+            "$weapons"
+        ]
+    },
+    {
+        "className": "LaserPulseArray",
+        "parentClass": "DualWeapon",
+        "sourceFile": "dualWeapon.php",
+        "firingModes": [
+            "Laser",
+            "Pulse"
+        ],
+        "name": "LaserPulseArray",
+        "displayName": "Laser/Pulse Array",
+        "constructorParams": [
+            "$armour",
+            "$maxhealth",
+            "$powerReq",
+            "$startArc",
+            "$endArc"
+        ]
+    }
+]
